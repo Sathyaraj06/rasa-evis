@@ -1,0 +1,20 @@
+version: "3.1"
+
+session_config:
+    session_expiration_time: 60 # value in minutes
+    carry_over_slots_to_new_session: true
+
+intents:
+    - chitchat/bot_acquaintance
+    - chitchat/bot_age
+    - chitchat
+
+responses:
+    utter_chitchat/bot_acquaintance:
+        - text: "I'm a chichat"
+
+    utter_chitchat/bot_age:
+        - text: "my age is 1"
+
+    utter_iamabot:
+        - text: ""

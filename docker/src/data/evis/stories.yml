@@ -1,0 +1,10 @@
+version: "3.1"
+stories:
+  - story: story 01
+    steps:
+      - intent: chitchat/bot_acquaintance
+      - action: utter_chitchat/bot_acquaintance
+  - story: story 02
+    steps:
+      - intent: chitchat/bot_age
+      - action: utter_chitchat/bot_age
