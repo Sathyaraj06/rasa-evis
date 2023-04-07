@@ -12,6 +12,7 @@ services:
 
   hexaware:
     container_name: hexaware
+    image: rasa-evis:latest
     build: ./docker
     ports:
       - "6000:5005"
