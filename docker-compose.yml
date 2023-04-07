@@ -8,7 +8,6 @@ services:
     build: ./docker
     ports:
       - "1000:5005"
-    restart: always
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
   hexaware:
@@ -17,7 +16,6 @@ services:
     build: ./docker
     ports:
       - "6000:5005"
-    restart: always
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
 
