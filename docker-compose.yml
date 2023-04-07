@@ -11,7 +11,7 @@ services:
     restart: always
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
-  #hexaware:
+  # hexaware:
   #  container_name: hexaware
   #  image: rasa-faq:latest
   #  ports:
