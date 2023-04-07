@@ -4,13 +4,11 @@ echo "started---------------"
 
 # sudo docker rmi $(sudo docker images -q)
 
-sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
-
 git pull
 
 sudo docker-compose build
 
-sudo docker-compose up -d
+sudo docker-compose up -d --no-recreate
 
 sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
 
