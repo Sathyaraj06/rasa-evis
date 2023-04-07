@@ -10,7 +10,7 @@ sudo docker-compose build
 
 sudo docker-compose up -d
 
-sudo docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
 
 sudo docker images
 
