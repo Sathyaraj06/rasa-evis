@@ -7,9 +7,9 @@ services:
     image: rasa-evis:latest
     build: ./docker
     ports:
-      - "5007:5005"
+      - "1000:5005"
     restart: always
-    command: rasa run --enable-api  --log-file rasa.log --debug --cors "*"
+    command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
   #hexaware:
   #  container_name: hexaware
