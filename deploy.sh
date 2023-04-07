@@ -6,9 +6,11 @@ echo "started---------------"
 
 git pull
 
-sudo docker-compose build
+# sudo docker-compose build
 
-sudo docker-compose up -d
+sudo docker-compose up --force-recreate --build -d
+
+docker image prune -f
 
 sudo docker images
 
