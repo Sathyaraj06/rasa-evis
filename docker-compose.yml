@@ -2,6 +2,14 @@ version: '3.1'
 
 services:
 
+  dummy:
+    container_name: dummy
+    image: rasa-evis:latest
+    build: ./docker
+    ports:
+      - "1001:5005"
+    command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
+
   chitchat:
     container_name: chitchat
     image: rasa-evis:latest
