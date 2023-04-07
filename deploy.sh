@@ -3,6 +3,9 @@ echo "started---------------"
 # sudo docker rm -f $(sudo docker ps -aq)
 
 # sudo docker rmi $(sudo docker images -q)
+git reset --hard
+
+sudo chmod 777 deploy.sh
 
 git pull
 
