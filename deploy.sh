@@ -4,6 +4,8 @@ echo "started---------------"
 
 # sudo docker rmi $(sudo docker images -q)
 
+sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
+
 git pull
 
 sudo docker-compose build
