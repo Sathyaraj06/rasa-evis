@@ -6,9 +6,9 @@ echo "started---------------"
 
 git pull
 
-sudo docker-compose build
+sudo docker-compose build dummy
 
-sudo docker-compose up -d --no-recreate
+sudo docker-compose up -d --no-recreate dummy
 
 sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
 
