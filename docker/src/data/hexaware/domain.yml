@@ -5,12 +5,16 @@ session_config:
     carry_over_slots_to_new_session: true
 
 intents:
-    - chitchat\bot_acquaintance
-    - chitchat\bot_age
+    - hexaware/bot_time
+    - hexaware/bot_weather
+    - hexaware
 
 responses:
-    utter_chitchat\bot_acquaintance:
-        - text: "I'm a hexaware"
+    utter_hexaware/bot_time:
+        - text: "its very bad time"
 
-    utter_chitchat\bot_age:
-        - text: "my age is 10"
+    utter_hexaware/bot_weather:
+        - text: "whatever is good weather"
+
+    utter_mock1:
+        - text: "heelo"

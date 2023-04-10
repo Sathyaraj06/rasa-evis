@@ -1,47 +1,11 @@
 version: "3.1"
 nlu:
-  - intent: bot_acquaintance
+  - intent: hexaware/bot_time
     examples: |
-      - tell me about your personality
-      - why are you here
-      - talk about yourself
-      - tell me some stuff about you
-      - talk some stuff about yourself
-      - I want to know you better
-      - I want to know more about you
-      - who are you
-      - tell me about yourself
-      - tell me about you
-      - about yourself
-      - describe yourself
-      - introduce yourself
-      - say about you
-      - what are you
-      - define yourself
-      - what is your personality
-      - all about you
-      - what are you upto?
-      - who the hell are you?
-      - what can you do for me?
-  - intent: bot_age
+      - what is the time
+  - intent: hexaware/bot_weather
     examples: |
-      - tell me your age
-      - what's your age?
-      - your age
-      - age of yours
-      - how old were you
-      - I'd like to know your age
-      - how old is your platform
-      - how old are you?
-      - tell me how old you are
-      - how can i know about your age
-      - i wanna know your age
-      - how long have you been live?
-      - what is your age as of today?
-      - How old did you turn?
-      - How old are you now?
-      - what is your age?
-      - How old will you be turning?
-      - how old r u?
-      - From how long you have been here?
-      - You look aged
+      - what is the weather
+  - intent: bot_mock1
+    examples: |
+      - are you a mock?

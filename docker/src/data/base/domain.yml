@@ -5,14 +5,14 @@ session_config:
     carry_over_slots_to_new_session: true
 
 intents:
-    - chitchat/default_who
+    - chitchat/bot_who
     - chitchat/bot_age
     - chitchat
 
 responses:
-    utter_chitchat/default_who:
+    utter_chitchat/bot_who:
         - text: "I'm a default model, running as container"
     utter_chitchat/bot_age:
         - text: "my age is 1"
     utter_iamabot:
-        - text: ""
+        - text: "hello"

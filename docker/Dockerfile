@@ -12,7 +12,7 @@ USER root
 
 ENTRYPOINT []
 
-# RUN rasa train --data data/base/nlu.yml data/base/rules.yml -d data/base/domain.yml --out models --fixed-model-name base-model
+RUN rasa train --data data/base/nlu.yml data/hexaware/nlu.yml data/base/rules.yml data/hexaware/rules.yml data/base/stories.yml data/hexaware/stories.yml -d data/base/domain.yml data/hexaware/domain.yml --config data/hexaware/domain.yml --out models --fixed-model-name base-model
 
 
 

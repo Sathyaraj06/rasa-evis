@@ -1,10 +1,10 @@
 version: "3.1"
 
 rules:
-  - rule: default_who
+  - rule: bot_who
     steps:
-      - intent: chitchat/default_who
-      - action: utter_chitchat/default_who
+      - intent: chitchat/bot_who
+      - action: utter_chitchat/bot_who
 
   - rule: Say 'I am a bot' anytime the user challenges
     steps:
