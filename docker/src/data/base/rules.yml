@@ -3,10 +3,10 @@ version: "3.1"
 rules:
   - rule: bot_who
     steps:
-      - intent: chitchat/bot_who
-      - action: utter_chitchat/bot_who
+      - intent: chitchat
+      - action: utter_chitchat
 
-  - rule: Say 'I am a bot' anytime the user challenges
+  - rule: Say 'I am a mock' anytime the user mocks
     steps:
-      - intent: bot_challenge
-      - action: utter_iamabot
+      - intent: bot_mock
+      - action: utter_mock

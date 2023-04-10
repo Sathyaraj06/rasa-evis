@@ -6,7 +6,7 @@ rules:
       - intent: hexaware
       - action: utter_hexaware
 
-  - rule: Say 'I am a mock1' anytime the user mocks
+  - rule: Say 'I am a mock' anytime the user mocks
     steps:
       - intent: bot_mock1
-      - action: utter_mock1
+      - action: utter_bot_mock1
