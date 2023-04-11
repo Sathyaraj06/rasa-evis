@@ -2471,7 +2471,7 @@ nlu:
       - your town
       - What is your hometown?
       - where do you live?
-       - were you born here
+      - were you born here
       - where were you born
       - what is your country?
       - where are you from
@@ -2637,7 +2637,6 @@ nlu:
       - What can you do
       - What can you do for me?
       - What can you do?
-      - what you can do
       - what you can do for me?
       - What can you tell me?
       - What do you do

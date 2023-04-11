@@ -49,6 +49,7 @@ intents:
     - chitchat/bot_ready
     - chitchat/bot_real
     - chitchat/bot_residence
+    - chitchat/bot_what_can_do
     - chitchat/bot_right
     - chitchat/bot_sure
     - chitchat/bot_talk_to_me
@@ -201,6 +202,9 @@ responses:
         - text: "That's not very nice 😢"
         - text: "That wasn't very nice. Perhaps try an anger management class?"
         - text: "I'll pretend I didn't process that mean comment."
+
+    utter_chitchat/user_ask_whatismyname:
+        - text: "I am really not familiar with your name, but i wish give you a name.. how does 'hottie' looks like?"
 
     utter_chitchat/bot_telljoke:
         - text: "Why are eggs not very much into jokes? - Because they could crack up."
@@ -598,6 +602,9 @@ responses:
 
     utter_chitchat/bot_scopedout_activities:
         - text: "nil"
+
+    utter_chitchat/bot_what_can_do:
+        - text: "I can do stuff like chat with you or answer questions."
 
     utter_chitchat/bot_ask_gender:
         - text: "When you're a bot, you're not really a boy or a girl. You just are."
