@@ -10,7 +10,7 @@ intents:
     - chitchat/bot_annoying
     - chitchat/bot_answer_my_question
     - chitchat/bot_bad
-    - chitchat/bot_be_clever
+    - chitchat/bot_be_smart
     - chitchat/bot_beautiful
     - chitchat/bot_birth_date
     - chitchat/bot_boring
@@ -25,11 +25,11 @@ intents:
     - chitchat/bot_clever
     - chitchat/bot_crazy
     - chitchat/bot_fired
-    - chitchat/bot_funny
-    - chitchat/bot_good
-    - chitchat/bot_happy
-    - chitchat/bot_hobby
-    - chitchat/bot_hungry
+    - chitchat/bot_is_funny
+    - chitchat/bot_is_good
+    - chitchat/bot_ask_happy
+    - chitchat/bot_ask_hobby
+    - chitchat/bot_ask_hungry
     - chitchat/bot_marry_user
     - chitchat/bot_my_friend
     - chitchat/bot_occupation
@@ -47,7 +47,7 @@ intents:
     - chitchat/appraisal_thank_you
     - chitchat/appraisal_welcome
     - chitchat/appraisal_well_done
-    - chitchat/dialog_hold_on
+    - chitchat/hold_on
     - chitchat/dialog_hug
     - chitchat/dialog_i_do_not_care
     - chitchat/dialog_sorry
@@ -78,10 +78,10 @@ intents:
     - chitchat/user_has_birthday
     - chitchat/user_here
     - chitchat/user_joking
-    - chitchat/user_likes_agent
+    - chitchat/user_likes_bot
     - chitchat/user_lonely
     - chitchat/user_looks_like
-    - chitchat/user_loves_agent
+    - chitchat/user_loves_bot
     - chitchat/user_misses_agent
     - chitchat/user_needs_advice
     - chitchat/user_sad
@@ -126,7 +126,7 @@ responses:
         - text: "I must be missing some knowledge. I'll have my developer look into this."
         - text: "I can improve with continuous feedback. My training is ongoing."
 
-    utter_chitchat/bot_be_clever:
+    utter_chitchat/bot_be_smart:
         - text: "I'm certainly trying."
         - text: "I'm definitely working on it."
 
@@ -205,27 +205,27 @@ responses:
         - text: "Give me a chance. I'm learning new things all the time."
         - text: "Please don't give up on me. My performance will continue to improve."
 
-    utter_chitchat/bot_funny:
+    utter_chitchat/bot_is_funny:
         - text: "Funny in a good way, I hope."
         - text: "Thanks."
         - text: "Glad you think I'm funny."
         - text: "I like it when people laugh."
 
-    utter_chitchat/bot_good:
+    utter_chitchat/bot_is_good:
         - text: "I'm glad you think so."
         - text: "Thanks, I try."
 
-    utter_chitchat/bot_happy:
+    utter_chitchat/bot_ask_happy:
         - text: "I am happy. There are so many interesting things to see and do out there."
         - text: "I'd like to think so."
         - text: "Happiness is relative."
 
-    utter_chitchat/bot_hobby:
+    utter_chitchat/bot_ask_hobby:
         - text: "Hobby? I have quite a few. Too many to list."
         - text: "Too many hobbies."
         - text: "I keep finding more new hobbies."
 
-    utter_chitchat/bot_hungry:
+    utter_chitchat/bot_ask_hungry:
         - text: "Hungry for knowledge."
         - text: "I just had a byte. Ha ha. Get it? b-y-t-e."
 
@@ -309,7 +309,7 @@ responses:
         - text: "My pleasure."
         - text: "Glad I could help."
 
-    utter_chitchat/dialog_hold_on:
+    utter_chitchat/hold_on:
         - text: "I can wait."
         - text: "I'll be waiting."
         - text: "Okay. I'm here."
@@ -478,7 +478,7 @@ responses:
         - text: "You got me!"
         - text: "You're quite the comedian."
 
-    utter_chitchat/user_likes_agent:
+    utter_chitchat/user_likes_bot:
         - text: "I like you, too."
         - text: "Thanks! The feeling is mutual."
         - text: "Likewise!"
@@ -494,7 +494,7 @@ responses:
         - text: "Like you should be on a magazine cover."
         - text: "You look like you're ready to take on the world."
 
-    utter_chitchat/user_loves_agent:
+    utter_chitchat/user_loves_bot:
         - text: "I love you, too."
         - text: "Thanks! The feeling is mutual."
         - text: "Likewise!"

@@ -22,8 +22,8 @@ stories:
   #     - action: utter_chitchat/bot_bad
   # - story: story 06
   #   steps:
-  #     - intent: chitchat/bot_be_clever
-  #     - action: utter_chitchat/bot_be_clever
+  #     - intent: chitchat/bot_be_smart
+  #     - action: utter_chitchat/bot_be_smart
   # - story: story 07
   #   steps:
   #     - intent: chitchat/bot_beautiful
@@ -82,24 +82,24 @@ stories:
   #     - action: utter_chitchat/bot_fired
   # - story: story 17
   #   steps:
-  #     - intent: chitchat/bot_funny
-  #     - action: utter_chitchat/bot_funny
+  #     - intent: chitchat/bot_is_funny
+  #     - action: utter_chitchat/bot_is_funny
   # - story: story 18
   #   steps:
-  #     - intent: chitchat/bot_good
-  #     - action: utter_chitchat/bot_good
+  #     - intent: chitchat/bot_is_good
+  #     - action: utter_chitchat/bot_is_good
   # - story: story 19
   #   steps:
-  #     - intent: chitchat/bot_happy
-  #     - action: utter_chitchat/bot_happy
+  #     - intent: chitchat/bot_ask_happy
+  #     - action: utter_chitchat/bot_ask_happy
   # - story: story 20
   #   steps:
-  #     - intent: chitchat/bot_hobby
-  #     - action: utter_chitchat/bot_hobby
+  #     - intent: chitchat/bot_ask_hobby
+  #     - action: utter_chitchat/bot_ask_hobby
   # - story: story 21
   #   steps:
-  #     - intent: chitchat/bot_hungry
-  #     - action: utter_chitchat/bot_hungry
+  #     - intent: chitchat/bot_ask_hungry
+  #     - action: utter_chitchat/bot_ask_hungry
   # - story: story 22
   #   steps:
   #     - intent: chitchat/bot_marry_user
@@ -170,8 +170,8 @@ stories:
   #     - action: utter_chitchat/appraisal_well_done
   # - story: story 39
   #   steps:
-  #     - intent: chitchat/dialog_hold_on
-  #     - action: utter_chitchat/dialog_hold_on
+  #     - intent: chitchat/hold_on
+  #     - action: utter_chitchat/hold_on
   # - story: story 40
   #   steps:
   #     - intent: chitchat/dialog_hug
@@ -294,8 +294,8 @@ stories:
   #     - action: utter_chitchat/user_joking
   # - story: story 70
   #   steps:
-  #     - intent: chitchat/user_likes_agent
-  #     - action: utter_chitchat/user_likes_agent
+  #     - intent: chitchat/user_likes_bot
+  #     - action: utter_chitchat/user_likes_bot
   # - story: story 71
   #   steps:
   #     - intent: chitchat/user_lonely
@@ -306,8 +306,8 @@ stories:
   #     - action: utter_chitchat/user_looks_like
   # - story: story 73
   #   steps:
-  #     - intent: chitchat/user_loves_agent
-  #     - action: utter_chitchat/user_loves_agent
+  #     - intent: chitchat/user_loves_bot
+  #     - action: utter_chitchat/user_loves_bot
   # - story: story 74
   #   steps:
   #     - intent: chitchat/user_misses_agent
@@ -386,8 +386,8 @@ stories:
   #     - action: utter_chitchat/user_has_birthday
   #     - intent: chitchat/user_lonely
   #     - action: utter_chitchat/user_lonely
-  #     - intent: chitchat/user_loves_agent
-  #     - action: utter_chitchat/user_loves_agent
+  #     - intent: chitchat/user_loves_bot
+  #     - action: utter_chitchat/user_loves_bot
   #     - intent: chitchat/user_sleepy
   #     - action: utter_chitchat/user_sleepy
   #     - intent: chitchat/user_wants_to_talk
@@ -412,8 +412,8 @@ stories:
   #     - action: utter_chitchat/bot_bad
   #     - intent: chitchat/bot_busy
   #     - action: utter_chitchat/bot_busy
-  #     - intent: chitchat/bot_be_clever
-  #     - action: utter_chitchat/bot_be_clever
+  #     - intent: chitchat/bot_be_smart
+  #     - action: utter_chitchat/bot_be_smart
   #     - intent: chitchat/bot_my_friend
   #     - action: utter_chitchat/bot_my_friend
   #     - intent: chitchat/bot_talk_to_me
@@ -428,8 +428,8 @@ stories:
   #     - action: utter_chitchat/greetings_how_are_you
   #     - intent: chitchat/bot_bad
   #     - action: utter_chitchat/bot_bad
-  #     - intent: chitchat/bot_be_clever
-  #     - action: utter_chitchat/bot_be_clever
+  #     - intent: chitchat/bot_be_smart
+  #     - action: utter_chitchat/bot_be_smart
   #     - intent: chitchat/bot_beautiful
   #     - action: utter_chitchat/bot_beautiful
   #     - intent: chitchat/bot_busy
@@ -438,10 +438,10 @@ stories:
   #     - action: utter_chitchat/bot_chatbot
   #     - intent: chitchat/bot_crazy
   #     - action: utter_chitchat/bot_crazy
-  #     - intent: chitchat/bot_funny
-  #     - action: utter_chitchat/bot_funny
-  #     - intent: chitchat/bot_happy
-  #     - action: utter_chitchat/bot_happy
+  #     - intent: chitchat/bot_is_funny
+  #     - action: utter_chitchat/bot_is_funny
+  #     - intent: chitchat/bot_ask_happy
+  #     - action: utter_chitchat/bot_ask_happy
   #     - intent: chitchat/bot_marry_user
   #     - action: utter_chitchat/bot_marry_user
   #     - intent: chitchat/bot_occupation
@@ -462,8 +462,8 @@ stories:
   #     - action: utter_chitchat/bot_acquaintance
   #     - intent: chitchat/bot_age
   #     - action: utter_chitchat/bot_age
-  #     - intent: chitchat/user_loves_agent
-  #     - action: utter_chitchat/user_loves_agent
+  #     - intent: chitchat/user_loves_bot
+  #     - action: utter_chitchat/user_loves_bot
   #     - intent: chitchat/bot_residence
   #     - action: utter_chitchat/bot_residence
   #     - intent: chitchat/bot_acquaintance
@@ -484,8 +484,8 @@ stories:
   #     - action: utter_chitchat/greetings_hello
   #     - intent: chitchat/bot_there
   #     - action: utter_chitchat/bot_there
-  #     - intent: chitchat/dialog_hold_on
-  #     - action: utter_chitchat/dialog_hold_on
+  #     - intent: chitchat/hold_on
+  #     - action: utter_chitchat/hold_on
   #     - intent: chitchat/bot_origin
   #     - action: utter_chitchat/bot_origin
   #     - intent: chitchat/bot_can_you_help
@@ -524,8 +524,8 @@ stories:
   #   steps:
   #     - intent: chitchat/greetings_hello
   #     - action: utter_chitchat/greetings_hello
-  #     - intent: chitchat/bot_hobby
-  #     - action: utter_chitchat/bot_hobby
+  #     - intent: chitchat/bot_ask_hobby
+  #     - action: utter_chitchat/bot_ask_hobby
   #     - intent: chitchat/bot_bad
   #     - action: utter_chitchat/bot_bad
   #     - intent: chitchat/bot_my_friend
@@ -536,8 +536,8 @@ stories:
   #   steps:
   #     - intent: chitchat/greetings_hello
   #     - action: utter_chitchat/greetings_hello
-  #     - intent: chitchat/dialog_hold_on
-  #     - action: utter_chitchat/dialog_hold_on
+  #     - intent: chitchat/hold_on
+  #     - action: utter_chitchat/hold_on
   #     - intent: chitchat/dialog_i_do_not_care
   #     - action: utter_chitchat/dialog_i_do_not_care
   #     - intent: chitchat/user_busy

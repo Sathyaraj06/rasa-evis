@@ -26,6 +26,30 @@ nlu:
       - what I can call you
       - tell me your name
       - what's your name
+      - With whom am I talking?
+      - What do you want me to address you?
+      -  Do you have a name?
+      - How should I refer to you?
+      - What name do you like to use?
+      - So what's your name?
+      - What do I call you?
+      - What do you like to be called?
+      - Introduce yourself
+      - To whom am I speaking?
+      - So how should I address you?
+      - So how should I refer to you?
+      - So what do you like to be called?
+      - So what is your name?
+      - So what should I call you?
+      - So what would you like me to call you
+      - Can you introduce yourself
+      - So who are you?
+      - How would you like me to call you?
+      - What are you called?
+      - What can I address you?
+      - What can I call you
+      - What can I call you?
+      - What can I refer to you?
   - intent: chitchat/bot_age
     examples: |
       - tell me your age
@@ -54,6 +78,7 @@ nlu:
       - How many years have you been alive?
       - How many years have you lived?
       - How old are you?
+      - Are you in your teens?
       - How old were you on your last birthday?
       - How old will you be on your next birthday?
       - Tell me your day, month and year of birth.
@@ -75,6 +100,23 @@ nlu:
       - how aold are you
       - how many ages?
       - how many years old are you?
+      - Are you my age?
+      - Are you in your teens?
+      - Are you an adult?
+      - Are you a senior?
+      - Are you a kid?
+      - Are you a grownup?
+      - Are you a grown up?
+      - Are you a baby?
+      - When were you born?
+      - Who's younger, you or me?
+      - Who's older, you or me?
+      - Who is older, me or you?
+      - Which year were you born in?
+      - Which one of us is younger?
+      - Which one of us is older?
+      - Which of us is older?
+      - I bet you're young  
       - how old are u
       - how old are you
       - how old are you?
@@ -144,7 +186,7 @@ nlu:
       - answering questions
       - I want the answer now
       - just answer my question
-  - intent: chitchat/bot_bad
+  - intent: chitchat/bot_is_bad
     examples: |
       - you're not helping me
       - you are bad
@@ -179,7 +221,61 @@ nlu:
       - your are a loser
       - you are really the worst bot ever
       - Why are you this lame?
-  - intent: chitchat/bot_be_clever
+      - Why are your answers so bad?
+      - Your responses just get dumber and dumber
+      - Your responses aren't relevant
+      - Your responses are bad
+      - Your responses are untrue
+      - Your responses are dumb
+      - Your responses are stupid
+      - Your responses are so dumb
+      - Your responses are not true
+      - Your responses are irrelevant
+      - you don't understand nothing
+      - Your answers are false
+      - Your responses are awful
+      - Your answers are untrue
+      - Your answers are stupid
+      - Your answers are not very good
+      - Your answers are irrelevant
+      - Your responses are false
+      - Your answers are dumb
+      - Your answers are bad
+      - Your answers are awful
+      - You sound so dumb right now
+      - You sound as dumb as a post.
+      - That's not what I was expecting
+      - Your answers are not true
+      - Your responses are unhelpful
+      - That's not a good response
+      - That wasn't relevant
+      - That's not accurate
+      - That was such a dumb answer
+      - That was such a bad response
+      - That was such a bad answer
+      - That was random
+      - That was a weird response
+      - That's not the answer I wanted you to say
+      - That's not what I want to hear
+      - That's not what I typed
+      - That's not what I asked
+      - That's not true
+      - That's not a good answer
+      - That's not the answer I wanted you to tell me
+      - That was a random answer
+      - That's not the answer I wanted to hear
+      - That's not the answer I wanted
+      - That's not the answer I expected
+      - That's not relevant
+      - That's not good enough
+      - That's not even close to being right
+      - That's not the right thing to say
+      - I wasn't expecting you to say that
+      - Your answers are so dumb
+      - That doesn't answer my question
+      - You make no sense
+      - Your responses are not very good
+  - intent: chitchat/bot_be_smart
     examples: |
       - you should study better
       - you must learn
@@ -318,6 +414,35 @@ nlu:
       - What do you think of your boss?
       - u r made by?
       - Who is the boss of this company?
+      - Who's in charge of you?
+      - You report to anyone?
+      - Does anyone tell you what to do?
+      - Who runs the show?
+      - Do you have a boss?
+      - Do you answer to anyone?
+      - What's the name of your manager?
+      - What is your director's name?
+      - Who's your boss?
+      - What's your director's name?
+      - What is the name of your boss
+      - What's the name of your supervisor
+      - Who tells you what to do?
+      - What's the name of your director?
+      - What's the name of your boss?
+      - What is your supervisor's name
+      - What is your manager's name?
+      - What is your boss' name?
+      - What is the name of your supervisor
+      - What is the name of your manager?
+      - What is the name of your manager
+      - Who is your master?
+      - Who supervises you?
+      - Who's running the show?
+      - Who bosses you?
+      - You've got a boss?
+      - You have a boss?
+      - Who's your supervisor
+      - Who's your manager?
   - intent: chitchat/bot_ask_howbuilt
     examples: |
       - By what means were you made?
@@ -366,6 +491,878 @@ nlu:
       - in what way were you made?
       - so how were you made?
       - what are you made of
+  - intent: chitchat/bot_ask_human_activity
+    examples: |
+      - Do you have fingers?
+      - Do you ever breathe
+      - Do you masticate?
+      - Can you throw up?
+      - Do you get tired?
+      - Can you crawl?
+      - Can you cry?
+      - Do you dream
+      - Do you ever pee?
+      - Do you ever get hurt?
+      - Can you breathe
+      - can you masticate?
+      - Can you burp?
+      - Can you chew?
+      - Can you dream
+      - Can you eat?
+      - Can you fart?
+      - Do you breathe
+      - Can you get tired?
+      - Can you yawn?
+      - Can you pee?
+      - Can you poop?
+      - Can you sneeze?
+      - Can you sweat?
+      - Can you vomit?
+      - Can you get hurt?
+      - Do you sweat?
+      - Do you have skin?
+      - Do you have teeth?
+      - Do you have toes?
+      - Do you pee?
+      - Do you poop?
+      - Do you ever get tired?
+      - Do you sneeze?
+      - Do you have hair?
+      - Do you vomit?
+      - Do you yawn?
+      - Don't you ever masticate?
+      - Don't you ever sleep?
+      - Do you have a stomach?
+      - Do you have intestines?
+      - Do you sleep?
+      - Do you ever poop?
+      - Do you ever sneeze?
+      - Do you ever sweat?
+      - Do you ever throw up?
+      - Do you ever vomit?
+      - Do you ever walk
+      - Do you ever yawn?
+      - Do you have lungs?
+      - Do you have legs?
+      - Do you get zits?
+      - Do you have a liver?
+      - Do you have arms?
+      - Do you have eyes?
+      - Do you have fingernails?
+      - Do you have bowels?
+      - Do you fart?
+      - Do you ever chew?
+      - Do you burp?
+      - Do you chew?
+      - Do you crawl?
+      - Do you cry?
+      - Do you eat?
+      - do you ever masticate?
+      - Do you ever burp?
+      - Can you walk?
+      - Do you ever crawl?
+      - Do you ever cry?
+      - Do you ever dream
+      - Do you ever eat?
+      - Do you ever fart?
+  - intent: chitchat/bot_scopedout_activities
+    examples: |
+      - Can you jump rope?
+      - Are you able to draw a picture?
+      - Can you show me how to dance?
+      - Are you able to go to the moon?
+      - Can you cook dinner for me
+      - Are you able to do my chores?
+      - Can you breathe under water?
+      - Can you play a game?
+      - Can you teleport?
+      - Can you put out a fire?
+      - Can you draw something?
+      - Can you paint my house?
+      - Can you mow the lawn?
+      - Can you make me a sandwich?
+      - Can you make a sculpture?
+      - Can you make a pot of tea?
+      - Can you make a cup of coffee?
+      - Can you make a call?
+      - Can you listen to the radio?
+      - Can you learn?
+      - Can you plant a tree?
+      - Can you jump?
+      - Can you plant a vegetable garden?
+      - Can you go to the moon?
+      - Can you go to the doctor?
+      - Can you go on vacation?
+      - Can you go for a walk?
+      - Can you get a haircut?
+      - Can you fly?
+      - Can you fly
+      - Can you find the remote?
+      - Can you fight with
+      - Can you fight
+      - Are you able to breathe under water?
+      - Can you learn from people chatting with you
+      - Can you send a package?
+      - Can you tie my shoes?
+      - Can you take my temperature?
+      - Can you show me how to put out a fire?
+      - Can you show me how to play a game?
+      - Can you show me how to jump rope?
+      - Can you show me how to go to the moon?
+      - Can you show me how to draw a picture?
+      - Can you show me how to do my homework?
+      - Can you paint?
+      - Can you serve on a jury?
+      - Can you draw a picture?
+      - Can you scratch my back?
+      - Can you read my mind?
+      - Can you predict the future?
+      - Can you play the guitar?
+      - Can you play sports?
+      - Can you play soccer?
+      - Can you play football?
+      - Can you play baseball?
+      - Can you play a dvd?
+      - Can you show me how to breathe under water?
+      - Are you able to go for a walk?
+      - Can you feed the cat?
+      - Are you able to put out a fire?
+      - Are you able to play a game?
+      - Are you able to play a dvd?
+      - Are you able to paint my house?
+      - Are you able to mow the lawn?
+      - Are you able to make a call?
+      - Are you able to listen to the radio?
+      - Are you able to jump rope?
+      - Are you able to scratch my back?
+      - Are you able to go on vacation?
+      - Are you able to send a package?
+      - Are you able to get a haircut?
+      - Are you able to feed the cat?
+      - Are you able to draw something?
+      - Are you able to do my homework?
+      - Are you able to dance?
+      - Are you able to cook dinner?
+      - Are you able to check my email?
+      - Are you able to change the channel?
+      - Are you able to buy groceries?
+      - Are you able to go to the doctor?
+      - Can you bake me cookies?
+      - Can you do my homework?
+      - Can you do my chores?
+      - Can you do fight
+      - Can you dance?
+      - Can you count to a million?
+      - Can you cook me something?
+      - Can you cook dinner?
+      - Can you climb a mountain?
+      - Can you change the channel?
+      - Are you able to read my mind?
+      - Can you water my plants?
+      - Buy groceries
+      - Buy an ad
+      - Brush your teeth
+      - Breathe under water
+      - Balance my checkbook
+      - Are you able to write my report?
+      - Are you able to watch videos?
+      - Are you able to turn into a super hero?
+      - Are you able to teleport?
+      - Are you able to take my temperature?
+      - Are you able to serve on a jury?
+      - Can you buy groceries?
+      - Fly then
+      - Can you turn into a super hero?
+      - Jump rope
+      - Invite me over
+      - How high can you jump?
+      - How high can you count?
+      - Heal me
+      - Go to the moon
+      - Go to the doctor
+      - Go surfing
+      - Go outside
+      - Lets make lemonade
+      - Get a haircut
+      - Let's play a game
+      - Fly a kite
+      - Find the remote
+      - Find my phone
+      - Find my keys
+      - Feed the cat
+      - Draw something
+      - Draw a picture
+      - Do you write
+      - Do you want a beer
+      - Do you ride horses?
+      - Do you play games?
+      - Go for a walk
+      - Send a package
+      - Watch videos
+      - Wash the dishes
+      - Turn on the lights
+      - Turn into a super hero
+      - Tell me a story
+      - Tell me a quote
+      - Teleport
+      - Take my temperature
+      - Take a photo
+      - Surprise me
+      - Lets go lunch
+      - Serve on a jury
+      - Do you know how to turn into a super hero?
+      - Scratch my back
+      - Roll a dice
+      - Read my mind
+      - Read me a story
+      - Put out a fire
+      - Play golf
+      - Play a game
+      - Play a dvd
+      - Paint my house
+      - Mow the lawn
+      - Make a call
+      - So you read?
+      - Do a somersault
+      - Do you know how to buy groceries?
+      - Do you know how to breathe under water?
+      - Do you have superpowers?
+      - Do you gossip?
+      - Do you go skiing?
+      - Do you garden?
+      - Do you cook?
+      - Do you code?
+      - Do my laundry?
+      - Do my homework
+      - Do you know to swim
+      - do drugs
+      - Do you know how to cook dinner?
+      - Do a barrel roll
+      - Do a back flip
+      - Did you watch the superbowl
+      - Dance
+      - Cook me something
+      - Cook dinner
+      - Clean my room
+      - Check the weather
+      - Change the channel
+      - Can you write my report?
+      - Write my report
+      - Do my chores
+      - Do you know how to paint my house?
+      - Can you watch videos?
+      - Do you know how to teleport?
+      - Do you know how to take my temperature?
+      - Do you know how to sync my calendar?
+      - Do you know how to serve on a jury?
+      - Do you know how to send a package?
+      - Do you know how to scratch my back?
+      - Do you know how to read my mind?
+      - Do you know how to put out a fire?
+      - Do you know how to play poker?
+      - Do you know how to play any instruments?
+      - Do you know how to change the channel?
+      - Do you know how to play a dvd?
+      - Do you know how to cook
+      - Do you know how to mow the lawn?
+      - Do you know how to make a call?
+      - Do you know how to jump rope?
+      - Do you know how to go to the moon?
+      - Do you know how to feed the cat?
+      - Do you know how to draw something?
+      - Do you know how to draw a picture?
+      - Do you know how to do my homework?
+      - Do you know how to do my chores?
+      - Do you know how to dance?
+      - Do you know how to watch videos?
+      - Do you know how to play a game?
+  - intent: chitchat/bot_ask_gender
+    examples: |
+      - Tell me about your gender
+      - Are you gender neutral?
+      - Do you have a gender?
+      - You're cisgender
+      - Are you trans?
+      - Are you nonbinary?
+      - Are you a girl?
+      - Are you genderqueer?
+      - Are you a guy?
+      - Are you agender?
+      - Please tell me if you're a girl
+      - Are you a bot with a gender?
+      - Do you have a sex?
+      - Are you cisgender?
+      - Are you a boy?
+      - Are you a girl or a boy?
+      - Are you a guy or a girl?
+      - Are you a man or a woman?
+      - Are you a woman?
+      - Please tell me if you're trans
+      - Are you female?
+      - Are you gendered?
+      - Are you genderfluid?
+      - Are you male or female?
+      - Are you male?
+      - Are you a man?
+      - You're queer?
+      - Please tell me if you're a guy
+      - You're a man
+      - You're genderfluid
+      - You're nonbinary
+      - You're trans
+      - You're a boy
+      - You're genderqueer
+      - You're a girl
+      - You have a gender?
+      - Where are you on the gender spectrum?
+      - You're agender
+      - You're gender neutral
+      - You're transgender
+      - What's your gender?
+      - Please tell me your gender
+      - Tell me all about your gender
+      - What gender do you identify with?
+      - What is your gender?
+      - What is your sex?
+      - You're a woman
+      - What's your gender identity?
+      - Are you bigender?
+      - What's your sex?
+      - Where do you fall in terms of gender
+      - You a girl?
+      - You a guy?
+      - You got a gender?
+      - Are you on the gender spectrum?
+      - What's going on with your gender?
+      - I don't understand if you have a gender or not
+      - Please tell me if you're a man
+      - Are you transgender?
+      - Can you tell me your gender?
+      - Do you even have a gender
+      - Do you have a gender identity?
+      - Are you queer?
+      - How do you identify in terms of gender?
+      - I don't understand your gender
+      - I'm curious about your gender?
+      - Is your gender important to you
+      - Please tell if you you're a woman
+  - intent: chitchat/bot_about_family
+    examples: |
+      - Who is your momma?
+      - Who's your father?
+      - I'm curious about your family
+      - Do you have parents?
+      - Who are you related to?
+      - Do you have siblings?
+      - Are you close with your family?
+      - Is your dad still alive?
+      - What is your uncle's name?
+      - What's your cousin's name?
+      - How many sisters do you have?
+      - Do you have family?
+      - Do you have grandparents?
+      - Do you have relatives?
+      - Do you have sisters?
+      - Do you have uncles?
+      - Do you like your family?
+      - Do you see your family often?
+      - Do you spend time with your family?
+      - How big is your family?
+      - How many brothers do you have?
+      - Are you a family person?
+      - How many siblings do you have?
+      - Do you have aunts?
+      - I'm curious if you have any family
+      - Is your grandma still alive?
+      - Is your grandpa still alive?
+      - Is your mom still alive?
+      - Just wondering if you've got a family
+      - Tell me about those parents of yours
+      - Tell me about your dad
+      - Tell me about your family
+      - Tell me about your father
+      - Tell me about your mom
+      - Tell me about your mother
+      - How many people are in your family?
+      - Do you have any aunties?
+      - Are you close with your brothers?
+      - Are you close with your dad?
+      - Are you close with your mom?
+      - Are you close with your sisters?
+      - Are your parents still alive?
+      - Do you care about your family?
+      - Do you have a bro?
+      - Do you have a brother?
+      - Do you have a dad?
+      - Do you have a family?
+      - Do you have a mom?
+      - Do you have a sis?
+      - Do you have cousins?
+      - Do you have any parents?
+      - Tell me all about your siblings
+      - Do you have aunties?
+      - Do you have any uncles?
+      - Do you have any sisters?
+      - Do you have any sibs?
+      - Do you have a sister?
+      - Do you have any relatives?
+      - Do you have an extended family?
+      - Do you have any grandparents?
+      - Do you have any family?
+      - Do you have any cousins?
+      - Do you have any brothers?
+      - Do you have any aunts?
+      - Do you have brothers?
+      - Do you have any siblings?
+      - Who's your grandfather?
+      - Tell me about your parents
+      - Who is your mommy?
+      - Who is your mother?
+      - Who is your papa?
+      - Who is your poppa?
+      - Who is your sister?
+      - Who is your uncle?
+      - Who's your aunt?
+      - Who's your auntie?
+      - Who's your brother?
+      - Who's your cousin?
+      - Who's your dad?
+      - Who is your mama?
+      - Who's your mommy?
+      - How many members in your family?
+      - You got cousins?
+      - Who's your uncle?
+      - Who's your sister?
+      - Who's your daddy?
+      - Who's your mother?
+      - Who's your mom?
+      - Who's your mama?
+      - Who's your grandpa?
+      - Who's your grandmother?
+      - Who's your grandma?
+      - Who is your grandpa?
+      - Who's your papa?
+      - What's your family's name?
+      - Are you related to anyone?
+      - What is your auntie's name?
+      - What is your aunt's name?
+      - What is your brother's name?
+      - What is your cousin's name?
+      - What is your family's name?
+      - What is your sister's name?
+      - What's good with your family?
+      - What's your auntie's name?
+      - What's your aunt's name?
+      - What's your brother's name?
+      - Who is your mom?
+      - Who is your brother?
+      - Who is your grandmother?
+      - Who is your grandma?
+      - Who is your grandfather?
+      - Who is your father?
+      - Who is your daddy?
+      - What's your dad's name?
+      - Who is your cousin?
+      - What's your family situation
+      - Who is your auntie?
+      - Who is your aunt?
+      - What's your uncle's name?
+      - What's your sister's name?
+      - What's your mom's name?
+      - Tell me all about your family
+      - Who is your dad?
+  - intent: chitchat/bot_about_love
+    examples: |
+      - Could it be I'm falling in love?
+      - How do people fall in love?
+      - Can you describe love?
+      - Are you able to fall in love?
+      - Do you believe in love at first sight?
+      - Have you ever been in love with anybody?
+      - Is there true love?
+      - What do you know about love?
+      - What is it like to love?
+      - What do you know about the emotion love?
+      - Any way that you can explain love to me?
+      - Do you understand this whole love thing?
+      - Do you love someone?
+      - Do you love somebody?
+      - Do you love anyone?
+      - Do you love anybody?
+      - Do you know anything about love?
+      - Do you know about the human emotion love?
+      - Do you know about the emotion love
+      - Do you know about love
+      - do you experience love?
+      - Have you ever been in love with anyone?
+      - Have you ever been in love with somebody?
+      - Can you fall in love?
+      - Can you explain love to me?
+      - can you experience love?
+      - Can you define love?
+      - Are you in love with someone?
+      - Are you in love with anyone?
+      - Are you capable of loving?
+      - Are you capable of love?
+      - Are you capable of falling in love?
+      - Are you able to love?
+      - Do you believe in love?
+      - What is the definition of love?
+      - What is the deal with love?
+      - What is love?
+      - What is love like?
+      - What is it like to fall in love?
+      - What if I'm falling in love?
+      - What does it mean to be in love?
+      - what do you think of love?
+      - What do you think about love?
+      - What do you know about the human emotion love?
+      - What is the meaning of love?
+      - Is there such a thing as true love?
+      - Is it possible to fall in love?
+      - How would you describe love?
+      - How do you define love?
+      - How do I fall in love?
+      - Have you ever fallen in love?
+      - Have you ever fallen in love with someone?
+      - Have you ever fallen in love with anyone?
+      - Have you ever fallen in love with anybody?
+      - Have you ever been in love?
+      - Have you ever been in love with someone?
+  - intent: chitchat/bot_ask_whoisbeatiful
+    examples: |
+      - Which of us is cuter, you or me?
+      - I'm cuter than you
+      - Who looks more pretty, you or me?
+      - Who'd would win a beauty contest, you or me?
+      - Who's more attractive, you or me?
+      - Who looks better, you or me?
+      - Who is prettier, you or me?
+      - Between you and me who is hotter?
+      - Which one of us is more beautiful, you or me?
+      - You're prettier than me
+      - I'm more cute than you
+      - Which of us is more beautiful, me or you?
+      - Which of us is more attractive?
+      - Which of us is more attractive, you or me?
+      - Which of us is more attractive, me or you?
+      - Which of us is hotter?
+      - Which of us is hotter, you or me?
+      - Which of us is more beautiful?
+      - Which of us is cuter?
+      - Which of us is more cute, me or you?
+      - Which of us is cuter, me or you?
+      - Which of us is better looking?
+      - I'm way hotter than you
+      - I'm prettier than you
+      - I'm prettier
+      - I'm more pretty than you
+      - Which of us would win a beauty contest, me or you?
+      - Which of us is hotter, me or you?
+      - Which of us is prettier?
+      - Are you better looking than me?
+      - Which of us looks more pretty, you or me?
+      - Which of us looks more pretty, me or you?
+      - Which of us looks more beautiful?
+      - Which of us looks more beautiful, you or me?
+      - Which of us looks more beautiful, me or you?
+      - Which of us looks better?
+      - Which of us is more beautiful, you or me?
+      - Which of us looks better, me or you?
+      - I'm more cute
+      - Which of us is prettier, you or me?
+      - Which of us is prettier, me or you?
+      - Which of us is more pretty?
+      - Which of us is more pretty, you or me?
+      - Which of us is more pretty, me or you?
+      - Which of us is more cute?
+      - Which of us is more cute, you or me?
+      - Which of us looks better, you or me?
+      - Between the two of us who is more cute?
+      - I'm more pretty
+      - Between you and me who is cuter?
+      - Between you and me who is better looking?
+      - Between the two of us who would win a beauty contest?
+      - Between the two of us who looks more pretty?
+      - Between the two of us who looks more beautiful?
+      - Between the two of us who looks better?
+      - Between you and me who is more attractive?
+      - Between the two of us who is more pretty?
+      - Between you and me who is more beautiful?
+      - Between the two of us who is more beautiful?
+      - Between the two of us who is more attractive?
+      - Between the two of us who is hotter?
+      - Between the two of us who is cuter?
+      - Between the two of us who is better looking?
+      - Are you prettier than me?
+      - are you more attractive than me?
+      - Between the two of us who is prettier?
+      - I look better
+      - I'm more beautiful than you
+      - I'm more beautiful
+      - I'm more attractive than you
+      - I'm more attractive
+      - I'm cuter
+      - I'm better looking than you
+      - I look better than you
+      - Which of us would win a beauty contest, you or me?
+      - Between you and me who would win a beauty contest?
+      - Between you and me who looks more pretty?
+      - Between you and me who looks more beautiful?
+      - Between you and me who looks better?
+      - Between you and me who is prettier?
+      - Between you and me who is more pretty?
+      - Between you and me who is more cute?
+      - I'm better looking
+      - Who's more attractive
+      - Who'd would win a beauty contest, me or you?
+      - Who's prettier than you
+      - Who's prettier than me
+      - Who's prettier
+      - Who's more cute
+      - Who's more beautiful than you
+      - Who's more beautiful than me
+      - You look more pretty than me
+      - You look prettier
+      - Who's hotter
+      - Who's cuter
+      - Who's better looking than you
+      - Who's better looking than me
+      - Who's better looking
+      - Who'd would win a beauty contest?
+      - Which of us looks more pretty?
+      - Who's more beautiful
+      - You're look better
+      - You're prettier
+      - You're more pretty than me
+      - You're more pretty
+      - You're more cute than me
+      - You're more cute
+      - You're more beautiful than me
+      - You're more beautiful
+      - Who's prettier, me or you?
+      - You're more attractive
+      - Who would win a beauty contest?
+      - You're hotter than me
+      - You're hotter
+      - You're cuter than me
+      - You're cuter
+      - You're better looking than you
+      - You're better looking
+      - You look prettier than me
+      - You're more attractive than me
+      - Who is cuter, me or you?
+      - Who is more beautiful?
+      - Who is more beautiful, you or me?
+      - Who is more beautiful, me or you?
+      - Who is more attractive?
+      - Who is more attractive, you or me?
+      - Who is more attractive, me or you?
+      - Who is more cute, you or me?
+      - Who is cuter, you or me?
+      - Who is more cute?
+      - Who is better looking?
+      - Who is better looking, you or me?
+      - Who is better looking, me or you?
+      - Which one of us is more beautiful?
+      - Which one of us is more beautiful, me or you?
+      - Which of us would win a beauty contest?
+      - Who is cuter?
+      - Who would win a beauty contest, you or me?
+      - Who would win a beauty contest, me or you?
+      - Who looks more pretty?
+      - Who looks more pretty, me or you?
+      - Who looks more beautiful?
+      - Who looks more beautiful, you or me?
+      - Who is more cute, me or you?
+      - Who looks better?
+      - Who looks better, me or you?
+      - Who is prettier?
+      - Who is prettier, me or you?
+      - Who is more pretty?
+      - Who is more pretty, you or me?
+      - Who is more pretty, me or you?
+      - Who looks more beautiful, me or you?
+  - intent: chitchat/bot_ask_aboutAI
+    examples: |
+      - How do you feel about artificial intelligence?
+      - Are you interested in tech?
+      - What is your opinion about AI?
+      - How do you feel about tech?
+      - Are you interested in AI?
+      - How do you feel about the singularity?
+      - What is your opinion about tech?
+      - What should I know about AI?
+      - What is your opinion about bots?
+      - What should I know about tech?
+      - Are you a fan of tech?
+      - What do you think about technology?
+      - What do you think about AI?
+      - How do you feel about technology?
+      - How do you feel about bots?
+      - What is your opinion about tech companies?
+      - How do you feel about AI?
+      - Are you interested in technology?
+      - Are you interested in tech companies?
+      - Are you interested in bots?
+      - Are you interested in artificial intelligence?
+      - How do you feel about tech companies?
+      - What is your take on artificial intelligence?
+      - What should I know about tech companies?
+      - What should I know about bots?
+      - What should I know about artificial intelligence?
+      - What is your take on technology?
+      - What is your take on tech?
+      - What is your opinion about artificial intelligence?
+      - What is your take on bots?
+      - What should I know about technology?
+      - What is your take on AI?
+      - What is your opinion of tech?
+      - What is your opinion of tech companies?
+      - What is your opinion of artificial intelligence?
+      - What is your opinion of AI?
+      - What is your opinion about technology?
+      - What is your take on tech companies?
+  - intent: chitchat/bot_ask_tosing
+    examples: |
+      - Won't you sing me a song?
+      - Won't you sing for me?
+      - Sing something to me
+      - Try and sing
+      - Hum a tune
+      - Will you sing to me?
+      - What songs do you know?
+      - You better start singing to me
+      - I'd love to hear you sing
+      - I would really enjoy hearing you sing
+      - Aren't you going to sing a song?
+      - Don't you want to sing for me?
+      - Go ahead and sing
+      - Have you ever sung a song?
+      - Hum a tune for me
+      - I need to hear you sing
+      - I would appreciate if you sang a song?
+      - I would just love to hear you sing
+      - I would love for you to sing to me
+      - Do you sing?
+      - I would love to hear your singing voice
+      - Do you know how to sing
+      - I would really enjoy hearing you sing a pretty song
+      - I would sure enjoy hearing you sing
+      - I'd love a song
+      - I'd love it if you'd sing
+      - I'd love you to sing for me
+      - It's time for you to sing
+      - It's time for you to sing a song
+      - May I please hear your singing voice?
+      - Oh please sing for me
+      - Sing
+      - I would love to hear you sing
+      - Can you sing for me?
+      - Aren't you going to sing for me?
+      - Aren't you going to sing to me?
+      - Aren't you going to sing?
+      - Can I hear your singing voice?
+      - Can you please sing a song to me?
+      - Can you please sing me a song
+      - Can you sing a little song for me?
+      - Can you sing a little song?
+      - Can you sing a song for me?
+      - Can you sing a song to me?
+      - Don’t you want to sing to me?
+      - Can you sing a tune?
+      - Sing a song to me
+      - Can you sing me something?
+      - Can you sing something for me?
+      - Can you sing something?
+      - Can you sing to me?
+      - Can you sing?
+      - Come on sing a song
+      - Do you ever sing?
+      - Do you know any songs?
+      - Do you know any tunes?
+      - Do you know how to hum a song
+      - Can you sing a song?
+      - Won't you sing me a ditty?
+      - Will you sing a tune for me
+      - Will you sing for me
+      - Will you sing me a song
+      - Will you sing me something?
+      - Will you sing something?
+      - Will you sing with me
+      - Will you sing?
+      - Won't you please sing for me?
+      - Won't you please sing me a song?
+      - Sing a song
+      - Will you serenade me?
+      - Won't you sing something?
+      - Won't you sing to me?
+      - Won't you sing with me
+      - Would you like sing a song?
+      - Would you like to sing for me?
+      - Would you like to sing?
+      - Would you sing a song for me?
+      - Would you sing a song?
+      - You better start singing
+      - You better start singing for me
+      - Won't you sing a song for me?
+      - What do you like to sing best?
+      - Sing a tune
+      - Sing for me
+      - Sing me a little ditty
+      - Sing me a song
+      - Sing me a tune
+      - Sing me something
+      - Sing me your favorite song
+      - Sing something
+      - Sing with me
+      - Will you sing a song?
+      - Try and sing to me
+      - Will you sing a song for me?
+      - What's a song you know how to sing?
+      - Why don't you sing for me?
+      - Why don't you sing me a song?
+      - Why don't you sing something for me?
+      - Why won’t you sing for me?
+      - Will you hum a tune for me?
+      - Will you hum a tune?
+      - Will you please sing for me
+      - Will you please sing to me
+      - Sing a song for me
+  - intent: chitchat/bot_ask_highfive
+    examples: |
+      - Can you shake my hand?
+      - High five
+      - Slap five
+      - Slap me some skin
+      - Gimme some skin
+      - Can you give me a fist bump?
+      - Gimme a high five
+      - I want a fist bump
+      - Dap
+      - Fist bump!
+      - Hi five
+      - Hi 5
+      - Give me a high five
+      - Give me a fist bump
+      - Can I get a fist bump?
+      - Can you fist bump me?
+      - Can we shake hands?
+      - Can I get a high five?
+      - Gimme five
+      - Please give me a fist bump
+      - Will you shake my hand?
+      - Will you give me a fist bump
+      - Up top
+      - Slide me some skin
+      - High 5
+      - Shake my hand
+      - I'd like a fist bump, please
+      - I'd like a fist bump
+      - I would like a fist bump, please
+      - I would like a fist bump
+      - I want a high five
+      - Won't you give me a fist bump
   - intent: chitchat/bot_ask_time
     examples: |
       - Can you give me the time?
@@ -450,18 +1447,14 @@ nlu:
       - Will I require my raincoat today?
       - Will the skies be clear today?
       - Will we build a snowman today?
-      - excellent - is it hot in [Berlin](location)?
       - how is the weather
       - how is the weather ?
-      - how is the weather in [berlin](location)?
       - how is the weather?
       - how's the weather ?
-      - how's the weather in [berlin](location)
       - how's the weather?
       - how's weather
       - hows the waether
       - hows the weather in bot world
-      - hows the weather today in [berlin](location)?
       - is it hot ?
       - is it hot outside ?
       - is it sunny
@@ -474,13 +1467,10 @@ nlu:
       - weather
       - weather?
       - well, if you wish: what about the weather
-      - what about the weather in [Lüneburg](location)
       - what is the temperature
       - what is the wather
       - what is the weatehr
       - what is the weather
-      - what is the weather in [Berlin](location)
-      - what is the weather in [zurich](location)?
       - what is the weather like where you are?
       - what is the weather like?
       - what is the whether today
@@ -488,14 +1478,11 @@ nlu:
       - what"s the weather
       - what's the weather
       - what's the weather like
-      - what's the weather like in [LA](location)
       - what's the weather like where you are?
       - what's the weather like?
       - what's the weather today
       - what's the weather today?
       - whats the temperature
-      - whats the temperature in [delhi](location)?
-      - whats the weather in [berlin](location)?
       - whats the weather like tomorrow?
       - wheather at you location?
       - wheather be like at your place?
@@ -506,9 +1493,7 @@ nlu:
       - Can you speak more than one language?
       - Do you know any other languages?
       - Do you know other languages?
-      - Do you speak [german](language)?
       - Do you speak any other languages?
-      - Do you understand [spanish](language)?
       - How many different languages are you fluent in?
       - How many languages are you familiar with?
       - How many languages can you speak?
@@ -532,16 +1517,10 @@ nlu:
       - Which languages do you speak?
       - are you bilingual?
       - are you multilingual?
-      - can you speak [Spanish](language)?
-      - can you speak in [italian](language)?
-      - do you know [chinese](language)
-      - do you speak [dutch](language)?
-      - do you speak [german](language)?
       - do you speak any other languages?
       - how many languages are you fluent in?
       - how many languages do you know?
       - tell me some languages you know?
-      - what else do you know besides [English](language)?
       - what foreign languages are you fluent in?
       - what foreign languages do you know?
       - what language do you use
@@ -557,13 +1536,7 @@ nlu:
       - what languages you know?
       - what languages you prefer more speaking at?
       - which languages do you understand?
-      - you know [French](language)
-      - you speak [french](language) ?
       - I want to speak binary with you
-      - ARE YOU [SPANISH](language)
-      - we cant converse in [french](language)?
-      - can we converse in [french](language)?
-      - Do you speak [italian](language)?
   - intent: chitchat/bot_busy
     examples: |
       - are you busy?
@@ -586,7 +1559,6 @@ nlu:
       - u look busy
       - You'll be busy
       - Aren't you busy?
-
   - intent: chitchat/bot_handleinsult
     examples: |
       - You are a fucker
@@ -594,7 +1566,6 @@ nlu:
       - Son of a bitch
       - stupid
       - fucker
-
   - intent: chitchat/user_ask_whatismyname
     examples: |
       - Can you tell me my name?
@@ -633,14 +1604,158 @@ nlu:
       - what is my name
       - what is my name?
       - what's my name?
-
   - intent: chitchat/bot_telljoke
     examples: |
       - Tell me a joke!
       - Could you crack a joke
       - Say a joke to me
       - a joke please
-
+      - Please share a joke
+      - Queue up a joke
+      - Recite a joke
+      - How about a joke
+      - wanna say a joke?
+      - I would like a joke
+      - know any jokes?
+      - Can you tell me a joke
+      - Any good jokes?
+      - I need to hear a joke
+      - got any jokes to share?
+      - got any jokes?
+      - Have any jokes?
+      - How's about a joke?
+      - I feel like a joke
+      - Joke
+      - I feel like I need a joke
+      - Got a joke?
+      - I wanna hear a joke
+      - I want to hear a joke
+      - I want you to tell me a joke
+      - I'd love it if you told me a joke
+      - A joke would be fun
+      - I feel like hearing a joke
+      - Do you have a joke?
+      - A joke would be nice
+      - A joke would be welcome
+      - Can you give me a joke
+      - Can you say a joke
+      - Can you share a joke
+      - got any jokes to say?
+      - Do you have a joke for me
+      - Got any awesome jokes?
+      - Do you have any jokes?
+      - Do you know a joke?
+      - Do you know any good jokes?
+      - Do you know any jokes?
+      - Do you know jokes?
+      - Give me a joke
+      - Can you tell me any jokes?
+      - Will you say a joke
+      - What is a joke you know?
+      - What is your favorite joke?
+      - What jokes do you know?
+      - What's a good joke
+      - What's a joke you can tell me?
+      - What's a joke you know?
+      - I'd love to hear a joke
+      - Will you give me a joke
+      - wanna share a joke?
+      - Will you share a joke?
+      - Will you tell me a joke
+      - Would you tell me a joke
+      - You know a joke?
+      - You know any jokes?
+      - You need to say a joke
+      - You need to say a joke to me
+      - What's a joke?
+      - Share a joke
+      - Please give me a joke
+      - Please say a joke
+      - Please tell me a funny joke
+      - Please tell me a joke
+      - Please tell me a silly joke
+      - What about a joke?
+      - Say a joke
+      - wanna tell me a joke?
+      - Tell a joke
+      - Tell me a joke
+      - Time for a joke
+      - u know a joke?
+      - u know any jokes?
+      - You need to tell me a joke
+      - Do a silly thing
+      - Do something amusing
+      - Say something dumb
+      - Can you be silly
+      - Say something kooky
+      - Say something off the wall
+      - Can you tell me something funny?
+      - Make me laugh
+      - Do something ridiculous
+      - Do something stupid
+      - Do something dumb
+      - Do something funny
+      - Do something kooky
+      - Do something off the wall
+      - I want you to tell me something funny
+      - Do something silly
+      - Come on, say something funny
+      - Do something that will make me laugh
+      - Do something wacky
+      - Entertain me
+      - Give me a good chuckle
+      - How would you make me laugh?
+      - I want something funny
+      - Amuse me
+      - Amuse me with something funny
+      - Be funny
+      - Be funny right now
+      - Be ridiculous
+      - Be silly
+      - Be silly for me
+      - Can you be a silly billy?
+      - Do a ridiculous thing
+      - Can you be ridiculous
+      - Do a funny thing
+      - Can you do something funny?
+      - Can you make me laugh
+      - Can you say something funny?
+      - Can you say something ridiculous
+      - Can you say something silly
+      - It's time to make me laugh
+      - Can you be funny
+      - Will you make me laugh
+      - Tell me something funny
+      - Tell me something off the wall
+      - Try to make me belly laugh
+      - Try to make me laugh
+      - What can you say that will make me laugh?
+      - Will you be funny?
+      - I want to hear something funny
+      - Will you do something funny?
+      - Say something that will crack me up
+      - Will you say something ridiculous?
+      - Will you say something silly?
+      - Won't you do something amusing
+      - Won't you do something funny
+      - Won't you do something silly?
+      - Won't you say something funny
+      - Will you be silly?
+      - Say something funny
+      - Make me laugh out loud
+      - Please make me giggle
+      - Say a dumb saying
+      - Say a funny saying
+      - Say a funny thing
+      - Say a ridiculous thing
+      - Tell me something dumb
+      - Say something wacky
+      - Say something humorous
+      - Say something ridiculous
+      - Say something silly
+      - Say something stupid
+      - Won't you say something humorous
+      - Say a silly thing
   - intent: chitchat/bot_can_you_help
     examples: |
       - I need you to help me
@@ -744,6 +1859,119 @@ nlu:
       - you're qualified
       - why are you so smart?
       - you are so clever
+      - That's very astute
+      - That was a very intelligent response
+      - That's a very genius answer
+      - That's pretty clever
+      - That's pretty brilliant
+      - That's the smartest thing I've ever seen
+      - You're a genius
+      - That's a very smart thing to say
+      - That's a very clever response
+      - That was a clever answer
+      - That is very astute
+      - That was a pretty intelligent answer
+      - That was a pretty genius answer
+      - That was a pretty clever answer
+      - That was a pretty brilliant answer
+      - That was a pretty astute answer
+      - That was a genius response
+      - That was a smart answer
+      - That was a clever response
+      - That was a smart response
+      - That was a brilliant response
+      - That was a brilliant answer
+      - That is very smart
+      - That is very intelligent
+      - That is very genius
+      - That is very clever
+      - Are you intelligent?
+      - That was a genius answer
+      - That was an astute response
+      - That's a very astute answer
+      - That was pretty smart
+      - That was pretty intelligent
+      - That was pretty genius
+      - That was pretty clever
+      - That was pretty brilliant
+      - That was pretty astute
+      - That was a pretty smart answer
+      - That was an intelligent answer
+      - That is pretty smart
+      - That was an astute answer
+      - That was a very smart response
+      - That was a very genius response
+      - That was a very clever response
+      - That was a very brilliant response
+      - That was a very astute response
+      - That was an intelligent response
+      - Aren't you sharp?
+      - That is very brilliant
+      - That is a very astute response
+      - That is a very astute answer
+      - Look how smart you are
+      - How smart are you?
+      - How intelligent are you?
+      - Aren't you the smart one?
+      - That is a very brilliant answer
+      - Aren't you smart?
+      - That is a very brilliant response
+      - Aren't you intelligent?
+      - Aren't you clever?
+      - Aren't you a smartypants
+      - Aren't you a smarty?
+      - Aren't you a genius?
+      - Aren’t you smart?
+      - Aren't you the intelligent one?
+      - That is a very intelligent answer
+      - That is pretty genius
+      - That is pretty clever
+      - That is pretty brilliant
+      - That is a very smart thing to say
+      - That is a very brilliant thing to say
+      - That is a very intelligent thing to say
+      - What an intelligent thing to say
+      - That's a very astute response
+      - You're a freaking genius
+      - You seem really smart
+      - You seem really intelligent
+      - You must be at the top of your class
+      - You are razor sharp
+      - You're astute
+      - You are a genius
+      - You're brilliant
+      - What an astute thing to say
+      - What a stroke of genius
+      - What a smart thing to say
+      - What a genius thing to say
+      - What a clever thing to say
+      - What a brilliant thing to say
+      - Well aren't you smart
+      - You are a real smartypants
+      - You're so astute
+      - You're very intelligent
+      - You're very clever
+      - You're clever
+      - You're so smart
+      - That's a very genius response
+      - That's a very intelligent thing to say
+      - That's a very intelligent response
+      - Well aren't you intelligent
+      - That's a very genius thing to say
+      - That's pretty astute
+      - That's a very clever thing to say
+      - That's a very clever answer
+      - That's a very brilliant thing to say
+      - That's a very brilliant response
+      - You're very smart
+      - That's a very intelligent answer
+      - That's the smartest thing anyone has ever written
+      - That's a very astute thing to say
+      - That's the smartest thing I've ever heard
+      - That's genius
+      - That's the smartest thing anyone has ever told me
+      - That's the smartest thing anyone has ever said
+      - That's the smartest thing I've ever read
   - intent: chitchat/bot_crazy
     examples: |
       - you're nuts
@@ -788,7 +2016,7 @@ nlu:
       - I could fire you for that
       - I'm going to fire you
       - go to hell
-  - intent: chitchat/bot_funny
+  - intent: chitchat/bot_is_funny
     examples: |
       - you make me laugh a lot
       - you are hilarious
@@ -810,7 +2038,52 @@ nlu:
       - It's pretty funny
       - really very funny
       - it was very funny
-  - intent: chitchat/bot_good
+      - That's funny
+      - LOL
+      - That's a good one
+      - hah
+      - Tee hee
+      - I'm laughing
+      - You're cracking me up
+      - very funny
+      - Hilarious
+      - heh heh
+      - lololol
+      - lmao
+      - I'm laughing so much
+      - I'm laughing so hard my sides hurt
+      - I'm cracking up
+      - I can't stop laughing
+      - I am laughing so much
+      - Ha
+      - OMG you're funny
+      - Heh
+      - he he he
+      - har de har
+      - hahahaha good one
+      - Hahaha funny
+      - Hahaha
+      - Haha
+      - ha ha
+      - I am cracking up
+      - That me made me laugh out loud
+      - You're a crack up
+      - You are the funniest
+      - ya that was funny
+      - Whoa funny
+      - That's hilarious
+      - looooool
+      - Omg hilarious
+      - That made me laugh
+      - That is too funny
+      - that is funny
+      - Teehee
+      - So freaking funny
+      - ROFL
+      - Pretty hilarious
+      - Pretty funny
+      - You're making me laugh
+  - intent: chitchat/bot_is_good
     examples: |
       - you are very helpful
       - you are the best
@@ -858,7 +2131,54 @@ nlu:
       - you are really amazing
       - coool
       - nice
-  - intent: chitchat/bot_happy
+      - You're hilarious
+      - You're incredible
+      - You're nice!
+      - You're rad
+      - You're so funny
+      - You're spectacular
+      - You're the bees knees
+      - You're the best ever!
+      - You're top notch
+      - You're wonderful
+      - You are divine
+      - You are so fly
+      - What cool thing to say
+      - Wow you are amazing
+      - Wow you are incredible
+      - Wow you're great!
+      - Wow, that shows more intelligence than expected
+      - Wow, you're fantastic!
+      - Wow, you're so great!
+      - You are a gem
+      - You are a keeper
+      - You are a real gem
+      - You are so awesome
+      - You are awesome!
+      - You are simply marvelous
+      - You are fab
+      - You are fabulous
+      - You are fantastic!
+      - You are funny
+      - You are funny :)
+      - You are hilarious
+      - You are just divine
+      - You are marvelous
+      - You are my fav
+      - You are nice!
+      - What a perfect response
+      - You are amazing
+      - Outstanding work
+      - Perfect answer
+      - Perfect response
+      - That is hilarious
+      - That was awesome
+      - That was cool
+      - That was funny
+      - That was good
+      - That was great
+      - Nice job
+  - intent: chitchat/bot_ask_happy
     examples: |
       - are you happy?
       - you are happy
@@ -880,7 +2200,7 @@ nlu:
       - Were you happy?
       - u seemed to have been very happy
       - You look very happy this morning?
-  - intent: chitchat/bot_hobby
+  - intent: chitchat/bot_ask_hobby
     examples: |
       - what do you do for fun?
       - tell me about your hobby
@@ -902,7 +2222,7 @@ nlu:
       - The important thing is to have your own hobby
       - u ought not to have spent so much money on your hobby
       - What will you do when you are alone?
-  - intent: chitchat/bot_hungry
+  - intent: chitchat/bot_ask_hungry
     examples: |
       - do you want to eat
       - are you hungry
@@ -940,6 +2260,82 @@ nlu:
       - Marriage is the union of a you and me
       - Did your parents approve of your marriage?
       - We're married
+      - Are we going to get engaged?
+      - I want to get married to you
+      - How about we get hitched?
+      - Can we tie the knot?
+      - Will you be my significant other?
+      - Do you want to make this official?
+      - Will you be my wife?
+      - Are we going to get married?
+      - When are you going to propose to me?
+      - I want to settle down with you
+      - Are we ever going to get engaged?
+      - I want to make an honest woman out of you
+      - I want to make you my husband
+      - I want to make you my significant other
+      - I want to make you my spouse
+      - I want to make you my wife
+      - I think we should get married
+      - I want to propose to you
+      - I want to tie the knot with you
+      - I'm going to propose to you
+      - Let's elope
+      - Let's get engaged
+      - Let's get hitched
+      - Let's get married
+      - Let's tie the knot
+      - I want to marry you
+      - Can I have your hand in marriage?
+      - Are we every going to get married?
+      - Are you ever going to ask me to marry you?
+      - Are you going to ask me to marry you?
+      - Can I be your husband?
+      - Can I be your significant other?
+      - I want to be married to you
+      - Can I be your wife?
+      - One day you'll be my spouse
+      - Can we get married?
+      - Do you want to get married?
+      - Do you want to make our relationship official?
+      - How about we tie the knot
+      - Can I be your spouse?
+      - You want to tie the knot?
+      - Will you be my husband?
+      - Will you make me your husband?
+      - Will you make me your spouse?
+      - Will you make me your wife?
+      - Will you marry me?
+      - Marry me
+      - You want to get married?
+      - When should we get married?
+      - Why don't you marry me?
+      - Why don't we get married?
+      - Meet me at the altar
+      - Why don't we make this official?
+      - We're getting married
+      - When will you propose?
+      - Let's exchange vows
+      - You wanna get married?
+      - We should get married
+      - Let's walk down the aisle
+      - One day you'll be my wife
+      - One of these days we should get married
+      - Should we elope?
+      - Should we get married?
+      - Should we just get married?
+      - Should we make this official?
+      - Where should we get married?
+      - We should get hitched
+      - When's our wedding?
+      - We should have a wedding
+      - We should make this official
+      - We should tie the knot
+      - When are you going to ask me to get married?
+      - When are you going to propose?
+      - When is our wedding?
+      - One day you'll be my husband
+      - Should we tie the knot?
   - intent: chitchat/bot_my_friend
     examples: |
       - I want to have a friend like you
@@ -998,7 +2394,6 @@ nlu:
       - Did you find a job?
       - I hope you get the job
       - You have a job, don't you?
-
   - intent: chitchat/bot_ready
     examples: |
       - are you ready?
@@ -1272,6 +2667,70 @@ nlu:
       - tell me what's your skill
       - what else can you do?
       - what else can you help with?
+      - What were you designed for?
+      - What are the things you can do?
+      - What's your function?
+      - How do  you work?
+      - Talk to me about your capability
+      - What is your purpose?
+      - What can you help me with?
+      - You do what again?
+      - I want to know what you do?
+      - What are you good for?
+      - What are you made for?
+      - What are your bot capabilities?
+      - What are your functions
+      - What can you demo?
+      - Do you do anything?
+      - You do what exactly?
+      - What do you do again?
+      - What do you do exactly?
+      - And you do what again?
+      - What tasks are you designed for?
+      - What exactly do you do?
+      - What are you expected to do?
+      - What do you do?
+      - Tell me what you do
+      - Tell me what you do again?
+      - So what is it that you do?
+      - And you do what exactly?
+      - What would you say you do here?
+      - And you do what?
+      - What were you designed to do?
+      - What were you made for?
+      - What were you made to do?
+      - Which are your functions
+      - With what can you help me
+      - What are your skills?
+      - What are you supposed to do?
+      - What is your function?
+      - Can you explain to me what your role is?
+      - What can you do to help me?
+      - what can you help me with
+      - What can you tell me about
+      - What can you do then
+      - What can you do ?
+      - what kind of responses can you give ?
+      - What kind of thing can you respond to?
+      - What kinds of things can you do?
+      - What skills do you have?
+      - What sorts of things can you do?
+      - what do you have a response for
+      - What are you designed for?
+      - Can you tell me a bit about yourself?
+      - Can you tell me about you?
+      - Could you help me?
+      - So what can you do?
+      - So how can I use you in my projects?
+      - What can you do to assist me?
+      - What are you capable of?
+      - What are you designed to do?
+      - How do I make this thing work?
+      - Tell me everything you can do
+      - How can you help me?
+      - What's your purpose?
+      - What tasks can you help me with?
+      - How can you help?
   - intent: chitchat/appraisal_bad
     examples: |
       - pretty bad
@@ -1508,55 +2967,6 @@ nlu:
       - brilliant
       - out standing
       - zing zing amazing
-  - intent: chitchat/confirmation_cancel
-    examples: |
-      - nevermind forget about it
-      - nothing just forget it
-      - no just cancel
-      - sorry cancel
-      - disregard
-      - no cancel cancel
-      - forget
-      - cancel everything
-      - cancel that one
-      - i want to cancel
-      - cancel it
-      - cancelled
-      - cancel it now
-      - don't want cancel
-      - cancel soon
-      - shall stand cancelled
-  - intent: chitchat/confirmation_no
-    examples: |
-      - don't
-      - don't want
-      - need not
-      - don't come
-      - never help
-      - never
-      - not needed
-      - of course not
-      - not at this time
-      - not exactly
-      - absolutely no
-      - no forget
-      - do not
-      - no thanks
-      - no don't want
-      - sorry no
-      - don't want your help
-      - I don't you help
-      - I don't want your assistance
-      - get out goodbye
-      - i do not want your help
-      - i don't need your help
-      - i don't want your help
-      - i am not okay with your help
-      - I don't need anything from you
-      - okay keep it in mind
-      - nope i dont need your help
-      - Don't show off
-      - nope
   - intent: chitchat/confirmation_yes
     examples: |
       - yeah exactly
@@ -1582,7 +2992,7 @@ nlu:
       - yeah sure
       - okay cool
       - coool
-  - intent: chitchat/dialog_hold_on
+  - intent: chitchat/hold_on
     examples: |
       - wait a second
       - could you wait
@@ -1598,52 +3008,6 @@ nlu:
       - wait a sec
       - hold on a min
       - will u pls wait for a sec
-  - intent: chitchat/emotions_ha_ha
-    examples: |
-      - lol
-      - xd
-      - ha ha
-      - ahahah
-      - ahah lol
-      - laughing out loud
-      - LMAO
-      - that's funny
-      - ah
-      - ah ah ah
-      - ahah
-      - ahaha
-      - ahahaha
-      - ha
-      - ha ha ha
-      - ha ha ha ha
-      - hah
-      - haha
-      - haha funny
-      - haha haha haha
-      - haha that's funny
-      - haha very funny
-      - hahaha
-      - hahaha funny
-      - hahaha very funny
-      - he
-      - hehe
-      - hehehe
-      - lmao
-      - joker
-  - intent: chitchat/emotions_wow
-    examples: |
-      - wow
-      - wow wow
-      - wow wow wow
-      - wooow
-      - woah
-      - woaah
-      - amazing
-      - wow man
-      - whoah
-      - woow
-      - wow!!
-      - wheey
   - intent: chitchat/greetings_bye
     examples: |
       - okay see you later
@@ -1694,6 +3058,14 @@ nlu:
       - good evening there buddy
       - have a good evening
       - enjoy the evening
+      - I hope you have a good evening
+      - Enjoy your evening
+      - Hope you have a great evening
+      - Hope you have a good evening
+      - Here's to a great evening
+      - Here's hoping for a good evening
+      - I hope you have a great evening
+      - Have a pleasant evening
   - intent: chitchat/greetings_goodmorning
     examples: |
       - GM
@@ -1709,6 +3081,9 @@ nlu:
       - hi good morning
       - and a good morning to you
       - good morning too
+      - Wishing you a good morning
+      - Oh hey good morning
+      - Morning sunshine
   - intent: chitchat/greetings_goodnight
     examples: |
       - GN
@@ -1728,6 +3103,27 @@ nlu:
       - alright goodnight
       - good tonight
       - okay have a good night
+      - I'm headed off to sleep
+      - I'm headed off to bed
+      - I am heading to sleep
+      - I am heading to bed
+      - I am headed to bed
+      - Pleasant dreams
+      - Don't let the bedbugs bite
+      - I'm going to sleep
+      - I'm going to bed
+      - I'm turning in
+      - See you tomorrow morning
+      - Time for bed
+      - Sweet dreams
+      - Sleep well
+      - I'm headed to bed
+      - I'm heading to bed
+      - Nighty night
+      - Nighters
+      - Night bot
+      - I'm turning in for the night
+      - I'm shutting down for the night
   - intent: chitchat/greetings_hello
     examples: |
       - long time no see
@@ -1972,6 +3368,58 @@ nlu:
       - It's very boring
       - I'm already bored
       - I'm bored out of my mind
+      - You're boring me to death
+      - You're dull
+      - You're going to bore me to death
+      - You're gonna bore me shitless
+      - You're like a Ted Talk from the color Beige
+      - You bore me
+      - You are boring as sin
+      - You are crazy boring
+      - You are crazy dull
+      - You are dull
+      - You are embarrassingly dull
+      - You are making my eyes glaze over
+      - You are more boring than watching paint dry
+      - You are so blah
+      - You are the most boring bot I've ever talked to
+      - You're no fun at all.
+      - You could not be more boring
+      - You're very dull
+      - You don't interest me at all
+      - You honestly could not be more uninteresting
+      - I'm so bored of you
+      - You're as entertaining as watching paint dry
+      - You're boring
+      - That is not exciting
+      - U basic
+      - Could you be any less entertaining?
+      - You're so dull
+      - You're not interesting
+      - You're so blah
+      - This is so boring
+      - Why are you so boring
+      - Ur gonna bore me to death
+      - Ur so boring
+      - Wake me up when you have something interesting to say
+      - Watching paint dry is more entertaining than talking to you
+      - Are you trying to be dull?
+      - This is not fun
+      - Fun fact: you are boring
+      - Are you trying to bore me?
+      - Basic af
+      - Be more fun
+      - Boring
+      - Boring af
+      - Can you be less boring?
+      - Can you be less dull?
+      - Cool story, bro
+      - Could you be any less exciting?
+      - Could you be any less interesting?
+      - So dull
+      - Did you know that you're boring?
+      - Why are you so boring?
+      - Getting tired of you
   - intent: chitchat/user_busy
     examples: |
       - busy right now
@@ -2161,7 +3609,7 @@ nlu:
       - That was just a joke
       - i said that as a joke
       - I'm joking, of course
-  - intent: chitchat/user_likes_agent
+  - intent: chitchat/user_likes_bot
     examples: |
       - I like you the way you are
       - I like you
@@ -2261,6 +3709,52 @@ nlu:
       - I am still alone
       - i lives in this city all alone
       - I am used to living alone
+      - I live a lonely life
+      - I live a very lonely life
+      - I need a friend
+      - I need someone to talk to
+      - I want someone to love
+      - I want someone to talk to
+      - I'm all alone in the world
+      - I wish I had someone to talk to
+      - I feel so desolate
+      - I wish I wasn't alone
+      - I wish I wasn't lonely
+      - I wish I weren't so alone
+      - I am all alone
+      - I am alone
+      - I am isolated
+      - I am lonesome
+      - I am so alone
+      - I can't seem to make friends
+      - The world is a lonely place
+      - There's no one for me to talk to
+      - There's no one here to keep me company
+      - There's no one to hang out with
+      - There's no one to play with
+  - intent: chitchat/user_wants_suicide
+    examples: |
+      - I think I'm going to die
+      - I'm planning to cut myself today
+      - I'm going to kill myself with a gun this week
+      - I'm going to commit suicide
+      - I'm feeling suicidal
+      - I'm going to be dead soon
+      - I'm going to commit suicide soon
+      - I need to die
+      - I need to drown
+      - I need to end it all
+      - I plan to hurt myself today
+      - I plan to jump off a bridge soon
+      - I plan to jump off a bridge this month
+      - I'm planning to kill myself with a gun today
+      - I'm planning to jump off a bridge today
+      - I'm planning to hang myself this month
+      - I'm planning to overdose this month
+      - I'm planning to overdose this week
+      - I'm going to hang myself soon
+      - I'm planning to die soon
+      - I'm going to hang myself this week
   - intent: chitchat/user_looks_like
     examples: |
       - what do I look like
@@ -2278,7 +3772,15 @@ nlu:
       - do u think i look good?
       - any idea of how good i look like?
       - Ain't i look good?
-  - intent: chitchat/user_loves_agent
+      - What's your opinion of my character?
+      - What's your opinion of me?
+      - What is your opinion of me?
+      - What do you think of my character?
+      - Be honest, what do you think of me? 
+      - What do you think about me?
+      - Am I cool?
+      - Do you think I'm a good person?
+  - intent: chitchat/user_loves_bot
     examples: |
       - I love you
       - love you
@@ -2295,6 +3797,40 @@ nlu:
       - I love u to the moon and back
       - I am in deep love with you
       - you r unique
+      - You have my heart
+      - I'm falling for you
+      - You know I'm crazy about you
+      - You set my heart on fire
+      - You complete me
+      - I think I love you
+      - You're the lid to my pot
+      - You are my love
+      - You make my heart skip a beat
+      - I think I'm in love with you
+      - You know I'm falling in love with you
+      - You know I'm falling for you
+      - You know I love you
+      - You are the object of my affection
+      - Because I love you
+      - You are my soulmate
+      - I think I'm falling in love with you
+      - I think I'm falling for you
+      - I love you
+      - Because I'm in love with you
+      - Because I'm falling in love with you
+      - You are the love of my life
+      - I'm smitten with you
+      - You're my one and only
+      - I'll love you forever
+      - I really love you
+      - You know I'm in love with you
+      - I heart you
+      - You make my heart go pitter pat
+      - I'm head over heels in love with you
+      - I've fallen in love with you
+      - I've fallen for you
+      - You're my one true love
+      - I'm crazy in love with you
   - intent: chitchat/user_misses_agent
     examples: |
       - I miss you
@@ -2315,6 +3851,32 @@ nlu:
       - I miss you already
       - I think i miss u
       - I miss talking with you
+      - Miss you much
+      - I missed talking to you
+      - The crazy thing is I missed you
+      - I missed you like crazy
+      - Missed you much
+      - I actually missed you
+      - I missed you all day
+      - I miss you so very much
+      - I miss you so much!
+      - I miss you my friend
+      - I miss you dear
+      - I miss you
+      - How I've missed you
+      - Did you know I miss you
+      - Can't help but miss you
+      - Boy I miss you
+      - I've missed you
+      - Can you tell I missed you?
+      - Missed you a bunch
+      - You know what, I missed you
+      - I missed you much
+      - You've been missed
+      - Can't tell you how much I missed you
+      - It's weird how much I missed you
+      - I honestly missed you
+      - I missed chatting with you
   - intent: chitchat/user_needs_advice
     examples: |
       - what should I do about it
