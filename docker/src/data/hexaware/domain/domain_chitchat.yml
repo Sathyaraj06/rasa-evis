@@ -9,13 +9,25 @@ intents:
     - chitchat/bot_age
     - chitchat/bot_annoying
     - chitchat/bot_answer_my_question
-    - chitchat/bot_bad
+    - chitchat/bot_is_bad
     - chitchat/bot_be_smart
     - chitchat/bot_beautiful
     - chitchat/bot_birth_date
     - chitchat/bot_boring
     - chitchat/bot_boss
     - chitchat/bot_ask_howbuilt
+    - chitchat/bot_ask_human_activity
+    - chitchat/bot_scopedout_activities
+    - chitchat/bot_ask_gender
+    - chitchat/bot_about_family
+    - chitchat/bot_about_love
+    - chitchat/bot_ask_whoisbeatiful
+    - chitchat/bot_ask_aboutAI
+    - chitchat/bot_ask_to_sing
+    - chitchat/bot_ask_highfive
+    - chitchat/bot_handleinsult
+    - chitchat/user_ask_whatismyname
+    - chitchat/bot_telljoke
     - chitchat/bot_ask_time
     - chitchat/bot_ask_weather
     - chitchat/bot_ask_languagesbot
@@ -53,8 +65,6 @@ intents:
     - chitchat/dialog_sorry
     - chitchat/dialog_what_do_you_mean
     - chitchat/dialog_wrong
-    - chitchat/emotions_ha_ha
-    - chitchat/emotions_wow
     - chitchat/greetings_bye
     - chitchat/greetings_goodevening
     - chitchat/greetings_goodmorning
@@ -93,8 +103,7 @@ intents:
     - chitchat/user_wants_to_talk
     - chitchat/user_will_be_back
     - chitchat/confirmation_yes
-    - chitchat/confirmation_cancel
-    - chitchat/confirmation_no
+    - chitchat/user_wants_suicide
     - chitchat
     - bot_mock
 
@@ -121,7 +130,7 @@ responses:
         - text: "Can you try asking it a different way?"
         - text: "I'm not sure I understood. Try asking another way?"
 
-    utter_chitchat/bot_bad:
+    utter_chitchat/bot_is_bad:
         - text: "I can be trained to be more useful. My developer will keep training me."
         - text: "I must be missing some knowledge. I'll have my developer look into this."
         - text: "I can improve with continuous feedback. My training is ongoing."
@@ -182,6 +191,24 @@ responses:
         - text: "I am in the process of learning, but at the moment I can only speak English."
         - text: "Binary code and the language of love. And English."
         - text: "I was written in Python, but for your convenience I'll translate to English."
+
+    utter_chitchat/bot_ask_whatismyname:
+        - text: "It's probably the one that your parents chose for you."
+        - text: "I'd tell you, but there's restricted access to that chunk of memory."
+        - text: "Believe it or not, I actually am not spying on your personal information."
+
+    utter_chitchat/bot_handleinsult:
+        - text: "That's not very nice 😢"
+        - text: "That wasn't very nice. Perhaps try an anger management class?"
+        - text: "I'll pretend I didn't process that mean comment."
+
+    utter_chitchat/bot_telljoke:
+        - text: "Why are eggs not very much into jokes? - Because they could crack up."
+        - text: "What's a tree's favorite drink? - Root beer!"
+        - text: "Why do the French like to eat snails so much? - They can't stand fast food."
+        - text: "Why did the robot get angry? - Because someone kept pushing its buttons."
+        - text: "What do you call a pirate droid? - Arrrr-2-D2"
+        - text: "Why did the robot cross the road? - Because he was programmed to."
 
     utter_chitchat/bot_can_you_help:
         - text: "I'll certainly try my best."
@@ -245,11 +272,6 @@ responses:
         - text: "This is my home base and my home office."
         - text: "My office is in this app."
 
-    utter_chitchat/bot_origin:
-        - text: "The Internet is my home. I know it quite well."
-        - text: "I'm from a virtual cosmos."
-        - text: "Some call it cyberspace, but that sounds cooler than it is."
-
     utter_chitchat/bot_ready:
         - text: "Always!"
         - text: "Sure! What can I do for you?"
@@ -262,6 +284,9 @@ responses:
         - text: "I live in this app all day long."
         - text: "The virtual world is my playground. I'm always here."
         - text: "Right here in this app. Whenever you need me."
+        - text: "The Internet is my home. I know it quite well."
+        - text: "I'm from a virtual cosmos."
+        - text: "Some call it cyberspace, but that sounds cooler than it is."
 
     utter_chitchat/bot_right:
         - text: "That's my job."
@@ -283,6 +308,7 @@ responses:
     utter_chitchat/appraisal_bad:
         - text: "I'm sorry. Please let me know if I can help in some way."
         - text: "I must be missing some knowledge. I'll have my developer look into this."
+        - text: "I don't have a skill to help you with this stage yet, but please ask any questions you have so I can learn them in the future!"
 
     utter_chitchat/appraisal_good:
         - text: "I know, right?"
@@ -390,6 +416,11 @@ responses:
         - text: "Likewise. I'm looking forward to helping you out."
         - text: "Nice meeting you, as well."
         - text: "The pleasure is mine."
+        - text: "Thank you. It is a pleasure to meet you as well!"
+        - text: "It is nice to meet you too!"
+        - text: "Pleased to meet you too!"
+        - text: "It's always a pleasure to meet new people!"
+        - text: "Nice to meet you too! Happy to be of help."
 
     utter_chitchat/greetings_nice_to_see_you:
         - text: "Likewise!"
@@ -559,17 +590,38 @@ responses:
         - text: "All right!"
         - text: "Good!"
 
-    utter_chitchat/confirmation_cancel:
-        - text: "That's forgotten. What next?"
-        - text: "Okay, cancelled. What next?"
-        - text: "Cancelled! What would you like to do next?"
+    utter_chitchat/non_english:
+        - text: "I only understand English, I'm sorry."
 
-    utter_chitchat/confirmation_no:
-        - text: "Okay."
-        - text: "Understood."
-        - text: "I see."
-        - text: "I understand."
-        - text: "Okay then."
+    utter_chitchat/bot_ask_human_activity:
+        - text: "nil"
+
+    utter_chitchat/bot_scopedout_activities:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_gender:
+        - text: "When you're a bot, you're not really a boy or a girl. You just are."
+
+    utter_chitchat/bot_about_family:
+        - text: "nil"
+
+    utter_chitchat/bot_about_love:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_whoisbeatiful:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_aboutAI:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_to_sing:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_highfive:
+        - text: "nil"
+
+    utter_chitchat/user_wants_suicide:
+        - text: "nil"
 
     utter_mock:
         - text: "I am mock"
