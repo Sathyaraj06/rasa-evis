@@ -25,13 +25,13 @@ responses:
         - text: "Video link and steps 1., 2., 3."
 
     utter_evis/book_demo:
-        - text:
+        - text: "nil"
 
     utter_evis/contact_sales:
-        - text:
+        - text: "nil"
 
     utter_evis/human_handoff:
-        - text:
+        - text: "nil"
 
     utter_bot_mock1:
         - text: "mock"
