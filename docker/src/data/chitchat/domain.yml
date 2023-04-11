@@ -601,7 +601,7 @@ responses:
         - text: "nil"
 
     utter_chitchat/bot_ask_gender:
-        - text: "nil"
+        - text: "When you're a bot, you're not really a boy or a girl. You just are."
 
     utter_chitchat/bot_about_family:
         - text: "nil"
