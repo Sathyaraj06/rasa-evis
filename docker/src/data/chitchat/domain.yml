@@ -16,6 +16,19 @@ intents:
     - chitchat/bot_boring
     - chitchat/bot_boss
     - chitchat/bot_ask_howbuilt
+    - chitchat/bot_ask_human_activity
+    - chitchat/bot_scopedout_activities
+    - bot_ask_gender
+    - chitchat/bot_ask_gender
+    - chitchat/bot_about_family
+    - chitchat/bot_about_love
+    - chitchat/bot_ask_whoisbeatiful
+    - chitchat/bot_ask_aboutAI
+    - chitchat/bot_ask_to_sing
+    - chitchat/bot_ask_highfive
+    - chitchat/bot_handleinsult
+    - chitchat/user_ask_whatismyname
+    - chitchat/bot_telljoke
     - chitchat/bot_ask_time
     - chitchat/bot_ask_weather
     - chitchat/bot_ask_languagesbot
@@ -91,8 +104,7 @@ intents:
     - chitchat/user_wants_to_talk
     - chitchat/user_will_be_back
     - chitchat/confirmation_yes
-    - chitchat/confirmation_cancel
-    - chitchat/confirmation_no
+    - chitchat/user_wants_suicide
     - chitchat
     - bot_mock
 
@@ -581,6 +593,36 @@ responses:
 
     utter_chitchat/non_english:
         - text: "I only understand English, I'm sorry."
+
+    utter_chitchat/bot_ask_human_activity:
+        - text: "nil"
+
+    utter_chitchat/bot_scopedout_activities:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_gender:
+        - text: "nil"
+
+    utter_chitchat/bot_about_family:
+        - text: "nil"
+
+    utter_chitchat/bot_about_love:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_whoisbeatiful:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_aboutAI:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_to_sing:
+        - text: "nil"
+
+    utter_chitchat/bot_ask_highfive:
+        - text: "nil"
+
+    utter_chitchat/user_wants_suicide:
+        - text: "nil"
 
     utter_mock:
         - text: "I am mock"

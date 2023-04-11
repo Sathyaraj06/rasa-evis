@@ -1,4 +1,5 @@
 version: "3.1"
+
 nlu:
   - intent: chitchat/bot_acquaintance
     examples: |
@@ -1223,7 +1224,7 @@ nlu:
       - What is your opinion of AI?
       - What is your opinion about technology?
       - What is your take on tech companies?
-  - intent: chitchat/bot_ask_tosing
+  - intent: chitchat/bot_ask_to_sing
     examples: |
       - Won't you sing me a song?
       - Won't you sing for me?
