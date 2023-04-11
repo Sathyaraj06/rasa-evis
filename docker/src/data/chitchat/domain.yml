@@ -18,7 +18,6 @@ intents:
     - chitchat/bot_ask_howbuilt
     - chitchat/bot_ask_human_activity
     - chitchat/bot_scopedout_activities
-    - bot_ask_gender
     - chitchat/bot_ask_gender
     - chitchat/bot_about_family
     - chitchat/bot_about_love
