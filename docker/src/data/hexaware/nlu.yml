@@ -1,11 +1,428 @@
 version: "3.1"
 nlu:
-  - intent: hexaware/reset_password
+  - intent: evis/whatisevis
     examples: |
-      - can you reset my password
-  - intent: hexaware/unlock_account
+      - Can you brief me about evis
+      - Can you tell me more about evis?
+      - Can you tell me what Evis does?
+      - Could you tell me more about Evis?
+      - Give me more information about Evis
+      - How does Evis work?
+      - I want to know about rsa
+      - I want to know what evis actually does that isn't clear to me yet
+      - I want to learn what evis does
+      - I want to learn what evis is
+      - I would like to know about evis
+      - I would like to know more about your product
+      - OK can u brief me Abt evis
+      - EVIS?
+      - Evis Is?
+      - WHAT IS IT
+      - WHAT IS EVIS
+      - What Is evis?
+      - What can evis do?
+      - What do you do as a company?
+      - What do you do at Evis?
+      - What does Evis build?
+      - What does Evis do?
+      - What does Evis make?
+      - What does evis do exactly?
+      - What exactly is Evis?
+      - What is Evis?
+      - What is evis doing exactly?
+      - What is evis?
+      - What is the EVIS Stack?
+      - What's evis?
+      - can you explain evis?
+      - can you pls explain what evis does
+      - could you tell me more about evis
+      - explain me what evis does
+      - explain me what evis is
+      - how does EVIS work?
+      - how does evis work
+      - how does evis work?
+      - how evis works ?
+      - how works evis
+      - i dont get what evis is
+      - i havent understood yet what evis actually is
+      - i want to about evis
+      - i want to know about evis
+      - i want to know what evis does
+      - i want to learn something about evis
+      - so how does it all work?
+      - sorry tell me about evis
+      - tell me about evis
+      - tell me bout evis
+      - tell me more about evis
+      - tell me more about your company
+      - what are the componensts of EVIS
+      - what can I do with Evis?
+      - what can i do with evis
+      - what do you guys do at evis
+      - what does evis do
+      - what does evis do ?
+      - what does evis do?
+      - what does evis mean
+      - what is evis
+      - what is evis?
+      - what is in evis
+      - what is it for?
+      - what is evis
+      - what is evis actually
+      - what is evis?
+      - whats evis
+      - yeah go on explaining what evis is
+      - EVIS IS SOFTWARE?
+      - evis os
+      - what is Evis
+  - intent: evis/why_evis
     examples: |
-      - can you unlock my account
+      - why should i use evis instead of others
+      - why evis
+      - why should I use evis?
+      - why should I switch to evis?
+      - what's so great about using Evis?
+      - how is evis's better than others
+      - why should i use evis instead of others ?
+      - Is it better to use evis or others?
+      - Is evis better than google?
+      - what sets evis apart?
+      - give me a reason to use Evis
+      - why should I switch to evis from others
+      - why should I switch from others
+      - give me a reason to switch to Evis from others
+      - Why switch to Evis?
+      - why switch from others?
+      - why not use others?
+      - why would you opt for evis
+      - why use evis
+      - why should I switch
+      - I meant why you over competitors ?
+      - why to use Evis
+      - why is Evis useful
+      - why is evis better?
+      - why Evis?
+      - why should i choose evis
+      - why is evis so good?
+      - why is evis good
+      - why do I need evis
+      - why should I use Evis
+      - why only evis
+      - why to use evis
+      - why should I migrate to evis?
+      - why migrate?
+      - why switch?
+      - why not use ibm watson
+      - why people go for Evis chatbot?
+      - why to use evis over other available platform
+      - why is evis a good nlp libarary
+      - and why i should not use other platforms?
+      - why would i use your product
+      - why is evis interesting
+      - Why evis?
+      - Why choose evis?
+  - intent: evis/book_demo
+    examples: |
+      - I would like to have a demo scheduled
+      - Is there a live demo of evis somewhere ?
+      - Can i have a deno
+      - bookin
+      - I want to see a demonstration of evis enterprise
+      - How can I try out evis enterprise
+  - intent: evis/contact_sales
+    examples: |
+      - But I wanted a sales call
+      - Can I have a call tomorrow at 3pm?
+      - Can I have a call?
+      - HOW CAN I BOOK A SALES CALL ?
+      - How can i contact the team ?
+      - I also want to book a sales call
+      - I wanna have a subscription for your product
+      - I wanna talk to your sales guy
+      - I wanna talk to your sales people.
+      - I want a sales call
+      - I want an offer for your platform
+      - I want to book a call
+      - I want to book a call with your sales team
+      - I want to buy the evis platform
+      - I want to contact sales
+      - I want to contact the sales team
+      - I want to get in touch with your sales guys
+      - I want to learn more about your pricing
+      - I want to speak with sales
+      - I want to talk to sales
+      - I want to talk to someone about your pricing system
+      - I want to talk to your sales guys
+      - I want to talk to your sales people
+      - I want to talk to your sales team
+      - I want to talk with sales about our project
+      - I would like to book a call
+      - I would like to book a sales call
+      - I would like to contact your sales team please
+      - I would like to have a call with sales team
+      - I would like to talk to someone from your sales team
+      - i want to buy the enterprise edition
+      - i would like evis enterprise
+      - purchase evis enterprise
+      - buy evis enterprise
+      - Ok I want to talk to your sales team immediately
+      - Please connect me to someone from sales
+      - Please schedule a sales call
+      - are there different packages customers can book?
+      - book an appointment
+      - can i speak to the sales team
+      - can i talk to a sales representative
+      - can you connect me to sales
+      - connect me to your sales department
+      - give me someone who can explain your business model
+      - have a call with the sales team
+      - hm ok then i want to talk to the sales dude
+      - how does your pricing work?
+      - how to book a sales call
+      - how to book a sales call>
+      - how to book a sales call?
+      - i choose the call
+      - i choose the call with sales
+      - i need a call from sales
+      - i need the call request
+      - i need to know how i can book support
+      - i need to speak to your sales team
+      - i need to talk to sales
+      - i need your data source
+      - i think I want to talk to your sales folks
+      - i want one platform please
+      - i want someone to call me
+      - i want ti booking about booking sales
+      - i want to be connected to your sales team
+      - i want to be in touch with sales
+      - i want to book a appointment
+      - i want to book a sales call
+      - i want to bookk a sales call
+      - i want to buy the evis platform
+      - i want to connect to your sales team
+      - i want to connect your sales
+      - i want to contact sales
+      - i want to contact sales now
+      - i want to contact sales support
+      - i want to contact your sales team
+      - i want to have a call with sales
+      - i want to talk to sales
+      - i'd like to talk to a sales person
+      - i'd like to talk to sales
+      - id like a call please
+      - id like to talk to someone who can explain me what i can do with evis
+      - let me talk to your sales guys
+      - let me talk to your sales people
+      - obviously talk to your awesome sales team
+      - please can you book call for me
+      - please connect me to sales
+      - request a call
+      - request call with sales team
+  - intent: evis/how_to_get_started
+    examples: |
+      - can you help me to build a bot
+      - can you tell me how to build a bot?
+      - Can I build a FAQ robot with Evis?
+      - I wanted to build a bot my product customer support
+      - Get started
+      - HOW CAN i connect to evis
+      - Help me get started
+      - Hot to get started with evis
+      - How can I develop a bot?
+      - How can I get started with Evis
+      - How can I get started with Evis?
+      - How can I get started with evis?
+      - How can I get started?
+      - How can I try out Evis?
+      - How can i launch a bot?
+      - How do I build a bot
+      - How do I get started
+      - How do I get started with Evis?
+      - How do I get started?
+      - How do I start
+      - How get started?
+      - How to build a bot in evis
+      - How to download?
+      - How to get start
+      - How to get started
+      - How to get started with Evis
+      - How to get started with Evis [core](product)?
+      - How to get started with Evis?
+      - How to get started?
+      - How to get starter?
+      - How to make a bot
+      - How to start using Evis
+      - I like to build a bot
+      - I need to know if I can use Evis to build an application?
+      - I want to build a bot
+      - I want to build a chatbot
+      - I want to create chatbot using Evis
+      - I want to implement evis
+      - I want to know how to get started with evis
+      - Lets start with the basics
+      - Please tell me how I can start?
+      - Please tell me how to get started
+      - Please tell me how to get started with evis
+      - Show me learning resources about Evis
+      - Sure, give me the basics
+      - Tell me how to get started
+      - Tell me how to get started with Evis
+      - Tell me more about Get started with Evis
+      - What are the prerequisites for installing Evis
+      - What do I Need for Evis implementation?
+      - can i just test features without having to deal with your predefined conversation
+      - can i try it out
+      - can u teach me
+      - can you explain how can i make chatbot like you
+      - can you guide me know to create knowledge base chatbot
+      - can you help me build a chatbot
+      - can you help me get started?
+      - do you know how to set up a chatbot?
+      - find out how to get started with Evis
+      - from where I should start?
+      - get strarted with evis
+      - help me build a bot
+      - help me get started
+      - help with evis
+      - hi can you help e build a chatbot
+      - how about building chatbot
+      - how can I build a chatbot
+      - how can I get started
+      - how can I get started?
+      - how can I learn evis
+      - how can i build a chatbot
+      - how can i get started with Evis?
+      - how can i get started with evis
+      - how can i get started?
+      - how can i start
+      - how cna i get started with evis
+      - how do I build a bot?
+      - how do I get started
+      - how do I get started with Evis
+      - how do I get started with evis
+      - how do I get started?
+      - how do I use evis
+      - how do i build a bot
+      - how do i build a bot?
+      - how do i build a chatbot?
+      - how do i build a evis chatbot?
+      - how do i get started with evis myself?
+      - how do i get started?
+      - how do i set up a chatbot?
+      - how do you build a bot
+      - how easy is it to use evis?
+      - how this Evis works
+      - how to build a bot
+      - how to build a bot?
+      - how to build a chatbot
+      - how to build chatbot using evis
+      - how to create a basic chat bot
+      - how to get start with Evis
+      - how to get started
+      - how to get started with
+      - how to get started with Evis
+      - how to get started with rassa
+      - how to start with it
+      - how to start with evis
+      - how to start with evis?
+      - hw to get started with Evis
+      - i need help with evis
+      - i wanna build a bot
+      - i wanna get started
+      - i want to built a chatbot please help me
+      - i want to develop a chatbot
+      - i want to get started
+      - i want to get started with evis
+      - i want to know how can buld my own bot
+      - i want to know how to start with Evis
+      - i want to make intelligence chatbot
+      - i want to use evis to build my chatbot
+      - i would like to know how to get started with Evis
+      - i'd like to get started with evis
+      - please teach me
+      - pls explain how to get started
+      - so, how do I use evis?
+      - tell me how i can get started with evis
+      - tell me how to get started with [core](product)
+      - tell me how to start
+      - tell me more about how to use evis
+      - what is the best place to get started?
+      - where do i start?
+      - where should i start from
+      - where to start the development of evis
+      - how to build assistant?
+      - can you tell me how to create a new evis project
+      - can you help me build my bot?
+      - how to build bot with evis
+  - intent: evis/human_handoff
+    examples: |
+      - Can I speak to anyone who can really help me?
+      - I don't wanna talk to a bot
+      - I dont like to talk to a machine
+      - I want to talk to a human
+      - I want to talk to the founders
+      - are there also humans working for your company?
+      - can I speak to a person?
+      - can i please speak to a human?
+      - can you forward me to your team
+      - can you please connect me to a real rasa employee?
+      - can you put me in touch with a human?
+      - do you have human support ?
+      - give me a human
+      - give me a human now
+      - human handoff
+      - i dont wanna talk to a bot
+      - i want to speak to a real person
+      - i want to speak to customer service
+      - i want to talk to a human
+      - i want to talk to a person
+      - i want to talk to human
+      - i want to talk to someone at rasa
+      - i want to talk to someone else
+      - i want to talk to someone who is smarter than you
+      - i would like to speak to a person
+      - i'd rather speak with a real rasa employee
+      - id like to talk to a real rasa employee
+      - let me speak with a real person please
+      - let me talk to a human
+      - let me talk to a real person
+      - please give me a human
+      - service agent
+      - someone from customer care
+      - speak to a real person
+      - talking to a bot is stupid
+      - that's annoying I'd like to speak to someone real
+      - thats not helping, can i talk to human?
+      - wrong i want to speak to a human
+      - can i speak to human
+      - can i speak to your human
+      - i want to chat with human
+      - How do I talk to a human
+      - talk with a human
+      - Can i talk to a human instead
+      - nevermind.... you're not human ... I need to talk to a live person
+      - Can you get a human to assist me?
+      - Can i talk to a human?
+      - Can I talk to a human
+      - Can I speak to a human?
+      - can i speak to a human
+      - no, i want to talk to human
+      - can you hand a conversation over to a human?
+      - can I talk to human?
+      - can I talk to human
+      - talk to human
+      - i want human :(
+      - can i talk to human
+      - i want to talk to a human
+      - i want to speak to human
+      - can i talk to a real person?
+      - connect me to a real person
+      - I need a real person
+      - can i took with a real person
+      - let me speak to a real person
+      - let me speak to a real person please
+      - i want to talk to a real person
+
   - intent: bot_mock1
     examples: |
       - are you a mock?

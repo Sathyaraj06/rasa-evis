@@ -23,13 +23,15 @@ nlu:
       - what are you upto?
       - who the hell are you?
       - what can you do for me?
+      - what I can call you
+      - tell me your name
+      - what's your name
   - intent: chitchat/bot_age
     examples: |
       - tell me your age
       - what's your age?
       - your age
       - age of yours
-      - how old were you
       - I'd like to know your age
       - how old is your platform
       - how old are you?
@@ -45,6 +47,59 @@ nlu:
       - how old r u?
       - From how long you have been here?
       - You look aged
+      - How long have you been alive?
+      - How long have you been around?
+      - How long have you occupied the earth?
+      - How many candles were on your last birthday cake?
+      - How many years have you been alive?
+      - How many years have you lived?
+      - How old are you?
+      - How old were you on your last birthday?
+      - How old will you be on your next birthday?
+      - Tell me your day, month and year of birth.
+      - What is your age?
+      - What is your birthdate?
+      - What is your count of years being alive so far?
+      - What was your age on your last birthday?
+      - What will be your age on your next birthday?
+      - What year were you born?
+      - Whats your age?
+      - When do you celebrate your day of birth?
+      - and you are how many years old?
+      - can you tell me exactly how old you are?
+      - can you tell me what number represents your age?
+      - can you tell me your age?
+      - do you know how old you are?
+      - give me your age?
+      - how about your age
+      - how aold are you
+      - how many ages?
+      - how many years old are you?
+      - how old are u
+      - how old are you
+      - how old are you?
+      - how old were you on your last birthday?
+      - how old were you when you celebrated your last birthday?
+      - how old will you be this year?
+      - how old?
+      - in what year were you born?
+      - tell me how old you are?
+      - tell me your age number?
+      - tell me your age?
+      - what age are you
+      - what age were you when you celebrated your last birthday?
+      - what is your age?
+      - what is your birthday?
+      - what is your exact age?
+      - what number represents your age?
+      - what year were you born?
+      - what's your age?
+      - whats your age?
+      - whats your birth year?
+      - when is your birthday?
+      - when were you born?
+      - when you were bon
+      - What's your age?
   - intent: chitchat/bot_annoying
     examples: |
       - you are annoying me so much
@@ -126,7 +181,6 @@ nlu:
       - Why are you this lame?
   - intent: chitchat/bot_be_clever
     examples: |
-      - study
       - you should study better
       - you must learn
       - be clever
@@ -312,9 +366,6 @@ nlu:
       - in what way were you made?
       - so how were you made?
       - what are you made of
-      - Are you built using rasa?
-      - Are u developed in rasa
-      - are you build with rasa ?
   - intent: chitchat/bot_ask_time
     examples: |
       - Can you give me the time?
@@ -535,6 +586,61 @@ nlu:
       - u look busy
       - You'll be busy
       - Aren't you busy?
+
+  - intent: chitchat/bot_handleinsult
+    examples: |
+      - You are a fucker
+      - Fuck off
+      - Son of a bitch
+      - stupid
+      - fucker
+
+  - intent: chitchat/user_ask_whatismyname
+    examples: |
+      - Can you tell me my name?
+      - Can you tell me what I am called?
+      - Do I have a name?
+      - Do I have a name? What is it?
+      - Do you know my name?
+      - Do you know what my name is?
+      - Explain my name to me.
+      - I have a name, what is it?
+      - I'd like to know my name
+      - I'd like to know what my name is
+      - Inform me what my name is
+      - May i know my name?
+      - Please let me know what my name is
+      - Say my name.
+      - Tell me my name
+      - Tell me my name.
+      - What am I called?
+      - What could be my name?
+      - What did my parents name me?
+      - What do I call myself?
+      - What do my colleagues call me?
+      - What do people call me?
+      - What does everyone call me?
+      - What else do people call me?
+      - What exactly is my name?
+      - What is my first name?
+      - What is my full name?
+      - What is my name?
+      - What is the name I was given?
+      - What name do I go by?
+      - What name should I recognize for myself?
+      - What was I named?
+      - can you tell me my name?
+      - what is my name
+      - what is my name?
+      - what's my name?
+
+  - intent: chitchat/bot_telljoke
+    examples: |
+      - Tell me a joke!
+      - Could you crack a joke
+      - Say a joke to me
+      - a joke please
+
   - intent: chitchat/bot_can_you_help
     examples: |
       - I need you to help me
@@ -892,22 +998,7 @@ nlu:
       - Did you find a job?
       - I hope you get the job
       - You have a job, don't you?
-  - intent: chitchat/bot_origin
-    examples: |
-      - were you born here
-      - where were you born
-      - what is your country?
-      - where are you from
-      - where do you come from
-      - where did you come from
-      - where have you been born
-      - from where are you
-      - are you from far aways
-      - what's your homeland?
-      - your homeland is
-      - Where are you from?
-      - Let me know about the origin of u
-      - your native?
+
   - intent: chitchat/bot_ready
     examples: |
       - are you ready?
@@ -945,6 +1036,18 @@ nlu:
       - you are a real person
       - you are not real
       - are you real?
+      - you are bot or human?
+      - are you human
+      - ok, i know i confused you there being a human! :)
+      - you are human or bot
+      - Are you human?
+      - are you a human ?
+      - Are you human ?
+      - Are you a human being?
+      - are you real person or chat bot?
+      - So I'm here Today to ask one very simple question, what are you ?
+      - you sound like a real human
+      - wow you sound like real human
   - intent: chitchat/bot_residence
     examples: |
       - where do you live
@@ -972,6 +1075,69 @@ nlu:
       - your town
       - What is your hometown?
       - where do you live?
+       - were you born here
+      - where were you born
+      - what is your country?
+      - where are you from
+      - where do you come from
+      - where did you come from
+      - where have you been born
+      - from where are you
+      - are you from far aways
+      - what's your homeland?
+      - your homeland is
+      - Where are you from?
+      - Let me know about the origin of u
+      - your native?
+      - Are you from around here?
+      - Around where are you from?
+      - Do you know where you come from?
+      - From where did you come?
+      - So where are you from
+      - What area are you from?
+      - What citizenship do you lay claim to?
+      - What city are you in?
+      - What city do you claim to for your birth?
+      - What city were you born in?
+      - What country are you from?
+      - What country were you born in?
+      - What is your birthplace?
+      - What is your heritage?
+      - What is your origin?
+      - What is your original location?
+      - What is your root?
+      - What location are you from?
+      - What state were you born in?
+      - What's the name of the place you came from?
+      - Where are you located?
+      - Where are you?
+      - Where are your origins?
+      - Where are your roots?
+      - Where did you come from?
+      - Where did you grow up?
+      - Where did you originate?
+      - Where do you come from?
+      - Where do you consider home?
+      - Where do you live?
+      - Where from?
+      - Where might you be from?
+      - Where were you at before you were here?
+      - Where were you born?
+      - You live around here?
+      - You were conceived in what location?
+      - are you from around here?
+      - what country are you from?
+      - where are from
+      - where are you from
+      - where are you from?
+      - where are your parents from?
+      - where did you come from?
+      - where did you grow up?
+      - where did you spend your youth?
+      - where do you come from?
+      - where do you live
+      - where do you live?
+      - where's your home town?
   - intent: chitchat/bot_right
     examples: |
       - that's true
@@ -1047,7 +1213,6 @@ nlu:
       - are you still here
   - intent: chitchat/bot_what_can_do
     examples: |
-      - what can you do?
       - what can do?
       - what is your ability?
       - what are your abilities?
@@ -1060,6 +1225,53 @@ nlu:
       - what can you do for me?
       - what all can you do?
       - what are your features?
+      - Can you explain me in one sentence what you are doing?
+      - Can you help me?
+      - Could you please show me what you can
+      - Great, is there anything else you can do, bot?
+      - How can you help me
+      - How you help me?
+      - I need help
+      - I need some help
+      - What are my options
+      - What are you able to do?
+      - What can I ask you?
+      - What can I do?
+      - What can you demo
+      - What can you do
+      - What can you do for me?
+      - What can you do?
+      - what you can do
+      - what you can do for me?
+      - What can you tell me?
+      - What do you do
+      - anything els
+      - are there any other options?
+      - can I ask you anything else?
+      - can you do anything else?
+      - can you help me
+      - can you help me?
+      - come back
+      - cool! can I do something else here?
+      - hello what can you do for me
+      - help
+      - help me
+      - help please
+      - help pls
+      - help?
+      - hep me
+      - show me what's possible
+      - so now what
+      - so what can you do
+      - so what can you do?
+      - so what can you help me with?
+      - so what next?
+      - talk to me
+      - talk to me!
+      - tell me something you can do
+      - tell me what's your skill
+      - what else can you do?
+      - what else can you help with?
   - intent: chitchat/appraisal_bad
     examples: |
       - pretty bad
@@ -1549,12 +1761,23 @@ nlu:
       - how are you?
       - is everything all right
       - how are you doing?
+      - how are you doing this morning
+      - how are you doing today my sweet friend
+      - how are you doing today?
+      - how are you feeling
       - how are the things going
       - are you alright
       - are you okay?
+      - Are you ok?
+      - Do you feel good?
+      - Do you have a great day?
       - how are you feeling
       - how are you going?
+      - wassup>
+      - what about your day
+      - what are you up to?
       - is everything okay
+      - Is everything ok?
       - how are you today?
       - how do you do?
       - how do you feel?
@@ -1564,6 +1787,19 @@ nlu:
       - how is your day going
       - how is your evening
       - how was your day
+      - How's life treating you friend?
+      - How've you been?
+      - Hows it going
+      - I'm fine and you
+      - What's going on?
+      - What's new?
+      - What's up
+      - What's up man
+      - whatchcha doing
+      - whatchya upto ?
+      - whats goin on
+      - whats new
+      - whatsapp
       - are you having a good day
       - hope your day is going well
       - hope you re having a pleasant evening
@@ -2253,6 +2489,49 @@ nlu:
       - I'll return in a jiffy
       - When I return, we'll talk
       - I'll return in ten minutes
+  - intent: chitchat/non_english
+    examples: |
+      - Wie fange ich mit Rasa an?
+      - hilf mir beim start
+      - tschüssikowski
+      - ¿Qué pasa?
+      - ça va ?
+      - como te llamas
+      - wer bist Du?
+      - como inicio en rasa
+      - come stai?
+      - como estas
+      - de donde eres
+      - de que lugar eres?
+      - epdi iruka
+      - eres humana
+      - kalhmera sara ti kaneis
+      - kannst du auch deutsch?
+      - kannst du dies auch auf deutsch?
+      - oui je besoine de l'aide
+      - que puedes hacer?
+      - tu parles francais?
+      - tudo bom
+      - tu pagal
+      - kannst du mir helfen
+      - tu kaisi he
+      - こにちは
+      - 日本語分かる？
+      - chào
+      - 你好
+      - I'm speaking a non-english language.
+      - 呵呵
+      - 我该如何使用
+      - 你懂中文吗？
+      - 您好
+      - 你叫什么名字
+      - 你是谁
+      - 中文
+      - kya hindi me bat kar sakate ho
+      - Dumme sara
+      - αστεία λές
+      - rasa codigo abierto
+      - 卧槽
 
   - intent: bot_mock
     examples: |
