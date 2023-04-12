@@ -100,6 +100,26 @@ intents:
     - chitchat/bot_i_will_be_back
     - chitchat/user_reponding_yeap
     - chitchat/bot_i_am_gng_to_commit_suicide
+    - chitchat/bot_do_you_have_girlfriend_boyfriend
+    - chitchat/bot_do_you_have_pets
+    - chitchat/bot_do_you_read_books
+    - chitchat/bot_do_you_listen_music
+    - chitchat/bot_whats_your_favorite_food
+    - chitchat/bot_whats_your_weekend_vaccation_plan
+    - chitchat/bot_give_me_best_tourist_places
+    - chitchat/bot_do_you_like_movie
+    - chitchat/bot_do_you_like_sports
+    - chitchat/bot_whats_your_favourite_tv_show
+    - chitchat/bot_whats_your_biggest_fear
+    - chitchat/bot_how_to_stay_healthy
+    - chitchat/bot_do_you_know_cooking
+    - chitchat/bot_how_to_reduce_my_stress
+    - chitchat/bot_should_i_choose_you
+    - chitchat/bot_are_you_the_best
+    - chitchat/bot_can_you_predict_the_future
+    - chitchat/bot_do_you_have_human_emotions_experiences
+    - chitchat/bot_can_you_solve_math_problem
+
     - chitchat
     - bot_mock
 
@@ -571,8 +591,16 @@ responses:
         - text: "All right!"
         - text: "Good!"
 
+    utter_chitchat/bot_do_you_have_girlfriend_boyfriend:
+        - text: "I am sorry..As a bot, I don't have personal relationships or the ability to make love or form romantic attachment. But I can provide you helpful reposnses ans assist with specific taks"
+
+    utter_chitchat/bot_will_you_be_my_girlfriend:
+        - text: "I am sorry..As a bot, I don't have personal relationships or the ability to make love or form romantic attachment. But I can provide you helpful reposnses ans assist with specific taks"
+
     utter_chitchat/non_english:
         - text: "I only understand English, I'm sorry."
+
+    # Yet to write texts
 
     utter_chitchat/bot_do_you_do_human_activity:
         - text: "nil"
@@ -605,6 +633,60 @@ responses:
         - text: "nil"
 
     utter_chitchat/bot_i_am_gng_to_commit_suicide:
+        - text: "nil"
+
+    utter_chitchat/bot_do_you_have_pets:
+        - text: "nil"
+
+    utter_chitchat/bot_do_you_read_books:
+        - text: "nil"
+
+    utter_chitchat/bot_do_you_listen_music:
+        - text: "nil"
+
+    utter_chitchat/bot_whats_your_favorite_food:
+        - text: "nil"
+
+    utter_chitchat/bot_whats_your_weekend_vaccation_plan:
+        - text: "nil"
+
+    utter_chitchat/bot_give_me_best_tourist_places:
+        - text: "nil"
+
+    utter_chitchat/bot_do_you_like_movie:
+        - text: "nil"
+
+    utter_chitchat/bot_do_you_like_sports:
+        - text: "nil"
+
+    utter_chitchat/bot_whats_your_favourite_tv_show:
+        - text: "nil"
+
+    utter_chitchat/bot_whats_your_biggest_fear:
+        - text: "nil"
+
+    utter_chitchat/bot_how_to_stay_healthy:
+        - text: "nil"
+
+    utter_chitchat/bot_do_you_know_cooking:
+        - text: "nil"
+
+    utter_chitchat/bot_how_to_reduce_my_stress:
+        - text: "nil"
+
+    utter_chitchat/bot_should_i_choose_you:
+        - text: "nil"
+
+    utter_chitchat/bot_are_you_the_best:
+        - text: "nil"
+
+    utter_chitchat/bot_can_you_predict_the_future:
+        - text: "nil"
+
+    utter_chitchat/bot_do_you_have_human_emotions_experiences:
+        - text: "nil"
+
+    utter_chitchat/bot_can_you_solve_math_problem:
         - text: "nil"
 
     utter_mock:

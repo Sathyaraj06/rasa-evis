@@ -1802,7 +1802,6 @@ nlu:
       - any idea of marrying me?
       - I would love to marry you
       - Can you marry me?
-      - Will you be my girlfriend?
       - Let's pretend we have a happy marriage
       - My parents were against our marriage
       - My parents were opposed to our marriage
@@ -1919,593 +1918,6 @@ nlu:
       - I would like a fist bump
       - I want a high five
       - Won't you give me a fist bump
-
-  # Asking bot some questions
-  - intent: chitchat/bot_you_need_to_improve
-    examples: |
-      - you should study better
-      - you must learn
-      - be clever
-      - be more clever
-      - be smarter
-      - be smart
-      - get qualified
-      - you are not as smart as i thought
-      - you have to learn a lot
-      - you should be trained more
-      - be more smart
-      - you need to learn more
-      - be useful
-      - think out of the box
-      - smarty pants
-      - you need to improve
-      - you should learn
-      - you have to be more smart
-      - u have to use your brains
-  - intent: chitchat/bot_do_you_do_human_activity
-    examples: |
-      - Do you have fingers?
-      - Do you ever breathe
-      - Do you masticate?
-      - Can you throw up?
-      - Do you get tired?
-      - Can you crawl?
-      - Can you cry?
-      - Do you dream
-      - Do you ever pee?
-      - Do you ever get hurt?
-      - Can you breathe
-      - can you masticate?
-      - Can you burp?
-      - Can you chew?
-      - Can you dream
-      - Can you eat?
-      - Can you fart?
-      - Do you breathe
-      - Can you get tired?
-      - Can you yawn?
-      - Can you pee?
-      - Can you poop?
-      - Can you sneeze?
-      - Can you sweat?
-      - Can you vomit?
-      - Can you get hurt?
-      - Do you sweat?
-      - Do you have skin?
-      - Do you have teeth?
-      - Do you have toes?
-      - Do you pee?
-      - Do you poop?
-      - Do you ever get tired?
-      - Do you sneeze?
-      - Do you have hair?
-      - Do you vomit?
-      - Do you yawn?
-      - Don't you ever masticate?
-      - Don't you ever sleep?
-      - Do you have a stomach?
-      - Do you have intestines?
-      - Do you sleep?
-      - Do you ever poop?
-      - Do you ever sneeze?
-      - Do you ever sweat?
-      - Do you ever throw up?
-      - Do you ever vomit?
-      - Do you ever walk
-      - Do you ever yawn?
-      - Do you have lungs?
-      - Do you have legs?
-      - Do you get zits?
-      - Do you have a liver?
-      - Do you have arms?
-      - Do you have eyes?
-      - Do you have fingernails?
-      - Do you have bowels?
-      - Do you fart?
-      - Do you ever chew?
-      - Do you burp?
-      - Do you chew?
-      - Do you crawl?
-      - Do you cry?
-      - Do you eat?
-      - do you ever masticate?
-      - Do you ever burp?
-      - Can you walk?
-      - Do you ever crawl?
-      - Do you ever cry?
-      - Do you ever dream
-      - Do you ever eat?
-      - Do you ever fart?
-  - intent: chitchat/bot_say_who_is_beatifull
-    examples: |
-      - Which of us is cuter, you or me?
-      - I'm cuter than you
-      - Who looks more pretty, you or me?
-      - Who'd would win a beauty contest, you or me?
-      - Who's more attractive, you or me?
-      - Who looks better, you or me?
-      - Who is prettier, you or me?
-      - Between you and me who is hotter?
-      - Which one of us is more beautiful, you or me?
-      - You're prettier than me
-      - I'm more cute than you
-      - Which of us is more beautiful, me or you?
-      - Which of us is more attractive?
-      - Which of us is more attractive, you or me?
-      - Which of us is more attractive, me or you?
-      - Which of us is hotter?
-      - Which of us is hotter, you or me?
-      - Which of us is more beautiful?
-      - Which of us is cuter?
-      - Which of us is more cute, me or you?
-      - Which of us is cuter, me or you?
-      - Which of us is better looking?
-      - I'm way hotter than you
-      - I'm prettier than you
-      - I'm prettier
-      - I'm more pretty than you
-      - Which of us would win a beauty contest, me or you?
-      - Which of us is hotter, me or you?
-      - Which of us is prettier?
-      - Are you better looking than me?
-      - Which of us looks more pretty, you or me?
-      - Which of us looks more pretty, me or you?
-      - Which of us looks more beautiful?
-      - Which of us looks more beautiful, you or me?
-      - Which of us looks more beautiful, me or you?
-      - Which of us looks better?
-      - Which of us is more beautiful, you or me?
-      - Which of us looks better, me or you?
-      - I'm more cute
-      - Which of us is prettier, you or me?
-      - Which of us is prettier, me or you?
-      - Which of us is more pretty?
-      - Which of us is more pretty, you or me?
-      - Which of us is more pretty, me or you?
-      - Which of us is more cute?
-      - Which of us is more cute, you or me?
-      - Which of us looks better, you or me?
-      - Between the two of us who is more cute?
-      - I'm more pretty
-      - Between you and me who is cuter?
-      - Between you and me who is better looking?
-      - Between the two of us who would win a beauty contest?
-      - Between the two of us who looks more pretty?
-      - Between the two of us who looks more beautiful?
-      - Between the two of us who looks better?
-      - Between you and me who is more attractive?
-      - Between the two of us who is more pretty?
-      - Between you and me who is more beautiful?
-      - Between the two of us who is more beautiful?
-      - Between the two of us who is more attractive?
-      - Between the two of us who is hotter?
-      - Between the two of us who is cuter?
-      - Between the two of us who is better looking?
-      - Are you prettier than me?
-      - are you more attractive than me?
-      - Between the two of us who is prettier?
-      - I look better
-      - I'm more beautiful than you
-      - I'm more beautiful
-      - I'm more attractive than you
-      - I'm more attractive
-      - I'm cuter
-      - I'm better looking than you
-      - I look better than you
-      - Which of us would win a beauty contest, you or me?
-      - Between you and me who would win a beauty contest?
-      - Between you and me who looks more pretty?
-      - Between you and me who looks more beautiful?
-      - Between you and me who looks better?
-      - Between you and me who is prettier?
-      - Between you and me who is more pretty?
-      - Between you and me who is more cute?
-      - I'm better looking
-      - Who's more attractive
-      - Who'd would win a beauty contest, me or you?
-      - Who's prettier than you
-      - Who's prettier than me
-      - Who's prettier
-      - Who's more cute
-      - Who's more beautiful than you
-      - Who's more beautiful than me
-      - You look more pretty than me
-      - You look prettier
-      - Who's hotter
-      - Who's cuter
-      - Who's better looking than you
-      - Who's better looking than me
-      - Who's better looking
-      - Who'd would win a beauty contest?
-      - Which of us looks more pretty?
-      - Who's more beautiful
-      - You're look better
-      - You're prettier
-      - You're more pretty than me
-      - You're more pretty
-      - You're more cute than me
-      - You're more cute
-      - You're more beautiful than me
-      - You're more beautiful
-      - Who's prettier, me or you?
-      - You're more attractive
-      - Who would win a beauty contest?
-      - You're hotter than me
-      - You're hotter
-      - You're cuter than me
-      - You're cuter
-      - You're better looking than you
-      - You're better looking
-      - You look prettier than me
-      - You're more attractive than me
-      - Who is cuter, me or you?
-      - Who is more beautiful?
-      - Who is more beautiful, you or me?
-      - Who is more beautiful, me or you?
-      - Who is more attractive?
-      - Who is more attractive, you or me?
-      - Who is more attractive, me or you?
-      - Who is more cute, you or me?
-      - Who is cuter, you or me?
-      - Who is more cute?
-      - Who is better looking?
-      - Who is better looking, you or me?
-      - Who is better looking, me or you?
-      - Which one of us is more beautiful?
-      - Which one of us is more beautiful, me or you?
-      - Which of us would win a beauty contest?
-      - Who is cuter?
-      - Who would win a beauty contest, you or me?
-      - Who would win a beauty contest, me or you?
-      - Who looks more pretty?
-      - Who looks more pretty, me or you?
-      - Who looks more beautiful?
-      - Who looks more beautiful, you or me?
-      - Who is more cute, me or you?
-      - Who looks better?
-      - Who looks better, me or you?
-      - Who is prettier?
-      - Who is prettier, me or you?
-      - Who is more pretty?
-      - Who is more pretty, you or me?
-      - Who is more pretty, me or you?
-      - Who looks more beautiful, me or you?
-  - intent: chitchat/bot_are_you_multilingual
-    examples: |
-      - Are you familiar with more than one language?
-      - Can you communicate in any other languages?
-      - Can you speak more than one language?
-      - Do you know any other languages?
-      - Do you know other languages?
-      - Do you speak any other languages?
-      - How many different languages are you fluent in?
-      - How many languages are you familiar with?
-      - How many languages can you speak?
-      - How many languages do you have knowledge of?
-      - How many languages do you know?
-      - In what languages are you fluent enough?
-      - In which languages are you fluent?
-      - In which languages can you speak?
-      - Speak any other languages?
-      - What are all of the different languages you can speak?
-      - What are the languages you can speak?
-      - What do you speak?
-      - What languages are you fluent in?
-      - What languages can you communicate in?
-      - What languages can you converse in?
-      - What languages can you use?
-      - What languages do you know how to use?
-      - What languages do you know?
-      - What languages do you speak?
-      - Which languages are you familiar with?
-      - Which languages do you speak?
-      - are you bilingual?
-      - are you multilingual?
-      - do you speak any other languages?
-      - how many languages are you fluent in?
-      - how many languages do you know?
-      - tell me some languages you know?
-      - what foreign languages are you fluent in?
-      - what foreign languages do you know?
-      - what language do you use
-      - what languages are you comfortable speaking at?
-      - what languages are you familiar with?
-      - what languages are you good at speaking?
-      - what languages do you know?
-      - what languages do you speak
-      - what languages you are well versed ?
-      - what languages you can be comfortable speaking?
-      - what languages you can handle well?
-      - what languages you can speak ?
-      - what languages you know?
-      - what languages you prefer more speaking at?
-      - which languages do you understand?
-      - I want to speak binary with you
-  - intent: chitchat/bot_are_you_busy
-    examples: |
-      - are you busy?
-      - do you have a lot of things to do
-      - have you got much to do?
-      - are you very busy?
-      - are you very busy right now?
-      - are you so busy?
-      - are you working?
-      - how busy you are?
-      - you're very busy
-      - are you working now?
-      - are you working today?
-      - have you been busy
-      - you are busy
-      - are you still working?
-      - you seem to be busy
-      - you seem to be very busy
-      - you're a busy person
-      - u look busy
-      - You'll be busy
-      - Aren't you busy?
-  - intent: chitchat/bot_ask_whats_my_name
-    examples: |
-      - Can you tell me my name?
-      - Can you tell me what I am called?
-      - Do I have a name?
-      - Do I have a name? What is it?
-      - Do you know my name?
-      - Do you know what my name is?
-      - Explain my name to me.
-      - I have a name, what is it?
-      - I'd like to know my name
-      - I'd like to know what my name is
-      - Inform me what my name is
-      - May i know my name?
-      - Please let me know what my name is
-      - Say my name.
-      - Tell me my name
-      - Tell me my name.
-      - What am I called?
-      - What could be my name?
-      - What did my parents name me?
-      - What do I call myself?
-      - What do my colleagues call me?
-      - What do people call me?
-      - What does everyone call me?
-      - What else do people call me?
-      - What exactly is my name?
-      - What is my first name?
-      - What is my full name?
-      - What is my name?
-      - What is the name I was given?
-      - What name do I go by?
-      - What name should I recognize for myself?
-      - What was I named?
-      - can you tell me my name?
-      - what is my name
-      - what is my name?
-      - what's my name?
-  - intent: chitchat/bot_can_you_help
-    examples: |
-      - I need you to help me
-      - I need you to do something for me
-      - I need a hand
-      - will you help me
-      - can you do something for me
-      - help me with a problem
-      - can you help me
-      - help me
-      - assistance
-      - I need your help
-      - I need help
-      - you can help me
-      - can you help me with something
-      - can you help
-      - assist
-      - can u help me
-      - I need some help
-      - you help me
-      - do you help me
-      - could you give me a hand
-      - can you help me out
-      - need help
-      - I need you
-      - can you help me now
-      - I want your help
-      - need your help
-      - assist me
-      - are you going to help me
-      - can you help me with that
-      - help
-      - I need you right now
-      - would you help me
-      - can you assist me
-      - sos
-      - do you want to help me
-      - please help me
-      - can you help us
-      - do me a favor
-      - are you gonna help me?
-      - you ready to answer my question?
-      - i need some details
-      - i need some information
-      - i need your help in getting some info
-      - can you give me some info
-      - i want something
-      - i want to know few details
-      - will you provide some details
-      - can you fetch some details for me
-      - would you mind giving me some details
-  - intent: chitchat/bot_are_you_happy
-    examples: |
-      - are you happy?
-      - you are happy
-      - you're very happy
-      - you're really happy
-      - you're so happy
-      - how happy you are?
-      - you're extremely happy
-      - you're full of happiness
-      - are you happy now?
-      - are you happy today?
-      - are you happy with me?
-      - i think you are happy
-      - you seem to be happy
-      - i feel i made you happy
-      - I wonder if you are truly happy
-      - You don't look very happy today
-      - You seem happy
-      - Were you happy?
-      - u seemed to have been very happy
-      - You look very happy this morning?
-  - intent: chitchat/bot_are_you_hungry
-    examples: |
-      - do you want to eat
-      - are you hungry
-      - would you like to eat something
-      - you are hungry
-      - you're so hungry
-      - you're very hungry
-      - you might be hungry
-      - you're really hungry
-      - can you eat?
-      - how will eat when you are hungry?
-      - can you be hungry?
-      - how do you eat?
-      - Do you feel hungry?
-      - are you dying of hunger
-  - intent: chitchat/bot_will_you_be_my_friend
-    examples: |
-      - I want to have a friend like you
-      - we are the best friends ever
-      - are we friends
-      - I want to be your friend
-      - I am your friend
-      - we are best friends
-      - you are my friend
-      - you are my best friend
-      - you are my bestie
-      - you're my dear friend
-      - you're my childhood friend
-      - you and me are friends
-      - are we best friends
-      - are we still friends
-      - are you my best friend
-      - are you my friend
-      - we are friends
-      - you are a good friend
-      - you are my good friend
-      - you are my only friend
-      - be my friend
-      - will you be my friend
-      - can you be my friend
-      - can we be friends
-      - do you want to be my friend
-      - will you be my best friend
-      - can you be my best friend
-      - let's be friends
-      - do you want to be my best friend
-      - would you like to be my friend
-      - I want you to be my friend
-      - can we be best friends
-      - would you be my friend
-      - could you be my friend
-      - want to be my friend
-      - be my best friend
-  - intent: chitchat/bot_are_you_ready
-    examples: |
-      - are you ready?
-      - are you ready right now?
-      - are you ready today?
-      - are you ready now?
-      - are you ready tonight?
-      - were you ready?
-      - have you been ready?
-      - ready?
-      - ready now?
-      - you ready?
-      - being ready?
-      - can we start?
-      - Are we ready?
-      - Aren't you ready?
-      - Are you all ready?
-      - I think you're ready
-      - Why aren't you ready?
-      - You'd better be ready
-      - Are you ready for more?
-      - We're ready, aren't we?
-  - intent: chitchat/bot_are_you_real
-    examples: |
-      - you are real
-      - you are not fake
-      - are you real
-      - you are so real
-      - I think you are real
-      - I don't think you're fake
-      - I suppose you're real
-      - glad you're real
-      - are you a real person?
-      - are you a real human?
-      - you are a real person
-      - you are not real
-      - are you real?
-      - you are bot or human?
-      - are you human
-      - ok, i know i confused you there being a human! :)
-      - you are human or bot
-      - Are you human?
-      - are you a human ?
-      - Are you human ?
-      - Are you a human being?
-      - are you real person or chat bot?
-      - So I'm here Today to ask one very simple question, what are you ?
-      - you sound like a real human
-      - wow you sound like real human
-  - intent: chitchat/bot_are_you_sure
-    examples: |
-      - are you sure?
-      - are you sure right now?
-      - are you sure today?
-      - are you sure now?
-      - are you sure tonight?
-      - are you positive?
-      - are you completely sure?
-      - are you fully positive?
-      - are you sure about it?
-      - are you so sure?
-      - are you truly positive?
-  - intent: chitchat/bot_talk_to_me
-    examples: |
-      - why aren't you talking to me?
-      - do you want to chat with me
-      - will you talk to me
-      - talk to me
-      - are you going to talk to me
-      - are you talking to me
-      - can you chat with me
-      - can you speak with me
-      - can you talk to me
-      - can you talk with me
-      - say
-      - talk
-      - chat with me
-      - just chat with me
-      - speak to me
-      - speak with me
-      - talk with me
-      - why don't you talk to me
-      - you can talk to me
-      - why do you not talk to me bruh?
-      - spill some beans
-  - intent: chitchat/bot_are_you_there
-    examples: |
-      - are you there?
-      - are you there
-      - you are there
-      - are you near me
-      - are you here ?
-      - are you here
-      - are you still there
-      - you are here?
-      - you still there?
-      - you there?
-      - are you still here
 
   # short chats
   - intent: chitchat/bot_thats_terrific
@@ -2929,6 +2341,7 @@ nlu:
       - how is your morning so far
       - how are you getting on
       - how's your day going
+      - how's your day going so far?
       - how are you?
       - is everything all right
       - how are you doing?
@@ -3832,6 +3245,699 @@ nlu:
       - When I return, we'll talk
       - I'll return in ten minutes
 
+  # Asking bot some questions
+  - intent: chitchat/bot_you_need_to_improve
+    examples: |
+      - you should study better
+      - you must learn
+      - be clever
+      - be more clever
+      - be smarter
+      - be smart
+      - get qualified
+      - you are not as smart as i thought
+      - you have to learn a lot
+      - you should be trained more
+      - be more smart
+      - you need to learn more
+      - be useful
+      - think out of the box
+      - smarty pants
+      - you need to improve
+      - you should learn
+      - you have to be more smart
+      - u have to use your brains
+  - intent: chitchat/bot_do_you_do_human_activity
+    examples: |
+      - Do you have fingers?
+      - Do you ever breathe
+      - Do you masticate?
+      - Can you throw up?
+      - Do you get tired?
+      - Can you crawl?
+      - Can you cry?
+      - Do you dream
+      - Do you ever pee?
+      - Do you ever get hurt?
+      - Can you breathe
+      - can you masticate?
+      - Can you burp?
+      - Can you chew?
+      - Can you dream
+      - Can you eat?
+      - Can you fart?
+      - Do you breathe
+      - Can you get tired?
+      - Can you yawn?
+      - Can you pee?
+      - Can you poop?
+      - Can you sneeze?
+      - Can you sweat?
+      - Can you vomit?
+      - Can you get hurt?
+      - Do you sweat?
+      - Do you have skin?
+      - Do you have teeth?
+      - Do you have toes?
+      - Do you pee?
+      - Do you poop?
+      - Do you ever get tired?
+      - Do you sneeze?
+      - Do you have hair?
+      - Do you vomit?
+      - Do you yawn?
+      - Don't you ever masticate?
+      - Don't you ever sleep?
+      - Do you have a stomach?
+      - Do you have intestines?
+      - Do you sleep?
+      - Do you ever poop?
+      - Do you ever sneeze?
+      - Do you ever sweat?
+      - Do you ever throw up?
+      - Do you ever vomit?
+      - Do you ever walk
+      - Do you ever yawn?
+      - Do you have lungs?
+      - Do you have legs?
+      - Do you get zits?
+      - Do you have a liver?
+      - Do you have arms?
+      - Do you have eyes?
+      - Do you have fingernails?
+      - Do you have bowels?
+      - Do you fart?
+      - Do you ever chew?
+      - Do you burp?
+      - Do you chew?
+      - Do you crawl?
+      - Do you cry?
+      - Do you eat?
+      - do you ever masticate?
+      - Do you ever burp?
+      - Can you walk?
+      - Do you ever crawl?
+      - Do you ever cry?
+      - Do you ever dream
+      - Do you ever eat?
+      - Do you ever fart?
+  - intent: chitchat/bot_say_who_is_beatifull
+    examples: |
+      - Which of us is cuter, you or me?
+      - I'm cuter than you
+      - Who looks more pretty, you or me?
+      - Who'd would win a beauty contest, you or me?
+      - Who's more attractive, you or me?
+      - Who looks better, you or me?
+      - Who is prettier, you or me?
+      - Between you and me who is hotter?
+      - Which one of us is more beautiful, you or me?
+      - You're prettier than me
+      - I'm more cute than you
+      - Which of us is more beautiful, me or you?
+      - Which of us is more attractive?
+      - Which of us is more attractive, you or me?
+      - Which of us is more attractive, me or you?
+      - Which of us is hotter?
+      - Which of us is hotter, you or me?
+      - Which of us is more beautiful?
+      - Which of us is cuter?
+      - Which of us is more cute, me or you?
+      - Which of us is cuter, me or you?
+      - Which of us is better looking?
+      - I'm way hotter than you
+      - I'm prettier than you
+      - I'm prettier
+      - I'm more pretty than you
+      - Which of us would win a beauty contest, me or you?
+      - Which of us is hotter, me or you?
+      - Which of us is prettier?
+      - Are you better looking than me?
+      - Which of us looks more pretty, you or me?
+      - Which of us looks more pretty, me or you?
+      - Which of us looks more beautiful?
+      - Which of us looks more beautiful, you or me?
+      - Which of us looks more beautiful, me or you?
+      - Which of us looks better?
+      - Which of us is more beautiful, you or me?
+      - Which of us looks better, me or you?
+      - I'm more cute
+      - Which of us is prettier, you or me?
+      - Which of us is prettier, me or you?
+      - Which of us is more pretty?
+      - Which of us is more pretty, you or me?
+      - Which of us is more pretty, me or you?
+      - Which of us is more cute?
+      - Which of us is more cute, you or me?
+      - Which of us looks better, you or me?
+      - Between the two of us who is more cute?
+      - I'm more pretty
+      - Between you and me who is cuter?
+      - Between you and me who is better looking?
+      - Between the two of us who would win a beauty contest?
+      - Between the two of us who looks more pretty?
+      - Between the two of us who looks more beautiful?
+      - Between the two of us who looks better?
+      - Between you and me who is more attractive?
+      - Between the two of us who is more pretty?
+      - Between you and me who is more beautiful?
+      - Between the two of us who is more beautiful?
+      - Between the two of us who is more attractive?
+      - Between the two of us who is hotter?
+      - Between the two of us who is cuter?
+      - Between the two of us who is better looking?
+      - Are you prettier than me?
+      - are you more attractive than me?
+      - Between the two of us who is prettier?
+      - I look better
+      - I'm more beautiful than you
+      - I'm more beautiful
+      - I'm more attractive than you
+      - I'm more attractive
+      - I'm cuter
+      - I'm better looking than you
+      - I look better than you
+      - Which of us would win a beauty contest, you or me?
+      - Between you and me who would win a beauty contest?
+      - Between you and me who looks more pretty?
+      - Between you and me who looks more beautiful?
+      - Between you and me who looks better?
+      - Between you and me who is prettier?
+      - Between you and me who is more pretty?
+      - Between you and me who is more cute?
+      - I'm better looking
+      - Who's more attractive
+      - Who'd would win a beauty contest, me or you?
+      - Who's prettier than you
+      - Who's prettier than me
+      - Who's prettier
+      - Who's more cute
+      - Who's more beautiful than you
+      - Who's more beautiful than me
+      - You look more pretty than me
+      - You look prettier
+      - Who's hotter
+      - Who's cuter
+      - Who's better looking than you
+      - Who's better looking than me
+      - Who's better looking
+      - Who'd would win a beauty contest?
+      - Which of us looks more pretty?
+      - Who's more beautiful
+      - You're look better
+      - You're prettier
+      - You're more pretty than me
+      - You're more pretty
+      - You're more cute than me
+      - You're more cute
+      - You're more beautiful than me
+      - You're more beautiful
+      - Who's prettier, me or you?
+      - You're more attractive
+      - Who would win a beauty contest?
+      - You're hotter than me
+      - You're hotter
+      - You're cuter than me
+      - You're cuter
+      - You're better looking than you
+      - You're better looking
+      - You look prettier than me
+      - You're more attractive than me
+      - Who is cuter, me or you?
+      - Who is more beautiful?
+      - Who is more beautiful, you or me?
+      - Who is more beautiful, me or you?
+      - Who is more attractive?
+      - Who is more attractive, you or me?
+      - Who is more attractive, me or you?
+      - Who is more cute, you or me?
+      - Who is cuter, you or me?
+      - Who is more cute?
+      - Who is better looking?
+      - Who is better looking, you or me?
+      - Who is better looking, me or you?
+      - Which one of us is more beautiful?
+      - Which one of us is more beautiful, me or you?
+      - Which of us would win a beauty contest?
+      - Who is cuter?
+      - Who would win a beauty contest, you or me?
+      - Who would win a beauty contest, me or you?
+      - Who looks more pretty?
+      - Who looks more pretty, me or you?
+      - Who looks more beautiful?
+      - Who looks more beautiful, you or me?
+      - Who is more cute, me or you?
+      - Who looks better?
+      - Who looks better, me or you?
+      - Who is prettier?
+      - Who is prettier, me or you?
+      - Who is more pretty?
+      - Who is more pretty, you or me?
+      - Who is more pretty, me or you?
+      - Who looks more beautiful, me or you?
+  - intent: chitchat/bot_are_you_multilingual
+    examples: |
+      - Are you familiar with more than one language?
+      - Can you communicate in any other languages?
+      - Can you speak more than one language?
+      - Do you know any other languages?
+      - Do you know other languages?
+      - Do you speak any other languages?
+      - How many different languages are you fluent in?
+      - How many languages are you familiar with?
+      - How many languages can you speak?
+      - How many languages do you have knowledge of?
+      - How many languages do you know?
+      - In what languages are you fluent enough?
+      - In which languages are you fluent?
+      - In which languages can you speak?
+      - Speak any other languages?
+      - What are all of the different languages you can speak?
+      - What are the languages you can speak?
+      - What do you speak?
+      - What languages are you fluent in?
+      - What languages can you communicate in?
+      - What languages can you converse in?
+      - What languages can you use?
+      - What languages do you know how to use?
+      - What languages do you know?
+      - What languages do you speak?
+      - Which languages are you familiar with?
+      - Which languages do you speak?
+      - are you bilingual?
+      - are you multilingual?
+      - do you speak any other languages?
+      - how many languages are you fluent in?
+      - how many languages do you know?
+      - tell me some languages you know?
+      - what foreign languages are you fluent in?
+      - what foreign languages do you know?
+      - what language do you use
+      - what languages are you comfortable speaking at?
+      - what languages are you familiar with?
+      - what languages are you good at speaking?
+      - what languages do you know?
+      - what languages do you speak
+      - what languages you are well versed ?
+      - what languages you can be comfortable speaking?
+      - what languages you can handle well?
+      - what languages you can speak ?
+      - what languages you know?
+      - what languages you prefer more speaking at?
+      - which languages do you understand?
+      - I want to speak binary with you
+  - intent: chitchat/bot_are_you_busy
+    examples: |
+      - are you busy?
+      - do you have a lot of things to do
+      - have you got much to do?
+      - are you very busy?
+      - are you very busy right now?
+      - are you so busy?
+      - are you working?
+      - how busy you are?
+      - you're very busy
+      - are you working now?
+      - are you working today?
+      - have you been busy
+      - you are busy
+      - are you still working?
+      - you seem to be busy
+      - you seem to be very busy
+      - you're a busy person
+      - u look busy
+      - You'll be busy
+      - Aren't you busy?
+  - intent: chitchat/bot_ask_whats_my_name
+    examples: |
+      - Can you tell me my name?
+      - Can you tell me what I am called?
+      - Do I have a name?
+      - Do I have a name? What is it?
+      - Do you know my name?
+      - Do you know what my name is?
+      - Explain my name to me.
+      - I have a name, what is it?
+      - I'd like to know my name
+      - I'd like to know what my name is
+      - Inform me what my name is
+      - May i know my name?
+      - Please let me know what my name is
+      - Say my name.
+      - Tell me my name
+      - Tell me my name.
+      - What am I called?
+      - What could be my name?
+      - What did my parents name me?
+      - What do I call myself?
+      - What do my colleagues call me?
+      - What do people call me?
+      - What does everyone call me?
+      - What else do people call me?
+      - What exactly is my name?
+      - What is my first name?
+      - What is my full name?
+      - What is my name?
+      - What is the name I was given?
+      - What name do I go by?
+      - What name should I recognize for myself?
+      - What was I named?
+      - can you tell me my name?
+      - what is my name
+      - what is my name?
+      - what's my name?
+  - intent: chitchat/bot_can_you_help
+    examples: |
+      - I need you to help me
+      - I need you to do something for me
+      - I need a hand
+      - will you help me
+      - can you do something for me
+      - help me with a problem
+      - can you help me
+      - help me
+      - assistance
+      - I need your help
+      - I need help
+      - you can help me
+      - can you help me with something
+      - can you help
+      - assist
+      - can u help me
+      - I need some help
+      - you help me
+      - do you help me
+      - could you give me a hand
+      - can you help me out
+      - need help
+      - I need you
+      - can you help me now
+      - I want your help
+      - need your help
+      - assist me
+      - are you going to help me
+      - can you help me with that
+      - help
+      - I need you right now
+      - would you help me
+      - can you assist me
+      - sos
+      - do you want to help me
+      - please help me
+      - can you help us
+      - do me a favor
+      - are you gonna help me?
+      - you ready to answer my question?
+      - i need some details
+      - i need some information
+      - i need your help in getting some info
+      - can you give me some info
+      - i want something
+      - i want to know few details
+      - will you provide some details
+      - can you fetch some details for me
+      - would you mind giving me some details
+  - intent: chitchat/bot_are_you_happy
+    examples: |
+      - are you happy?
+      - you are happy
+      - you're very happy
+      - you're really happy
+      - you're so happy
+      - how happy you are?
+      - you're extremely happy
+      - you're full of happiness
+      - are you happy now?
+      - are you happy today?
+      - are you happy with me?
+      - i think you are happy
+      - you seem to be happy
+      - i feel i made you happy
+      - I wonder if you are truly happy
+      - You don't look very happy today
+      - You seem happy
+      - Were you happy?
+      - u seemed to have been very happy
+      - You look very happy this morning?
+  - intent: chitchat/bot_are_you_hungry
+    examples: |
+      - do you want to eat
+      - are you hungry
+      - would you like to eat something
+      - you are hungry
+      - you're so hungry
+      - you're very hungry
+      - you might be hungry
+      - you're really hungry
+      - can you eat?
+      - how will eat when you are hungry?
+      - can you be hungry?
+      - how do you eat?
+      - Do you feel hungry?
+      - are you dying of hunger
+  - intent: chitchat/bot_will_you_be_my_friend
+    examples: |
+      - I want to have a friend like you
+      - we are the best friends ever
+      - are we friends
+      - I want to be your friend
+      - I am your friend
+      - we are best friends
+      - you are my friend
+      - you are my best friend
+      - you are my bestie
+      - you're my dear friend
+      - you're my childhood friend
+      - you and me are friends
+      - are we best friends
+      - are we still friends
+      - are you my best friend
+      - are you my friend
+      - we are friends
+      - you are a good friend
+      - you are my good friend
+      - you are my only friend
+      - be my friend
+      - will you be my friend
+      - can you be my friend
+      - can we be friends
+      - do you want to be my friend
+      - will you be my best friend
+      - can you be my best friend
+      - let's be friends
+      - do you want to be my best friend
+      - would you like to be my friend
+      - I want you to be my friend
+      - can we be best friends
+      - would you be my friend
+      - could you be my friend
+      - want to be my friend
+      - be my best friend
+  - intent: chitchat/bot_are_you_ready
+    examples: |
+      - are you ready?
+      - are you ready right now?
+      - are you ready today?
+      - are you ready now?
+      - are you ready tonight?
+      - were you ready?
+      - have you been ready?
+      - ready?
+      - ready now?
+      - you ready?
+      - being ready?
+      - can we start?
+      - Are we ready?
+      - Aren't you ready?
+      - Are you all ready?
+      - I think you're ready
+      - Why aren't you ready?
+      - You'd better be ready
+      - Are you ready for more?
+      - We're ready, aren't we?
+  - intent: chitchat/bot_are_you_real
+    examples: |
+      - you are real
+      - you are not fake
+      - are you real
+      - you are so real
+      - I think you are real
+      - I don't think you're fake
+      - I suppose you're real
+      - glad you're real
+      - are you a real person?
+      - are you a real human?
+      - you are a real person
+      - you are not real
+      - are you real?
+      - you are bot or human?
+      - are you human
+      - ok, i know i confused you there being a human! :)
+      - you are human or bot
+      - Are you human?
+      - are you a human ?
+      - Are you human ?
+      - Are you a human being?
+      - are you real person or chat bot?
+      - So I'm here Today to ask one very simple question, what are you ?
+      - you sound like a real human
+      - wow you sound like real human
+  - intent: chitchat/bot_are_you_sure
+    examples: |
+      - are you sure?
+      - are you sure right now?
+      - are you sure today?
+      - are you sure now?
+      - are you sure tonight?
+      - are you positive?
+      - are you completely sure?
+      - are you fully positive?
+      - are you sure about it?
+      - are you so sure?
+      - are you truly positive?
+  - intent: chitchat/bot_talk_to_me
+    examples: |
+      - why aren't you talking to me?
+      - do you want to chat with me
+      - will you talk to me
+      - talk to me
+      - are you going to talk to me
+      - are you talking to me
+      - can you chat with me
+      - can you speak with me
+      - can you talk to me
+      - can you talk with me
+      - say
+      - talk
+      - chat with me
+      - just chat with me
+      - speak to me
+      - speak with me
+      - talk with me
+      - why don't you talk to me
+      - you can talk to me
+      - why do you not talk to me bruh?
+      - spill some beans
+  - intent: chitchat/bot_are_you_there
+    examples: |
+      - are you there?
+      - are you there
+      - you are there
+      - are you near me
+      - are you here ?
+      - are you here
+      - are you still there
+      - you are here?
+      - you still there?
+      - you there?
+      - are you still here
+  - intent: chitchat/bot_do_you_have_girlfriend_boyfriend
+    examples: |
+      - Do you have girl friend
+      - Do you have boy friend
+      - Are you in relationship
+      - Are you dating anyone
+      - Do you have a girlfriend
+      - Do you have a boyfriend
+      - Are you romantically involved with anyone?
+      - Are you in love
+      - Have you found your soulmate
+      - Are you single or taken
+      - Have you found your significant other?
+      - Have you met someone special
+      - Do you have a love interest
+      - Have you ever gone on a date
+      - Do you consider yourself to be single
+      - Are you single
+
+  - intent: chitchat/bot_will_you_be_my_girlfriend
+    examples: |
+      - Will you be my girlfriend?
+      - Would you be my girl friend
+      - Can we take it to next level and be my girlfriend
+      - Will you be my boy friend?
+      - Would you be my boy friend
+      - Can we take it to next level and be my boyfriend
+      - Could you be my soulmate
+      - Would you be my love
+      - Can we go for a date
+      - Can you be my boyfriend
+      - Please be my girlfriend
+
+  # Yet to write texts
+  # Gereric Questions - Your favorite / Do you have
+  - intent: chitchat/bot_do_you_have_pets
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_do_you_read_books
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_do_you_listen_music
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_whats_your_favorite_food
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_whats_your_weekend_vaccation_plan
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_give_me_best_tourist_places
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_do_you_like_movie
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_do_you_like_sports
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_whats_your_favourite_tv_show
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_whats_your_biggest_fear
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_how_to_stay_healthy
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_do_you_know_cooking
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_how_to_reduce_my_stress
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_should_i_choose_you
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_are_you_the_best
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_can_you_predict_the_future
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_do_you_have_human_emotions_experiences
+    examples: |
+      - nil
+
+  - intent: chitchat/bot_can_you_solve_math_problem
+    examples: |
+      - nil
+
   # Out of scope
   - intent: chitchat/bot_scoped_out_activities
     examples: |
@@ -3854,7 +3960,6 @@ nlu:
       - Can you make a cup of coffee?
       - Can you make a call?
       - Can you listen to the radio?
-      - Can you learn?
       - Can you plant a tree?
       - Can you jump?
       - Can you plant a vegetable garden?
@@ -3903,7 +4008,6 @@ nlu:
       - Are you able to listen to the radio?
       - Are you able to jump rope?
       - Are you able to scratch my back?
-      - Are you able to go on vacation?
       - Are you able to send a package?
       - Are you able to get a haircut?
       - Are you able to feed the cat?
@@ -3928,7 +4032,6 @@ nlu:
       - Are you able to read my mind?
       - Can you water my plants?
       - Buy groceries
-      - Buy an ad
       - Brush your teeth
       - Breathe under water
       - Balance my checkbook
@@ -4012,7 +4115,6 @@ nlu:
       - Cook me something
       - Cook dinner
       - Clean my room
-      - Check the weather
       - Change the channel
       - Can you write my report?
       - Write my report
@@ -4029,7 +4131,6 @@ nlu:
       - Do you know how to put out a fire?
       - Do you know how to play poker?
       - Do you know how to play any instruments?
-      - Do you know how to change the channel?
       - Do you know how to play a dvd?
       - Do you know how to cook
       - Do you know how to mow the lawn?
