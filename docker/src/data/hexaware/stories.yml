@@ -3,4 +3,4 @@ stories:
   - story: story 02
     steps:
       - intent: evis
-      - action: utter_evis
+      - action: action_common
