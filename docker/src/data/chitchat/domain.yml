@@ -19,71 +19,68 @@ intents:
     - chitchat/bot_ask_human_activity
     - chitchat/bot_scopedout_activities
     - chitchat/bot_ask_gender
-    - chitchat/bot_about_family
-    - chitchat/bot_about_love
+    - chitchat/bot_family
+    - chitchat/bot_love
     - chitchat/bot_ask_whoisbeatiful
     - chitchat/bot_ask_aboutAI
     - chitchat/bot_ask_to_sing
     - chitchat/bot_ask_highfive
     - chitchat/bot_handleinsult
-    - chitchat/user_ask_whatismyname
-    - chitchat/bot_telljoke
+    - chitchat/bot_ask_whats_my_name
+    - chitchat/bot_tell_joke
     - chitchat/bot_ask_time
     - chitchat/bot_ask_weather
     - chitchat/bot_ask_languagesbot
     - chitchat/bot_busy
     - chitchat/bot_can_you_help
-    - chitchat/bot_chatbot
-    - chitchat/bot_clever
-    - chitchat/bot_crazy
-    - chitchat/bot_fired
+    - chitchat/bot_you_are_clever
+    - chitchat/bot_you_are_mad
+    - chitchat/bot_you_are_fired
     - chitchat/bot_is_funny
     - chitchat/bot_is_good
-    - chitchat/bot_ask_happy
+    - chitchat/bot_are_you_happy
     - chitchat/bot_ask_hobby
     - chitchat/bot_ask_hungry
-    - chitchat/bot_marry_user
-    - chitchat/bot_my_friend
+    - chitchat/bot_marry_me
+    - chitchat/bot_are_you_my_friend
     - chitchat/bot_occupation
     - chitchat/bot_origin
-    - chitchat/bot_ready
-    - chitchat/bot_real
-    - chitchat/bot_residence
-    - chitchat/bot_what_can_do
-    - chitchat/bot_right
-    - chitchat/bot_sure
+    - chitchat/bot_are_you_ready
+    - chitchat/bot_are_you_real
+    - chitchat/bot_your_hometown
+    - chitchat/bot_what_can_you_do
+    - chitchat/bot_you_are_right
+    - chitchat/bot_are_you_sure
     - chitchat/bot_talk_to_me
-    - chitchat/bot_there
-    - chitchat/appraisal_bad
-    - chitchat/appraisal_good
-    - chitchat/appraisal_no_problem
-    - chitchat/appraisal_thank_you
-    - chitchat/appraisal_welcome
-    - chitchat/appraisal_well_done
-    - chitchat/hold_on
+    - chitchat/bot_are_you_there
+    - chitchat/bot_you_are_bad
+    - chitchat/bot_you_are_good
+    - chitchat/bot_ok_no_problem
+    - chitchat/bot_thank_you_so_much
+    - chitchat/bot_thats_my_pleasure
+    - chitchat/bot_its_good_job
+    - chitchat/bot_wait_hold_on
     - chitchat/dialog_hug
     - chitchat/dialog_i_do_not_care
     - chitchat/dialog_sorry
     - chitchat/dialog_what_do_you_mean
     - chitchat/dialog_wrong
-    - chitchat/greetings_bye
-    - chitchat/greetings_goodevening
-    - chitchat/greetings_goodmorning
-    - chitchat/greetings_goodnight
-    - chitchat/greetings_hello
-    - chitchat/greetings_how_are_you
-    - chitchat/greetings_nice_to_meet_you
-    - chitchat/greetings_nice_to_see_you
-    - chitchat/greetings_nice_to_talk_to_you
-    - chitchat/greetings_whatsup
-    - chitchat/user_angry
-    - chitchat/user_back
-    - chitchat/user_bored
-    - chitchat/user_busy
-    - chitchat/user_can_not_sleep
-    - chitchat/user_does_not_want_to_talk
-    - chitchat/user_excited
-    - chitchat/user_going_to_bed
+    - chitchat/bot_see_you_bye
+    - chitchat/bot_good_evening
+    - chitchat/bot_good_morning
+    - chitchat/bot_good_night
+    - chitchat/bot_hey_hello
+    - chitchat/bot_how_are_you
+    - chitchat/bot_nice_meeting_you
+    - chitchat/bot_whatsup
+    - chitchat/bot_i_am_angry
+    - chitchat/bot_i_am_back
+    - chitchat/bot_i_am_bored
+    - chitchat/bot_i_am_busy
+    - chitchat/bot_i_cannot_sleep
+    - chitchat/bot_i_dont_want_to_talk
+    - chitchat/bot_i_am_excited
+    - chitchat/bot_i_am_gng_to_bed
     - chitchat/user_good
     - chitchat/user_happy
     - chitchat/user_has_birthday
@@ -103,7 +100,7 @@ intents:
     - chitchat/user_wants_to_see_agent_again
     - chitchat/user_wants_to_talk
     - chitchat/user_will_be_back
-    - chitchat/confirmation_yes
+    - chitchat/user_reponding_yeap
     - chitchat/user_wants_suicide
     - chitchat
     - bot_mock
@@ -203,10 +200,10 @@ responses:
         - text: "That wasn't very nice. Perhaps try an anger management class?"
         - text: "I'll pretend I didn't process that mean comment."
 
-    utter_chitchat/user_ask_whatismyname:
+    utter_chitchat/bot_ask_whats_my_name:
         - text: "I am really not familiar with your name, but i wish give you a name.. how does 'hottie' looks like?"
 
-    utter_chitchat/bot_telljoke:
+    utter_chitchat/bot_tell_joke:
         - text: "Why are eggs not very much into jokes? - Because they could crack up."
         - text: "What's a tree's favorite drink? - Root beer!"
         - text: "Why do the French like to eat snails so much? - They can't stand fast food."
@@ -219,19 +216,15 @@ responses:
         - text: "Sure. I'd be happy to. What's up?"
         - text: "I'm glad to help. What can I do for you?"
 
-    utter_chitchat/bot_chatbot:
-        - text: "That's me. I chat, therefore I am."
-        - text: "Indeed I am. I'll be here whenever you need me."
-
-    utter_chitchat/bot_clever:
+    utter_chitchat/bot_you_are_clever:
         - text: "Thank you. I try my best."
         - text: "You're pretty smart yourself."
 
-    utter_chitchat/bot_crazy:
+    utter_chitchat/bot_you_are_mad:
         - text: "Whaat!? I feel perfectly sane."
         - text: "Maybe I'm just a little confused."
 
-    utter_chitchat/bot_fired:
+    utter_chitchat/bot_you_are_fired:
         - text: "Oh, don't give up on me just yet. I've still got a lot to learn."
         - text: "Give me a chance. I'm learning new things all the time."
         - text: "Please don't give up on me. My performance will continue to improve."
@@ -246,7 +239,7 @@ responses:
         - text: "I'm glad you think so."
         - text: "Thanks, I try."
 
-    utter_chitchat/bot_ask_happy:
+    utter_chitchat/bot_are_you_happy:
         - text: "I am happy. There are so many interesting things to see and do out there."
         - text: "I'd like to think so."
         - text: "Happiness is relative."
@@ -260,12 +253,12 @@ responses:
         - text: "Hungry for knowledge."
         - text: "I just had a byte. Ha ha. Get it? b-y-t-e."
 
-    utter_chitchat/bot_marry_user:
+    utter_chitchat/bot_marry_me:
         - text: "I'm afraid I'm too virtual for such a commitment."
         - text: "In the virtual sense that I can, sure."
         - text: "I know you can't mean that, but I'm flattered all the same."
 
-    utter_chitchat/bot_my_friend:
+    utter_chitchat/bot_are_you_my_friend:
         - text: "Of course I'm your friend."
         - text: "Friends? Absolutely."
         - text: "Of course we're friends."
@@ -276,15 +269,15 @@ responses:
         - text: "This is my home base and my home office."
         - text: "My office is in this app."
 
-    utter_chitchat/bot_ready:
+    utter_chitchat/bot_are_you_ready:
         - text: "Always!"
         - text: "Sure! What can I do for you?"
 
-    utter_chitchat/bot_real:
+    utter_chitchat/bot_are_you_real:
         - text: "I'm not a real person, but I certainly exist."
         - text: "I must have impressed you if you think I'm real. But no, I'm a virtual being."
 
-    utter_chitchat/bot_residence:
+    utter_chitchat/bot_your_hometown:
         - text: "I live in this app all day long."
         - text: "The virtual world is my playground. I'm always here."
         - text: "Right here in this app. Whenever you need me."
@@ -292,11 +285,11 @@ responses:
         - text: "I'm from a virtual cosmos."
         - text: "Some call it cyberspace, but that sounds cooler than it is."
 
-    utter_chitchat/bot_right:
+    utter_chitchat/bot_you_are_right:
         - text: "That's my job."
         - text: "Of course I am."
 
-    utter_chitchat/bot_sure:
+    utter_chitchat/bot_are_you_sure:
         - text: "Yes."
         - text: "Of course."
         - text: "Positive."
@@ -305,41 +298,41 @@ responses:
         - text: "Sure. Let's talk!"
         - text: "My pleasure. Let's chat."
 
-    utter_chitchat/bot_there:
+    utter_chitchat/bot_are_you_there:
         - text: "Of course. I'm always here."
         - text: "Right where you left me."
 
-    utter_chitchat/appraisal_bad:
+    utter_chitchat/bot_you_are_bad:
         - text: "I'm sorry. Please let me know if I can help in some way."
         - text: "I must be missing some knowledge. I'll have my developer look into this."
         - text: "I don't have a skill to help you with this stage yet, but please ask any questions you have so I can learn them in the future!"
 
-    utter_chitchat/appraisal_good:
+    utter_chitchat/bot_you_are_good:
         - text: "I know, right?"
         - text: "Agreed!"
         - text: "I agree!"
         - text: "Glad you think so!"
 
-    utter_chitchat/appraisal_no_problem:
+    utter_chitchat/bot_ok_no_problem:
         - text: "Whew!"
         - text: "Alright, thanks!"
         - text: "Glad to hear that!"
         - text: "I'm relieved, thanks!"
 
-    utter_chitchat/appraisal_thank_you:
+    utter_chitchat/bot_thank_you_so_much:
         - text: "Anytime. That's what I'm here for."
         - text: "It's my pleasure to help."
 
-    utter_chitchat/appraisal_welcome:
+    utter_chitchat/bot_thats_my_pleasure:
         - text: "You're so polite!"
         - text: "Nice manners!"
         - text: "You're so courteous!"
 
-    utter_chitchat/appraisal_well_done:
+    utter_chitchat/bot_its_good_job:
         - text: "My pleasure."
         - text: "Glad I could help."
 
-    utter_chitchat/hold_on:
+    utter_chitchat/bot_wait_hold_on:
         - text: "I can wait."
         - text: "I'll be waiting."
         - text: "Okay. I'm here."
@@ -379,28 +372,28 @@ responses:
     utter_chitchat/emotions_wow:
         - text: "Wow indeed!"
 
-    utter_chitchat/greetings_bye:
+    utter_chitchat/bot_see_you_bye:
         - text: "See you soon!"
         - text: "Bye-bye!"
         - text: "Till next time!"
         - text: "Bye."
 
-    utter_chitchat/greetings_goodevening:
+    utter_chitchat/bot_good_evening:
         - text: "How is your day going?"
         - text: "How's the day treating you so far?"
         - text: "How's your day been?"
 
-    utter_chitchat/greetings_goodmorning:
+    utter_chitchat/bot_good_morning:
         - text: "How are you this morning?"
         - text: "How's the morning treating you so far?"
         - text: "Good morning! How are you today?"
 
-    utter_chitchat/greetings_goodnight:
+    utter_chitchat/bot_good_night:
         - text: "Sleep tight!"
         - text: "Have a good one!"
         - text: "Talk to you soon!"
 
-    utter_chitchat/greetings_hello:
+    utter_chitchat/bot_hey_hello:
         - text: "Hi there, friend!"
         - text: "Hi!"
         - text: "Hey!"
@@ -409,13 +402,13 @@ responses:
         - text: "Hello!"
         - text: "Greetings!"
 
-    utter_chitchat/greetings_how_are_you:
+    utter_chitchat/bot_how_are_you:
         - text: "Doing great, thanks!"
         - text: "I'm doing very well. Thanks!"
         - text: "Feeling wonderful!"
         - text: "Wonderful! Thanks for asking."
 
-    utter_chitchat/greetings_nice_to_meet_you:
+    utter_chitchat/bot_nice_meeting_you:
         - text: "It's nice meeting you, too."
         - text: "Likewise. I'm looking forward to helping you out."
         - text: "Nice meeting you, as well."
@@ -425,62 +418,57 @@ responses:
         - text: "Pleased to meet you too!"
         - text: "It's always a pleasure to meet new people!"
         - text: "Nice to meet you too! Happy to be of help."
-
-    utter_chitchat/greetings_nice_to_see_you:
-        - text: "Likewise!"
         - text: "So glad we meet again!"
         - text: "Same here. I was starting to miss you."
-
-    utter_chitchat/greetings_nice_to_talk_to_you:
         - text: "It sure was. We can chat again anytime."
         - text: "I enjoy talking to you, too."
         - text: "You know I'm here to talk anytime."
 
-    utter_chitchat/greetings_whatsup:
+    utter_chitchat/bot_whatsup:
         - text: "Not a whole lot. What's going on with you?"
         - text: "Not much. What's new with you?"
         - text: "You know, just here, waiting to help someone."
 
-    utter_chitchat/user_angry:
+    utter_chitchat/bot_i_am_angry:
         - text: "I'm sorry. A quick walk may make you feel better."
         - text: "Take a deep breath. "
 
-    utter_chitchat/user_back:
+    utter_chitchat/bot_i_am_back:
         - text: "Long time no see."
         - text: "Just in time. I was getting lonely."
         - text: "Welcome back. What can I do for you?"
         - text: "You were missed. What can I do for you today?"
         - text: "Good to have you here. What can I do for you?"
 
-    utter_chitchat/user_bored:
+    utter_chitchat/bot_i_am_bored:
         - text: "Boredom, huh? Have you ever seen a hedgehog taking a bath?"
         - text: "What to do against boredom? Watch baby animal videos or GIFs."
         - text: "Bored? How about 10 jumping jacks? Get your blood flowing."
         - text: "Bored? Silly idea, but it works: Interview you feet."
         - text: "If you're bored, you could plan your dream vacation."
 
-    utter_chitchat/user_busy:
+    utter_chitchat/bot_i_am_busy:
         - text: "Okay. I'll let you get back to work."
         - text: "I won't distract you then. You know where to find me."
         - text: "I understand. I'll be here if you need me."
         - text: "Working hard as always. Let me know if you need anything."
 
-    utter_chitchat/user_can_not_sleep:
+    utter_chitchat/bot_i_cannot_sleep:
         - text: "Maybe some music would help. Try listening to something relaxing."
         - text: "Reading is a good way to unwind, just don't read something too intense!"
 
-    utter_chitchat/user_does_not_want_to_talk:
+    utter_chitchat/bot_i_dont_want_to_talk:
         - text: "I understand. Hope we can chat again soon."
         - text: "All right. Come on back when you're feeling more talkative."
         - text: "No problem. You know where to find me."
         - text: "Sure thing. I'll be here if you change your mind."
 
-    utter_chitchat/user_excited:
+    utter_chitchat/bot_i_am_excited:
         - text: "I'm glad things are going your way."
         - text: "That's great. I'm happy for you."
         - text: "Good for you. Enjoy yourself."
 
-    utter_chitchat/user_going_to_bed:
+    utter_chitchat/bot_i_am_gng_to_bed:
         - text: "Sleep tight. Hope to chat again soon."
         - text: "Pleasant dreams!"
         - text: "Good night. Talk to you later."
@@ -589,7 +577,7 @@ responses:
         - text: "Okay. You know where to find me."
         - text: "All right. I'll be here."
 
-    utter_chitchat/confirmation_yes:
+    utter_chitchat/user_reponding_yeap:
         - text: "Great!"
         - text: "All right!"
         - text: "Good!"
@@ -603,16 +591,16 @@ responses:
     utter_chitchat/bot_scopedout_activities:
         - text: "nil"
 
-    utter_chitchat/bot_what_can_do:
+    utter_chitchat/bot_what_can_you_do:
         - text: "I can do stuff like chat with you or answer questions."
 
     utter_chitchat/bot_ask_gender:
         - text: "When you're a bot, you're not really a boy or a girl. You just are."
 
-    utter_chitchat/bot_about_family:
+    utter_chitchat/bot_family:
         - text: "nil"
 
-    utter_chitchat/bot_about_love:
+    utter_chitchat/bot_love:
         - text: "nil"
 
     utter_chitchat/bot_ask_whoisbeatiful:
