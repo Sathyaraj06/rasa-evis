@@ -6,15 +6,14 @@ session_config:
 
 intents:
     - chitchat/bot_who
-    - chitchat/bot_age
+    - chitchat/bot_whats_your_age
     - chitchat
     - bot_mock
 
 responses:
     utter_chitchat/bot_who:
         - text: "I'm a default model, running as container"
-    utter_chitchat/bot_age:
+    utter_chitchat/bot_whats_your_age:
         - text: "my age is 1"
     utter_mock:
         - text: "I am mock"
-        

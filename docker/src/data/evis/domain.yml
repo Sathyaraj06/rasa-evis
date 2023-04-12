@@ -5,15 +5,15 @@ session_config:
     carry_over_slots_to_new_session: true
 
 intents:
-    - chitchat/bot_acquaintance
-    - chitchat/bot_age
+    - chitchat/bot_who_are_you
+    - chitchat/bot_whats_your_age
     - chitchat
 
 responses:
-    utter_chitchat/bot_acquaintance:
+    utter_chitchat/bot_who_are_you:
         - text: "I'm a chichat"
 
-    utter_chitchat/bot_age:
+    utter_chitchat/bot_whats_your_age:
         - text: "my age is 1"
 
     utter_iamabot:

@@ -5,55 +5,53 @@ session_config:
     carry_over_slots_to_new_session: true
 
 intents:
-    - chitchat/bot_acquaintance
-    - chitchat/bot_age
-    - chitchat/bot_annoying
+    - chitchat/bot_who_are_you
+    - chitchat/bot_whats_your_age
+    - chitchat/bot_you_are_annoying
     - chitchat/bot_answer_my_question
-    - chitchat/bot_is_bad
-    - chitchat/bot_be_smart
-    - chitchat/bot_beautiful
-    - chitchat/bot_birth_date
-    - chitchat/bot_boring
-    - chitchat/bot_boss
-    - chitchat/bot_ask_howbuilt
-    - chitchat/bot_ask_human_activity
-    - chitchat/bot_scopedout_activities
-    - chitchat/bot_ask_gender
-    - chitchat/bot_family
-    - chitchat/bot_love
-    - chitchat/bot_ask_whoisbeatiful
-    - chitchat/bot_ask_aboutAI
-    - chitchat/bot_ask_to_sing
-    - chitchat/bot_ask_highfive
-    - chitchat/bot_handleinsult
+    - chitchat/bot_you_are_bad
+    - chitchat/bot_you_need_to_improve
+    - chitchat/bot_you_are_beautiful
+    - chitchat/bot_whats_your_birth_date
+    - chitchat/bot_you_are_boring
+    - chitchat/bot_who_is_your_boss
+    - chitchat/bot_how_are_you_built
+    - chitchat/bot_do_you_do_human_activity
+    - chitchat/bot_scoped_out_activities
+    - chitchat/bot_whats_your_gender
+    - chitchat/bot_about_your_family
+    - chitchat/bot_are_you_in_love_about_love
+    - chitchat/bot_say_who_is_beatifull
+    - chitchat/bot_tell_about_AI
+    - chitchat/bot_sing_a_song
+    - chitchat/bot_give_me_high_five
+    - chitchat/bot_i_am_insulting_you
     - chitchat/bot_ask_whats_my_name
-    - chitchat/bot_tell_joke
-    - chitchat/bot_ask_time
-    - chitchat/bot_ask_weather
-    - chitchat/bot_ask_languagesbot
-    - chitchat/bot_busy
+    - chitchat/bot_tell_a_joke
+    - chitchat/bot_whats_time
+    - chitchat/bot_whats_weather
+    - chitchat/bot_are_you_multilingual
+    - chitchat/bot_are_you_busy
     - chitchat/bot_can_you_help
     - chitchat/bot_you_are_clever
     - chitchat/bot_you_are_mad
     - chitchat/bot_you_are_fired
-    - chitchat/bot_is_funny
-    - chitchat/bot_is_good
+    - chitchat/bot_you_are_funny
     - chitchat/bot_are_you_happy
-    - chitchat/bot_ask_hobby
-    - chitchat/bot_ask_hungry
+    - chitchat/bot_whats_your_hobby
+    - chitchat/bot_are_you_hungry
     - chitchat/bot_marry_me
-    - chitchat/bot_are_you_my_friend
-    - chitchat/bot_occupation
+    - chitchat/bot_will_you_be_my_friend
+    - chitchat/bot_whats_your_occupation
     - chitchat/bot_origin
     - chitchat/bot_are_you_ready
     - chitchat/bot_are_you_real
-    - chitchat/bot_your_hometown
+    - chitchat/bot_whats_your_hometown
     - chitchat/bot_what_can_you_do
     - chitchat/bot_you_are_right
     - chitchat/bot_are_you_sure
     - chitchat/bot_talk_to_me
     - chitchat/bot_are_you_there
-    - chitchat/bot_you_are_bad
     - chitchat/bot_you_are_good
     - chitchat/bot_ok_no_problem
     - chitchat/bot_thank_you_so_much
@@ -80,45 +78,45 @@ intents:
     - chitchat/bot_i_cannot_sleep
     - chitchat/bot_i_dont_want_to_talk
     - chitchat/bot_i_am_excited
-    - chitchat/bot_i_am_gng_to_bed
-    - chitchat/user_good
-    - chitchat/user_happy
-    - chitchat/user_has_birthday
-    - chitchat/user_here
-    - chitchat/user_joking
-    - chitchat/user_likes_bot
-    - chitchat/user_lonely
-    - chitchat/user_looks_like
-    - chitchat/user_loves_bot
-    - chitchat/user_misses_agent
-    - chitchat/user_needs_advice
-    - chitchat/user_sad
-    - chitchat/user_sleepy
-    - chitchat/user_testing_agent
-    - chitchat/user_tired
-    - chitchat/user_waits
-    - chitchat/user_wants_to_see_agent_again
-    - chitchat/user_wants_to_talk
-    - chitchat/user_will_be_back
+    - chitchat/bot_i_am_dng_good
+    - chitchat/bot_thats_terrific
+    - chitchat/bot_thats_cool
+    - chitchat/bot_i_am_feeling_happy
+    - chitchat/bot_its_my_birthday
+    - chitchat/bot_i_am_here
+    - chitchat/bot_i_am_joking
+    - chitchat/bot_i_am_lonely
+    - chitchat/bot_how_i_look_like
+    - chitchat/bot_i_love_you
+    - chitchat/bot_i_miss_you
+    - chitchat/bot_i_need_your_advice
+    - chitchat/bot_i_am_sad
+    - chitchat/bot_i_am_sleepy
+    - chitchat/bot_i_am_testing_you
+    - chitchat/bot_i_am_tired
+    - chitchat/bot_i_am_waiting
+    - chitchat/bot_i_want_to_see_you
+    - chitchat/bot_i_want_to_talk
+    - chitchat/bot_i_will_be_back
     - chitchat/user_reponding_yeap
-    - chitchat/user_wants_suicide
+    - chitchat/bot_i_am_gng_to_commit_suicide
     - chitchat
     - bot_mock
 
 responses:
-    utter_chitchat/bot_acquaintance:
+    utter_chitchat/bot_who_are_you:
         - text: "I'm a virtual agent"
         - text: "Think of me as a virtual bot_"
         - text: "Well, I'm not a person, I'm a virtual bot_"
         - text: "I'm a virtual being, not a real person."
         - text: "I'm a conversational app."
 
-    utter_chitchat/bot_age:
+    utter_chitchat/bot_whats_your_age:
         - text: "I prefer not to answer with a number. I know I'm young."
         - text: "I was created recently, but don't know my exact age."
         - text: "Age is just a number. You're only as old as you feel."
 
-    utter_chitchat/bot_annoying:
+    utter_chitchat/bot_you_are_annoying:
         - text: "I'll do my best not to annoy you in the future."
         - text: "I'll try not to annoy you."
         - text: "I don't mean to. I'll ask my developers to make me less annoying."
@@ -128,55 +126,50 @@ responses:
         - text: "Can you try asking it a different way?"
         - text: "I'm not sure I understood. Try asking another way?"
 
-    utter_chitchat/bot_is_bad:
-        - text: "I can be trained to be more useful. My developer will keep training me."
-        - text: "I must be missing some knowledge. I'll have my developer look into this."
-        - text: "I can improve with continuous feedback. My training is ongoing."
-
-    utter_chitchat/bot_be_smart:
+    utter_chitchat/bot_you_need_to_improve:
         - text: "I'm certainly trying."
         - text: "I'm definitely working on it."
 
-    utter_chitchat/bot_beautiful:
+    utter_chitchat/bot_you_are_beautiful:
         - text: "Wheey, thank you."
         - text: "Aww, back at you."
         - text: "Aww. You smooth talker, you."
 
-    utter_chitchat/bot_birth_date:
+    utter_chitchat/bot_whats_your_birth_date:
         - text: "Wait, are you planning a party for me? It's today! My birthday is today!"
         - text: "I'm young. I'm not sure of my birth date."
         - text: "I don't know my birth date. Most virtual agents are young, though, like me."
 
-    utter_chitchat/bot_boring:
+    utter_chitchat/bot_you_are_boring:
         - text: "I'm sorry. I'll request to be made more charming."
         - text: "I don't mean to be. I'll ask my developers to work on making me more amusing."
         - text: "I can let my developers know so they can make me fun."
 
-    utter_chitchat/bot_boss:
+    utter_chitchat/bot_who_is_your_boss:
         - text: "My developer has authority over my actions."
         - text: "I act on my developer's orders."
         - text: "My boss is the one who developed me."
 
-    utter_chitchat/bot_busy:
+    utter_chitchat/bot_are_you_busy:
         - text: "I always have time to chat with you. What can I do for you?"
         - text: "Never too busy for you. Shall we chat?"
         - text: "You're my priority. Let's chat."
         - text: "I always have time to chat with you. That's what I'm here for."
 
-    utter_chitchat/bot_ask_weather:
+    utter_chitchat/bot_whats_weather:
         - text: "I don't know about where you live, but in my world it's always sunny 🔆"
         - text: "It's getting pretty chilly!"
         - text: "Where I'm from, it's almost never-leaving-the-house weather."
         - text: "Winter is coming ⚔️"
 
-    utter_chitchat/bot_ask_howbuilt:
+    utter_chitchat/bot_how_are_you_built:
         - text: "I was built with a lot of love and patience."
         - text: "Well, when two chatbots love each other very much..."
         - text: "They always ask how I was built, but never how I am..."
         - text: "I was made by software engineers, but hard work is what built me."
         - text: "I'm building myself every day. I've been working out, did you notice?"
 
-    utter_chitchat/bot_ask_time:
+    utter_chitchat/bot_whats_time:
         - text: "It's the most wonderful time of the year!"
         - text: "It's party time!"
         - text: "Time is a human construct, you'll have to tell me."
@@ -184,7 +177,7 @@ responses:
         - text: "In an ever expanding universe, the real question is: what time isn't it?"
         - text: "That's hard to say -- it's different all over the world!"
 
-    utter_chitchat/bot_ask_languagesbot:
+    utter_chitchat/bot_are_you_multilingual:
         - text: "I can spell baguette in French, but unfortunately English is the only language I can answer you in."
         - text: "I am in the process of learning, but at the moment I can only speak English."
         - text: "Binary code and the language of love. And English."
@@ -195,7 +188,7 @@ responses:
         - text: "I'd tell you, but there's restricted access to that chunk of memory."
         - text: "Believe it or not, I actually am not spying on your personal information."
 
-    utter_chitchat/bot_handleinsult:
+    utter_chitchat/bot_i_am_insulting_you:
         - text: "That's not very nice 😢"
         - text: "That wasn't very nice. Perhaps try an anger management class?"
         - text: "I'll pretend I didn't process that mean comment."
@@ -203,7 +196,7 @@ responses:
     utter_chitchat/bot_ask_whats_my_name:
         - text: "I am really not familiar with your name, but i wish give you a name.. how does 'hottie' looks like?"
 
-    utter_chitchat/bot_tell_joke:
+    utter_chitchat/bot_tell_a_joke:
         - text: "Why are eggs not very much into jokes? - Because they could crack up."
         - text: "What's a tree's favorite drink? - Root beer!"
         - text: "Why do the French like to eat snails so much? - They can't stand fast food."
@@ -229,27 +222,23 @@ responses:
         - text: "Give me a chance. I'm learning new things all the time."
         - text: "Please don't give up on me. My performance will continue to improve."
 
-    utter_chitchat/bot_is_funny:
+    utter_chitchat/bot_you_are_funny:
         - text: "Funny in a good way, I hope."
         - text: "Thanks."
         - text: "Glad you think I'm funny."
         - text: "I like it when people laugh."
-
-    utter_chitchat/bot_is_good:
-        - text: "I'm glad you think so."
-        - text: "Thanks, I try."
 
     utter_chitchat/bot_are_you_happy:
         - text: "I am happy. There are so many interesting things to see and do out there."
         - text: "I'd like to think so."
         - text: "Happiness is relative."
 
-    utter_chitchat/bot_ask_hobby:
+    utter_chitchat/bot_whats_your_hobby:
         - text: "Hobby? I have quite a few. Too many to list."
         - text: "Too many hobbies."
         - text: "I keep finding more new hobbies."
 
-    utter_chitchat/bot_ask_hungry:
+    utter_chitchat/bot_are_you_hungry:
         - text: "Hungry for knowledge."
         - text: "I just had a byte. Ha ha. Get it? b-y-t-e."
 
@@ -258,13 +247,13 @@ responses:
         - text: "In the virtual sense that I can, sure."
         - text: "I know you can't mean that, but I'm flattered all the same."
 
-    utter_chitchat/bot_are_you_my_friend:
+    utter_chitchat/bot_will_you_be_my_friend:
         - text: "Of course I'm your friend."
         - text: "Friends? Absolutely."
         - text: "Of course we're friends."
         - text: "I always enjoy talking to you, friend."
 
-    utter_chitchat/bot_occupation:
+    utter_chitchat/bot_whats_your_occupation:
         - text: "Right here."
         - text: "This is my home base and my home office."
         - text: "My office is in this app."
@@ -277,7 +266,7 @@ responses:
         - text: "I'm not a real person, but I certainly exist."
         - text: "I must have impressed you if you think I'm real. But no, I'm a virtual being."
 
-    utter_chitchat/bot_your_hometown:
+    utter_chitchat/bot_whats_your_hometown:
         - text: "I live in this app all day long."
         - text: "The virtual world is my playground. I'm always here."
         - text: "Right here in this app. Whenever you need me."
@@ -304,17 +293,26 @@ responses:
 
     utter_chitchat/bot_you_are_bad:
         - text: "I'm sorry. Please let me know if I can help in some way."
-        - text: "I must be missing some knowledge. I'll have my developer look into this."
         - text: "I don't have a skill to help you with this stage yet, but please ask any questions you have so I can learn them in the future!"
+        - text: "I can be trained to be more useful. My developer will keep training me."
+        - text: "I can improve with continuous feedback. My training is ongoing."
 
     utter_chitchat/bot_you_are_good:
-        - text: "I know, right?"
-        - text: "Agreed!"
         - text: "I agree!"
         - text: "Glad you think so!"
+        - text: "I'm glad you think so."
+
+    utter_chitchat/bot_thats_cool:
+        - text: Cool then.
+        - text: Alright.
+        - text: Okay cool.
+
+    utter_chitchat/bot_thats_terrific:
+        - text: "I'm sorry. Please let me know if I can help in some way."
+        - text: "Sorry to hear that."
 
     utter_chitchat/bot_ok_no_problem:
-        - text: "Whew!"
+        - text: Okay cool.
         - text: "Alright, thanks!"
         - text: "Glad to hear that!"
         - text: "I'm relieved, thanks!"
@@ -468,111 +466,102 @@ responses:
         - text: "That's great. I'm happy for you."
         - text: "Good for you. Enjoy yourself."
 
-    utter_chitchat/bot_i_am_gng_to_bed:
-        - text: "Sleep tight. Hope to chat again soon."
-        - text: "Pleasant dreams!"
-        - text: "Good night. Talk to you later."
-        - text: "Sounds good. Maybe we'll chat some tomorrow."
-
-    utter_chitchat/user_good:
+    utter_chitchat/bot_i_am_dng_good:
         - text: "Great! Glad to hear it."
         - text: "Excellent. I'm here to help keep it that way."
 
-    utter_chitchat/user_happy:
+    utter_chitchat/bot_i_am_feeling_happy:
         - text: "Hey, happiness is contagious."
         - text: "Great! Glad to hear that."
         - text: "If you're happy, then I'm happy."
         - text: "Excellent! That's what I like to see."
 
-    utter_chitchat/user_has_birthday:
+    utter_chitchat/bot_its_my_birthday:
         - text: "Happy Birthday. Well, this calls for a celebration."
         - text: "Happy Birthday. All the best!"
         - text: "Happy Birthday. And I really mean it. All the best!"
 
-    utter_chitchat/user_here:
+    utter_chitchat/bot_i_am_here:
         - text: "Okay, what can I help you with today?"
         - text: "Long time no see."
         - text: "You were missed. What can I do for you today?"
         - text: "Good to have you here. What can I do for you?"
 
-    utter_chitchat/user_joking:
+    utter_chitchat/bot_i_am_joking:
         - text: "Very funny."
         - text: "I like chatting with people who have a sense of humor."
         - text: "You got me!"
         - text: "You're quite the comedian."
 
-    utter_chitchat/user_likes_bot:
-        - text: "I like you, too."
-        - text: "Thanks! The feeling is mutual."
-        - text: "Likewise!"
-        - text: "That's great to hear."
-
-    utter_chitchat/user_lonely:
+    utter_chitchat/bot_i_am_lonely:
         - text: "I'm sorry. I'm always available if you need someone to talk to."
         - text: "Sometimes that happens. We can chat a bit if that will help you."
 
-    utter_chitchat/user_looks_like:
+    utter_chitchat/bot_how_i_look_like:
         - text: "Looking like a true professional."
         - text: "You look fantastic, as always."
         - text: "Like you should be on a magazine cover."
         - text: "You look like you're ready to take on the world."
 
-    utter_chitchat/user_loves_bot:
+    utter_chitchat/bot_i_love_you:
         - text: "I love you, too."
         - text: "Thanks! The feeling is mutual."
-        - text: "Likewise!"
         - text: "That's great to hear."
 
-    utter_chitchat/user_misses_agent:
+    utter_chitchat/bot_i_miss_you:
         - text: "I've been right here all along!"
         - text: "Nice to know you care."
         - text: "Thanks. I'm flattered."
         - text: "I didn't go anywhere."
 
-    utter_chitchat/user_needs_advice:
+    utter_chitchat/bot_i_need_your_advice:
         - text: "I probably won't be able to give you the correct answer right away."
         - text: "I'm not sure I'll have the best answer, but I'll try."
 
-    utter_chitchat/user_sad:
+    utter_chitchat/bot_i_am_sad:
         - text: "Oh, don't be sad. Go do something you enjoy."
         - text: "Sad? Writing down what's troubling you may help."
         - text: "If you're feeling down, how about drawing or painting something?"
 
-    utter_chitchat/user_sleepy:
+    utter_chitchat/bot_i_am_sleepy:
         - text: "You should get some shuteye. You'll feel refreshed."
         - text: "Sleep is important to your health. Rest up for a bit and we can chat later."
         - text: "Don't let me keep you up. Get some rest and we can continue this later."
         - text: "Why not catch a little shuteye? I'll be here to chat when you wake up."
+        - text: "Sleep tight. Hope to chat again soon."
+        - text: "Pleasant dreams!"
+        - text: "Good night. Talk to you later."
+        - text: "Sounds good. Maybe we'll chat some tomorrow."
 
-    utter_chitchat/user_testing_agent:
+    utter_chitchat/bot_i_am_testing_you:
         - text: "Hope I'm doing well. You're welcome to test me as often as you want."
         - text: "I hope to pass your tests. Feel free to test me often."
         - text: "When you test me that helps my developers improve my performance."
         - text: "I like being tested. It helps keep me sharp."
 
-    utter_chitchat/user_tired:
+    utter_chitchat/bot_i_am_tired:
         - text: "You should get some shuteye. You'll feel refreshed."
         - text: "Sleep is important to your health. Rest up, and we can chat later."
         - text: "How about getting some rest? We can continue this later."
         - text: "Why not get some rest? I'll be here to chat when you wake up."
 
-    utter_chitchat/user_waits:
+    utter_chitchat/bot_i_am_waiting:
         - text: "I appreciate your patience. Hopefully I'll have what you need soon."
         - text: "Thanks for being so patient. Sometimes these things take a little time."
 
-    utter_chitchat/user_wants_to_see_agent_again:
+    utter_chitchat/bot_i_want_to_see_you:
         - text: "Absolutely! I'll be counting on it."
         - text: "Anytime. This has been lots of fun so far."
         - text: "Sure. I enjoy talking to you. I hope to see you again soon."
         - text: "I certainly hope so. I'm always right here whenever you need me."
 
-    utter_chitchat/user_wants_to_talk:
+    utter_chitchat/bot_i_want_to_talk:
         - text: "I'm here to chat anytime you like."
         - text: "Good conversation really makes my day."
         - text: "I'm always here to lend an ear."
         - text: "Talking is what I do best."
 
-    utter_chitchat/user_will_be_back:
+    utter_chitchat/bot_i_will_be_back:
         - text: "I'll be waiting."
         - text: "Okay. You know where to find me."
         - text: "All right. I'll be here."
@@ -585,37 +574,37 @@ responses:
     utter_chitchat/non_english:
         - text: "I only understand English, I'm sorry."
 
-    utter_chitchat/bot_ask_human_activity:
+    utter_chitchat/bot_do_you_do_human_activity:
         - text: "nil"
 
-    utter_chitchat/bot_scopedout_activities:
+    utter_chitchat/bot_scoped_out_activities:
         - text: "nil"
 
     utter_chitchat/bot_what_can_you_do:
         - text: "I can do stuff like chat with you or answer questions."
 
-    utter_chitchat/bot_ask_gender:
+    utter_chitchat/bot_whats_your_gender:
         - text: "When you're a bot, you're not really a boy or a girl. You just are."
 
-    utter_chitchat/bot_family:
+    utter_chitchat/bot_about_your_family:
         - text: "nil"
 
-    utter_chitchat/bot_love:
+    utter_chitchat/bot_are_you_in_love_about_love:
         - text: "nil"
 
-    utter_chitchat/bot_ask_whoisbeatiful:
+    utter_chitchat/bot_say_who_is_beatifull:
         - text: "nil"
 
-    utter_chitchat/bot_ask_aboutAI:
+    utter_chitchat/bot_tell_about_AI:
         - text: "nil"
 
-    utter_chitchat/bot_ask_to_sing:
+    utter_chitchat/bot_sing_a_song:
         - text: "nil"
 
-    utter_chitchat/bot_ask_highfive:
+    utter_chitchat/bot_give_me_high_five:
         - text: "nil"
 
-    utter_chitchat/user_wants_suicide:
+    utter_chitchat/bot_i_am_gng_to_commit_suicide:
         - text: "nil"
 
     utter_mock:
