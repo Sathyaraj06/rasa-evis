@@ -1,6 +1,7 @@
 version: "3.1"
 
 nlu:
+  # About bot's origin
   - intent: chitchat/bot_who_are_you
     examples: |
       - tell me about your personality
@@ -746,7 +747,30 @@ nlu:
       - What's your purpose?
       - What tasks can you help me with?
       - How can you help?
+  - intent: chitchat/bot_whats_your_hobby
+    examples: |
+      - what do you do for fun?
+      - tell me about your hobby
+      - do you have a hobby
+      - what about your hobby
+      - your hobby
+      - what are your hobbies?
+      - what do you do when you are bored
+      - how do you spend your free time
+      - tell me more about your hobbies?
+      - i want to know about your hobbies
+      - what do you do when you have nothing to do
+      - how do you spend your time?
+      - What do you do when you are free?
+      - What's your hobby?
+      - Do you have many hobbies?
+      - Do you have a hobby?
+      - Please tell me about your hobbies
+      - The important thing is to have your own hobby
+      - u ought not to have spent so much money on your hobby
+      - What will you do when you are alone?
 
+  # commenting about you
   - intent: chitchat/bot_you_are_annoying
     examples: |
       - you are annoying me so much
@@ -1319,6 +1343,7 @@ nlu:
       - That's the smartest thing anyone has ever said
       - That's the smartest thing I've ever read
 
+  # Requesting an activity for me
   - intent: chitchat/bot_answer_my_question
     examples: |
       - I want you to answer me
@@ -1762,7 +1787,104 @@ nlu:
       - What is your opinion of AI?
       - What is your opinion about technology?
       - What is your take on tech companies?
-
+  - intent: chitchat/bot_marry_me
+    examples: |
+      - let's get married
+      - would you like to marry me
+      - marry me
+      - I love you marry me
+      - marry me please
+      - we should marry
+      - I want to marry you
+      - you are my wife
+      - be my husband
+      - will you marry me?
+      - any idea of marrying me?
+      - I would love to marry you
+      - Can you marry me?
+      - Will you be my girlfriend?
+      - Let's pretend we have a happy marriage
+      - My parents were against our marriage
+      - My parents were opposed to our marriage
+      - Marriage is the union of a you and me
+      - Did your parents approve of your marriage?
+      - We're married
+      - Are we going to get engaged?
+      - I want to get married to you
+      - How about we get hitched?
+      - Can we tie the knot?
+      - Will you be my significant other?
+      - Do you want to make this official?
+      - Will you be my wife?
+      - Are we going to get married?
+      - When are you going to propose to me?
+      - I want to settle down with you
+      - Are we ever going to get engaged?
+      - I want to make an honest woman out of you
+      - I want to make you my husband
+      - I want to make you my significant other
+      - I want to make you my spouse
+      - I want to make you my wife
+      - I think we should get married
+      - I want to propose to you
+      - I want to tie the knot with you
+      - I'm going to propose to you
+      - Let's elope
+      - Let's get engaged
+      - Let's get hitched
+      - Let's get married
+      - Let's tie the knot
+      - I want to marry you
+      - Can I have your hand in marriage?
+      - Are we every going to get married?
+      - Are you ever going to ask me to marry you?
+      - Are you going to ask me to marry you?
+      - Can I be your husband?
+      - Can I be your significant other?
+      - I want to be married to you
+      - Can I be your wife?
+      - One day you'll be my spouse
+      - Can we get married?
+      - Do you want to get married?
+      - Do you want to make our relationship official?
+      - How about we tie the knot
+      - Can I be your spouse?
+      - You want to tie the knot?
+      - Will you be my husband?
+      - Will you make me your husband?
+      - Will you make me your spouse?
+      - Will you make me your wife?
+      - Will you marry me?
+      - Marry me
+      - You want to get married?
+      - When should we get married?
+      - Why don't you marry me?
+      - Why don't we get married?
+      - Meet me at the altar
+      - Why don't we make this official?
+      - We're getting married
+      - When will you propose?
+      - Let's exchange vows
+      - You wanna get married?
+      - We should get married
+      - Let's walk down the aisle
+      - One day you'll be my wife
+      - One of these days we should get married
+      - Should we elope?
+      - Should we get married?
+      - Should we just get married?
+      - Should we make this official?
+      - Where should we get married?
+      - We should get hitched
+      - When's our wedding?
+      - We should have a wedding
+      - We should make this official
+      - We should tie the knot
+      - When are you going to ask me to get married?
+      - When are you going to propose?
+      - When is our wedding?
+      - One day you'll be my husband
+      - Should we tie the knot?
   - intent: chitchat/bot_give_me_high_five
     examples: |
       - Can you shake my hand?
@@ -1797,6 +1919,8 @@ nlu:
       - I would like a fist bump
       - I want a high five
       - Won't you give me a fist bump
+
+  # Asking bot some questions
   - intent: chitchat/bot_you_need_to_improve
     examples: |
       - you should study better
@@ -2230,28 +2354,6 @@ nlu:
       - Were you happy?
       - u seemed to have been very happy
       - You look very happy this morning?
-  - intent: chitchat/bot_whats_your_hobby
-    examples: |
-      - what do you do for fun?
-      - tell me about your hobby
-      - do you have a hobby
-      - what about your hobby
-      - your hobby
-      - what are your hobbies?
-      - what do you do when you are bored
-      - how do you spend your free time
-      - tell me more about your hobbies?
-      - i want to know about your hobbies
-      - what do you do when you have nothing to do
-      - how do you spend your time?
-      - What do you do when you are free?
-      - What's your hobby?
-      - Do you have many hobbies?
-      - Do you have a hobby?
-      - Please tell me about your hobbies
-      - The important thing is to have your own hobby
-      - u ought not to have spent so much money on your hobby
-      - What will you do when you are alone?
   - intent: chitchat/bot_are_you_hungry
     examples: |
       - do you want to eat
@@ -2268,104 +2370,6 @@ nlu:
       - how do you eat?
       - Do you feel hungry?
       - are you dying of hunger
-  - intent: chitchat/bot_marry_me
-    examples: |
-      - let's get married
-      - would you like to marry me
-      - marry me
-      - I love you marry me
-      - marry me please
-      - we should marry
-      - I want to marry you
-      - you are my wife
-      - be my husband
-      - will you marry me?
-      - any idea of marrying me?
-      - I would love to marry you
-      - Can you marry me?
-      - Will you be my girlfriend?
-      - Let's pretend we have a happy marriage
-      - My parents were against our marriage
-      - My parents were opposed to our marriage
-      - Marriage is the union of a you and me
-      - Did your parents approve of your marriage?
-      - We're married
-      - Are we going to get engaged?
-      - I want to get married to you
-      - How about we get hitched?
-      - Can we tie the knot?
-      - Will you be my significant other?
-      - Do you want to make this official?
-      - Will you be my wife?
-      - Are we going to get married?
-      - When are you going to propose to me?
-      - I want to settle down with you
-      - Are we ever going to get engaged?
-      - I want to make an honest woman out of you
-      - I want to make you my husband
-      - I want to make you my significant other
-      - I want to make you my spouse
-      - I want to make you my wife
-      - I think we should get married
-      - I want to propose to you
-      - I want to tie the knot with you
-      - I'm going to propose to you
-      - Let's elope
-      - Let's get engaged
-      - Let's get hitched
-      - Let's get married
-      - Let's tie the knot
-      - I want to marry you
-      - Can I have your hand in marriage?
-      - Are we every going to get married?
-      - Are you ever going to ask me to marry you?
-      - Are you going to ask me to marry you?
-      - Can I be your husband?
-      - Can I be your significant other?
-      - I want to be married to you
-      - Can I be your wife?
-      - One day you'll be my spouse
-      - Can we get married?
-      - Do you want to get married?
-      - Do you want to make our relationship official?
-      - How about we tie the knot
-      - Can I be your spouse?
-      - You want to tie the knot?
-      - Will you be my husband?
-      - Will you make me your husband?
-      - Will you make me your spouse?
-      - Will you make me your wife?
-      - Will you marry me?
-      - Marry me
-      - You want to get married?
-      - When should we get married?
-      - Why don't you marry me?
-      - Why don't we get married?
-      - Meet me at the altar
-      - Why don't we make this official?
-      - We're getting married
-      - When will you propose?
-      - Let's exchange vows
-      - You wanna get married?
-      - We should get married
-      - Let's walk down the aisle
-      - One day you'll be my wife
-      - One of these days we should get married
-      - Should we elope?
-      - Should we get married?
-      - Should we just get married?
-      - Should we make this official?
-      - Where should we get married?
-      - We should get hitched
-      - When's our wedding?
-      - We should have a wedding
-      - We should make this official
-      - We should tie the knot
-      - When are you going to ask me to get married?
-      - When are you going to propose?
-      - When is our wedding?
-      - One day you'll be my husband
-      - Should we tie the knot?
   - intent: chitchat/bot_will_you_be_my_friend
     examples: |
       - I want to have a friend like you
@@ -2503,6 +2507,7 @@ nlu:
       - you there?
       - are you still here
 
+  # short chats
   - intent: chitchat/bot_thats_terrific
     examples: |
       - pretty bad
@@ -3079,6 +3084,7 @@ nlu:
       - sup yo
       - wassap yo
 
+  # About my feeling now
   - intent: chitchat/bot_i_am_angry
     examples: |
       - I'm being mad
@@ -3826,6 +3832,7 @@ nlu:
       - When I return, we'll talk
       - I'll return in ten minutes
 
+  # Out of scope
   - intent: chitchat/bot_scoped_out_activities
     examples: |
       - Can you jump rope?
