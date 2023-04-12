@@ -11,7 +11,7 @@ sudo chmod 777 deploy.sh
 
 sudo docker-compose build
 
-sudo docker-compose up -d
+sudo docker-compose up -d hexaware
 
 # sudo docker-compose up -d --no-recreate dummy
 
