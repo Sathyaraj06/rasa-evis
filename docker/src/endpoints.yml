@@ -1,3 +1,7 @@
 # models:
 #   url: https://evisbotdevstorage.blob.core.windows.net/rasa-model/base-model.tar.gz
 #   wait_time_between_pulls: null
+
+# 127.0.0.1
+action_endpoint:
+  url: "http://localhost:5055/webhook"

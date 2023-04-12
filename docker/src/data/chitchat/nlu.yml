@@ -3865,6 +3865,7 @@ nlu:
       - Please be my girlfriend
 
   # Yet to write texts
+
   # Gereric Questions - Your favorite / Do you have
   - intent: chitchat/bot_do_you_have_pets
     examples: |

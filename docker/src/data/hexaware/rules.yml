@@ -4,9 +4,9 @@ rules:
   - rule: respond to evis
     steps:
       - intent: evis
-      - action: utter_evis
+      - action: action_common
 
   - rule: Say 'I am a mock' anytime the user mocks
     steps:
       - intent: bot_mock1
-      - action: utter_bot_mock1
+      - action: action_common

@@ -35,3 +35,6 @@ responses:
 
     utter_bot_mock1:
         - text: "mock"
+
+actions:
+    - action_common
