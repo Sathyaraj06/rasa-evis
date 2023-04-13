@@ -1,40 +1,37 @@
 version: "3.1"
 
 session_config:
-    session_expiration_time: 60 # value in minutes
-    carry_over_slots_to_new_session: true
+  session_expiration_time: 60 # value in minutes
+  carry_over_slots_to_new_session: true
 
 intents:
-    - evis/whatisevis
-    - evis/why_evis
-    - evis/how_to_get_started
-    - evis/book_demo
-    - evis/contact_sales
-    - evis/human_handoff
-    - evis
-    - bot_mock1
+- evis/whatisevis
+- evis/why_evis
+- evis/how_to_get_started
+- evis/book_demo
+- evis/contact_sales
+- evis/human_handoff
+- evis
+- bot_mock1
 
 responses:
-    utter_evis/whatisevis:
-        - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  utter_evis/whatisevis:
+  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
 
-    utter_evis/why_evis:
-        - text: Evis provides the chatbot and tools needed to build high-performing, resilient assistants that work.!
+  utter_evis/why_evis:
+  - text: Evis provides the chatbot and tools needed to build high-performing, resilient assistants that work.!
 
-    utter_evis/how_to_get_started:
-        - text: "Video link and steps 1., 2., 3."
+  utter_evis/how_to_get_started:
+  - text: "Video link and steps 1., 2., 3."
 
-    utter_evis/book_demo:
-        - text: "nil"
+  utter_evis/book_demo:
+  - text: "nil"
 
-    utter_evis/contact_sales:
-        - text: "nil"
+  utter_evis/contact_sales:
+  - text: "nil"
 
-    utter_evis/human_handoff:
-        - text: "nil"
+  utter_evis/human_handoff:
+  - text: "nil"
 
-    utter_bot_mock1:
-        - text: "mock"
-
-actions:
-    - action_common
+  utter_bot_mock1:
+  - text: "mock"
