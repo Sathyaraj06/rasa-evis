@@ -31,7 +31,7 @@ services:
     image: rasa-evis:latest
     build: ./docker
     ports:
-      - "6000:5005"
+      - "1000:5005"
     command: rasa run -m models/20230407-142457-chitchat.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
 
