@@ -1,7 +1,7 @@
 # WROKING
 
 # from rasa base image
-FROM rasa/rasa:latest
+FROM rasa/rasa:3.1.0
 # copy all source and the Rasa generated model
 COPY ./src/ /app
 
