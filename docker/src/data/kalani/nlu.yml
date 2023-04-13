@@ -1,0 +1,59 @@
+version: "3.1"
+
+nlu:
+- intent: chitchat/bot_aboutyou
+  examples: |
+    - tell me about your personality
+    - why are you here
+    - talk about yourself
+    - tell me some stuff about you
+    - talk some stuff about yourself
+    - I want to know you better
+    - I want to know more about you
+    - who are you
+
+- intent: chitchat/bot_age
+  examples: |
+    - tell me your age
+    - what's your age?
+    - your age
+    - age of yours
+    - how old were you
+    - I'd like to know your age
+
+- intent: chitchat/bot_annoying
+  examples: |
+    - you are annoying me so much
+    - you're incredibly annoying
+    - I find you annoying
+    - you are annoying
+    - you're so annoying
+    - how annoying you are
+    - you annoy me
+    - you are annoying me
+
+- intent: faq/bot_answer_my_question
+  examples: |
+    - I want you to answer me
+    - answer
+    - answer my question
+    - answer me
+
+- intent: faq/bot_bad
+  examples: |
+    - you're not helping me
+    - you are bad
+    - you're very bad
+    - you're really bad
+    - you are useless
+
+
+- intent: faq/bot_be_clever
+  examples: |
+    - study
+    - you should study better
+    - you must learn
+    - be clever
+    - be more clever
+    - be smarter
+

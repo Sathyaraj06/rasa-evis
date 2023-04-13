@@ -1,7 +1,7 @@
 # WROKING
 
 # from rasa base image
-FROM rasa/rasa:3.3.7
+FROM rasa/rasa:latest
 # copy all source and the Rasa generated model
 COPY ./src/ /app
 
@@ -15,7 +15,7 @@ ENTRYPOINT []
 # WORKING
 # rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml --out models --fixed-model-name hexaware-model
 
-RUN rasa train --data data/hexaware/nlu.yml data/hexaware/rules.yml data/hexaware/stories.yml -d data/hexaware/domain.yml --config data/hexaware/config.yml --out models --fixed-model-name hexaware-model
+RUN rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml
 
 
 

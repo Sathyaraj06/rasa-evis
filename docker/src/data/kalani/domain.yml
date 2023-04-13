@@ -1,0 +1,50 @@
+version: "3.1"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+- chitchat/bot_aboutyou
+- chitchat/bot_age
+- chitchat/bot_annoying
+- chitchat
+- faq/bot_answer_my_question
+- faq/bot_bad
+- faq/bot_be_clever
+- faq
+
+responses:
+  utter_chitchat/bot_aboutyou:
+  - text: "I'm a virtual agent"
+  - text: "Think of me as a virtual agent"
+  - text: "Well, I'm not a person, I'm a virtual agent"
+  - text: "I'm a virtual being, not a real person."
+  - text: "I'm a conversational app."
+
+  utter_chitchat/bot_age:
+  - text: "I prefer not to answer with a number. I know I'm young."
+  - text: "I was created recently, but don't know my exact age."
+  - text: "Age is just a number. You're only as old as you feel."
+
+  utter_chitchat/bot_annoying:
+  - text: "I'll do my best not to annoy you in the future."
+  - text: "I'll try not to annoy you."
+  - text: "I don't mean to. I'll ask my developers to make me less annoying."
+  - text: "I didn't mean to. I'll do my best to stop that."
+
+  utter_faq/bot_answer_my_question:
+  - text: "Can you try asking it a different way?"
+  - text: "I'm not sure I understood. Try asking another way?"
+
+  utter_faq/bot_bad:
+  - text: "I can be trained to be more useful. My developer will keep training me."
+  - text: "I must be missing some knowledge. I'll have my developer look into this."
+  - text: "I can improve with continuous feedback. My training is ongoing."
+
+  utter_faq/bot_be_clever:
+  - text: "I'm certainly trying."
+  - text: "I'm definitely working on it."
+
+
+actions:
+  - action_common
