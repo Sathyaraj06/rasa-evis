@@ -8,7 +8,7 @@ services:
     build: ./docker
     ports:
       - "1001:5005"
-    command: rasa run -m models/base-model.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
+    command: rasa run -m models/hexaware-modell.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
   chitchat:
     container_name: chitchat
@@ -16,7 +16,7 @@ services:
     build: ./docker
     ports:
       - "1000:5005"
-    command: rasa run -m models/base-model.tar.gz --enable-api --log-file rasa.log --debug --cors "*" 
+    command: rasa run -m models/hexaware-modell.tar.gz --enable-api --log-file rasa.log --debug --cors "*" 
 
   hexaware:
     container_name: hexaware
@@ -24,7 +24,7 @@ services:
     build: ./docker
     ports:
       - "6000:5005"
-    command: rasa run -m models/base-model.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
+    command: rasa run -m models/hexaware-modell.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
 
   # hexaware:

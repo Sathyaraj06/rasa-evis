@@ -15,11 +15,11 @@ ENTRYPOINT []
 # WORKING
 # rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml --out models --fixed-model-name hexaware-model
 
-# RUN rasa train --data data/hexaware/nlu.yml data/hexaware/rules.yml data/hexaware/stories.yml -d data/hexaware/domain.yml --config data/hexaware/config.yml --out models --fixed-model-name hexaware-model
+RUN rasa train --data data/hexaware/nlu.yml data/hexaware/rules.yml data/hexaware/stories.yml -d data/hexaware/domain.yml --config data/hexaware/config.yml --out models --fixed-model-name hexaware-model
 
 
 
-RUN rasa train --data data/base/nlu.yml data/hexaware/nlu.yml data/base/rules.yml data/hexaware/rules.yml data/base/stories.yml data/hexaware/stories.yml -d data/base/domain.yml data/hexaware/domain.yml --config data/hexaware/config.yml --out models --fixed-model-name base-model
+# RUN rasa train --data data/base/nlu.yml data/hexaware/nlu.yml data/base/rules.yml data/hexaware/rules.yml data/base/stories.yml data/hexaware/stories.yml -d data/base/domain.yml data/hexaware/domain.yml --config data/hexaware/config.yml --out models --fixed-model-name base-model
 
 # ENV shell_mode false
 
