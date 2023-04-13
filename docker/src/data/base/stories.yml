@@ -3,4 +3,4 @@ stories:
   - story: story 01
     steps:
       - intent: chitchat
-      - action: utter_chitchat
+      - action: action_common
