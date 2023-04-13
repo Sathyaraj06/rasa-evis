@@ -17,6 +17,3 @@ responses:
         - text: "my age is 1"
     utter_mock:
         - text: "I am mock"
-
-actions:
-    - action_common

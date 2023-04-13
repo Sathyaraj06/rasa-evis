@@ -4,9 +4,9 @@ rules:
   - rule: bot_who
     steps:
       - intent: chitchat
-      - action: action_common
+      - action: utter_chitchat
 
   - rule: Say 'I am a mock' anytime the user mocks
     steps:
       - intent: bot_mock
-      - action: action_common
+      - action: utter_mock
