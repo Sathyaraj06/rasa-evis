@@ -18,21 +18,21 @@ services:
   #     - "1000:5005"
   #   command: rasa run -m models/20230407-142457-chitchat.tar.gz --enable-api --log-file rasa.log --debug --cors "*" 
 
-  kalani:
-    container_name: kalani
-    image: rasa-evis:latest
-    build: ./docker
-    ports:
-      - "6000:5005"
-    command: rasa run --enable-api --log-file rasa.log --debug --cors "*" & rasa run actions
-
-  # hexaware:
-  #   container_name: hexaware
+  # kalani:
+  #   container_name: kalani
   #   image: rasa-evis:latest
   #   build: ./docker
   #   ports:
   #     - "6000:5005"
-  #   command: rasa run -m models/hexaware-model.tar.gz --enable-api --log-file rasa.log --debug --cors "*" & rasa run actions
+  #   command: rasa run --enable-api --log-file rasa.log --debug --cors "*" & rasa run actions
+
+  hexaware:
+    container_name: hexaware
+    image: rasa-evis:latest
+    build: ./docker
+    ports:
+      - "6000:5005"
+    command: rasa run -m models/20230407-142457-chitchat.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
 
   # hexaware:
