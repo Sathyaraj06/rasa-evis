@@ -24,7 +24,7 @@ services:
     build: ./docker
     ports:
       - "6000:5005"
-    command: rasa run -m models/base-model.tar.gz --enable-api --log-file rasa.log --debug --cors "*" & rasa run actions
+    command: rasa run -m --enable-api --log-file rasa.log --debug --cors "*" & rasa run actions
 
 
   # hexaware:
