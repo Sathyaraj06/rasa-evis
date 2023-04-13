@@ -3244,6 +3244,17 @@ nlu:
       - I'll return in a jiffy
       - When I return, we'll talk
       - I'll return in ten minutes
+  - intent: chitchat/bot_i_am sorry
+    examples: |
+      - I am sorry
+      - Ohhh sorry
+      - Dont mistake me
+      - so sorry
+      - Its my mistake
+      - I didnt mean like that
+      - Didn't mean that
+      - I am wrong
+      - Forgive me
 
   # Asking bot some questions
   - intent: chitchat/bot_you_need_to_improve
