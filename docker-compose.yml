@@ -24,7 +24,7 @@ services:
     build: ./docker
     ports:
       - "1000:5005"
-    command: rasa run --enable-api --actions actions --log-file rasa.log --debug --cors "*"
+    command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
   # hexaware:
   #  container_name: hexaware
