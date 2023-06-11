@@ -8,4 +8,4 @@ Time: 4.25 hrs
 **Milestone 2: Ongoing**
 1) 212 story paths delivered.
 
-Time
+Time: 2.3667 hrs
