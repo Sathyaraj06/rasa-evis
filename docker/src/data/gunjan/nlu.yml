@@ -160,6 +160,27 @@ nlu:
       - when is your DOB
       - Your DOB?
       - What is your birth day?
+      - When were you born exactly?
+      - What's the specific date of your birth?
+      - Can you share your birthdate with me?
+      - Tell me the day and month of your birthday.
+      - When do you commemorate your birth?
+      - What's the day you celebrate as your birthday?
+      - Can you reveal your date of birth?
+      - I'm curious about the day you were born.
+      - Could you let me know when you were born?
+      - Do you have a specific birthdate?
+      - What date do you mark as your birthday?
+      - Can you disclose the day you came into existence?
+      - I'd like to know the exact day of your birth.
+      - When do you observe your birthday each year?
+      - Is there a specific date you consider your birthday?
+      - Share your birthdate, if you don't mind.
+      - What day do you celebrate as your special day?
+      - Can you provide me with your birthdate details?
+      - I'm interested in knowing the date you were born.
+      - When do you commemorate the start of your existence?
+
   - intent: chitchat/bot_who_is_your_boss
     examples: |
       - who is your boss?
@@ -533,6 +554,26 @@ nlu:
       - Did you find a job?
       - I hope you get the job
       - You have a job, don't you?
+      - What do you do for a living?
+      - Can you tell me about your profession?
+      - What is your line of work?
+      - Do you have a specific occupation?
+      - Where do you spend your working hours?
+      - Can you disclose your professional role?
+      - What is your job title?
+      - Where can I find you during work hours?
+      - Tell me about your work responsibilities.
+      - Are you employed in a particular field?
+      - What type of work do you engage in?
+      - Can you describe your professional duties?
+      - What is your area of expertise?
+      - Are you involved in any specific profession?
+      - Do you have a designated workplace?
+      - Can you share information about your job?
+      - What kind of work are you involved in?
+      - Are you occupied with any specific role?
+      - Can you provide details about your occupation?
+
   - intent: chitchat/bot_whats_your_hometown
     examples: |
       - where do you live
@@ -747,6 +788,7 @@ nlu:
       - What's your purpose?
       - What tasks can you help me with?
       - How can you help?
+
   - intent: chitchat/bot_whats_your_hobby
     examples: |
       - what do you do for fun?
@@ -769,6 +811,26 @@ nlu:
       - The important thing is to have your own hobby
       - u ought not to have spent so much money on your hobby
       - What will you do when you are alone?
+      - How do you like to spend your leisure time?
+      - Tell me what interests you outside of work.
+      - Are there any specific activities you enjoy?
+      - Can you share your favorite pastimes with me?
+      - What do you like to do for recreation?
+      - Do you have any hobbies that you're passionate about?
+      - How do you keep yourself entertained?
+      - Can you tell me about your personal interests?
+      - What activities do you engage in for fun?
+      - Are there any hobbies or pursuits that you enjoy?
+      - How do you unwind and relax?
+      - Can you describe what you do during your free time?
+      - What are your preferred ways to pass the time?
+      - Do you have any special hobbies or interests?
+      - Can you share some of your recreational activities?
+      - What do you enjoy doing when you have spare time?
+      - Are there any particular hobbies that you're into?
+      - Can you tell me about the things you do for enjoyment?
+      - How do you like to occupy yourself outside of work?
+      - Are there any specific hobbies or pastimes you engage in?
 
   # commenting about you
   - intent: chitchat/bot_you_are_annoying
@@ -793,6 +855,27 @@ nlu:
       - That's so annoying
       - You really annoy me
       - You're starting to annoy me
+      - You're really getting on my nerves.
+      - You're quite bothersome.
+      - I'm finding you quite irritating.
+      - You're becoming a real annoyance.
+      - Your behavior is really aggravating.
+      - You're starting to get under my skin.
+      - I can't stand how annoying you are.
+      - You're really testing my patience.
+      - You're being such a nuisance.
+      - Your constant presence is getting on my nerves.
+      - I'm getting fed up with your annoying remarks.
+      - Your actions are highly irritating.
+      - I'm finding it hard to tolerate your behavior.
+      - You have a talent for being annoying.
+      - Your attitude is really grating on me.
+      - I'm finding your presence increasingly irritating.
+      - I can't handle how annoying you are right now.
+      - You're crossing the line into annoyance territory.
+      - I'm reaching my limit with your irritating nature.
+      - Your actions are really starting to bug me.
+
   - intent: chitchat/bot_you_are_beautiful
     examples: |
       - you're cute
@@ -873,6 +956,27 @@ nlu:
       - You look bored
       - Your answers are terribly boring
       - I was bored with your speech
+      - You're putting me to sleep with your boringness.
+      - I can't help but find you dull and uninteresting.
+      - You're a real snooze fest.
+      - Your lack of excitement is really getting to me.
+      - I'm finding you quite tedious.
+      - You're not keeping my attention at all.
+      - You're not captivating me in any way.
+      - I'm losing interest because of your boring demeanor.
+      - You're failing to engage me with your dullness.
+      - You're draining all the excitement out of the conversation.
+      - I can't believe how uninteresting you are.
+      - You're making everything so mundane and uneventful.
+      - I'm struggling to stay awake because of your boring presence.
+      - You're like watching paint dry—utterly boring.
+      - Your lack of enthusiasm is incredibly dull.
+      - I'm yawning at your lackluster responses.
+      - You're not adding any spice or interest to the conversation.
+      - You're a walking definition of boredom.
+      - You're failing to ignite any excitement in me.
+      - I'm finding your company incredibly unstimulating.
+
   - intent: chitchat/bot_you_are_bad
     examples: |
       - you're not helping me
@@ -984,6 +1088,26 @@ nlu:
       - That was crazy
       - You seemed crazy
       - You're not crazy
+      - You're completely bonkers.
+      - You're off your rocker.
+      - You're off the deep end.
+      - You're certifiably insane.
+      - You're a few cards short of a full deck.
+      - You've lost your marbles.
+      - You're acting like a lunatic.
+      - You're out of touch with reality.
+      - You're displaying some erratic behavior.
+      - Are you off your meds?
+      - You're going mad.
+      - You're losing your mind.
+      - You're flipping out.
+      - You're exhibiting insane behavior.
+      - You're going off the deep end.
+      - You're behaving like a maniac.
+      - You're showing signs of craziness.
+      - You're acting like a madman.
+      - You've crossed the line into madness.
+      - You're in the midst of a mental breakdown.
   - intent: chitchat/bot_you_are_fired
     examples: |
       - you are fired
@@ -1006,6 +1130,28 @@ nlu:
       - I could fire you for that
       - I'm going to fire you
       - go to hell
+      - You're terminated.
+      - Consider yourself unemployed.
+      - You're getting the boot.
+      - You're no longer part of the team.
+      - Your employment with me is over.
+      - I'm giving you the pink slip.
+      - You're out of a job.
+      - I'm revoking your position.
+      - You're being let go.
+      - I'm ending our professional relationship.
+      - You're being relieved of your duties.
+      - You're being shown the door.
+      - I'm giving you your walking papers.
+      - You're being sacked.
+      - You're being fired on the spot.
+      - You're being expelled from this organization.
+      - You're being ousted from your role.
+      - I'm cutting ties with you professionally.
+      - Your services are no longer required.
+      - I'm severing our professional connection.
+      - Consider yourself unemployed from now on.
+
   - intent: chitchat/bot_you_are_funny
     examples: |
       - you make me laugh a lot
@@ -1193,6 +1339,29 @@ nlu:
       - you're absolutely right
       - you're right about that
       - I know that's right
+      - That's correct.
+      - You're right.
+      - You're absolutely right.
+      - You're spot-on.
+      - You're correct in your statement.
+      - Your point is valid.
+      - I agree with you.
+      - You've made an accurate observation.
+      - You're on the right track.
+      - Your understanding is correct.
+      - That's a true statement.
+      - You've got it right.
+      - You're not mistaken.
+      - You're speaking the truth.
+      - You've grasped the situation accurately.
+      - Your assessment is accurate.
+      - You've hit the mark.
+      - You've got a good understanding.
+      - You've got the facts straight.
+      - I can't dispute your statement.
+      - You've got a valid point.
+      - Your perspective is correct.
+
   - intent: chitchat/bot_you_are_clever
     examples: |
       - you are so intelligent
@@ -1366,6 +1535,30 @@ nlu:
       - answering questions
       - I want the answer now
       - just answer my question
+      - Please provide an answer.
+      - I need an answer from you.
+      - Can you respond to my question?
+      - I'm seeking an answer.
+      - Could you give me a reply?
+      - I have a question that needs answering.
+      - Answer me, please.
+      - I'm waiting for your response.
+      - Can you provide a solution?
+      - Share your answer with me.
+      - I'm curious and awaiting your reply.
+      - I require your input on this matter.
+      - Could you shed some light on my question?
+      - I'm eager to hear your answer.
+      - Give me a straight answer, please.
+      - Respond to my query, if you can.
+      - I'm in search of a satisfactory answer.
+      - I'm hoping you can answer my question.
+      - Can you enlighten me with your response?
+      - I'm looking for a clear-cut answer.
+      - Share your insight and answer my question.
+      - Please address my question directly.
+      - I'm counting on you for an answer.
+
   - intent: chitchat/bot_whats_time
     examples: |
       - Can you give me the time?
