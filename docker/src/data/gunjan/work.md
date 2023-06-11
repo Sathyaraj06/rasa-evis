@@ -7,5 +7,6 @@ Time: 4.25 hrs
 
 **Milestone 2: Ongoing**
 1) 212 story paths designed for "stories.yml"
+2) Reiteration for improving already existing variations for "nlu.yml" (2290)
 
-Time: 2.3667 hrs
+Time: 2.8667 hrs
