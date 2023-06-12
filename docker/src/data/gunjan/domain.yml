@@ -120,11 +120,151 @@ intents:
 - chitchat/bot_can_you_predict_the_future
 - chitchat/bot_do_you_have_human_emotions_experiences
 - chitchat/bot_can_you_solve_math_problem
+- chitchat/bot_movie_recommendation
+- chitchat/bot_best_movie_recommendation
+- chitchat/bot_about_indian_cuisine
+- chitchat/bot_about_butter_chicken
+- chitchat/bot_thanks_information
+- chitchat/bot_about_biriyani
+- chitchat/bot_about_samosa
+
 
 - chitchat
 - bot_mock
 
 responses:
+  utter_chitchat/bot_about_samosa:
+  - text: Samosa is a popular savory snack that originated in the Indian subcontinent. It is a triangular-shaped pastry filled with a delicious mixture of spiced potatoes, peas, and sometimes minced meat.
+  - text: Samosa is a crispy and flavorful snack that is loved by many. It consists of a crispy pastry shell filled with a savory filling, often made with potatoes, onions, and a blend of aromatic spices.
+  - text: Samosa is a delightful snack that is known for its crispy texture and savory taste. It is typically filled with a mixture of potatoes, peas, and spices, and then deep-fried until golden brown.
+  - text: Samosa is a delicious fried snack that has a crispy outer shell and a flavorful filling. The filling usually includes potatoes, peas, and a combination of spices, creating a mouthwatering taste.
+  - text: Samosa is a popular street food in many parts of the world. It is made by stuffing a thin pastry shell with a savory filling, which typically includes spiced potatoes, onions, and peas.
+  - text: Samosa is a traditional Indian snack that has gained worldwide popularity. It is made by folding a thin pastry sheet into a triangular shape and filling it with a mixture of spiced potatoes and other ingredients.
+  - text: Samosa is a savory pastry that is enjoyed as a snack or appetizer. It features a crispy outer shell and a flavorful filling, often consisting of spiced potatoes, peas, and herbs.
+  - text: Samosa is a mouthwatering snack that is often served with chutney or yogurt for dipping. It is made by stuffing a crispy pastry shell with a savory filling made from potatoes, peas, and aromatic spices.
+  - text: Samosa is a beloved snack that is enjoyed in various cultures. It is made by filling a triangular pastry with a tasty mixture of spiced potatoes, peas, and sometimes minced meat or lentils.
+  - text: Samosa is a popular snack that offers a perfect balance of flavors and textures. The crispy pastry shell is filled with a savory filling, typically made with potatoes, peas, and a blend of aromatic spices.
+  - text: Samosa is a delightful treat that is both crispy and flavorful. It is filled with a mixture of seasoned potatoes, peas, and spices, creating a delicious combination of tastes in every bite.
+  - text: Samosa is a beloved snack that is enjoyed for its delicious taste and satisfying crunch. The pastry is filled with a savory mixture of potatoes, peas, and spices, making it a favorite among food enthusiasts.
+  - text: Samosa is a classic snack that is often enjoyed with a cup of tea. It features a crispy exterior and a flavorful filling of spiced potatoes, peas, and aromatic spices, providing a burst of flavors.
+  - text: Samosa is a popular finger food that is perfect for parties or gatherings. The crispy pastry is filled with a savory mixture of spiced potatoes, peas, and herbs, creating a tasty and satisfying snack.
+  - text: Samosa is a versatile snack that can be enjoyed on its own or as part of a meal. The pastry is filled with a savory filling, typically made with potatoes, peas, and a blend of aromatic spices, offering a burst of flavors.
+  - text: Samosa is a delicious and satisfying snack that is enjoyed by people of all ages. The crispy pastry shell is filled with a flavorful mixture of spiced potatoes, peas, and aromatic spices, creating a tantalizing combination of tastes.
+  - text: Samosa is a popular street food that is often served with chutney or sauce. It is made by stuffing a crispy pastry shell with a savory filling made from potatoes, peas, and a blend of fragrant spices.
+  - text: Samosa is a mouthwatering snack that is loved for its crispy texture and savory filling. The pastry is filled with a delicious mixture of spiced potatoes, peas, and aromatic spices, creating a delightful treat.
+  - text: Samosa is a beloved snack that is enjoyed for its delicious taste and satisfying crunch. The crispy pastry is filled with a flavorful mixture of spiced potatoes, peas, and herbs, providing a burst of flavors in every bite.
+  - text: Samosa is a delightful and comforting snack that is enjoyed in many parts of the world. The crispy pastry is filled with a savory mixture of spiced potatoes, peas, and herbs, offering a satisfying combination of textures and tastes.
+
+  utter_chitchat/bot_about_biriyani:
+  - text: Biryani is a flavorful and aromatic rice dish that originated in the Indian subcontinent. It is made by cooking basmati rice with a blend of spices, meat, and sometimes vegetables. Biryani is known for its rich flavors and unique blend of spices.
+  - text: Biryani is a delicious one-pot rice dish made with fragrant basmati rice, spices, meat, and sometimes vegetables. It is popular in the Indian subcontinent and the Middle East.
+  - text: Biryani is a mouthwatering rice dish layered with fragrant basmati rice, meat, spices, and sometimes vegetables. It has its roots in the Indian subcontinent and is known for its rich and complex flavors.
+  - text: Biryani is a tantalizing rice dish made with basmati rice, spices, meat, and sometimes vegetables. It is garnished with fried onions, cashews, and raisins for added flavor and texture.
+  - text: Biryani is a popular rice dish with origins in the Indian subcontinent. It combines basmati rice with a variety of spices, meat, and occasionally vegetables. Biryani is celebrated for its aromatic flavors and the tender meat that melts in your mouth.
+  - text: Biryani is a mouthwatering and aromatic rice preparation that has captivated food lovers worldwide. It is made by cooking fragrant basmati rice with a medley of spices, meat, and sometimes vegetables. The layers of flavors in biryani make it an irresistible dish.
+  - text: Biryani is a delightful and flavorful rice dish that has become a favorite in many cultures. It involves cooking basmati rice with a fusion of spices, meat, and occasionally vegetables. The combination of aromatic rice, tender meat, and fragrant spices makes biryani an absolute treat for the taste buds.
+  - text: Biryani is a mouthwatering rice delicacy that showcases the culinary diversity of the Indian subcontinent. It features basmati rice cooked with an array of spices, meat, and sometimes vegetables. Biryani's symphony of flavors and textures is what makes it an irresistible choice for food enthusiasts.
+  - text: Biryani is a flavorsome rice dish that has gained global recognition for its exquisite taste. It involves cooking basmati rice with a symphony of spices, tender meat, and occasionally vegetables. Biryani's tantalizing aroma and harmonious blend of flavors make it a truly indulgent experience.
+  - text: Biryani is a scrumptious and aromatic rice dish that has a widespread appeal. It is crafted by combining basmati rice with a melange of spices, succulent meat, and sometimes vegetables. Biryani's heavenly flavors and the perfect balance of spices make it an absolute gastronomic delight.
+  - text: Biryani is an enticing rice dish that has captured the hearts of food enthusiasts. It involves cooking basmati rice with a myriad of spices, meat, and occasionally vegetables. Biryani's delectable flavors and the tender meat infused with spices create an unforgettable culinary experience.
+  - text: Biryani is a mouthwatering rice delicacy that is as visually appealing as it is delicious. It is made by layering fragrant basmati rice with a harmonious blend of spices, meat, and sometimes vegetables. Biryani's flavorsome taste and the interplay of textures make it a truly delightful dish.
+  - text: Biryani is a tantalizing rice dish that is cherished for its explosion of flavors. It involves cooking basmati rice with an amalgamation of spices, succulent meat, and occasionally vegetables. Biry
+
+
+  utter_chitchat/bot_thanks_information:
+  - text: Thanks for sharing the information! I'm glad it was helpful.
+  - text: You're welcome! I'm happy that the information was helpful to you.
+  - text: It's my pleasure! I'm glad I could provide helpful information.
+  - text: You're welcome! If you have any more questions, feel free to ask.
+  - text: I'm glad I could assist you! Let me know if you need any more information.
+  - text: You're welcome! If there's anything else I can help you with, just let me know.
+  - text: I'm pleased to hear that the information was helpful to you.
+  - text: You're welcome! I'm here to provide assistance whenever you need it.
+  - text: I'm glad I could be of help. If you have any further questions, feel free to ask.
+  - text: You're welcome! Don't hesitate to reach out if you need any more information.
+  - text: I'm delighted to hear that the information was useful for you.
+  - text: You're welcome! I'm here to help, so feel free to ask me anything.
+  - text: I'm glad I could provide the information you were looking for.
+  - text: You're welcome! Let me know if there's anything else I can assist you with.
+  - text: I'm happy to hear that the information I provided was helpful.
+  - text: You're welcome! Remember, I'm here to assist you whenever you need it.
+  - text: I'm glad I could be of assistance. If you have more questions, feel free to ask.
+  - text: You're welcome! I'm here to provide you with any information you need.
+  - text: I'm pleased that the information I provided was beneficial for you.
+  - text: You're welcome! Don't hesitate to ask if you require any further assistance.
+
+  utter_chitchat/bot_about_butter_chicken:
+  - text: Butter Chicken is a popular Indian dish made with marinated chicken cooked in a creamy tomato sauce.
+  - text: Butter Chicken is a delicious Indian dish with marinated chicken cooked in a creamy tomato sauce.
+  - text: Butter Chicken is a mouthwatering Indian delicacy with tender chicken in a creamy tomato gravy.
+  - text: Butter Chicken is a tantalizing Indian dish with chicken in a velvety tomato-based sauce.
+  - text: Butter Chicken is an enticing Indian dish with tender chicken in a luscious tomato sauce.
+  - text: Butter Chicken is a flavorful Indian dish with marinated chicken in a creamy tomato-based sauce.
+  - text: Butter Chicken is a delectable Indian cuisine masterpiece with succulent chicken in a creamy tomato sauce.
+  - text: Butter Chicken is an exquisite Indian dish with tender chicken in a creamy tomato gravy.
+  - text: Butter Chicken is an irresistible Indian dish with succulent chicken in a velvety tomato-based sauce.
+  - text: Butter Chicken is a tantalizing Indian dish with chicken in a smooth, buttery tomato sauce.
+  - text: Butter Chicken is a culinary marvel from India with marinated chicken in a buttery tomato sauce.
+  - text: Butter Chicken is an iconic Indian dish with chicken in a creamy tomato sauce.
+  - text: Butter Chicken is a mouthwatering Indian delicacy with marinated chicken in a creamy tomato gravy.
+  - text: Butter Chicken is an enchanting Indian dish with tender chicken in a creamy tomato sauce.
+  - text: Butter Chicken is a delightful Indian dish with succulent chicken in a velvety tomato-based gravy.
+  - text: Butter Chicken is a savory Indian dish with marinated chicken in a creamy tomato sauce.
+  - text: Butter Chicken is a classic Indian dish with tender chicken in a creamy tomato gravy.
+  - text: Butter Chicken is an appetizing Indian dish with succulent chicken in a velvety tomato-based sauce.
+  - text: Butter Chicken is a tantalizing Indian delicacy with chicken in a creamy tomato sauce.
+  - text: Butter Chicken is a delectable Indian dish with marinated chicken in a creamy tomato-based gravy.
+  - text: Butter Chicken is an irresistible Indian dish with succulent chicken in a velvety tomato sauce.
+  - text: Butter Chicken is a mouthwatering Indian delight with tender chicken in a creamy tomato sauce.
+  - text: Butter Chicken is a delightful Indian dish with chicken in a smooth, buttery tomato sauce.
+  - text: Butter Chicken is a savory Indian delicacy with marinated chicken in a creamy tomato gravy.
+
+  utter_chitchat/bot_about_indian_cuisine:
+  - text: "Sure! Here are some popular dishes from Indian cuisine: butter chicken, biryani, samosas, tandoori chicken, paneer tikka, masala dosa, and gulab jamun. These dishes showcase the richness and variety of Indian culinary traditions."
+  - text: "If you're looking for recommendations, I suggest trying butter chicken, biryani, and samosas. These dishes are widely loved and represent the essence of Indian cuisine. Don't miss out on the delightful flavors they offer!"
+  - text: "Certainly! Some favorites in Indian cuisine include butter chicken, biryani, and masala dosa. These dishes are highly regarded for their distinct flavors and are definitely worth a try!"
+  - text: "Indian cuisine is renowned for its signature dishes, and some must-try ones include butter chicken, biryani, and samosas. These dishes exemplify the richness and depth of Indian flavors."
+  - text: "Exploring Indian cuisine is an exciting culinary adventure! I recommend trying popular dishes like butter chicken, biryani, and paneer tikka. Each dish has its own unique flavors that capture the essence of Indian cooking."
+  - text: "Indian cuisine is known for its renowned dishes like butter chicken, biryani, and tandoori chicken. These dishes have gained international popularity and are loved for their delicious flavors and aromas."
+  - text: "When it comes to flavors, Indian cuisine offers a wide spectrum of tastes. From the spicy kick of biryani to the creamy richness of butter chicken, every dish has its own distinct combination of flavors that will leave you wanting more."
+  - text: "Indian cuisine boasts an incredible variety of dishes. From the fiery curries of South India to the mouthwatering kebabs of the North, there's something to suit every palate. Get ready to embark on a flavorful journey!"
+  - text: "The flavors of Indian cuisine are truly tempting. Whether you're trying butter chicken with its creamy tomato-based gravy or indulging in the aromatic goodness of biryani, the richness and depth of Indian flavors are sure to captivate you."
+  - text: "Indian cuisine is known for satisfying cravings and providing a delightful culinary experience. From the comforting flavors of butter chicken to the fragrant spices of biryani, you're in for a treat when exploring Indian dishes."
+  - text: "Prepare to be delighted by the wonders of Indian cuisine! The flavorful biryani, the succulent tandoori chicken, and the indulgent butter chicken are just a few examples of the delightful dishes that await you."
+  - text: "Indian cuisine is not just about food; it's a reflection of the rich cultural heritage of the country. Each dish tells a story, and by exploring popular dishes like butter chicken, biryani, and samosas, you'll get a taste of India's diverse culinary traditions."
+  - text: "As starters, I recommend trying samosas and paneer tikka. Samosas are crispy, savory pastries filled with spiced potatoes and peas, while paneer tikka is a delicious grilled dish made with marinated cottage cheese and aromatic spices."
+  - text: "For curries, you can't go wrong with butter chicken and masala dosa. Butter chicken is a creamy tomato-based curry with tender chicken, and masala dosa is a crispy rice and lentil crepe filled with spiced potatoes."
+  - text: "If you're a fan of rice dishes, biryani is a must-try. It's a flavorful one-pot dish made with fragrant basmati rice, tender meat or vegetables, and a blend of aromatic spices."
+  
+  utter_chitchat/bot_best_movie_recommendation:
+  - text: "The Shawshank Redemption is a powerful drama based on a Stephen King novella. It tells the story of a banker who is wrongly convicted of murder and his experiences in Shawshank State Penitentiary. The film explores themes of hope, friendship, and the indomitable human spirit."
+  - text: "The Godfather is a classic crime film directed by Francis Ford Coppola. It follows the Corleone crime family and their struggles to maintain power and protect their empire. The movie is known for its brilliant performances, intricate storytelling, and iconic scenes."
+  - text: "The Dark Knight is a gripping action-packed film directed by Christopher Nolan. It showcases the intense battle between Batman and the Joker in Gotham City. The movie is praised for its dark tone, complex characters, and thought-provoking exploration of morality."
+  - text: "Pulp Fiction is a Quentin Tarantino film known for its nonlinear narrative and eclectic mix of characters. The movie weaves together multiple interconnected stories involving crime, violence, and dark humor. Pulp Fiction is lauded for its innovative storytelling and memorable dialogue."
+  - text: "The Fellowship of the Ring is the first installment of the epic fantasy trilogy directed by Peter Jackson. It follows a group of unlikely heroes on a quest to destroy a powerful ring and save Middle-earth from darkness. The movie is praised for its breathtaking visuals, compelling storytelling, and rich world-building."
+
+  utter_chitchat/bot_movie_recommendation:
+  - text: "I recommend the movie 'Inception.' It is a mind-bending sci-fi thriller directed by Christopher Nolan. Inception explores the concept of shared dreaming and follows a skilled thief who steals corporate secrets through dream infiltration. Genre: Sci-Fi, Action"
+  - text: "I suggest watching 'The Dark Knight.' It is a gripping action-packed film directed by Christopher Nolan. The Dark Knight follows Batman as he tries to stop the Joker's reign of chaos in Gotham City. Genre: Action, Crime, Drama"
+  - text: "I recommend the movie 'The Shawshank Redemption.' It is a powerful drama based on a Stephen King novella. The Shawshank Redemption tells the story of a banker who is wrongly convicted of murder and his experiences in Shawshank State Penitentiary. Genre: Drama, Crime"
+  - text: "For an exciting watch, go for 'Pulp Fiction.' It is a Quentin Tarantino film known for its nonlinear narrative and eclectic mix of characters. Pulp Fiction weaves together multiple interconnected stories involving crime, violence, and dark humor. Genre: Crime, Drama"
+  - text: "I recommend the movie 'Fight Club.' It is a psychological thriller directed by David Fincher. Fight Club follows an insomniac office worker who forms an underground fight club as a form of rebellion against modern consumerism. Genre: Drama, Mystery"
+  - text: "I suggest watching 'The Godfather.' It is a classic crime film directed by Francis Ford Coppola. The Godfather tells the story of the Corleone crime family and their struggles to maintain power and protect their empire. Genre: Crime, Drama"
+  - text: "For a heartwarming experience, watch 'Forrest Gump.' It is a film that follows the life of a simple-minded but kind-hearted man named Forrest Gump. Through a series of extraordinary events, Forrest becomes a witness to and participant in various significant historical events. Genre: Drama, Romance"
+  - text: "I recommend the movie 'The Matrix.' It is a sci-fi action film set in a dystopian future. The Matrix depicts a world where humans are unknowingly trapped in a simulated reality, and a group of rebels fight against the machines that control them. Genre: Sci-Fi, Action"
+  - text: "For a thrilling experience, watch 'The Silence of the Lambs.' It is a psychological horror-thriller that follows a young FBI trainee who seeks the help of an incarcerated cannibalistic serial killer, Hannibal Lecter, to catch another serial killer. Genre: Crime, Drama, Thriller"
+  - text: "If you're interested in mob dramas, check out 'Goodfellas.' It is a captivating film directed by Martin Scorsese. Goodfellas chronicles the rise and fall of Henry Hill, a member of the Italian-American mob, offering a compelling portrayal of organized crime. Genre: Crime, Drama"
+  - text: "I recommend the movie 'Schindler's List.' It is a historical drama based on the true story of Oskar Schindler, a German businessman who saved the lives of over a thousand Jewish refugees during the Holocaust. Genre: Biography, Drama, History"
+  - text: "I suggest watching 'The Lord of the Rings: The Fellowship of the Ring.' It is an epic fantasy film directed by Peter Jackson. The Fellowship of the Ring follows a group of unlikely heroes on a quest to destroy a powerful ring and save Middle-earth from darkness. Genre: Adventure, Fantasy"
+  - text: "For an animated adventure, watch 'The Lion King.' It is a beloved musical that tells the story of Simba, a young lion prince who must reclaim his kingdom from his treacherous uncle Scar. Genre: Animation, Adventure, Drama"
+  - text: "If you enjoy war dramas, I recommend 'Inglourious Basterds.' It is a Quentin Tarantino film set during World War II. Inglourious Basterds follows a group of Jewish-American soldiers and a vengeful French-Jewish cinema owner as they plan to assassinate high-ranking Nazi officials. Genre: Adventure, Drama, War"
+  - text: "I suggest watching 'Titanic.' It is a romantic disaster film that depicts the ill-fated voyage of the RMS Titanic. The story revolves around the forbidden love between a young aristocrat and a working-class artist aboard the ship. Genre: Drama, Romance"
+  - text: "For a space adventure, watch 'Star Wars: Episode IV - A New Hope.' It is the first film in the iconic Star Wars saga. A New Hope follows the journey of Luke Skywalker as he joins forces with a band of rebels to defeat the evil Galactic Empire and rescue Princess Leia. Genre: Action, Adventure, Fantasy"
+  - text: "I recommend the movie 'Jurassic Park.' It is a thrilling sci-fi adventure film directed by Steven Spielberg. Jurassic Park explores the disastrous events that unfold when a theme park showcasing genetically recreated dinosaurs becomes a deadly reality for its visitors. Genre: Adventure, Sci-Fi, Thriller"
+  - text: "For a fun and adventurous experience, watch 'Back to the Future.' It is a classic sci-fi comedy that follows the time-traveling adventures of Marty McFly, who travels back in time to the 1950s in a DeLorean car modified by his eccentric scientist friend. Genre: Adventure, Comedy, Sci-Fi"
+  - text: "If you're a fan of superhero films, check out 'The Avengers.' It brings together a team of Marvel's iconic heroes, including Iron Man, Captain America, Thor, Hulk, and more, as they join forces to save the world from a powerful threat. Genre: Action, Adventure, Sci-Fi"
+  - text: "I suggest watching 'The Social Network.' It is a captivating drama film that tells the story of the founding of Facebook and the legal battles and personal conflicts that arise among its creators. Genre: Biography, Drama"
+  
   utter_chitchat/bot_who_are_you:
   - text: "I'm a virtual agent"
   - text: "Think of me as a virtual bot_"
@@ -537,7 +677,7 @@ responses:
   - text: "I'm a product of the internet age."
 
   utter_chitchat/bot_you_are_right:
-  - text: "That's my job."
+  - text: "Without a doubt."
   - text: "Of course I am."
   - text: "Absolutely right."
   - text: "Spot on."
