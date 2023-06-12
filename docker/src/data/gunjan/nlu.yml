@@ -4885,6 +4885,261 @@ nlu:
       - rasa codigo abierto
       - 卧槽
 
+
+  - intent: chitchat/bot_movie_recommendation
+      - Can you recommend a movie?
+      - I'm looking for a movie suggestion. Any ideas?
+      - Could you provide me with a list of recommended movies?
+      - I'm in the mood for a movie. What would you suggest?
+      - Can you help me find a good movie to watch?
+      - I need some movie recommendations.
+      - Any good movies you've seen lately?
+      - What are some must-watch movies?
+      - Do you have any favorite movies?
+      - Which movies do you think I should watch?
+      - Any suggestions for a movie night?
+      - I'm bored. Give me something to watch.
+      - Can you suggest a movie that's currently popular?
+      - What's a good movie to watch with friends?
+      - I want to watch something new. Any recommendations?
+      - Recommend a movie that will make me think.
+      - What movies are trending right now?
+      - Looking for a great movie. Any suggestions?
+      - Can you recommend a feel-good movie?
+      - I'm in the mood for a comedy. Any recommendations?
+      - Need a movie for a date night. Any ideas?
+      - What's your all-time favorite movie?
+      - Looking for a mind-bending movie. Any suggestions?
+      - Can you suggest a movie that's suitable for kids?
+      - Any hidden gem movies you can recommend?
+      - I want to watch a classic movie. What do you suggest?
+      - Recommend a movie with a strong female lead.
+      - I'm in the mood for an action-packed movie. Any ideas?
+      - Any good sci-fi movies to recommend?
+      - What's a good horror movie to watch?
+      - I'm craving a suspenseful thriller. Any recommendations?
+      - Looking for a heartwarming drama. What should I watch?
+      - Can you suggest a documentary that's worth watching?
+      - Any recommendations for a fantasy movie?
+      - What's a good animated movie for the family?
+      - I want to watch a historical film. Any suggestions?
+      - Recommend a movie with great cinematography.
+
+  - intent: chitchat/bot_best_movie_recommendation
+    examples: |
+      - According to your taste, what is the best movie?
+      - Which movie do you consider the absolute best?
+      - Can you share your top pick for the best movie?
+      - I'm curious, what is your all-time favorite movie?
+      - In your opinion, what is the single best movie?
+      - Tell me the one movie you believe stands above all others.
+      - What is your ultimate recommendation for the best movie?
+      - Give me your personal choice for the very best movie.
+      - If you had to choose just one, what would be your best movie recommendation?
+      - Share the movie that you think is the epitome of greatness.
+      - According to your taste, which movie deserves the title of the best?
+      - What movie do you consider to be an unparalleled masterpiece?
+      - In your opinion, which film is the pinnacle of cinematic excellence?
+      - Can you recommend the single greatest movie according to you?
+      - I'm interested in knowing the one movie that you believe is unmatched.
+      - Which movie stands out as the absolute best in your eyes?
+      - What is your ultimate pick for the best movie ever made?
+      - Share the movie that you believe is the epitome of perfection.
+      - According to your taste, what movie is the epitome of greatness?
+      - If you could recommend just one movie, what would it be?
+      - Tell me the movie that you think everyone should watch above all others.
+      - In your opinion, which movie is an absolute must-see?
+      - Can you suggest the single greatest movie that has ever been made?
+      - I'm curious to know the movie that you consider the ultimate masterpiece.
+      - Which film, in your opinion, is the benchmark for excellence in the movie industry?
+      - What is your top choice for the best movie of all time?
+
+  - intent: chitchat/bot_about_indian_cuisine
+    examples: |
+      - I've been eager to experience the authentic flavors of Indian cuisine. Can you suggest some popular dishes from India?
+      - Indian cuisine has intrigued me for a while. What are the top dishes I should try?
+      - I'm curious about authentic Indian cuisine. Could you recommend some popular dishes?
+      - I've heard great things about Indian cuisine. Can you tell me about some of the must-try dishes?
+      - What are the most renowned dishes in Indian cuisine? I've been wanting to explore it.
+      - Indian cuisine has always fascinated me. Can you give me an introduction to some popular dishes?
+      - I'm looking to delve into the world of Indian cuisine. What are some well-known dishes?
+      - I've been craving authentic Indian flavors. Could you provide me with a list of popular dishes?
+      - I've developed an interest in Indian cuisine. Can you enlighten me about its famous dishes?
+      - What dishes should I try if I want to experience the true essence of Indian cuisine?
+      - I'm planning to explore Indian cuisine. Can you suggest some popular dishes I should start with?
+      - The vibrant Indian cuisine has caught my attention. Could you suggest some of its popular dishes?
+      - I've been wanting to immerse myself in Indian cuisine. Can you recommend some well-known dishes?
+      - Indian cuisine is a mystery to me. What are the signature dishes I should try?
+      - I've heard amazing things about Indian cuisine. Can you guide me through its famous dishes?
+      - I'm inquisitive about Indian cuisine. Could you provide me with a list of popular dishes to explore?
+      - I'm excited to try authentic Indian dishes. Can you tell me about some of the favorites?
+      - Indian cuisine has always piqued my interest. What are the go-to dishes I should try?
+      - I've been curious about Indian cuisine for a while. Can you suggest some well-known dishes?
+      - What are the classic dishes in Indian cuisine? I've been longing to try them.
+      - Indian cuisine is calling my name. Can you give me an introduction to its popular dishes?
+      - I'm eager to explore the wonders of Indian cuisine. What are some renowned dishes?
+      - I have a craving for authentic Indian flavors. Can you provide me with a list of popular dishes?
+      - I'm fascinated by Indian cuisine. Can you enlighten me about its famous dishes?
+      - What dishes should I try if I want to savor the true essence of Indian cuisine?
+      - I'm embarking on a culinary journey into Indian cuisine. Can you suggest some starting dishes?
+      - The diverse Indian cuisine has captured my interest. Could you suggest some popular dishes?
+      - I'm looking to explore the intricacies of Indian cuisine. What are some well-known dishes?
+      - I've been yearning for the flavors of authentic Indian cuisine. Can you recommend some popular dishes?
+      - Indian cuisine is a mystery waiting to be discovered. What are the signature dishes I should try?
+
+
+  - intent: chitchat/bot_about_butter_chicken
+    examples: |
+      - Please enlighten me about Butter Chicken; it truly captivates my interest.
+      - Can you give me some insights into Butter Chicken? It has caught my attention.
+      - I'm curious about Butter Chicken; could you provide some information about it?
+      - I'd love to learn more about Butter Chicken since it seems so fascinating.
+      - Butter Chicken has piqued my curiosity; can you share details about it?
+      - Tell me all about Butter Chicken; it has a captivating allure.
+      - I'm really intrigued by Butter Chicken; please enlighten me about it.
+      - I find Butter Chicken incredibly intriguing; could you provide some details?
+      - Butter Chicken looks absolutely captivating to me; can you tell me more?
+      - Can you shed some light on Butter Chicken? It looks incredibly intriguing.
+      - I'm fascinated by Butter Chicken; please share some insights with me.
+      - I'm eager to know more about Butter Chicken since it looks so intriguing.
+      - Could you provide some information about Butter Chicken? It really intrigues me.
+      - I have a deep interest in Butter Chicken; can you tell me more about it?
+      - Butter Chicken has caught my attention; could you please provide some details?
+      - I'm captivated by Butter Chicken; could you enlighten me about it?
+      - Please share some insights about Butter Chicken; it looks incredibly interesting.
+      - Can you give me a brief overview of Butter Chicken? It has intrigued me.
+      - Butter Chicken seems really fascinating; could you provide some information?
+      - I'm really curious about Butter Chicken; can you tell me more about it?
+      - I'd love to learn more about Butter Chicken; it has captured my interest.
+      - Butter Chicken looks absolutely intriguing; could you provide some details?
+      - I find Butter Chicken incredibly captivating; please enlighten me about it.
+      - Butter Chicken has a mesmerizing appeal to me; can you share more information?
+      - I'm fascinated by Butter Chicken; please tell me more about this dish.
+      - I'm eager to know about Butter Chicken since it looks so intriguing.
+      - Could you provide some information about Butter Chicken? It really fascinates me.
+      - I have a deep interest in Butter Chicken; could you tell me more about it?
+      - Butter Chicken has grabbed my attention; can you please provide some details?
+      - I'm captivated by Butter Chicken; could you enlighten me about this dish?
+      - Please share some insights about Butter Chicken; it looks incredibly captivating.
+      - Can you give me a brief description of Butter Chicken? It has intrigued me.
+      - Butter Chicken seems really captivating; could you provide some information?
+      - I'm really curious about Butter Chicken; can you tell me more about this dish?
+      - I'd love to learn more about Butter Chicken; it has sparked my interest.
+      - Butter Chicken looks absolutely fascinating; could you provide some details?
+      - I find Butter Chicken incredibly mesmerizing; please enlighten me about it.
+
+  - intent: chitchat/bot_thanks_information
+    examples: |
+      - Thanks for sharing the information, it was extremely helpful.
+      - I appreciate the information you provided; it was really helpful.
+      - Many thanks for the helpful information you shared.
+      - I'm grateful for the information you provided—it was really helpful.
+      - Thank you for the valuable information; it was greatly appreciated.
+      - I wanted to express my gratitude for the helpful information you provided.
+      - Thank you so much for the information; it was incredibly helpful.
+      - Your information was really helpful, and I'm grateful for that.
+      - I'm thankful for the information you shared—it was exactly what I needed.
+      - Thanks a lot for the information; it proved to be very helpful.
+      - I'm really appreciative of the information you provided—it was so helpful.
+      - Thank you for taking the time to share such helpful information.
+      - Your information was invaluable to me, and I'm truly thankful.
+      - Many thanks for the informative response; it was extremely helpful.
+      - I wanted to extend my thanks for the information; it was really helpful.
+      - Thank you for providing such helpful information—I truly appreciate it.
+      - I'm grateful for your assistance; the information you shared was really helpful.
+      - Thanks for the valuable information; it was exactly what I was looking for.
+      - I wanted to express my gratitude for the helpful information you provided.
+      - Thank you for sharing such useful information; it was greatly appreciated.
+      - I'm thankful for the information you shared—it was incredibly helpful.
+      - Thanks a million for the information; it was so helpful to me.
+      - I'm really appreciative of the information you provided—it was extremely helpful.
+      - Thank you for the helpful information; it made a big difference for me.
+      - Your information was exactly what I needed, and I'm thankful for that.
+      - Thanks a bunch for the information; it was immensely helpful.
+      - I'm truly grateful for the information you provided—it was so helpful.
+      - Thank you for sharing such valuable information; it was greatly appreciated.
+      - I wanted to extend my thanks for the information; it proved to be very helpful.
+      - Thank you for your prompt and helpful response; it was really appreciated.
+      - I'm grateful for the detailed information you provided—it was incredibly helpful.
+      - Many thanks for the informative explanation; it was exactly what I needed.
+      - I wanted to express my sincere thanks for the helpful information you provided.
+      - Thank you for going above and beyond with the information; it was truly helpful.
+      - I'm thankful for your assistance; the information you shared was invaluable.
+
+
+  - intent: chitchat/bot_about_biriyani
+    examples: |
+      - I'm curious to know more about Biriyani as it appears incredibly appetizing to me.
+      - Can you enlighten me about Biriyani? It seems incredibly mouthwatering.
+      - I would love to hear your thoughts on Biriyani; it looks incredibly delectable to me.
+      - Could you share some information about Biriyani? It seems incredibly tasty from what I've seen.
+      - I'm intrigued by Biriyani and its mouthwatering appearance. Can you provide some insights?
+      - Biriyani has caught my attention with its delectable appearance. Could you share some details about it?
+      - I'm fascinated by the look of Biriyani. Can you tell me more about its deliciousness?
+      - I can't help but be drawn to the enticing look of Biriyani. What can you tell me about its taste?
+      - I find Biriyani incredibly tempting. Can you give me some information about its flavors?
+      - Biriyani has piqued my interest with its scrumptious appearance. Can you provide some details?
+      - I'm captivated by the delicious-looking Biriyani. Can you shed some light on its flavors?
+      - Biriyani looks absolutely mouthwatering to me. Can you give me an overview of its taste?
+      - I'm really intrigued by the deliciousness of Biriyani. Can you share some insights about it?
+      - Biriyani looks incredibly delicious. Can you tell me more about its flavors and ingredients?
+      - I'm quite taken by the appetizing look of Biriyani. Can you provide some information about it?
+      - Biriyani has grabbed my attention with its tantalizing appearance. Can you give me an overview?
+      - I'm genuinely fascinated by the mouthwatering look of Biriyani. Can you enlighten me about its taste?
+      - Biriyani looks absolutely delectable. Can you provide some details about its flavors?
+      - I'm really captivated by the deliciousness of Biriyani. Can you tell me more about its taste?
+      - Biriyani has me enticed with its mouthwatering appearance. Can you share some insights?
+      - I'm irresistibly drawn to the enticing look of Biriyani. What can you tell me about its flavors?
+      - Biriyani looks incredibly tempting. Can you give me some information about its taste?
+      - I find Biriyani absolutely scrumptious. Can you provide some details about its flavors?
+      - Biriyani has me completely fascinated with its delicious-looking presentation. Can you shed some light on its taste?
+      - I'm genuinely captivated by the mouthwatering appeal of Biriyani. Can you give me an overview of its flavors?
+      - Biriyani looks absolutely irresistible to me. Can you share some insights about its deliciousness?
+      - I'm truly taken by the deliciousness of Biriyani. Can you tell me more about its flavors and ingredients?
+      - Biriyani looks incredibly mouthwatering. Can you provide some information about its taste?
+      - I'm deeply intrigued by the appetizing look of Biriyani. Can you give me an overview?
+      - Biriyani has caught my attention with its tempting appearance. Can you enlighten me about its taste?
+      - I'm genuinely fascinated by the deliciousness of Biriyani. Can you provide some details?
+      - Biriyani looks absolutely tantalizing. Can you tell me more about its flavors and ingredients?
+      - I'm truly captivated by the mouthwatering appeal of Biriyani. Can you provide some information about its taste?
+      - Biriyani looks incredibly scrumptious. Can you give me some insights about its flavors?
+      - I'm deeply intrigued by the delectability of Biriyani. Can you shed some light on its taste?
+
+  - intent: chitchat/bot_about_samosa
+    examples: |
+      - I'm curious about samosa. Can you tell me more about it?
+      - I would love to learn about samosa. Do you have any ideas or information?
+      - What can you tell me about samosa? I'm really interested in knowing more.
+      - I'm intrigued by samosa. Can you share some details or insights?
+      - Can you give me some information about samosa? I'm eager to know more.
+      - I'm fascinated by samosa. Can you provide me with more insights?
+      - I'm really interested in samosa. Could you tell me more about it?
+      - Can you give me some details about samosa? I'm curious to learn more.
+      - I'm curious about samosa. Can you provide any information or suggestions?
+      - I want to know more about samosa. Can you enlighten me about it?
+      - I'm interested in samosa. Can you share your thoughts or recommendations?
+      - Can you provide any information about samosa? I'm eager to learn more.
+      - I'm curious about samosa. Can you share your insights or ideas?
+      - I'm eager to know more about samosa. Can you give me some details?
+      - Can you provide more insights into samosa? I'm really curious to learn.
+      - I'm really interested in samosa. Can you provide more information?
+      - Can you tell me more about samosa? I'm eager to expand my knowledge.
+      - I'm fascinated by samosa. Can you share your thoughts or recommendations?
+      - Can you enlighten me about samosa? I'm really curious to learn more.
+      - Can you provide more details or suggestions about samosa?
+      - I'm intrigued by samosa. Can you share your insights or ideas?
+      - Can you provide any information about samosa? I'm curious to know more.
+      - I'm really interested in samosa. Can you share your thoughts or suggestions?
+      - Can you tell me more about samosa? I'm eager to explore further.
+      - I'm curious about samosa. Can you provide any more information?
+      - I'm fascinated by samosa. Can you share your thoughts or recommendations?
+      - Can you enlighten me about samosa? I'm really eager to learn more.
+      - Can you provide more details or suggestions about samosa?
+      - I'm intrigued by samosa. Can you share your insights or ideas?
+      - Can you provide any information about samosa? I'm curious to delve deeper.
+      - I'm really interested in samosa. Can you share your thoughts or suggestions?
+
+
   - intent: bot_mock
     examples: |
       - are you mock?
