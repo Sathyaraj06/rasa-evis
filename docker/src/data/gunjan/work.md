@@ -11,4 +11,4 @@ Time: 4.25 hrs
 3) Initiated designing stories.yml and parallelly updating nlu.yml and domain.yml
 4) Story flows in progress.
 
-Time: 6.566699 hrs
+Time: 8.766699 hrs
