@@ -156,102 +156,113 @@ stories:
       - intent: chitchat/bot_see_you_bye #
       - action: utter_chitchat/bot_see_you_bye #
 
-
-
-
-
   - story: TV Drama Breaking Bad
     steps:
       - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama
-      - action: utter_chitchat/bot_tv_drama
-      - intent: chitchat/bot_best_tv_drama #
-      - action: utter_chitchat/bot_breaking_bad #
-      - intent: chitchat/bot_good_one #
-      - action: utter_chitchat/bot_at_service #
-      - intent: chitchat/bot_thank_you_so_much # 
-      - action: chitchat/bot_thats_my_pleasure #
-      
+      - intent: chitchat/bot_tv_drama ##
+      - action: utter_chitchat/bot_tv_drama ##
+      - intent: chitchat/bot_best_tv_drama_recommend ##
+      - action: utter_chitchat/bot_best_tv_drama_recommend_bb ##
+      - intent: chitchat/bot_you_are_good 
+      - action: utter_chitchat/bot_you_are_good 
+      - intent: chitchat/bot_thanks_information
+      - action: utter_chitchat/bot_thanks_information
+      - intent: chitchat/bot_see_you_bye
+      - action: utter_chitchat/bot_see_you_bye
 
   - story: TV Sci-Fi Black Mirror
     steps:
-      - intent: chitchat/bot_TV
+      - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama
-      - action: utter_chitchat/bot_tv_dramas
-      - intent: chitchat/bot_best_tv_drama
-      - action: utter_chitchat/bot_breaking_bad
-      - intent: chitchat/bot_good_one
-      - action: utter_chitchat/bot_at_service
-      - intent: chitchat/bot_thank_you_so_much
-      - action: chitchat/bot_thats_my_pleasure
+      - intent: chitchat/bot_tv_scifi ##
+      - action: utter_chitchat/bot_tv_scifi ##
+      - intent: chitchat/bot_best_tv_scifi_recommend ##
+      - action: utter_chitchat/bot_best_tv_scifi_recommend_bm ##
+      - intent: chitchat/bot_you_are_good 
+      - action: utter_chitchat/bot_you_are_good 
+      - intent: chitchat/bot_thanks_information
+      - action: utter_chitchat/bot_thanks_information
+      - intent: chitchat/bot_see_you_bye
+      - action: utter_chitchat/bot_see_you_bye
 
-
-  - story: TV Horror
+  - story: TV Horror Hill House
     steps:
-      - intent: chitchat/bot_TV
+      - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama
-      - action: utter_chitchat/bot_tv_dramas
-      - intent: chitchat/bot_best_tv_drama
-      - action: utter_chitchat/bot_breaking_bad
-      - intent: chitchat/bot_good_one
-      - action: utter_chitchat/bot_at_service
-      - intent: chitchat/bot_thank_you_so_much
-      - action: chitchat/bot_thats_my_pleasure
+      - intent: chitchat/bot_tv_horror ##
+      - action: utter_chitchat/bot_tv_horror ##
+      - intent: chitchat/bot_best_tv_horror_recommend ##
+      - action: utter_chitchat/bot_best_tv_horror_recommend_hh ##
+      - intent: chitchat/bot_you_are_good 
+      - action: utter_chitchat/bot_you_are_good 
+      - intent: chitchat/bot_thanks_information
+      - action: utter_chitchat/bot_thanks_information
+      - intent: chitchat/bot_see_you_bye
+      - action: utter_chitchat/bot_see_you_bye
 
-
-  - story: TV Action
+  - story: TV Action Punisher
     steps:
-      - intent: chitchat/bot_TV
+      - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama
-      - action: utter_chitchat/bot_tv_dramas
-      - intent: chitchat/bot_best_tv_drama
-      - action: utter_chitchat/bot_breaking_bad
-      - intent: chitchat/bot_good_one
-      - action: utter_chitchat/bot_at_service
-      - intent: chitchat/bot_thank_you_so_much
-      - action: chitchat/bot_thats_my_pleasure
+      - intent: chitchat/bot_tv_action ##
+      - action: utter_chitchat/bot_tv_action ##
+      - intent: chitchat/bot_best_tv_action_recommend ##
+      - action: utter_chitchat/bot_best_tv_action_recommend_p ##
+      - intent: chitchat/bot_you_are_good 
+      - action: utter_chitchat/bot_you_are_good 
+      - intent: chitchat/bot_thanks_information
+      - action: utter_chitchat/bot_thanks_information
+      - intent: chitchat/bot_see_you_bye
+      - action: utter_chitchat/bot_see_you_bye
+
+
+
 
 
   - story: TV Comedy
     steps:
-      - intent: chitchat/bot_TV
+      - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama
-      - action: utter_chitchat/bot_tv_dramas
-      - intent: chitchat/bot_best_tv_drama
-      - action: utter_chitchat/bot_breaking_bad
-      - intent: chitchat/bot_good_one
-      - action: utter_chitchat/bot_at_service
-      - intent: chitchat/bot_thank_you_so_much
-      - action: chitchat/bot_thats_my_pleasure
+      - intent: chitchat/bot_tv_drama ##
+      - action: utter_chitchat/bot_tv_drama ##
+      - intent: chitchat/bot_best_tv_drama_recommend ##
+      - action: utter_chitchat/bot_best_tv_drama_recommend_bb ##
+      - intent: chitchat/bot_you_are_good 
+      - action: utter_chitchat/bot_you_are_good 
+      - intent: chitchat/bot_thanks_information
+      - action: utter_chitchat/bot_thanks_information
+      - intent: chitchat/bot_see_you_bye
+      - action: utter_chitchat/bot_see_you_bye
+
 
   - story: TV Thriller
     steps:
-      - intent: chitchat/bot_TV
+      - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama
-      - action: utter_chitchat/bot_tv_dramas
-      - intent: chitchat/bot_best_tv_drama
-      - action: utter_chitchat/bot_breaking_bad
-      - intent: chitchat/bot_good_one
-      - action: utter_chitchat/bot_at_service
-      - intent: chitchat/bot_thank_you_so_much
-      - action: chitchat/bot_thats_my_pleasure
+      - intent: chitchat/bot_tv_drama ##
+      - action: utter_chitchat/bot_tv_drama ##
+      - intent: chitchat/bot_best_tv_drama_recommend ##
+      - action: utter_chitchat/bot_best_tv_drama_recommend_bb ##
+      - intent: chitchat/bot_you_are_good 
+      - action: utter_chitchat/bot_you_are_good 
+      - intent: chitchat/bot_thanks_information
+      - action: utter_chitchat/bot_thanks_information
+      - intent: chitchat/bot_see_you_bye
+      - action: utter_chitchat/bot_see_you_bye
 
   - story: TV Fantasy
     steps:
-      - intent: chitchat/bot_TV
+      - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama
-      - action: utter_chitchat/bot_tv_dramas
-      - intent: chitchat/bot_best_tv_drama
-      - action: utter_chitchat/bot_breaking_bad
-      - intent: chitchat/bot_good_one
-      - action: utter_chitchat/bot_at_service
-      - intent: chitchat/bot_thank_you_so_much
-      - action: chitchat/bot_thats_my_pleasure
+      - intent: chitchat/bot_tv_drama ##
+      - action: utter_chitchat/bot_tv_drama ##
+      - intent: chitchat/bot_best_tv_drama_recommend ##
+      - action: utter_chitchat/bot_best_tv_drama_recommend_bb ##
+      - intent: chitchat/bot_you_are_good 
+      - action: utter_chitchat/bot_you_are_good 
+      - intent: chitchat/bot_thanks_information
+      - action: utter_chitchat/bot_thanks_information
+      - intent: chitchat/bot_see_you_bye
+      - action: utter_chitchat/bot_see_you_bye
 

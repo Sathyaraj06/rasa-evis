@@ -134,11 +134,168 @@ intents:
 - chitchat/bot_make_guess_weather
 - chitchat/bot_tv_recommend
 - chitchat/bot_tv_drama
+- chitchat/bot_tv_scifi
+- chitchat/bot_tv_horror
+- chitchat/bot_tv_action
+
+- chitchat/bot_best_tv_drama_recommend
+- chitchat/bot_best_tv_scifi_recommend
+- chitchat/bot_best_tv_horror_recommend
+- chitchat/bot_best_tv_action_recommend
+
 
 - chitchat
 - bot_mock
 
 responses:
+  utter_chitchat/bot_best_tv_action_recommend_p:
+  - text: "I believe I'm a big admirer of The Punisher; it's absolutely my favorite."
+  - text: "Personally, I think The Punisher is incredible, and it's definitely my top pick."
+  - text: "In my opinion, The Punisher is outstanding and stands as the ultimate choice for me."
+  - text: "I have to say, The Punisher has won me over as a fan; it's simply the best."
+  - text: "The Punisher has really captured my interest, and I consider it the finest option."
+  - text: "Without a doubt, I'm a huge fan of The Punisher; it's hands down the best for me."
+  - text: "To be honest, The Punisher has impressed me greatly, making it my favorite without a doubt."
+  - text: "I can confidently say that The Punisher is my favorite; it's truly outstanding."
+  - text: "As far as I'm concerned, The Punisher is the epitome of greatness and my ultimate favorite."
+  - text: "When it comes to my preferences, The Punisher takes the crown; it's simply the best."
+  - text: "I must admit, The Punisher has won me over completely and stands as my top choice."
+  - text: "The Punisher has truly captivated me; it's hands down the best in my book."
+  - text: "In my view, The Punisher is second to none and has become my absolute favorite."
+  - text: "Without a doubt, The Punisher has my utmost admiration; it's simply the best for me."
+  - text: "I can't deny that The Punisher has become my favorite; it's truly outstanding."
+  - text: "From my perspective, The Punisher is the pinnacle of excellence and my ultimate favorite."
+  - text: "When it comes to my personal preference, The Punisher reigns supreme as the best."
+  - text: "I'm a staunch fan of The Punisher; it has undoubtedly claimed the top spot for me."
+  - text: "The Punisher has truly won me over as a fan; it's simply the best choice for me."
+  - text: "Without a doubt, The Punisher has become my favorite; it's truly exceptional."
+
+  utter_chitchat/bot_best_tv_horror_recommend_hh:
+  - text: "I have a personal affinity for The Haunting of Hill House; it's absolutely phenomenal."
+  - text: "The Haunting of Hill House is my personal favorite; I highly recommend it."
+  - text: "Personally, I'm a big fan of The Haunting of Hill House; it's truly exceptional."
+  - text: "The Haunting of Hill House is top-notch in my opinion; I absolutely adore it."
+  - text: "I have a deep personal love for The Haunting of Hill House; it's unparalleled."
+  - text: "Personally, I think The Haunting of Hill House is the epitome of excellence."
+  - text: "The Haunting of Hill House holds a special place in my heart; it's unparalleled."
+  - text: "In my personal opinion, The Haunting of Hill House is the pinnacle of greatness."
+  - text: "The Haunting of Hill House is my personal go-to; it's truly outstanding."
+  - text: "Personally, I find The Haunting of Hill House to be the absolute best."
+  - text: "The Haunting of Hill House is my personal top pick; it's simply amazing."
+  - text: "I have a strong personal affection for The Haunting of Hill House; it's unparalleled."
+  - text: "Personally, I believe The Haunting of Hill House is the cream of the crop."
+  - text: "The Haunting of Hill House is at the top of my personal favorites; it's exceptional."
+  - text: "I hold The Haunting of Hill House dear to my heart; it's truly remarkable."
+  - text: "Personally, I'm deeply impressed by The Haunting of Hill House; it's unmatched."
+  - text: "The Haunting of Hill House is, in my personal opinion, the absolute best."
+  - text: "I have a personal fondness for The Haunting of Hill House; it's unparalleled."
+  - text: "Personally, I think The Haunting of Hill House is second to none."
+  - text: "The Haunting of Hill House is my personal recommendation; it's outstanding."
+
+  utter_chitchat/bot_best_tv_scifi_recommend_bm:
+  - text: "Black Mirror is a mind-bending and thought-provoking Sci-Fi TV show that I highly recommend. It presents a dystopian vision of the future, exploring the dark side of technology and its impact on society."
+  - text: "I personally suggest checking out Black Mirror, a captivating and thought-provoking Sci-Fi series that delves into the potential consequences of advanced technology. Each episode is a standalone story, offering unique and often unsettling narratives."
+  - text: "If you're into Sci-Fi, I recommend watching Black Mirror—it's a groundbreaking and mind-blowing series that pushes the boundaries of storytelling. It explores themes like artificial intelligence, virtual reality, and the ethical dilemmas they present."
+  - text: "For a Sci-Fi TV show, I'd recommend Black Mirror—it's a thought-provoking and gripping anthology series that examines the impact of technology on our lives. Each episode presents a different futuristic scenario, challenging our perceptions of the world we live in."
+  - text: "Black Mirror is a must-watch in the Sci-Fi genre. With its thought-provoking storytelling and high production value, it has gained a cult following. The series prompts us to reflect on the consequences of our increasingly interconnected and technology-driven world."
+  - text: "Looking for a Sci-Fi TV show? Check out Black Mirror—it's a mind-blowing and visually stunning series that explores the dark side of technology. Its thought-provoking narratives and unexpected twists will keep you on the edge of your seat."
+  - text: "If you're interested in Sci-Fi, I suggest giving Black Mirror a watch. It offers a unique and chilling take on the potential future of technology, raising important questions about privacy, morality, and the human condition."
+  - text: "Black Mirror is an intriguing and thought-provoking Sci-Fi series that I personally recommend. Its anthology format allows for diverse storytelling and provides a wide range of thought-provoking narratives that resonate with the audience long after watching."
+  - text: "When it comes to Sci-Fi, Black Mirror is my top pick. With its captivating storytelling and thought-provoking themes, it challenges our perception of reality and explores the moral implications of technological advancements."
+  - text: "I suggest Black Mirror if you're in the mood for a gripping and mind-bending Sci-Fi TV show. Its thought-provoking scenarios and social commentary make it a standout in the genre, providing a cautionary tale about the potential consequences of our digital lives."
+  - text: "Black Mirror is a must-see for Sci-Fi fans. With its intelligent writing and exceptional performances, it offers a thought-provoking exploration of the human relationship with technology, often leaving viewers pondering the implications long after the credits roll."
+  - text: "Looking for a recommendation in the Sci-Fi genre? Black Mirror is a great choice. Its anthology format allows for a variety of narratives, each exploring the intersection of technology and humanity in unique and captivating ways."
+  - text: "If you're a fan of Sci-Fi, I recommend checking out Black Mirror. Its thought-provoking and often unsettling stories challenge our assumptions about the future and serve as cautionary tales about the potential dangers of our reliance on technology."
+  - text: "When it comes to Sci-Fi TV shows, Black Mirror is my go-to recommendation. With its compelling storytelling and imaginative concepts, it serves as a powerful commentary on the impact of technology on society, provoking deep introspection and discussion."
+  - text: "Black Mirror is a must-watch Sci-Fi series that I highly recommend. Its thought-provoking narratives and intricate storytelling create a captivating viewing experience that will leave you contemplating the complexities of our digital age."
+
+  utter_chitchat/bot_best_tv_drama_recommend_bb:
+  - text: "Breaking Bad is a highly acclaimed TV show in the 'Drama' genre that I would personally recommend."
+  - text: "If you haven't seen it yet, Breaking Bad is an incredible TV show in the 'Drama' genre that I highly recommend."
+  - text: "Breaking Bad is a must-watch TV show in the 'Drama' genre, and it's one of my top recommendations."
+  - text: "I personally recommend Breaking Bad as an excellent choice in the 'Drama' genre."
+  - text: "Breaking Bad is a gripping TV show in the 'Drama' genre that I highly recommend checking out."
+  - text: "If you're into 'Drama,' Breaking Bad is a TV show that I personally recommend."
+  - text: "Breaking Bad is one of the best TV shows in the 'Drama' genre, and I highly recommend giving it a watch."
+  - text: "I can't recommend Breaking Bad enough if you're looking for a captivating TV show in the 'Drama' genre."
+  - text: "Breaking Bad is a masterpiece in the 'Drama' genre, and I personally recommend it wholeheartedly."
+  - text: "If you're a fan of 'Drama,' Breaking Bad is a TV show that I highly recommend adding to your watchlist."
+  - text: "Breaking Bad is a top-notch TV show in the 'Drama' genre, and I highly recommend giving it a go."
+  - text: "I personally vouch for Breaking Bad as a fantastic choice in the 'Drama' genre."
+  - text: "Breaking Bad is an exceptional TV show in the 'Drama' genre that I highly recommend watching."
+  - text: "If you're in the mood for 'Drama,' Breaking Bad is a TV show that I personally recommend without hesitation."
+  - text: "Breaking Bad is a must-see TV show in the 'Drama' genre, and I highly recommend giving it a watch."
+  - text: "I can't speak highly enough of Breaking Bad, a phenomenal TV show in the 'Drama' genre that I wholeheartedly recommend."
+  - text: "Breaking Bad is an outstanding choice in the 'Drama' genre, and I personally recommend it as one of the best."
+  - text: "If you're looking for a gripping TV show in the 'Drama' genre, Breaking Bad is a must-watch recommendation."
+  - text: "Breaking Bad is an absolute gem in the 'Drama' genre, and I highly recommend diving into its captivating storyline."
+  - text: "I highly recommend Breaking Bad if you're searching for a top-tier TV show in the 'Drama' genre."
+
+  utter_chitchat/bot_tv_action:
+  - text: "Sure! If you're into action-packed TV shows, I highly recommend 'Breaking Bad'. It's a thrilling crime drama that will keep you on the edge of your seat."
+  - text: "For an adrenaline-pumping TV show, I suggest checking out 'Game of Thrones'. It combines epic battles, political intrigue, and complex characters in a mesmerizing fantasy world."
+  - text: "If you're looking for a high-octane action series, 'Stranger Things' is a must-watch. It's a perfect blend of sci-fi, adventure, and 80s nostalgia that will leave you wanting more."
+  - text: "In the realm of action TV shows, 'The Mandalorian' stands out. It offers a captivating space western with thrilling action sequences and a lovable bounty hunter protagonist."
+  - text: "I would personally recommend 'Narcos' for an intense action series. It chronicles the rise and fall of drug cartels with gripping storytelling and powerful performances."
+  - text: "If you're a fan of superheroes, 'The Boys' is a must-see. It offers a dark and subversive take on the genre, with intense action and complex characters."
+  - text: "For a mind-bending action series, 'Westworld' is a top choice. It explores the blurred lines between human and artificial intelligence with thrilling twists and turns."
+  - text: "Looking for a thrilling action TV show? Look no further than 'Breaking Bad'. It follows the transformation of a chemistry teacher into a ruthless methamphetamine kingpin."
+  - text: "If you're seeking a gripping action series, 'Peaky Blinders' is worth checking out. It's set in post-WWI England and follows a notorious gang as they navigate the criminal underworld."
+  - text: "'Stranger Things' isn't just about horror; it's also packed with thrilling action sequences and a group of kids taking on otherworldly threats in a small town."
+  - text: "If you're in the mood for non-stop action, 'Prison Break' is an excellent choice. It follows a man's elaborate plan to break his brother out of prison and unravel a conspiracy."
+  - text: "For an epic action-adventure, 'Vikings' is a fantastic option. It transports you to the world of Norse warriors, battles, and exploration with captivating storytelling."
+  - text: "If you enjoy espionage and action, 'Homeland' is a gripping series that follows a CIA officer's pursuit of terrorists and her own battle with mental health."
+  - text: "When it comes to action TV shows, 'The Witcher' is a standout. It combines thrilling sword fights, supernatural creatures, and a complex protagonist on a quest for destiny."
+  - text: "If you're looking for a thrilling action series with a female lead, 'Alias' is a great choice. It follows a CIA agent who balances espionage, disguises, and personal secrets."
+  - text: "In the world of action TV shows, '24' is a classic. It's a real-time thriller that follows the exploits of counterterrorism agent Jack Bauer in a day filled with danger and suspense."
+  - text: "For a gripping action-packed series, 'Daredevil' is a must-watch. It's a dark and gritty superhero show that explores the moral complexities of vigilantism."
+
+
+  utter_chitchat/bot_tv_horror:
+  - text: "Sure! If you're into horror, I highly recommend 'American Horror Story'. It offers a unique blend of terror and suspense that will keep you on the edge of your seat."
+  - text: "For a great horror TV series, I suggest checking out 'Stranger Things'. It's a thrilling mix of horror, mystery, and nostalgia that has garnered widespread acclaim."
+  - text: "If you're looking for a chilling horror series, 'The Haunting of Hill House' is a must-watch. It's a hauntingly atmospheric show that will send shivers down your spine."
+  - text: "In the horror genre, 'Penny Dreadful' is a standout. It combines classic horror characters and rich storytelling to create a dark and mesmerizing series."
+  - text: "I would personally recommend 'The Walking Dead' for a gripping horror series. It's filled with intense zombie action and explores the human struggle for survival."
+  - text: "If you're a fan of psychological horror, 'Black Mirror' is a must-see. It delves into the dark side of technology and society, leaving you with thought-provoking chills."
+  - text: "For a modern take on classic horror, 'Bates Motel' is a fantastic choice. It serves as a prequel to the iconic 'Psycho' and delves into the twisted relationship between Norman Bates and his mother."
+  - text: "If you're looking for a long-running horror series, 'Supernatural' is worth checking out. It follows two brothers as they hunt supernatural creatures and confront their own personal demons."
+  - text: "'The Exorcist' is a highly recommended horror TV series. It expands upon the iconic horror film, diving deeper into the world of demonic possession and exorcisms."
+  - text: "For a dose of classic horror, 'The Twilight Zone' is a timeless choice. It's an anthology series that explores eerie and thought-provoking stories with unexpected twists."
+  - text: "If you're in the mood for supernatural horror, 'The Vampire Diaries' is a captivating series. It follows the lives of vampires, witches, and werewolves in a town filled with dark secrets."
+  - text: "'Hannibal' is a brilliant psychological horror series that explores the complex relationship between FBI profiler Will Graham and the infamous cannibalistic serial killer, Dr. Hannibal Lecter."
+  - text: "For a bone-chilling horror series, 'The Witcher' is a great pick. It combines fantasy elements with dark and gruesome creatures that will keep you hooked from start to finish."
+  - text: "If you're a fan of atmospheric horror, 'The Terror' is a must-watch. It tells the gripping story of a doomed Arctic expedition haunted by a supernatural entity."
+  - text: "For a fresh take on horror, 'Lovecraft Country' is an excellent choice. It combines elements of supernatural horror with social commentary, resulting in a thought-provoking and terrifying series."
+  - text: "If you enjoy horror anthology series, 'Creepshow' is a fantastic option. It pays homage to classic horror comics with its collection of creepy and thrilling standalone stories."
+  - text: "'The Outsider' is a gripping horror series based on the Stephen King novel. It follows a detective's investigation into a supernatural entity that forces him to question his own beliefs."
+  - text: "If you're a fan of psychological horror and time travel, 'Dark' is a mind-bending series that will leave you questioning reality. It explores the interconnected lives of four families in a small town."
+  - text: "For a chilling and suspenseful horror series, 'Marianne' is a hidden gem. It follows a writer who discovers that the terrifying character she created in her novels is coming to life."
+  - text: "'Stranger Things' isn't the only great horror series by the Duffer Brothers. 'The Haunting of Bly Manor' is another gripping show that offers a supernatural tale of love, loss, and terror."
+  - text: "If you're looking for a unique horror experience, 'Channel Zero' is an anthology series that adapts popular creepypastas into captivating and unsettling stories."
+
+  utter_chitchat/bot_tv_scifi:
+  - text: "Sure! If you're into Sci-Fi, I highly recommend 'Stranger Things'. It's an incredible blend of futuristic technology and thrilling storytelling."
+  - text: "For a Sci-Fi TV show, I personally recommend 'Black Mirror'. It has a captivating storyline and mind-bending concepts that will keep you hooked."
+  - text: "If you're looking for a Sci-Fi TV show, I suggest checking out 'Westworld'. It offers a unique blend of science fiction and compelling characters."
+  - text: "In the Sci-Fi genre, 'The Expanse' is a must-watch. It's packed with exciting adventures and explores intriguing futuristic concepts."
+  - text: "I would personally recommend 'The Mandalorian' for a Sci-Fi TV show. It has a fascinating premise and keeps you engaged throughout."
+  - text: "If you're a fan of Sci-Fi, 'Battlestar Galactica' is a must-see. Its imaginative world-building and gripping plot make it a standout in the genre."
+  - text: "When it comes to Sci-Fi TV shows, 'The Twilight Zone' is a top recommendation. It offers an immersive experience with its stellar visual effects and thought-provoking themes."
+  - text: "Looking for a captivating Sci-Fi TV show? Look no further than 'Firefly'. Its intricate storytelling and futuristic setting make it a standout choice."
+  - text: "For a remarkable Sci-Fi experience, I suggest watching 'Doctor Who'. Its compelling narrative and stunning visuals make it a must-watch for any Sci-Fi enthusiast."
+  - text: "If you're craving a Sci-Fi TV show, give 'Stranger Things' a try. It's filled with thrilling twists, complex characters, and a captivating storyline."
+  - text: "In the realm of Sci-Fi TV shows, 'The X-Files' stands out as a must-watch. Its imaginative world, intriguing plot, and strong performances make it an excellent choice."
+  - text: "I can't recommend 'Orphan Black' enough for Sci-Fi fans. It offers a thrilling and thought-provoking journey into the realms of futuristic technology and human nature."
+  - text: "If you're looking for a mind-bending Sci-Fi TV show, 'Black Mirror' is the perfect choice. Its thought-provoking concepts and gripping storytelling will leave you wanting more."
+  - text: "When it comes to Sci-Fi, 'Stranger Things' is a standout. It seamlessly blends futuristic elements with engaging storytelling, making it a must-watch for genre enthusiasts."
+  - text: "If you're in the mood for a Sci-Fi TV show, I highly recommend 'The Expanse'. Its immersive world, complex characters, and thrilling plot will keep you on the edge of your seat."
+  - text: "For an immersive Sci-Fi experience, I suggest diving into 'Westworld'. It offers a richly detailed universe, compelling characters, and thought-provoking themes."
+  - text: "Looking for an exciting Sci-Fi TV show? Look no further than 'The Mandalorian'. Its captivating storyline and innovative ideas make it a standout choice in the genre."
+  - text: "If you're seeking a thought-provoking Sci-Fi TV show, 'Black Mirror' is a must-watch. It pushes boundaries and explores profound concepts with its compelling narrative."
+  - text: "In the world of Sci-Fi TV shows, 'Stranger Things' is a gem. It combines thrilling action, gripping storytelling, and stunning visuals to deliver an unforgettable experience."
+  - text: "For a mesmerizing Sci-Fi journey, I recommend 'The Expanse'. Its imaginative world-building, intricate plot, and strong performances make it an absolute delight for Sci-Fi enthusiasts."
+
   utter_chitchat/bot_tv_drama:
   - text: "Sure! How about checking out 'Breaking Bad'? It's a gripping drama that will keep you hooked."
   - text: "I recommend watching 'Stranger Things'. It's a thrilling drama with a touch of mystery."

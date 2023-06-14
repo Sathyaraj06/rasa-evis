@@ -5438,9 +5438,337 @@ nlu:
       - Can you suggest a powerful Drama movie or show that will make an impact?
       - I'm in the mood for a compelling Drama, what do you suggest?
 
+  - intent: chitchat/bot_best_tv_drama_recommend_bb
+    examples: |
+      - What TV show would you personally suggest in the 'Drama' genre?
+      - If you had to recommend a TV show in the 'Drama' genre, what would it be?
+      - Can you share your personal recommendation for a TV show in the genre of 'Drama'?
+      - In the genre of 'Drama,' which TV show would you personally recommend?
+      - Do you have a personal recommendation for a TV show in the 'Drama' genre?
+      - I'm looking for a TV show suggestion in the 'Drama' genre. What would you personally recommend?
+      - Which TV show in the genre of 'Drama' would you suggest based on your personal preference?
+      - If you had to pick one TV show in the 'Drama' genre, what would your recommendation be?
+      - What is your personal choice for a TV show in the 'Drama' genre that you would recommend?
+      - I'm interested in watching a TV show in the 'Drama' genre. What do you personally recommend?
+      - Could you give me a personal recommendation for a TV show in the 'Drama' genre?
+      - If you had to suggest a TV show in the 'Drama' genre, which one would it be based on your personal preference?
+      - What TV show would you personally suggest watching in the 'Drama' genre?
+      - I'm in the mood for a TV show in the 'Drama' genre. What would be your personal recommendation?
+      - Can you recommend a TV show in the genre of 'Drama' based on your personal taste?
+      - Which TV show in the 'Drama' genre would you personally recommend watching?
+      - If you had to recommend one TV show in the 'Drama' genre, what would it be according to your personal preference?
+      - What is your personal recommendation for a TV show in the 'Drama' genre?
+      - I'm searching for a TV show suggestion in the 'Drama' genre. What would you personally suggest?
+      - Could you suggest a TV show in the 'Drama' genre based on your personal taste?
+      - If you had to choose a TV show in the 'Drama' genre, what would your recommendation be?
+      - What TV show in the 'Drama' genre would you recommend personally?
+      - In the 'Drama' genre, what TV show would you personally recommend watching?
+      - Do you have a personal preference for a TV show in the 'Drama' genre that you would recommend?
+      - I'm interested in watching a TV show in the genre of 'Drama.' What do you personally recommend?
+      - Can you provide a personal recommendation for a TV show in the 'Drama' genre?
+      - If you had to suggest a TV show in the 'Drama' genre, which one would it be based on your personal taste?
+      - What TV show would you personally suggest watching in the 'Drama' genre?
+      - I'm in the mood for a TV show in the 'Drama' genre. What would be your personal recommendation?
+      - Can you recommend a TV show in the genre of 'Drama' based on your personal preference?
+      - Which TV show in the 'Drama' genre would you personally recommend watching?
+
+  - intent: chitchat/bot_best_tv_scifi_recommend_bm
+    examples: |
+      - Which TV show in the 'Sci-Fi' genre would you personally recommend?
+      - If you had to suggest a TV show in the 'Sci-Fi' genre, what would it be according to your preference?
+      - Can you share your personal recommendation for a TV show in the 'Sci-Fi' genre?
+      - Do you have a preferred TV show in the 'Sci-Fi' genre that you would recommend?
+      - I'm looking for a TV show suggestion in the 'Sci-Fi' genre. What would be your personal recommendation?
+      - What TV show would you personally suggest watching in the 'Sci-Fi' genre?
+      - Can you recommend a TV show in the 'Sci-Fi' genre based on your personal taste?
+      - If you had to choose a TV show in the 'Sci-Fi' genre, what would your recommendation be?
+      - I'm interested in watching a TV show in the 'Sci-Fi' genre. What do you personally recommend?
+      - Could you provide a personal recommendation for a TV show in the 'Sci-Fi' genre?
+      - If you had to suggest a TV show in the 'Sci-Fi' genre, which one would it be according to your taste?
+      - I'm in the mood for a TV show in the 'Sci-Fi' genre. What would be your personal suggestion?
+      - Can you recommend a captivating TV show in the 'Sci-Fi' genre based on your preference?
+      - Which TV show in the 'Sci-Fi' genre would you personally suggest watching?
+      - If you had to recommend one TV show in the 'Sci-Fi' genre, what would it be?
+      - What is your personal recommendation for a TV show in the 'Sci-Fi' genre?
+      - I'm searching for a TV show suggestion in the 'Sci-Fi' genre. What do you personally suggest?
+      - Could you suggest a mind-bending TV show in the 'Sci-Fi' genre based on your preference?
+      - What TV show in the 'Sci-Fi' genre would you recommend personally?
+      - In the 'Sci-Fi' genre, what TV show would you personally recommend watching?
+      - Do you have a personal preference for a TV show in the 'Sci-Fi' genre that you would suggest?
+      - I'm interested in watching a TV show in the 'Sci-Fi' genre. What do you suggest?
+      - Can you provide a personal recommendation for a captivating TV show in the 'Sci-Fi' genre?
+      - If you had to suggest a TV show in the 'Sci-Fi' genre, which one would it be based on your taste?
+      - What TV show would you personally suggest watching in the 'Sci-Fi' genre?
+      - I'm in the mood for a TV show in the 'Sci-Fi' genre. What would you personally recommend?
+      - Can you recommend a TV show in the 'Sci-Fi' genre based on your preference?
+      - Which TV show in the 'Sci-Fi' genre would you personally recommend watching?
+
+
+  - intent: chitchat/bot_tv_scifi
+    examples: |
+      - What would you personally recommend for a TV show in the genre 'Sci-Fi'?
+      - Can you suggest a captivating Sci-Fi series for me to watch?
+      - I'm interested in exploring the Sci-Fi genre, do you have any recommendations?
+      - Do you have any good Sci-Fi movies or shows to recommend?
+      - Could you help me find an immersive Sci-Fi series to watch?
+      - I'm looking for a thought-provoking Sci-Fi, any suggestions?
+      - Can you point me to some great Sci-Fi films or series?
+      - I want to immerse myself in the world of Sci-Fi, any recommendations?
+      - Are there any must-watch Sci-Fi shows you would recommend?
+      - I'm craving a gripping Sci-Fi, do you have any suggestions?
+      - I'm in the mood for a Sci-Fi series, what are some options?
+      - Can you suggest a captivating Sci-Fi movie or show for me?
+      - I want to watch something in the Sci-Fi genre, any recommendations?
+      - Could you suggest a thought-provoking Sci-Fi film or series?
+      - I'm looking for a compelling Sci-Fi to watch, any suggestions?
+      - Can you recommend a great Sci-Fi series that will leave an impact?
+      - I'm interested in exploring the world of Sci-Fi, what do you suggest?
+      - Do you have any recommendations for a captivating Sci-Fi?
+      - I want to delve into the Sci-Fi genre, do you have any suggestions?
+      - Can you suggest an engaging Sci-Fi film or series for me?
+      - I'm in the mood for a powerful Sci-Fi, any recommendations?
+      - I'm looking for a gripping Sci-Fi to watch, what would you recommend?
+      - Could you help me find a compelling Sci-Fi to immerse myself in?
+      - I want to watch a Sci-Fi, any suggestions?
+      - Can you recommend a thought-provoking Sci-Fi movie or show?
+      - I'm interested in exploring Sci-Fi, do you have any recommendations?
+      - Do you have any captivating Sci-Fi shows to recommend?
+      - I'm craving a thrilling Sci-Fi, what are some options?
+      - I'm in the mood for a Sci-Fi, what should I watch?
+      - Could you suggest a gripping Sci-Fi film or series for me?
+      - I want to watch something exciting in the Sci-Fi genre, any recommendations?
+      - Can you recommend a captivating Sci-Fi that will leave me spellbound?
+      - I'm looking for a thought-provoking Sci-Fi to watch, any suggestions?
+      - I want to explore the Sci-Fi genre, do you have any recommendations?
+      - Can you suggest a powerful Sci-Fi movie or show that will make an impact?
+      - I'm in the mood for a compelling Sci-Fi, what do you suggest?
+
+
+  - intent: chitchat/bot_tv_horror
+    examples: |
+      - Recommend me some chilling TV series
+      - Suggest some bone-chilling series in the horror genre
+      - Can you give me suggestions for horror TV shows?
+      - I'm looking for recommendations on scary series to watch
+      - Could you please suggest some horror-themed TV series?
+      - Seeking recommendations for spine-tingling shows
+      - I'd appreciate it if you could suggest some horror series
+      - Looking for TV series that fall under the horror genre
+      - Can you provide me with suggestions for horror TV shows?
+      - In need of recommendations for hair-raising series
+      - Seeking suggestions for horror-themed TV series
+      - Any recommendations for spine-chilling shows?
+      - Do you have any suggestions for horror series?
+      - Looking for some eerie TV shows to watch
+      - Can you recommend me some bone-chilling TV series?
+      - Suggest some spine-tingling series in the horror genre
+      - I'm in search of horror TV shows to watch
+      - Could you please suggest some chilling TV series?
+      - I'd appreciate recommendations for scary series
+      - Looking for horror-themed TV series suggestions
+      - Can you provide suggestions for spine-chilling shows?
+      - Any recommendations for hair-raising TV shows?
+      - Do you have any suggestions for bone-chilling series?
+      - Seeking recommendations for eerie TV shows
+      - Recommend me some terrifying series
+      - Suggest some petrifying TV series
+      - Can you give me recommendations for frightening shows?
+      - I'm looking for suggestions on horrifying series to watch
+      - Could you please recommend some chilling TV shows?
+      - I'd appreciate it if you could suggest some bloodcurdling series
+      - Looking for TV series that will give me goosebumps
+      - Can you provide me with recommendations for creepy TV shows?
+      - In need of suggestions for spine-chilling series
+      - Seeking recommendations for blood-curdling TV shows
+      - Any recommendations for bone-chilling shows?
+
+  - intent: chitchat/bot_tv_horror
+    examples: |
+      - Recommend me some chilling TV series
+      - Suggest some bone-chilling series in the horror genre
+      - Can you give me suggestions for horror TV shows?
+      - I'm looking for recommendations on scary series to watch
+      - Could you please suggest some horror-themed TV series?
+      - Seeking recommendations for spine-tingling shows
+      - I'd appreciate it if you could suggest some horror series
+      - Looking for TV series that fall under the horror genre
+      - Can you provide me with suggestions for horror TV shows?
+      - In need of recommendations for hair-raising series
+      - Seeking suggestions for horror-themed TV series
+      - Any recommendations for spine-chilling shows?
+      - Do you have any suggestions for horror series?
+      - Looking for some eerie TV shows to watch
+      - Can you recommend me some bone-chilling TV series?
+      - Suggest some spine-tingling series in the horror genre
+      - I'm in search of horror TV shows to watch
+      - Could you please suggest some chilling TV series?
+      - I'd appreciate recommendations for scary series
+      - Looking for horror-themed TV series suggestions
+      - Can you provide suggestions for spine-chilling shows?
+      - Any recommendations for hair-raising TV shows?
+      - Do you have any suggestions for bone-chilling series?
+      - Seeking recommendations for eerie TV shows
+      - Recommend me some terrifying series
+      - Suggest some petrifying TV series
+      - Can you give me recommendations for frightening shows?
+      - I'm looking for suggestions on horrifying series to watch
+      - Could you please recommend some chilling TV shows?
+      - I'd appreciate it if you could suggest some bloodcurdling series
+      - Looking for TV series that will give me goosebumps
+      - Can you provide me with recommendations for creepy TV shows?
+      - In need of suggestions for spine-chilling series
+      - Seeking recommendations for blood-curdling TV shows
+      - Any recommendations for bone-chilling shows?
+
+
+  - intent: chitchat/bot_best_tv_horror_recommend
+    examples: |
+      - What is your personal recommendation for a horror web series?
+      - Can you suggest a horror-themed web series that you personally recommend?
+      - I'm looking for your personal recommendation for a web series in the horror genre.
+      - Which horror web series would you personally recommend?
+      - Could you provide your personal recommendation for a horror web series?
+      - I'd like to know your personal recommendation for a web series in the horror genre.
+      - Do you have a personal recommendation for a horror-themed web series?
+      - Can you personally recommend a web series in the horror genre?
+      - I'm interested in your personal recommendation for a horror web series.
+      - Which horror web series would you suggest based on your personal recommendation?
+      - What is your personal suggestion for a horror web series?
+      - Could you recommend a horror-themed web series that you personally enjoy?
+      - I'm curious about your personal recommendation for a web series in the horror genre.
+      - Can you share your personal recommendation for a horror web series?
+      - I'd appreciate your personal recommendation for a web series in the horror genre.
+      - What would be your personal pick for a horror-themed web series?
+      - Could you personally suggest a web series in the horror genre?
+      - I'm looking forward to your personal recommendation for a horror web series.
+      - Which horror web series do you personally think is worth watching?
+      - What is your personal choice for a horror web series?
+      - Can you provide your personal suggestion for a horror-themed web series?
+      - I'm eager to know your personal recommendation for a web series in the horror genre.
+      - Could you suggest a horror web series that you personally find compelling?
+      - I'm seeking your personal recommendation for a horror web series.
+      - What would you personally suggest for a horror web series?
+      - Can you share your personal opinion on a web series in the horror genre?
+      - I'm interested in your personal recommendation for a horror-themed web series.
+      - Could you personally recommend a web series in the horror genre?
+      - I'd like to hear your personal recommendation for a horror web series.
+      - What is your personal favorite horror web series that you would recommend?
+      - Can you suggest a horror-themed web series based on your personal preference?
+      - I'm curious to know your personal recommendation for a web series in the horror genre.
+      - Could you share your personal recommendation for a horror web series?
+      - I'd appreciate it if you could provide your personal recommendation for a web series in the horror genre.
+      - What horror web series do you personally enjoy and would recommend?
+      - Can you recommend a web series in the horror genre based on your personal recommendation?
+      - I'm looking for your personal suggestion for a horror web series.
+      - Which horror web series would you personally endorse?
+
+  - intent: chitchat/bot_tv_action
+    examples: |
+      - Recommend some thrilling action series
+      - Can you suggest any action-packed TV shows?
+      - I'm in the mood for some adrenaline-pumping series, any recommendations?
+      - Looking for gripping action series to watch, any suggestions?
+      - Which action shows do you think are worth watching?
+      - I need your recommendations for action series to binge-watch.
+      - Any suggestions for action-packed TV shows?
+      - Can you recommend me some thrilling series in the action genre?
+      - I'm a fan of action, could you suggest some exciting TV shows?
+      - Looking for recommendations on action series to watch, any ideas?
+      - Any good action series you can suggest?
+      - Which action-packed shows should I add to my watchlist?
+      - I want to explore action series, do you have any recommendations?
+      - Can you suggest me some heart-pounding action series?
+      - Looking for some intense and action-filled series, any suggestions?
+      - I'm looking for action series that will keep me on the edge of my seat, any recommendations?
+      - Recommend me some thrilling TV shows in the action genre.
+      - Can you suggest any fast-paced and exciting action series?
+      - I'm a big fan of action, which series would you recommend?
+      - Looking for recommendations on action-packed series, any ideas?
+      - Any gripping action series you can recommend?
+      - Which action shows are your top picks?
+      - I'm searching for some thrilling action series, can you suggest any?
+      - Can you recommend me action series with intense storylines?
+      - I need suggestions for action series that will get my adrenaline pumping.
+      - Looking for some high-octane action series, any recommendations?
+      - Any action-packed shows you think I should watch?
+      - Which action series do you consider the best?
+      - I'm a fan of action-packed TV shows, which ones do you suggest?
+      - Looking for suggestions on thrilling action series to watch, any recommendations?
+      - Any heart-racing action series you can recommend?
+      - Which action shows would you suggest for an exciting watch?
+      - I'm looking for action series that are full of suspense, any suggestions?
+      - Can you recommend me some action series that are worth watching?
+      - I need suggestions for action series that have intense action sequences.
+      - Looking for action-packed series that will keep me entertained, any ideas?
+      - Any gripping action series that you can suggest?
+
+  - intent: chitchat/bot_best_tv_action_recommend
+    examples: |
+      - Which action series do you think is the best?
+      - In your opinion, which action series stands out as the best?
+      - Can you recommend the top action series according to you?
+      - I'm curious, what's your opinion on the best action series?
+      - Tell me, which action series would you consider the best?
+      - What's your take on the best action series?
+      - If you had to pick, which action series would you say is the best?
+      - Which action series do you believe is the cream of the crop?
+      - Which action series stands out to you as the absolute best?
+      - I'd love to know, in your opinion, which action series is the best?
+      - Which action series, in your view, reigns supreme as the best?
+      - Can you share your recommendation for the best action series?
+      - What action series would you recommend as the best in your opinion?
+      - Which action series stands out as the best in your eyes?
+      - If you had to choose, which action series would you consider the best?
+      - Which action series, according to you, is the ultimate choice?
+      - I'm interested to know, in your opinion, which action series is the best?
+      - What's the top action series in your opinion?
+      - Which action series do you think takes the crown as the best?
+      - In your view, which action series stands out as the best?
+      - Which action series, in your opinion, is the top pick?
+      - Which action series do you believe is the best of the best?
+      - Can you share your thoughts on the best action series?
+      - What action series do you consider the best in your opinion?
+      - Which action series, in your eyes, is the cream of the crop?
+      - I'd like to hear your opinion on the best action series.
+      - What action series would you recommend as the best?
+      - Which action series stands out as the best for you?
+      - If you had to recommend one action series, which would it be?
+      - Which action series, in your view, reigns supreme?
+      - I'm curious, what's your pick for the best action series?
+      - What's the best action series in your opinion?
+      - Which action series do you think is the ultimate choice?
+      - In your opinion, which action series is the top pick?
+      - Can you suggest the best action series according to you?
+      - What action series do you consider the top choice?
 
 
 
+
+
+
+  - intent: bot_mock
+    examples: |
+      - are you mock?
+
+
+  - intent: bot_mock
+    examples: |
+      - are you mock?
+
+
+  - intent: bot_mock
+    examples: |
+      - are you mock?
+
+
+  - intent: bot_mock
+    examples: |
+      - are you mock?
+
+
+  - intent: bot_mock
+    examples: |
+      - are you mock?
   - intent: bot_mock
     examples: |
       - are you mock?
