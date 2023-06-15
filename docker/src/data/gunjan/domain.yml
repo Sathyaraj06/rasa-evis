@@ -137,10 +137,15 @@ intents:
 - chitchat/bot_tv_scifi
 - chitchat/bot_tv_horror
 - chitchat/bot_tv_action
-
+- chitchat/bot_tv_comedy
+- chitchat/bot_tv_thrill
+- chitchat/bot_tv_fantasy
 - chitchat/bot_best_tv_drama_recommend
 - chitchat/bot_best_tv_scifi_recommend
 - chitchat/bot_best_tv_horror_recommend
+- chitchat/bot_best_tv_comedy_recommend
+- chitchat/bot_best_tv_fantasy_recommend
+- chitchat/bot_best_tv_thrill_recommend
 - chitchat/bot_best_tv_action_recommend
 
 
@@ -148,6 +153,150 @@ intents:
 - bot_mock
 
 responses:
+  utter_chitchat/bot_tv_comedy:
+  - text: "Looking for laughter? Try 'Brooklyn Nine-Nine.' It's a hilarious comedy about quirky detectives."
+  - text: "Check out 'The Office.' It's a mockumentary-style comedy capturing office life's humor and absurdities."
+  - text: "For a feel-good classic, go with 'Friends.' It follows a group of friends in NYC with memorable humor."
+  - text: "In comedy, 'Parks and Recreation' shines. It's a delightful mockumentary on the Pawnee Parks Department."
+  - text: "'The Marvelous Mrs. Maisel' is fantastic. It's a '50s comedy about a housewife turned stand-up comedian."
+  - text: "For witty humor, watch 'Arrested Development.' It's a clever comedy about the eccentric Bluth family."
+  - text: "Try 'Schitt's Creek' for a charming comedy. It follows the wealthy Rose family in a small town."
+  - text: "For British humor, 'The IT Crowd' is highly recommended. It's a hilarious show about an IT department."
+  - text: "'Brotherhood' offers comedy and drama. It follows three Irish brothers' lives and personal journeys."
+  - text: "Enjoy political satire? 'Veep' is a must-watch comedy about a former vice president's ambitions."
+  - text: "For clever comedy, try 'Fleabag.' It's a critically acclaimed series about a woman's life in London."
+  - text: "Check out 'Superstore' for workplace humor. It's set in a big-box store and explores employee dynamics."
+  - text: "'Ted Lasso' is heartwarming. It's a comedy about an American coach bringing positivity to a British soccer team."
+  - text: "For animated comedy, 'BoJack Horseman' is a must-see. It's a darkly funny show exploring fame and addiction."
+  - text: "Enjoy quirky humor? '30 Rock' is fantastic. It's set behind the scenes of a sketch comedy show."
+  - text: "For a family comedy, 'Modern Family' is a great choice. It follows three interconnected families' lives."
+  - text: "Check out 'Entourage' for an entertaining comedy about the ups and downs of Hollywood."
+  - text: "Into improv comedy? 'Whose Line Is It Anyway?' is a classic. Talented comedians create comedy on the spot."
+  - text: "For comedy with social commentary, 'Atlanta' is a standout. It follows a young aspiring rapper's life and tackles race and identity."
+  - text: "'The Big Bang Theory' revolves around socially awkward but highly intelligent friends. It's known for its geeky humor and endearing characters."
+  - text: "For a charming and heartfelt comedy, try 'New Girl.' It follows a quirky group of friends living in a loft."
+  - text: "'The Good Place' is a comedy exploring ethical dilemmas in a unique afterlife. It's filled with humor and philosophy."
+  - text: "Into mockumentary-style comedies? 'Veep' is fantastic. It follows Selina Meyer, a sharp-witted vice president and later president."
+  - text: "'It's Always Sunny in Philadelphia' is a witty and irreverent comedy. It follows dysfunctional friends running an Irish pub."
+
+
+  utter_chitchat/bot_tv_thrill:
+  - text: "For thrilling TV, try 'Breaking Bad'. It's a gripping crime drama about a chemistry teacher turned ruthless meth manufacturer."
+  - text: "Check out 'Game of Thrones' for an epic fantasy filled with intrigue, battles, and unexpected twists."
+  - text: "Into psychological thrillers? 'Mindhunter' is a must-watch. It delves into serial killers' minds and FBI agents' interviews."
+  - text: "'Stranger Things' is a standout thriller. It's a thrilling mix of supernatural elements, conspiracies, and nostalgia."
+  - text: "Personally, 'Narcos' is my recommendation. It chronicles drug kingpins' rise and fall, offering crime and suspense."
+  - text: "For suspenseful drama, 'The Handmaid's Tale' is a must-see. It depicts a dystopian society and a fight against oppression."
+  - text: "Try 'Prison Break' for a high-stakes thriller. It follows a man's plan to help his brother escape from death row."
+  - text: "'House of Cards' is a gripping political thriller. It follows a ruthless politician's climb to power using manipulation."
+  - text: "'The Blacklist' is highly recommended. It revolves around a former agent helping the FBI track dangerous criminals."
+  - text: "'Westworld' is a mind-bending thriller. It's set in a futuristic park where androids gain consciousness."
+  - text: "For suspense and action, '24' is worth checking out. It follows agent Jack Bauer's race against time to stop threats."
+  - text: "'True Detective' is a dark and mysterious thriller. Each season tells complex stories with captivating characters."
+  - text: "If you like psychological thrillers, 'Stranger Things' is a must-watch. Kids encounter supernatural phenomena in the '80s."
+  - text: "'Ozark' is addictive and thrilling. It follows a financial planner's dangerous encounters with local criminals."
+  - text: "For conspiracy thrillers, 'The X-Files' is a classic. FBI agents investigate paranormal phenomena and conspiracies."
+  - text: "Vince Gilligan's 'Better Call Saul' serves as a 'Breaking Bad' prequel, delving into a small-time lawyer's complex life."
+  - text: "'Black Mirror' is mind-bending and thrilling. Each episode explores the dark side of technology and society."
+  - text: "For gripping crime, 'The Wire' is highly recommended. It offers a realistic portrayal of Baltimore's drug trade."
+  - text: "Enjoy historical conspiracy thrillers? 'Homeland' is worth checking out. It follows a CIA officer's suspicions about a prisoner of war."
+
+
+  utter_chitchat/bot_tv_fantasy:
+  - text: "For fantasy, try 'Game of Thrones'. It's an epic saga filled with intrigue, dragons, and complex characters."
+  - text: "Check out 'The Witcher' for a captivating fantasy series. It follows the adventures of Geralt of Rivia, a supernatural monster hunter."
+  - text: "Into magical fantasy? 'Harry Potter' is a timeless choice. Delve into the world of Hogwarts and follow Harry's journey."
+  - text: "'The Lord of the Rings' is a fantasy masterpiece. It follows heroes on a quest to save Middle-earth from darkness."
+  - text: "Personally, 'The Chronicles of Narnia' is fantastic. Take an enchanting journey through a magical wardrobe."
+  - text: "If you enjoy urban fantasy, 'Supernatural' is a must-watch. Follow two brothers as they hunt supernatural creatures."
+  - text: "'Shadow and Bone' is a modern fantasy series. It combines magic, adventure, and romance in a richly imagined world."
+  - text: "'The Mandalorian' is a fantastic fantasy set in the Star Wars universe. Follow a bounty hunter's thrilling adventures."
+  - text: "'Buffy the Vampire Slayer' is a classic supernatural fantasy. Join the titular character in battling vampires and demons."
+  - text: "For fantasy and mystery, 'Lost' is worth checking out. Survivors navigate a mysterious island with supernatural elements."
+  - text: "'Once Upon a Time' is a delightful blend of fantasy and fairy tales. Experience various characters' stories in the modern world."
+  - text: "'Avatar: The Last Airbender' is whimsical and magical. Follow a young boy's journey to restore balance in the world."
+  - text: "'The Dark Crystal: Age of Resistance' is a dark and gritty fantasy. It features stunning puppetry and a rich fantasy world."
+  - text: "'The Wheel of Time' is an epic fantasy with intricate world-building. Follow young people destined to save the world."
+  - text: "'The Magicians' is a captivating magical coming-of-age story. Students navigate a dangerous and adventurous magical world."
+  - text: "'Outlander' blends historical fiction and fantasy. Travel back in time to 18th-century Scotland for political intrigue and romance."
+  - text: "'True Blood' is an intriguing supernatural romance series. Explore a world where vampires and humans coexist."
+  - text: "'American Gods' is a mesmerizing blend of fantasy and mythology. Witness a war between old and new gods in modern-day America."
+  - text: "'The Good Place' is a lighthearted and humorous fantasy series. Explore the afterlife with philosophical questions and laughter."
+  - text: "'Pushing Daisies' is a unique and quirky fantasy series. A pie-maker brings the dead back to life, but there's a catch."
+  - text: "'Xena: Warrior Princess' is a classic fantasy with a strong female protagonist. Join Xena in battling evil forces in a mythical world."
+  - text: "'Merlin' blends fantasy and history. Discover the legendary wizard Merlin's relationship with a young King Arthur."
+  - text: "'Charmed' is a beloved series blending fantasy and supernatural elements. Three sisters use their magic to protect innocent lives."
+  - text: "'Carnival Row' is a whimsical and visually stunning fantasy series. It explores love, discrimination, and political unrest in a Victorian-inspired world."
+
+
+  utter_chitchat/bot_best_tv_comedy_recommend_bbt:
+  - text: "In my opinion, The Big Bang Theory is one of the funniest and most beloved comedy series of all time."
+  - text: "If you're looking for a hilarious and lighthearted comedy, The Big Bang Theory is a fantastic choice."
+  - text: "The Big Bang Theory is a comedic gem that combines clever humor with endearing characters."
+  - text: "When it comes to comedy, The Big Bang Theory never fails to deliver laughs and memorable moments."
+  - text: "I must say, The Big Bang Theory is a laugh-out-loud comedy that will brighten your day."
+  - text: "The Big Bang Theory is a delightful and witty comedy series that has captured the hearts of millions."
+  - text: "If you're in need of a good laugh, The Big Bang Theory is the perfect show to lift your spirits."
+  - text: "The Big Bang Theory is a hilarious and heartwarming comedy that will keep you entertained from start to finish."
+  - text: "In my view, The Big Bang Theory is a true classic in the comedy genre."
+  - text: "The Big Bang Theory is an iconic comedy series that has left a lasting impact on television."
+  - text: "If you're looking for a feel-good and hilarious comedy, The Big Bang Theory is an absolute must-watch."
+  - text: "The Big Bang Theory is a comedy masterpiece that strikes the perfect balance between humor and heart."
+  - text: "With its talented ensemble cast and clever writing, The Big Bang Theory stands as one of the best comedy series ever."
+  - text: "The Big Bang Theory's blend of nerdy humor and relatable characters has made it a fan favorite comedy."
+  - text: "For a light-hearted and enjoyable TV experience, The Big Bang Theory is an excellent choice."
+  - text: "The Big Bang Theory's witty dialogue and charming characters make it an irresistible comedy series."
+  - text: "With its hilarious situations and lovable characters, The Big Bang Theory is guaranteed to make you laugh."
+  - text: "The Big Bang Theory offers a perfect mix of smart humor and heartwarming friendships that will keep you smiling."
+  - text: "The Big Bang Theory is a feel-good comedy that has become a beloved staple in the world of television."
+  - text: "If you're in the mood for laughter, The Big Bang Theory is the go-to comedy series that never disappoints."
+
+  utter_chitchat/bot_best_tv_thrill_recommend_tw:
+  - text: "In my opinion, The Wire is one of the most gripping and realistic thrillers ever created."
+  - text: "If you're looking for a thrilling and thought-provoking series, The Wire is a must-watch."
+  - text: "The Wire is a critically acclaimed thriller that delves deep into the interconnected worlds of law enforcement, politics, and the streets."
+  - text: "When it comes to thrilling television, The Wire is in a league of its own."
+  - text: "I must say, The Wire is a masterclass in storytelling and suspense."
+  - text: "The Wire is a riveting and immersive thriller that will keep you hooked from the very first episode."
+  - text: "If you're craving a thrilling and thought-provoking series, look no further than The Wire."
+  - text: "The Wire is a compelling and gritty thriller that pulls no punches."
+  - text: "In my view, The Wire is a true masterpiece in the thriller genre."
+  - text: "The Wire is an exceptional thriller that tackles complex themes with nuance and authenticity."
+  - text: "If you're looking for a gripping and intelligent thriller, The Wire is an absolute gem."
+  - text: "The Wire is a must-watch for any thriller enthusiast."
+  - text: "With its gripping storyline and realistic portrayal of crime, The Wire stands out as an exceptional thriller."
+  - text: "The Wire keeps you on the edge of your seat with its intricate plot and powerful performances."
+  - text: "For a thrilling and immersive TV experience, The Wire is an excellent choice."
+  - text: "The Wire's exploration of power dynamics and corruption adds another layer of intrigue to its thrilling narrative."
+  - text: "The Wire offers a captivating look into the interconnectedness of crime, law enforcement, and politics."
+  - text: "With its raw and unflinching depiction of urban life, The Wire is an intense and gripping thriller."
+  - text: "The Wire skillfully delves into moral ambiguity and keeps viewers engaged with its thought-provoking storytelling."
+  - text: "The Wire stands as a shining example of compelling television that explores complex societal issues."
+
+  utter_chitchat/bot_best_tv_fantasy_recommend_got:
+  - text: "In my opinion, Game of Thrones is an absolute masterpiece and my top recommendation in the fantasy genre."
+  - text: "Personally, I consider Game of Thrones to be the epitome of fantasy television, making it my ultimate recommendation."
+  - text: "If you're looking for a phenomenal fantasy series, Game of Thrones is hands down the best choice in my book."
+  - text: "Game of Thrones has captivated audiences worldwide with its epic storytelling and complex characters, making it my top pick in the fantasy genre."
+  - text: "Without a doubt, Game of Thrones is a must-watch for any fantasy enthusiast. It's a groundbreaking series that redefined the genre and stands as my ultimate recommendation."
+  - text: "As far as fantasy series go, Game of Thrones is in a league of its own. It has an expansive world, gripping plotlines, and unforgettable characters, making it my top recommendation."
+  - text: "I have to say, Game of Thrones has left an indelible mark on the fantasy genre. Its intricate political intrigue, breathtaking visuals, and shocking twists make it my absolute favorite recommendation."
+  - text: "Game of Thrones is a fantasy masterpiece that has set a new standard for television. Its rich storytelling, intricate world-building, and memorable moments make it my top choice for any fantasy fan."
+  - text: "In my view, Game of Thrones is the pinnacle of fantasy television. Its blend of political drama, epic battles, and supernatural elements make it an unmissable recommendation."
+  - text: "Game of Thrones has earned its place as one of the greatest fantasy series of all time. Its complex characters, intricate plotlines, and unpredictable narrative make it my top recommendation in the genre."
+  - text: "If you haven't experienced Game of Thrones yet, I highly recommend diving into its immersive world of dragons, knights, and political intrigue. It's a fantasy series that will keep you on the edge of your seat."
+  - text: "Game of Thrones is a cultural phenomenon that has captured the hearts of millions. Its blend of fantasy, drama, and unexpected twists make it a must-watch recommendation for any fan of the genre."
+  - text: "When it comes to fantasy television, Game of Thrones is in a league of its own. Its sprawling storyline, complex characters, and breathtaking visuals make it my top choice for anyone seeking a compelling fantasy series."
+  - text: "Game of Thrones is an epic fantasy saga that has become a cultural phenomenon. Its intricate world, morally gray characters, and shocking plot twists make it my ultimate recommendation in the genre."
+  - text: "From its gripping battles to its intricate political machinations, Game of Thrones offers a fantasy experience like no other. It's a series that has captured the imagination of audiences worldwide and is my top pick for any fantasy enthusiast."
+  - text: "Game of Thrones is a fantasy epic that has taken the world by storm. Its compelling characters, intricate storytelling, and jaw-dropping moments make it an absolute must-watch recommendation for fans of the genre."
+  - text: "In my humble opinion, Game of Thrones is the best fantasy series ever created. Its sprawling narrative, morally complex characters, and breathtaking production values make it an unparalleled recommendation."
+  - text: "Game of Thrones has set a new standard for fantasy television. Its intricate plot, shocking twists, and powerful performances make it my top choice for anyone seeking an immersive and unforgettable fantasy experience."
+  - text: "If you're looking for a fantasy series that combines political intrigue, epic battles, and fantastical elements, Game of Thrones is the perfect choice. It's a show that has left a lasting impact and is my ultimate recommendation in the genre."
+  - text: "Game of Thrones is a fantasy phenomenon that has captured the imaginations of millions. Its complex characters, intricate storytelling, and grand scale make it an absolute must-watch recommendation for fantasy lovers."
+
+
+
   utter_chitchat/bot_best_tv_action_recommend_p:
   - text: "I believe I'm a big admirer of The Punisher; it's absolutely my favorite."
   - text: "Personally, I think The Punisher is incredible, and it's definitely my top pick."
@@ -679,7 +828,7 @@ responses:
   utter_chitchat/bot_you_are_beautiful:
   - text: "Wheey, thank you."
   - text: "Aww, back at you."
-  - text: "Aww. You smooth talker, you.":
+  - text: "Aww. You smooth talker, you."
   - text: "Thank you! You're pretty awesome yourself."
   - text: "Aw, thank you! You're making me blush."
   - text: "Oh, stop it! You're too kind."
@@ -1440,7 +1589,7 @@ responses:
   - text: "I understand. Hope we can chat again soon."
   - text: "No problem. You know where to find me."
   - text: "Sure thing. I'll be here if you change your mind."
-  - text: "No worries. Feel free to reach out whenever you're ready.""
+  - text: "No worries. Feel free to reach out whenever you're ready."
   - text: "Not a problem. Take care and remember I'm here if you need anything."
   - text: "Alright, no pressure. I'll be available whenever you're ready."
   - text: "That's okay. Remember, I'm here if you ever want to chat."
@@ -1475,7 +1624,7 @@ responses:
   utter_chitchat/bot_i_am_feeling_happy:
   - text: "Hey, happiness is contagious."
   - text: "If you're happy, then I'm happy."
-  - text: "Excellent! That's what I like to see.":
+  - text: "Excellent! That's what I like to see."
   - text: "Glad to hear that! Keep the positive vibes going."
   - text: "That's great to hear! Enjoy the feeling of happiness."
   - text: "Happy to know you're feeling happy!"

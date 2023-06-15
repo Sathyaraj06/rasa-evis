@@ -216,18 +216,29 @@ stories:
       - intent: chitchat/bot_see_you_bye
       - action: utter_chitchat/bot_see_you_bye
 
-
-
-
-
-  - story: TV Comedy
+  - story: TV Comedy BBT
     steps:
       - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama ##
-      - action: utter_chitchat/bot_tv_drama ##
-      - intent: chitchat/bot_best_tv_drama_recommend ##
-      - action: utter_chitchat/bot_best_tv_drama_recommend_bb ##
+      - intent: chitchat/bot_tv_comedy ##
+      - action: utter_chitchat/bot_tv_comedy ##
+      - intent: chitchat/bot_best_tv_comedy_recommend ##
+      - action: utter_chitchat/bot_best_tv_comedy_recommend_bbt ##
+      - intent: chitchat/bot_you_are_good 
+      - action: utter_chitchat/bot_you_are_good 
+      - intent: chitchat/bot_thanks_information
+      - action: utter_chitchat/bot_thanks_information
+      - intent: chitchat/bot_see_you_bye
+      - action: utter_chitchat/bot_see_you_bye
+
+  - story: TV Thriller the wire
+    steps:
+      - intent: chitchat/bot_tv_recommend
+      - action: utter_chitchat/bot_which_genre
+      - intent: chitchat/bot_tv_thrill ##
+      - action: utter_chitchat/bot_tv_thrill ##
+      - intent: chitchat/bot_best_tv_thrill_recommend ##
+      - action: utter_chitchat/bot_best_tv_thrill_recommend_tw ##
       - intent: chitchat/bot_you_are_good 
       - action: utter_chitchat/bot_you_are_good 
       - intent: chitchat/bot_thanks_information
@@ -236,29 +247,14 @@ stories:
       - action: utter_chitchat/bot_see_you_bye
 
 
-  - story: TV Thriller
+  - story: TV Fantasy got
     steps:
       - intent: chitchat/bot_tv_recommend
       - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama ##
-      - action: utter_chitchat/bot_tv_drama ##
-      - intent: chitchat/bot_best_tv_drama_recommend ##
-      - action: utter_chitchat/bot_best_tv_drama_recommend_bb ##
-      - intent: chitchat/bot_you_are_good 
-      - action: utter_chitchat/bot_you_are_good 
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
-
-  - story: TV Fantasy
-    steps:
-      - intent: chitchat/bot_tv_recommend
-      - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama ##
-      - action: utter_chitchat/bot_tv_drama ##
-      - intent: chitchat/bot_best_tv_drama_recommend ##
-      - action: utter_chitchat/bot_best_tv_drama_recommend_bb ##
+      - intent: chitchat/bot_tv_fantasy ##
+      - action: utter_chitchat/bot_tv_fantasy ##
+      - intent: chitchat/bot_best_tv_fantasy_recommend ##
+      - action: utter_chitchat/bot_best_tv_fantasy_recommend_got ##
       - intent: chitchat/bot_you_are_good 
       - action: utter_chitchat/bot_you_are_good 
       - intent: chitchat/bot_thanks_information

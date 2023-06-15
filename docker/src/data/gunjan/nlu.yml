@@ -5741,34 +5741,238 @@ nlu:
       - Can you suggest the best action series according to you?
       - What action series do you consider the top choice?
 
-
-
-
-
-
-  - intent: bot_mock
+  - intent: chitchat/bot_best_tv_comedy_recommend
     examples: |
-      - are you mock?
+      - Which comedy show do you think is the absolute best?
+      - In your opinion, which comedy series stands out as the ultimate choice?
+      - Can you suggest the top comedy shows according to your preference?
+      - I'm curious, what's your take on the best comedy series out there?
+      - Tell me, which comedy show would you consider the cream of the crop?
+      - What's your opinion on the best comedy series that you've come across?
+      - If you had to pick, which comedy show would you say is the top recommendation?
+      - Which comedy series do you believe is the epitome of greatness?
+      - Which comedy series stands out to you as the absolute finest?
+      - I'd love to know, in your opinion, which comedy series is the ultimate best?
+      - Which comedy series, in your view, reigns supreme as the top choice?
+      - Can you share your recommendation for the best comedy series out there?
+      - What comedy series would you recommend as the absolute best in your opinion?
+      - Which comedy series stands out as the finest in your eyes?
+      - If you had to choose, which comedy series would you consider the unrivaled best?
+      - Which comedy series, according to you, is the ultimate selection?
+      - I'm interested to know, in your opinion, which comedy series is the crème de la crème?
+      - What's the top-notch comedy series in your opinion?
+      - Which comedy series do you think takes the crown as the absolute best?
+      - In your view, which comedy series stands out as the paramount choice?
+      - Which comedy series, in your opinion, is the cream of the crop?
+      - Which comedy series do you believe is the best of the best?
+      - Can you share your thoughts on the top-notch comedy series?
+      - What comedy series do you consider the paramount choice in your opinion?
+      - Which comedy series, in your eyes, is the unrivaled best?
+      - I'd like to hear your opinion on the absolute best comedy series.
+      - What comedy series would you recommend as the paramount choice?
+      - Which comedy series stands out as the crème de la crème for you?
+      - If you had to recommend one comedy series, which would it be?
+      - Which comedy series, in your view, reigns supreme in the comedy genre?
+      - I'm curious, what's your pick for the absolute best comedy series?
+      - What's the ultimate comedy series in your opinion?
+      - Which comedy series do you think is the unrivaled choice?
+      - In your opinion, which comedy series is the top pick?
+      - Can you suggest the paramount comedy series according to you?
+      - What comedy series do you consider the top-notch choice?
 
-
-  - intent: bot_mock
+  - intent: chitchat/bot_best_tv_thrill_recommend
     examples: |
-      - are you mock?
+      - Which series in the thriller genre do you believe is the absolute best?
+      - In your opinion, which TV show stands out as the ultimate choice in the thrilling genre?
+      - Can you suggest the top-notch thriller series according to your preference?
+      - I'm curious, what's your take on the finest thriller series out there?
+      - Tell me, which thrilling show would you consider the cream of the crop?
+      - What's your perspective on the best TV show in the thrilling genre?
+      - If you had to choose, which thrilling series would you say is the top recommendation?
+      - Which series in the thriller genre do you think is the epitome of greatness?
+      - Which thrilling series stands out to you as the absolute finest choice?
+      - I'd love to know, in your opinion, which thrilling series is the best of the best?
+      - Which series in the thriller genre, in your view, reigns supreme as the top choice?
+      - Can you share your recommendation for the unrivaled thriller series out there?
+      - What thrilling series would you recommend as the absolute best in your perspective?
+      - Which thrilling series stands out as the finest choice in your eyes?
+      - If you had to select one thrilling series, which would it be?
+      - Which thrilling series, according to you, is the ultimate selection?
+      - I'm interested to know, in your opinion, which thrilling series is the paramount choice?
+      - What's the top-notch thrilling series in your viewpoint?
+      - Which thrilling series do you think takes the crown as the absolute best?
+      - In your view, which thrilling series stands out as the paramount choice?
+      - Which thrilling series, in your opinion, is the cream of the crop?
+      - Which thrilling series do you believe is the best among the best?
+      - Can you share your thoughts on the top-notch thrilling series?
+      - What thrilling series do you consider the paramount choice in your perspective?
+      - Which thrilling series, in your eyes, is the unrivaled best?
+      - I'd like to hear your opinion on the absolute best thrilling series.
+      - What thrilling series would you recommend as the paramount choice?
+      - Which thrilling series stands out as the unrivaled best for you?
+      - If you had to recommend one thrilling series, which would it be?
+      - Which thrilling series, in your view, reigns supreme in the thrilling genre?
+      - I'm curious, what's your pick for the absolute best thrilling series?
+      - What's the ultimate thrilling series in your opinion?
+      - Which thrilling series do you think is the unrivaled choice?
+      - In your opinion, which thrilling series is the top pick?
+      - Can you suggest the paramount thrilling series according to you?
+      - What thrilling series do you consider the top-notch choice?
 
-
-  - intent: bot_mock
+  - intent: chitchat/bot_best_tv_fantasy_recommend
     examples: |
-      - are you mock?
+      - Which fantasy series do you think is the best?
+      - In your opinion, which fantasy show stands out as the top choice?
+      - Can you recommend the best fantasy series according to you?
+      - What's your take on the top fantasy series?
+      - Tell me, which fantasy series would you consider the best?
+      - Which fantasy show stands out as the best in your opinion?
+      - If you had to pick, which fantasy series would you say is the best?
+      - Which series in the fantasy genre do you believe is the top pick?
+      - Which fantasy series stands out to you as the absolute best?
+      - What's your opinion on the best fantasy series?
+      - Which fantasy series, in your view, reigns supreme as the best?
+      - Can you share your recommendation for the best fantasy series?
+      - What fantasy series would you recommend as the best in your opinion?
+      - Which fantasy series stands out as the best in your eyes?
+      - If you had to choose, which fantasy series would you consider the best?
+      - Which fantasy series do you think is the ultimate choice?
+      - What's the top fantasy series in your opinion?
+      - Which fantasy series takes the crown as the best?
+      - In your view, which fantasy series stands out as the best?
+      - Which fantasy series, in your opinion, is the top pick?
+      - Can you share your thoughts on the best fantasy series?
+      - What fantasy series do you consider the best in your opinion?
+      - Which fantasy series, in your eyes, is the cream of the crop?
+      - What's your pick for the best fantasy series?
+      - What's the best fantasy series in your opinion?
+      - Which fantasy series do you think is the ultimate choice?
+      - In your opinion, which fantasy series is the top pick?
+      - Can you suggest the best fantasy series according to you?
+      - What fantasy series do you consider the top choice?
 
-
-  - intent: bot_mock
+  - intent: chitchat/bot_tv_comedy
     examples: |
-      - are you mock?
+      - Recommend some hilarious comedy series
+      - Can you suggest any funny TV shows?
+      - I'm in the mood for some laughter, any recommendations for comedy series?
+      - Looking for light-hearted comedy series to watch, any suggestions?
+      - Which comedy shows do you think are worth watching?
+      - I need your recommendations for comedy series to binge-watch.
+      - Any suggestions for funny TV shows?
+      - Can you recommend me some entertaining comedy series?
+      - I'm a fan of comedy, could you suggest some humorous TV shows?
+      - Looking for recommendations on comedy series to watch, any ideas?
+      - Any good comedy series you can suggest?
+      - Which funny shows should I add to my watchlist?
+      - I want to explore comedy series, do you have any recommendations?
+      - Can you suggest me some laugh-out-loud comedy series?
+      - Looking for some hilarious and light-hearted series, any suggestions?
+      - I'm looking for comedy series that will make me laugh, any recommendations?
+      - Recommend me some funny TV shows in the comedy genre.
+      - Can you suggest any entertaining and humorous comedy series?
+      - I'm a big fan of comedy, which series would you recommend?
+      - Looking for recommendations on funny series, any ideas?
+      - Any amusing comedy series you can recommend?
+      - Which comedy shows are your top picks?
+      - I'm searching for some funny comedy series, can you suggest any?
+      - Can you recommend me comedy series with great humor?
+      - I need suggestions for comedy series that will make me laugh out loud.
+      - Looking for some light-hearted comedy series, any recommendations?
+      - Any comedy shows you think I should watch?
+      - Which comedy series do you consider the best?
+      - I'm a fan of funny TV shows, which ones do you suggest?
+      - Looking for suggestions on comedy series to watch, any recommendations?
+      - Any hilarious comedy series you can recommend?
+      - Which comedy shows would you suggest for a good laugh?
+      - I'm looking for comedy series that are full of humor, any suggestions?
+      - Can you recommend me some comedy series that are worth watching?
+      - I need suggestions for comedy series that are highly entertaining.
+      - Looking for comedy series that will keep me amused, any ideas?
+      - Any funny comedy series that you can suggest?
 
-
-  - intent: bot_mock
+  - intent: chitchat/bot_tv_thrill
     examples: |
-      - are you mock?
+      - Recommend some thrilling TV series
+      - Can you suggest any suspenseful shows?
+      - I'm in the mood for some adrenaline-pumping series, any recommendations?
+      - Looking for gripping thriller series to watch, any suggestions?
+      - Which thrilling shows do you think are worth watching?
+      - I need your recommendations for thrilling series to binge-watch.
+      - Any suggestions for intense TV shows?
+      - Can you recommend me some heart-racing thriller series?
+      - I'm a fan of thrillers, could you suggest some exciting TV shows?
+      - Looking for recommendations on thrilling series to watch, any ideas?
+      - Any good thriller series you can suggest?
+      - Which suspenseful shows should I add to my watchlist?
+      - I want to explore thriller series, do you have any recommendations?
+      - Can you suggest me some nail-biting thriller series?
+      - Looking for some intense and suspense-filled series, any suggestions?
+      - I'm looking for thriller series that will keep me on the edge of my seat, any recommendations?
+      - Recommend me some thrilling TV shows in the thriller genre.
+      - Can you suggest any pulse-pounding and thrilling series?
+      - I'm a big fan of thrillers, which series would you recommend?
+      - Looking for recommendations on suspenseful series, any ideas?
+      - Any gripping thriller series you can recommend?
+      - Which thrilling shows are your top picks?
+      - I'm searching for some thrilling TV series, can you suggest any?
+      - Can you recommend me thriller series with intense storylines?
+      - I need suggestions for thriller series that will keep me hooked.
+      - Looking for some high-octane thriller series, any recommendations?
+      - Any suspenseful shows you think I should watch?
+      - Which thriller series do you consider the best?
+      - I'm a fan of suspenseful TV shows, which ones do you suggest?
+      - Looking for suggestions on thrilling series to watch, any recommendations?
+      - Any heart-pounding thriller series you can recommend?
+      - Which thrilling shows would you suggest for an exciting watch?
+      - I'm looking for thriller series that are full of suspense, any suggestions?
+      - Can you recommend me some thriller series that are worth watching?
+      - I need suggestions for thriller series that have gripping plot twists.
+      - Looking for suspense-filled series that will keep me entertained, any ideas?
+      - Any gripping thriller series that you can suggest?
+
+  - intent: chitchat/bot_tv_fantasy
+    examples: |
+      - Can you recommend any fantasy series?
+      - I'm in the mood for some magical shows, any suggestions?
+      - Looking for captivating fantasy series to watch, do you have any recommendations?
+      - Which fantasy shows do you think are the most captivating?
+      - Can you suggest some enchanting TV shows in the fantasy genre?
+      - Any recommendations for immersive fantasy series?
+      - Can you suggest me some fantastical series to watch?
+      - I'm a fan of fantasy, could you suggest some thrilling TV shows in that genre?
+      - Looking for suggestions on fantasy series to watch, any ideas?
+      - Any good fantasy series that you can suggest?
+      - Which magical shows should I consider adding to my watchlist?
+      - I want to explore fantasy series, do you have any recommendations?
+      - Can you suggest me some epic fantasy series that will transport me to another world?
+      - Looking for some enchanting and magical series, any suggestions?
+      - I'm looking for fantasy series that will capture my imagination, any recommendations?
+      - Recommend me some captivating TV shows in the fantasy genre.
+      - Can you suggest any mystical and spellbinding series that I should watch?
+      - I'm a big fan of fantasy, which series would you recommend for a captivating experience?
+      - Looking for recommendations on immersive fantasy series, any ideas?
+      - Any captivating fantasy series that you can recommend?
+      - Which fantasy shows are your top choices?
+      - I'm searching for some fantasy TV series, can you suggest any fascinating ones?
+      - Can you recommend me fantasy series with intricate world-building and compelling stories?
+      - I need suggestions for fantasy series that will ignite my imagination and take me on a magical journey.
+      - Looking for some epic fantasy series, any recommendations?
+      - Any magical shows that you think I should watch?
+      - Which fantasy series do you consider the best among the rest?
+      - I'm a fan of fantastical TV shows, which ones do you suggest for a captivating experience?
+      - Looking for suggestions on captivating fantasy series to watch, any recommendations?
+      - Any mesmerizing fantasy series that you can suggest?
+      - Which fantasy shows would you suggest for an enchanting watch?
+      - I'm looking for fantasy series that are full of wonder and adventure, any suggestions?
+      - Can you recommend me some fantasy series that are worth watching and will leave a lasting impression?
+      - I need suggestions for fantasy series that have intricately crafted worlds and engaging characters.
+      - Looking for immersive series that will take me on a magical journey, any ideas?
+      - Any captivating fantasy series that you can suggest for a delightful experience?
+
+
+
+
   - intent: bot_mock
     examples: |
       - are you mock?
