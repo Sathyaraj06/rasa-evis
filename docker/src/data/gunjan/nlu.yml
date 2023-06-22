@@ -5970,6 +5970,1284 @@ nlu:
       - Looking for immersive series that will take me on a magical journey, any ideas?
       - Any captivating fantasy series that you can suggest for a delightful experience?
 
+  - intent: chitchat/bot_latest_tech_trend
+    examples: |
+      - What are the current trends in technology?
+      - Can you tell me about the latest tech trends?
+      - I'm interested in knowing the newest technology trends, any insights?
+      - What are the popular tech trends at the moment?
+      - Can you provide information on the latest trends in the tech industry?
+      - Any updates on the emerging tech trends?
+      - What are the cutting-edge technology trends right now?
+      - I want to stay up-to-date with the latest tech trends, any recommendations?
+      - Can you share some insights into the current tech trends?
+      - What are the trending topics in the world of technology?
+      - Any updates on the newest developments in the tech industry?
+      - I'm curious to know about the advancements in technology, what's trending?
+      - Can you provide an overview of the tech trends that are making waves?
+      - What are the breakthrough innovations and trends in technology?
+      - I want to explore the latest tech trends, can you provide some information?
+      - Can you give me an update on the technology trends that are shaping the future?
+      - What are the emerging tech trends that we should keep an eye on?
+      - Any insights into the hottest tech trends of the moment?
+      - I'm interested in the current tech landscape, what trends should I be aware of?
+      - Can you share some knowledge about the cutting-edge tech trends that are transforming industries?
+      - What are the buzzworthy tech trends that everyone is talking about?
+      - Any recommendations on resources to stay updated on the latest tech trends?
+      - I want to stay ahead in the tech industry, what trends should I focus on?
+      - Can you provide some information on the disruptive tech trends that are revolutionizing the market?
+      - What are the game-changing innovations and trends in technology?
+      - I'm curious about the future of technology, what are the trends that will shape it?
+      - Can you share some insights into the emerging tech trends that have the potential to disrupt industries?
+      - What are the trending technologies that are driving innovation?
+      - Any updates on the tech trends that are reshaping the digital landscape?
+      - I want to learn more about the latest tech trends, can you suggest some resources?
+      - Can you give me an overview of the tech trends that are transforming businesses?
+      - What are the key tech trends that businesses should leverage for growth?
+      - Any insights into the tech trends that will have a significant impact in the near future?
+      - I'm interested in the intersection of technology and society, what are the current trends?
+      - Can you provide some information on the tech trends that are revolutionizing specific industries?
+      - What are the prominent tech trends that are driving digital transformation?
+      - Any recommendations on events or conferences to attend to learn about the latest tech trends?
+
+  - intent: chitchat/bot_art_and_craft
+    examples: |
+      - Are you a fan of art?
+      - Do you have an interest in art and craft?
+      - Can we talk about art?
+      - Are you familiar with different art forms?
+      - What are your thoughts on art and craft?
+      - Do you enjoy exploring artistic creations?
+      - Are you into artistic expressions?
+      - Can we discuss the world of art and craft?
+      - Are you knowledgeable about various art techniques?
+      - Do you appreciate the beauty of art?
+      - Can you share your opinion on art?
+      - Are you interested in the creative process of art?
+      - Do you admire the skill and talent behind art and craft?
+      - Can we talk about the impact of art on society?
+      - Are you familiar with famous artists and their works?
+      - Do you have a favorite art style or movement?
+      - Can we explore the connection between art and emotions?
+      - Are you open to discussing different art mediums?
+      - Do you believe that art is a form of self-expression?
+      - Can we delve into the world of art history?
+      - Are you inspired by the creativity of artists?
+      - Do you enjoy visiting art exhibitions and galleries?
+      - Can we discuss the role of art in cultural preservation?
+      - Are you interested in learning about traditional art techniques?
+      - Do you appreciate the craftsmanship in handmade crafts?
+      - Can we explore the therapeutic benefits of art and craft?
+      - Are you familiar with art as a means of storytelling?
+      - Do you value the diversity of art and craft forms?
+      - Can we talk about the relationship between art and technology?
+      - Are you curious about the process of creating art and craft?
+      - Do you believe that everyone has the ability to be artistic?
+      - Can we discuss the influence of art on interior design?
+      - Are you interested in art education and its importance?
+      - Do you have a favorite art piece or artist?
+      - Can we explore the connection between art and social change?
+      - Are you familiar with the concept of art therapy?
+      - Do you believe that art has the power to evoke emotions?
+      - Can we discuss the cultural significance of art and craft?
+
+
+  - intent: chitchat/bot_latest_fashion_trend
+    examples: |
+      - What's the latest fashion trend?
+
+
+  - intent: chitchat/bot_health_and_Fitness
+    examples: |
+      - Any tips for staying healthy?
+
+
+  - intent: chitchat/travel_destinations
+    examples: |
+      - What are some must-visit travel destinations?
+
+
+  - intent: chitchat/funny_stories
+    examples: |
+      - Can you share a funny story?
+
+
+  - intent: chitchat/Current Events
+    examples: |
+      - What's happening in the world today?
+
+
+  - intent: chitchat/Languages
+    examples: |
+      - What are some popular languages spoken around the world?
+
+
+  - intent: chitchat/Celebrities
+    examples: |
+      - Who are some popular celebrities right now?
+
+
+  - intent: chitchat/Inspiration
+    examples: |
+      - Can you share an inspiring quote?
+
+  - intent: chitchat/Education
+    examples: |
+      - What's the importance of education?
+
+  - intent: chitchat/Gaming #Fix a bit
+    examples: |
+      - Do you play video games?
+
+  - intent: chitchat/Relationships
+    examples: |
+      - How can I improve my relationships with others?
+
+  - intent: chitchat/Nature
+    examples: |
+      - What's your favorite natural landscape?
+
+  - intent: chitchat/New Year Resolutions
+    examples: |
+      - Did you make any New Year resolutions?
+
+  - intent: chitchat/Home Decor
+    examples: |
+      - Any tips for home decoration?
+
+  - intent: chitchat/Gardening
+    examples: |
+      - Do you have a green thumb?
+
+  - intent: chitchat/Astrology
+    examples: |
+      - Do you believe in astrology?
+
+  - intent: chitchat/Personal Development
+    examples: |
+      - Any advice for personal growth?
+
+  - intent: chitchat/Social Media
+    examples: |
+      - Are you on social media?
+
+  - intent: chitchat/Dreams and Goals
+    examples: |
+      - What's your biggest dream?
+
+  - intent: chitchat/Time Management
+    examples: |
+      - How can I improve my time management skills?
+
+  - intent: chitchat/Photography
+    examples: |
+      - Do you enjoy photography?
+
+  - intent: chitchat/Inspirational People
+    examples: |
+      - Who inspires you the most?
+
+  - intent: chitchat/Pets
+    examples: |
+      - Do you like cats or dogs?
+
+  - intent: chitchat/Mind-Body Wellness
+    examples: |
+      - How can I achieve mind-body wellness?
+
+  - intent: chitchat/Volunteering
+    examples: |
+      - Have you ever volunteered for a cause?
+
+  - intent: chitchat/Achievements
+    examples: |
+      - What's your biggest achievement?
+
+  - intent: chitchat/Personal Motivation
+    examples: |
+      - How do you stay motivated?
+
+  - intent: chitchat/Creativity
+    examples: |
+      - Are you creative?
+
+  - intent: chitchat/Fashion Brands
+    examples: |
+      - What are some popular fashion brands?
+
+  - intent: chitchat/Environment
+    examples: |
+      - How can we protect the environment?
+
+  - intent: chitchat/Life Experiences
+    examples: |
+      - What's the most memorable experience you've had?
+
+  - intent: chitchat/Personal Challenges
+    examples: |
+      - What's the most challenging thing you've faced?
+
+  - intent: chitchat/Online Shopping
+    examples: |
+      - Do you enjoy online shopping?
+
+
+
+
+  - intent: chitchat/Favorite Quotes
+    examples: |
+      - Do you have a favorite quote?
+
+  - intent: chitchat/Morning Routine
+    examples: |
+      - What's your morning routine?
+
+  - intent: chitchat/Learning New Skills
+    examples: |
+      -  How can I learn new skills effectively?
+
+  - intent: chitchat/Music Recommendations
+    examples: |
+      - Can you suggest some good songs to listen to?
+
+  - intent: chitchat/Adventure
+    examples: |
+      - Have you ever been on an adventure?
+
+  - intent: chitchat/Friendship
+    examples: |
+      - What makes a strong friendship?
+
+  - intent: chitchat/Entrepreneurship
+    examples: |
+      - What does it take to be a successful entrepreneur?
+
+  - intent: chitchat/Positive Affirmations
+    examples: |
+      - Can you give me a positive affirmation?
+
+  - intent: chitchat/Productivity
+    examples: |
+      - How can I increase my productivity?
+
+  - intent: chitchat/Sci-Fi
+    examples: |
+      - Do you enjoy science fiction?
+
+  - intent: chitchat/Cooking
+    examples: |
+      - Can you share a simple recipe?
+
+  - intent: chitchat/Secret Talents
+    examples: |
+      - Do you have any secret talents?
+
+  - intent: chitchat/Cultural Traditions
+    examples: |
+      - What are some interesting cultural traditions?
+
+  - intent: chitchat/Motivational Books
+    examples: |
+      - Can you recommend a motivational book?
+
+  - intent: chitchat/Online Privacy
+    examples: |
+      - How can I protect my online privacy?
+
+  - intent: chitchat/Inventions
+    examples: |
+      - What's the most important invention in history?
+
+  - intent: chitchat/Self-Care
+    examples: |
+      - How can I practice self-care?
+
+  - intent: chitchat/Famous Landmarks
+    examples: |
+      - What are some famous landmarks around the world?
+
+  - intent: chitchat/Concerts and Festivals
+    examples: |
+      - Have you ever been to a concert or festival?
+      
+  - intent: chitchat/Inspiring Movies
+    examples: |
+      - Can you recommend an inspiring movie?
+
+  - intent: chitchat/Historical Figures
+    examples: |
+      - Who is your favorite historical figure?
+
+  - intent: chitchat/Compliments
+    examples: |
+      - You're doing a great job!
+
+  - intent: chitchat/Childhood Memories
+    examples: |
+      - What's your favorite childhood memory?
+
+  - intent: chitchat/Hidden Gems
+    examples: |
+      - Can you recommend any hidden gems in a city?
+
+  - intent: chitchat/Favorite Season
+    examples: |
+      - What's your favorite season?
+
+  - intent: chitchat/Dream Destinations
+    examples: |
+      - What's your dream travel destination?
+
+  - intent: chitchat/Jokes
+    examples: |
+      - Can you tell me a joke?
+
+  - intent: chitchat/Goals for the Future
+    examples: |
+      - What are your goals for the future?
+
+  - intent: chitchat/Holiday Traditions
+    examples: |
+      - What are some common holiday traditions?
+
+  - intent: chitchat/Self-Reflection
+    examples: |
+      - How can I practice self-reflection?
+
+  - intent: chitchat/Personal Transformation
+    examples: |
+      - How can I undergo personal transformation?
+      
+  - intent: chitchat/Innovative Technologies
+    examples: |
+      - What are some innovative technologies of the future?
+
+  - intent: chitchat/Cultural Diversity
+    examples: |
+      - Why is cultural diversity important?
+      
+  - intent: chitchat/Hobbies
+    examples: |
+      - What are some popular hobbies?
+
+  - intent: chitchat/Success Stories
+    examples: |
+      - Can you share a success story?
+
+  - intent: chitchat/World Records
+    examples: |
+      - What's the most impressive world record?
+
+  - intent: chitchat/Cooking Tips
+    examples: |
+      - Do you have any cooking tips?
+
+  - intent: chitchat/Dream Jobs
+    examples: |
+      - What's your dream job?
+
+  - intent: chitchat/Positive News
+    examples: |
+      - Can you share some positive news?
+
+  - intent: chitchat/Personal Reflection
+    examples: |
+      - What have you learned today?
+
+  - intent: chitchat/Generosity
+    examples: |
+      - How can I practice generosity?
+
+  - intent: chitchat/Life Lessons
+    examples: |
+      - What's the most important life lesson you've learned?
+
+  - intent: chitchat/Famous Speeches
+    examples: |
+      - Can you share a famous speech?
+
+  - intent: chitchat/Home Improvement
+    examples: |
+      - Any tips for home improvement projects?
+
+  - intent: chitchat/Relationship Advice
+    examples: |
+      - Can you give me relationship advice?
+
+  - intent: chitchat/Favorite Foods
+    examples: |
+      - What's your favorite food?
+
+  - intent: chitchat/Random Facts
+    examples: |
+      - Tell me an interesting fact.
+
+  - intent: chitchat/Happiness
+    examples: |
+      - How can I find happiness?
+
+  - intent: chitchat/Positive Mindset
+    examples: |
+      - How can I develop a positive mindset?
+
+  - intent: chitchat/Famous Inventors
+    examples: |
+      - Who are some famous inventors?
+
+  - intent: chitchat/Parenting Advice
+    examples: |
+      - Can you give me parenting advice?
+
+  - intent: chitchat/Public Speaking
+    examples: |
+      - How can I improve my public speaking skills?
+
+  - intent: chitchat/Random Questions
+    examples: |
+      - What's your favorite color?
+
+  - intent: chitchat/Favorite Movies
+    examples: |
+      - What's your favorite movie?
+
+  - intent: chitchat/Travel Recommendations
+    examples: |
+      - Can you recommend a travel destination?
+
+  - intent: chitchat/Creative Writing
+    examples: |
+      - Can you give me a writing prompt?
+      
+  - intent: chitchat/Art Appreciation
+    examples: |
+      - What are some famous art pieces?
+
+  - intent: chitchat/Pet Advice
+    examples: |
+      - Do you have any advice for taking care of a pet?
+
+  - intent: chitchat/Dream Interpretation
+    examples: |
+      - Can you interpret dreams?
+
+  - intent: chitchat/Mindfulness
+    examples: |
+      - How can I practice mindfulness?
+
+  - intent: chitchat/Sports
+    examples: |
+      - Which sports do you enjoy?
+
+  - intent: chitchat/Book Recommendations
+    examples: |
+      - Can you suggest a good book to read?
+
+  - intent: chitchat/Gardening Tips
+    examples: |
+      - Any tips for gardening?
+
+  - intent: chitchat/Astrology 2
+    examples: |
+      - What's my zodiac sign?
+
+  - intent: chitchat/Career Advice
+    examples: |
+      - Can you give me some career advice?
+
+  - intent: chitchat/Favorite Books
+    examples: |
+      - What's your favorite book?
+
+  - intent: chitchat/Famous Scientists
+    examples: |
+      - Who are some famous scientists?
+
+  - intent: chitchat/Sleep Tips
+    examples: |
+      - How can I improve my sleep quality?
+
+  - intent: chitchat/Dancing
+    examples: |
+      - Do you like to dance?
+
+ - intent: chitchat/Home Decor Ideas
+    examples: |
+      - Can you give me some home decor ideas?
+
+  - intent: chitchat/Stress Management
+    examples: |
+      - How can I manage stress effectively?
+
+  - intent: chitchat/Fashion Advice
+    examples: |
+      - Can you give me some fashion advice?
+
+  - intent: chitchat/Board Games
+    examples: |
+      - Can you recommend a good board game?
+
+  - intent: chitchat/Conscious Eating
+    examples: |
+      - How can I practice conscious eating?
+
+  - intent: chitchat/DIY Projects
+    examples: |
+      - Any ideas for DIY projects?
+
+  - intent: chitchat/Famous Musicians
+    examples: |
+      - Who are some famous musicians?
+
+  - intent: chitchat/Healthy Snack Ideas
+    examples: |
+      - Can you suggest some healthy snack ideas?
+
+  - intent: chitchat/Favorite Music
+    examples: |
+      - What's your favorite type of music?
+
+  - intent: chitchat/Healthy Habits
+    examples: |
+      - Can you suggest some healthy habits to incorporate into my daily routine?
+ 
+  - intent: chitchat/Environmentally Friendly Practices
+    examples: |
+      - How can I be more environmentally friendly?
+
+  - intent: chitchat/Favorite TV Shows
+    examples: |
+      - What's your favorite TV show?
+
+  - intent: chitchat/Science Fiction
+    examples: |
+      - Do you like science fiction?
+
+  - intent: chitchat/Car Maintenance
+    examples: |
+      - Any tips for car maintenance?
+
+  - intent: chitchat/Fitness Tips
+    examples: |
+      - Can you give me some fitness tips?
+
+  - intent: chitchat/Concert Experiences
+    examples: |
+      - Have you been to any concerts?
+
+  - intent: chitchat/Cultural Etiquette
+    examples: |
+      - How can I learn about cultural etiquette when traveling?
+
+  - intent: chitchat/Coping with Loss
+    examples: |
+      - How can I cope with the loss of a loved one?
+
+  - intent: chitchat/Crafting Ideas
+    examples: |
+      - Any crafting ideas for beginners?
+
+  - intent: chitchat/Coding Advice
+    examples: |
+      - Can you give me advice for learning coding?
+
+  - intent: chitchat/Favorite Animals
+    examples: |
+      - What's your favorite animal?
+
+  - intent: chitchat/Staying Positive
+    examples: |
+      - How can I stay positive during challenging times?
+
+  - intent: chitchat/Parenting Challenges
+    examples: |
+      - What are some common parenting challenges?
+
+  - intent: chitchat/Effective Communication
+    examples: |
+      - How can I improve my communication skills?
+
+  - intent: chitchat/Trivia Questions
+    examples: |
+      - Can you ask me a trivia question?
+      
+  - intent: chitchat/Yoga
+    examples: |
+      - Do you practice yoga?
+
+  - intent: chitchat/Online Learning
+    examples: |
+      - How can I make the most?
+
+  - intent: chitchat/Famous Historical Events
+    examples: |
+      - What are some famous historical events?
+
+  - intent: chitchat/Brain Teasers
+    examples: |
+      - Can you give me a brain teaser?
+
+  - intent: chitchat/Photography Tips
+    examples: |
+      - Any tips for improving photography skills?
+
+  - intent: chitchat/Favorite Hobbies
+    examples: |
+      - What are your favorite hobbies?
+
+  - intent: chitchat/Effective Studying
+    examples: |
+      - How can I study more effectively?
+
+  - intent: chitchat/Baking Tips
+    examples: |
+      - Can you give me some baking tips?
+
+  - intent: chitchat/Famous Historical Figures
+    examples: |
+      - Who are some famous historical figures?
+
+  - intent: chitchat/Productivity Hacks
+    examples: |
+      - Any productivity hacks you can share?
+
+  - intent: chitchat/Favorite Sports
+    examples: |
+      - What's your favorite sport?
+
+  - intent: chitchat/Public Transportation
+    examples: |
+      - Do you use public transportation?
+
+  - intent: chitchat/Writing Tips
+    examples: |
+      - Can you give me some writing tips?
+
+  - intent: chitchat/Famous Historical Buildings
+    examples: |
+      - What are some famous historical buildings?
+
+  - intent: chitchat/Favorite Colors
+    examples: |
+      - What's your favorite color?
+
+  - intent: chitchat/Movie Trivia
+    examples: |
+      - Can you give me a movie trivia question?
+
+  - intent: chitchat/Foreign Language Learning
+    examples: |
+      - Any tips for learning a foreign language?
+
+  - intent: chitchat/Famous Paintings
+    examples: |
+      - What are some famous paintings?
+
+  - intent: chitchat/Healthy Breakfast Ideas
+    examples: |
+      - Can you suggest some healthy breakfast ideas?
+
+  - intent: chitchat/Effective Goal Setting
+    examples: |
+      - How can I set goals effectively?
+
+  - intent: chitchat/Famous Philosophers
+    examples: |
+      - Who are some famous philosophers?
+
+  - intent: chitchat/Public Speaking Tips
+    examples: |
+      - Can you give me some tips for public speaking?
+
+  - intent: chitchat/Travel Memories
+    examples: |
+      - Do you have any favorite travel memories?
+
+  - intent: chitchat/Jigsaw Puzzles
+    examples: |
+      - Do you enjoy solving jigsaw puzzles?
+
+  - intent: chitchat/Dessert Recipes
+    examples: |
+      - Can you suggest some dessert recipes?
+
+  - intent: chitchat/Effective Email Writing
+    examples: |
+      - Any tips for writing effective emails?
+
+  - intent: chitchat/Famous Discoveries
+    examples: |
+      - What are some famous discoveries in history?
+
+  - intent: chitchat/Indoor Gardening
+    examples: |
+      - Can you give me tips for indoor gardening?
+
+  - intent: chitchat/Famous Poets
+    examples: |
+      - Who are some famous poets?
+
+  - intent: chitchat/Gratitude Practice
+    examples: |
+      - How can I practice gratitude?
+
+  - intent: chitchat/Famous Astronomers
+    examples: |
+      - Who are some famous astronomers?
+
+  - intent: chitchat/Creative Writing Prompts
+    examples: |
+      - Can you give me some creative writing prompts?
+
+  - intent: chitchat/Famous Architects
+    examples: |
+      - Who are some famous architects?
+
+  - intent: chitchat/Famous Composers
+    examples: |
+      - Who are some famous composers?
+
+  - intent: chitchat/DIY Home Decor
+    examples: |
+      - Can you give me some DIY home decor ideas?
+
+  - intent: chitchat/Famous Philosophical Concepts
+    examples: |
+      - What are some famous philosophical concepts?
+      
+  - intent: chitchat/Travel Planning Tips
+    examples: |
+      - Any tips for planning a trip?
+
+  - intent: chitchat/Famous Art Movements
+    examples: |
+      - What are some famous art movements?
+
+  - intent: chitchat/Creative Writing Tips
+    examples: |
+      - Can you give me some creative writing tips?
+
+  - intent: chitchat/Famous Fashion Designers
+    examples: |
+      - Who are some famous fashion designers?
+
+  - intent: chitchat/Famous Sculptures
+    examples: |
+      - What are some famous sculptures?
+
+  - intent: chitchat/Home Workout Tips
+    examples: |
+      - Can you give me some home workout tips?
+
+  - intent: chitchat/Famous Nobel Prize Winners
+    examples: |
+      - Who are some famous Nobel Prize winners?
+
+  - intent: chitchat/Famous Authors
+    examples: |
+      - Who are some famous authors?
+
+  - intent: chitchat/Stress Management Techniques
+    examples: |
+      - How can I manage stress effectively?
+
+  - intent: chitchat/Creative Cooking Ideas
+    examples: |
+      - Can you suggest some creative cooking ideas?
+
+  - intent: chitchat/Famous Film Directors
+    examples: |
+      - Who are some famous film directors?
+
+  - intent: chitchat/DIY Home Improvement
+    examples: |
+      - Can you give me some DIY home improvement ideas?
+
+  - intent: chitchat/Famous Opera Composers
+    examples: |
+      - Who are some famous opera composers?
+
+  - intent: chitchat/Famous Athletes
+    examples: |
+      - Who are some famous athletes?
+
+  - intent: chitchat/DIY Fashion
+    examples: |
+      - Can you give me some DIY fashion ideas?
+
+  - intent: chitchat/Creative Hobbies
+    examples: |
+      - Can you suggest some creative hobbies?
+
+  - intent: chitchat/Famous Ballets
+    examples: |
+      - What are some famous ballets?
+
+  - intent: chitchat/DIY Gifts
+    examples: |
+      - Can you give me some DIY gift ideas?
+
+  - intent: chitchat/Famous Chess Players
+    examples: |
+      - Who are some famous chess players?
+
+  - intent: chitchat/DIY Beauty Products
+    examples: |
+      - Can you give me some DIY beauty product ideas?
+
+  - intent: chitchat/Famous Operas
+    examples: |
+      - What are some famous operas?
+
+  - intent: chitchat/Creative Journaling
+    examples: |
+      - Can you give me some ideas for creative journaling?
+
+  - intent: chitchat/DIY Pet Toys
+    examples: |
+      - Can you give me some ideas for DIY pet toys?
+
+  - intent: chitchat/Famous Ballet Dancers
+    examples: |
+      - Who are some famous ballet dancers?
+
+  - intent: chitchat/DIY Natural Cleaners
+    examples: |
+      - Can you give me some recipes for DIY natural cleaners?
+
+  - intent: chitchat/Famous Fashion Photographers
+    examples: |
+      - Who are some famous fashion photographers?
+
+  - intent: chitchat/DIY Planters
+    examples: |
+      - Can you give me some ideas for DIY planters?
+
+  - intent: chitchat/Famous Jazz Musicians
+    examples: |
+      - Who are some famous jazz musicians?
+
+  - intent: chitchat/DIY Self-Care Rituals
+    examples: |
+      - Can you give me some ideas for DIY self-care rituals?
+
+  - intent: chitchat/Famous Classical Music Composers
+    examples: |
+      - Who are some famous classical music composers?
+
+  - intent: chitchat/DIY Wall Decor
+    examples: |
+      - Can you give me some ideas for DIY wall decor?
+
+  - intent: chitchat/DIY Natural Beauty Treatments
+    examples: |
+      - Can you give me some recipes for DIY natural beauty treatments?
+
+  - intent: chitchat/Famous Fashion Models
+    examples: |
+      - Who are some famous fashion models?
+
+  - intent: chitchat/DIY Greeting Cards
+    examples: |
+      - Can you give me some ideas for DIY greeting cards?
+
+  - intent: chitchat/DIY Hair Care Treatments
+    examples: |
+      - Can you give me some recipes for DIY hair care treatments?
+
+  - intent: chitchat/Famous Film Score Composers
+    examples: |
+      - Who are some famous film score composers?
+
+  - intent: chitchat/DIY Bookmarks
+    examples: |
+      - Can you give me some ideas for DIY bookmarks?
+
+  - intent: chitchat/Famous Fashion Brands
+    examples: |
+      - What are some famous fashion brands?
+
+  - intent: chitchat/DIY Natural Air Fresheners
+    examples: |
+      - Can you give me some recipes for DIY natural air fresheners?
+
+  - intent: chitchat/DIY Crafts
+    examples: |
+      - Can you give me some DIY craft ideas?
+
+      
+
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+  - intent: chitchat/
+    examples: |
+      - 
+
+
+
+
+
+
 
 
 

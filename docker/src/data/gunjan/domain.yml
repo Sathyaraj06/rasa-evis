@@ -148,11 +148,22 @@ intents:
 - chitchat/bot_best_tv_thrill_recommend
 - chitchat/bot_best_tv_action_recommend
 
+- chitchat/bot_latest_tech_trend
+- chitchat/bot_art_and_craft
 
 - chitchat
 - bot_mock
 
 responses:
+  utter_chitchat/bot_art_and_craft:
+
+
+
+  utter_chitchat/bot_latest_tech_trend:
+
+
+
+
   utter_chitchat/bot_tv_comedy:
   - text: "Looking for laughter? Try 'Brooklyn Nine-Nine.' It's a hilarious comedy about quirky detectives."
   - text: "Check out 'The Office.' It's a mockumentary-style comedy capturing office life's humor and absurdities."
