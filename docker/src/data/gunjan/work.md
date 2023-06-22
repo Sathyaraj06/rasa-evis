@@ -5,10 +5,17 @@
 
 Time: 4.25 hrs 
 
-**Milestone 2: Unpaid (5000)**
+**Milestone 2: Paid (5000)**
 1) 212 story paths designed for "stories.yml"
 2) Reiteration done for improving already existing variations for "nlu.yml"
 3) Initiated designing stories.yml and parallelly updating nlu.yml and domain.yml
 4) Story flows in progress.
 
 Time: 10 hrs
+
+**Milestone 3**
+1) 212 story flows and progression designed for all story paths
+2) Interactive Learning for 187 entries completed
+3) nlu.yml updated for all 187.
+
+Time: 8.8166667 hrs
