@@ -14,8 +14,8 @@ Time: 4.25 hrs
 Time: 10 hrs
 
 **Milestone 3**
-1) 212 story flows and progression designed for all story paths
-2) Interactive Learning for 187 entries completed
-3) nlu.yml updated for all 187.
+1) 212 story flows initiated in nlu.yml
+2) Interactive Learning for 149 entries completed
+3) corresponding files updated for all 149.
 
-Time: 8.8166667 hrs
+Time: 11.96667 hrs (12 hrs)
