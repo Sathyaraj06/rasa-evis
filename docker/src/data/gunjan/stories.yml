@@ -1,264 +1,288 @@
-version: "3.1"
+version: "2.0"
 
 stories:
-  - story: Who are you
-    steps:
-      - intent: chitchat/bot_who_are_you
-      - action: utter_chitchat/bot_who_are_you
-      - intent: chitchat/bot_whats_your_hobby
-      - action: utter_chitchat/bot_whats_your_hobby
-      - intent: chitchat/bot_tell_a_joke
-      - action: utter_chitchat/bot_tell_a_joke
-      - intent: chitchat/bot_thank_you_so_much
-      - action: utter_chitchat/bot_thank_you_so_much
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: Who are you
+  steps:
+  - intent: bot_who_are_you
+  - action: utter_bot_who_are_you
+  - intent: bot_whats_your_hobby
+  - action: utter_bot_whats_your_hobby
+  - intent: bot_tell_a_joke
+  - action: utter_bot_tell_a_joke
+  - intent: bot_thank_you_so_much
+  - action: utter_bot_thank_you_so_much
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: Movie Recommendations
-    steps:
-      - intent: chitchat/bot_do_you_like_movie
-      - action: utter_chitchat/bot_do_you_like_movie
-      - intent: chitchat/bot_movie_recommendation
-      - action: utter_chitchat/bot_movie_recommendation
-      - intent: chitchat/bot_best_movie_recommendation
-      - action: utter_chitchat/bot_best_movie_recommendation
-      - intent: chitchat/bot_thank_you_so_much
-      - action: chitchat/bot_thats_my_pleasure
+- story: Movie Recommendations
+  steps:
+  - intent: bot_do_you_like_movie
+  - action: utter_bot_do_you_like_movie
+  - intent: bot_movie_recommendation
+  - action: utter_bot_movie_recommendation
+  - intent: bot_best_movie_recommendation
+  - action: utter_bot_best_movie_recommendation
+  - intent: bot_thank_you_so_much
+  - action: utter_bot_thats_my_pleasure
 
-  - story: Cuisine Indian butter chicken
-    steps:
-      - intent: chitchat/bot_whats_your_favorite_food
-      - action: utter_chitchat/bot_whats_your_favorite_food
-      - intent: chitchat/bot_about_indian_cuisine
-      - action: utter_chitchat/bot_about_indian_cuisine
-      - intent: chitchat/bot_about_butter_chicken
-      - action: utter_chitchat/bot_about_butter_chicken
-      - intent: chitchat/bot_delicious
-      - action: utter_chitchat/bot_you_are_right
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye 
+- story: Cuisine Indian butter chicken
+  steps:
+  - intent: bot_whats_your_favorite_food
+  - action: utter_bot_whats_your_favorite_food
+  - intent: bot_about_indian_cuisine
+  - action: utter_bot_about_indian_cuisine
+  - intent: bot_about_butter_chicken
+  - action: utter_bot_about_butter_chicken
+  - intent: bot_express_delicious
+  - action: utter_bot_you_are_right
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye 
 
-  - story: Cuisine Indian biryani
-    steps:
-      - intent: chitchat/bot_whats_your_favorite_food
-      - action: utter_chitchat/bot_whats_your_favorite_food
-      - intent: chitchat/bot_about_indian_cuisine
-      - action: utter_chitchat/bot_about_indian_cuisine
-      - intent: chitchat/bot_about_biriyani #
-      - action: utter_chitchat/bot_about_biriyani #
-      - intent: chitchat/bot_delicious
-      - action: utter_chitchat/bot_you_are_right
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: Cuisine Indian biryani
+  steps:
+  - intent: bot_whats_your_favorite_food
+  - action: utter_bot_whats_your_favorite_food
+  - intent: bot_about_indian_cuisine
+  - action: utter_bot_about_indian_cuisine
+  - intent: bot_about_biriyani
+  - action: utter_bot_about_biriyani
+  - intent: bot_express_delicious
+  - action: utter_bot_you_are_right
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: Cuisine Indian samosas
-    steps:
-      - intent: chitchat/bot_whats_your_favorite_food
-      - action: utter_chitchat/bot_whats_your_favorite_food
-      - intent: chitchat/bot_about_indian_cuisine
-      - action: utter_chitchat/bot_about_indian_cuisine
-      - intent: chitchat/bot_about_samosas #
-      - action: utter_chitchat/bot_about_samosas #
-      - intent: chitchat/bot_delicious
-      - action: utter_chitchat/bot_you_are_right
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: Cuisine Indian samosas
+  steps:
+  - intent: bot_whats_your_favorite_food
+  - action: utter_bot_whats_your_favorite_food
+  - intent: bot_about_indian_cuisine
+  - action: utter_bot_about_indian_cuisine
+  - intent: bot_about_samosas
+  - action: utter_bot_about_samosas
+  - intent: bot_express_delicious
+  - action: utter_bot_you_are_right
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: Cuisine Indian tandoori chicken
-    steps:
-      - intent: chitchat/bot_whats_your_favorite_food
-      - action: utter_chitchat/bot_whats_your_favorite_food
-      - intent: chitchat/bot_about_indian_cuisine
-      - action: utter_chitchat/bot_about_indian_cuisine
-      - intent: chitchat/bot_about_tandoori ##
-      - action: utter_chitchat/bot_about_tandoori ##
-      - intent: chitchat/bot_delicious
-      - action: utter_chitchat/bot_you_are_right
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: Cuisine Indian tandoori chicken
+  steps:
+  - intent: bot_whats_your_favorite_food
+  - action: utter_bot_whats_your_favorite_food
+  - intent: bot_about_indian_cuisine
+  - action: utter_bot_about_indian_cuisine
+  - intent: bot_about_tandoori
+  - action: utter_bot_about_tandoori
+  - intent: bot_express_delicious
+  - action: utter_bot_you_are_right
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: Cuisine Indian paneer tikka
-    steps:
-      - intent: chitchat/bot_whats_your_favorite_food
-      - action: utter_chitchat/bot_whats_your_favorite_food
-      - intent: chitchat/bot_about_indian_cuisine
-      - action: utter_chitchat/bot_about_indian_cuisine
-      - intent: chitchat/bot_about_paneer ##
-      - action: utter_chitchat/bot_about_paneer ##
-      - intent: chitchat/bot_delicious
-      - action: utter_chitchat/bot_you_are_right
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: Cuisine Indian paneer tikka
+  steps:
+  - intent: bot_whats_your_favorite_food
+  - action: utter_bot_whats_your_favorite_food
+  - intent: bot_about_indian_cuisine
+  - action: utter_bot_about_indian_cuisine
+  - intent: bot_about_paneer ##
+  - action: utter_bot_about_paneer ##
+  - intent: bot_express_delicious
+  - action: utter_bot_you_are_right
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: Cuisine Indian masala dosa
-    steps:
-      - intent: chitchat/bot_whats_your_favorite_food
-      - action: utter_chitchat/bot_whats_your_favorite_food
-      - intent: chitchat/bot_about_indian_cuisine
-      - action: utter_chitchat/bot_about_indian_cuisine
-      - intent: chitchat/bot_about_dosa ##
-      - action: utter_chitchat/bot_about_dosa ##
-      - intent: chitchat/bot_delicious
-      - action: utter_chitchat/bot_you_are_right
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: Cuisine Indian masala dosa
+  steps:
+  - intent: bot_whats_your_favorite_food
+  - action: utter_bot_whats_your_favorite_food
+  - intent: bot_about_indian_cuisine
+  - action: utter_bot_about_indian_cuisine
+  - intent: bot_about_dosa ##
+  - action: utter_bot_about_dosa ##
+  - intent: bot_express_delicious
+  - action: utter_bot_you_are_right
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: Cuisine Indian gulab jamun
-    steps:
-      - intent: chitchat/bot_whats_your_favorite_food
-      - action: utter_chitchat/bot_whats_your_favorite_food
-      - intent: chitchat/bot_about_indian_cuisine
-      - action: utter_chitchat/bot_about_indian_cuisine
-      - intent: chitchat/bot_about_jamun ##
-      - action: utter_chitchat/bot_about_jamun ##
-      - intent: chitchat/bot_delicious
-      - action: utter_chitchat/bot_you_are_right
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: Cuisine Indian gulab jamun
+  steps:
+  - intent: bot_whats_your_favorite_food
+  - action: utter_bot_whats_your_favorite_food
+  - intent: bot_about_indian_cuisine
+  - action: utter_bot_about_indian_cuisine
+  - intent: bot_about_jamun ##
+  - action: utter_bot_about_jamun ##
+  - intent: bot_express_delicious
+  - action: utter_bot_you_are_right
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: weather right
-    steps:
-      - intent: chitchat/bot_whats_weather
-      - action: utter_chitchat/bot_whats_weather
-      - intent: chitchat/bot_make_guess_weather 
-      - action: utter_chitchat/bot_make_guess_weather 
-      - intent: chitchat/bot_you_are_right #
-      - action: utter_chitchat/bot_its_good_job #
-      - intent: chitchat/bot_you_are_good #
-      - action: utter_chitchat/bot_ok_no_problem #
-      - intent: chitchat/bot_see_you_bye #
-      - action: utter_chitchat/bot_see_you_bye #
+- story: weather right
+  steps:
+  - intent: bot_whats_weather
+  - action: utter_bot_whats_weather
+  - intent: bot_make_guess_weather 
+  - action: utter_bot_make_guess_weather 
+  - intent: bot_you_are_right #
+  - action: utter_bot_its_good_job #
+  - intent: bot_you_are_good #
+  - action: utter_bot_ok_no_problem #
+  - intent: bot_see_you_bye #
+  - action: utter_bot_see_you_bye #
 
-  - story: weather wrong
-    steps:
-      - intent: chitchat/bot_whats_weather
-      - action: utter_chitchat/bot_whats_weather
-      - intent: chitchat/bot_make_guess_weather 
-      - action: utter_chitchat/bot_make_guess_weather 
-      - intent: chitchat/bot_you_are_wrong 
-      - action: utter_chitchat/dialog_wrong 
-      - intent: chitchat/bot_you_need_to_improve
-      - action: utter_chitchat/bot_you_need_to_improve #
-      - intent: chitchat/bot_see_you_bye #
-      - action: utter_chitchat/bot_see_you_bye #
+- story: weather wrong
+  steps:
+  - intent: bot_whats_weather
+  - action: utter_bot_whats_weather
+  - intent: bot_make_guess_weather 
+  - action: utter_bot_make_guess_weather 
+  - intent: bot_you_are_wrong 
+  - action: utter_dialog_wrong
+  - intent: bot_you_need_to_improve
+  - action: utter_bot_you_need_to_improve #
+  - intent: bot_see_you_bye #
+  - action: utter_bot_see_you_bye #
 
-  - story: TV Drama Breaking Bad
-    steps:
-      - intent: chitchat/bot_tv_recommend
-      - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_drama ##
-      - action: utter_chitchat/bot_tv_drama ##
-      - intent: chitchat/bot_best_tv_drama_recommend ##
-      - action: utter_chitchat/bot_best_tv_drama_recommend_bb ##
-      - intent: chitchat/bot_you_are_good 
-      - action: utter_chitchat/bot_you_are_good 
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: TV Drama Breaking Bad
+  steps:
+  - intent: bot_tv_recommend
+  - action: utter_bot_tv_recommend
+  - intent: bot_tv_drama ##
+  - action: utter_bot_tv_drama ##
+  - intent: bot_best_tv_drama_recommend ##
+  - action: utter_bot_best_tv_drama_recommend_bb ##
+  - intent: bot_you_are_good 
+  - action: utter_bot_you_are_good 
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: TV Sci-Fi Black Mirror
-    steps:
-      - intent: chitchat/bot_tv_recommend
-      - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_scifi ##
-      - action: utter_chitchat/bot_tv_scifi ##
-      - intent: chitchat/bot_best_tv_scifi_recommend ##
-      - action: utter_chitchat/bot_best_tv_scifi_recommend_bm ##
-      - intent: chitchat/bot_you_are_good 
-      - action: utter_chitchat/bot_you_are_good 
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: TV Sci-Fi Black Mirror
+  steps:
+  - intent: bot_tv_recommend
+  - action: utter_bot_tv_recommend
+  - intent: bot_tv_scifi ##
+  - action: utter_bot_tv_scifi ##
+  - intent: bot_best_tv_scifi_recommend ##
+  - action: utter_bot_best_tv_scifi_recommend_bm ##
+  - intent: bot_you_are_good 
+  - action: utter_bot_you_are_good 
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: TV Horror Hill House
-    steps:
-      - intent: chitchat/bot_tv_recommend
-      - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_horror ##
-      - action: utter_chitchat/bot_tv_horror ##
-      - intent: chitchat/bot_best_tv_horror_recommend ##
-      - action: utter_chitchat/bot_best_tv_horror_recommend_hh ##
-      - intent: chitchat/bot_you_are_good 
-      - action: utter_chitchat/bot_you_are_good 
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: TV Horror Hill House
+  steps:
+  - intent: bot_tv_recommend
+  - action: utter_bot_tv_recommend
+  - intent: bot_tv_horror ##
+  - action: utter_bot_tv_horror ##
+  - intent: bot_best_tv_horror_recommend ##
+  - action: utter_bot_best_tv_horror_recommend_hh ##
+  - intent: bot_you_are_good 
+  - action: utter_bot_you_are_good 
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: TV Action Punisher
-    steps:
-      - intent: chitchat/bot_tv_recommend
-      - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_action ##
-      - action: utter_chitchat/bot_tv_action ##
-      - intent: chitchat/bot_best_tv_action_recommend ##
-      - action: utter_chitchat/bot_best_tv_action_recommend_p ##
-      - intent: chitchat/bot_you_are_good 
-      - action: utter_chitchat/bot_you_are_good 
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: TV Action Punisher
+  steps:
+  - intent: bot_tv_recommend
+  - action: utter_bot_tv_recommend
+  - intent: bot_tv_action ##
+  - action: utter_bot_tv_action ##
+  - intent: bot_best_tv_action_recommend ##
+  - action: utter_bot_best_tv_action_recommend_p ##
+  - intent: bot_you_are_good 
+  - action: utter_bot_you_are_good 
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: TV Comedy BBT
-    steps:
-      - intent: chitchat/bot_tv_recommend
-      - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_comedy ##
-      - action: utter_chitchat/bot_tv_comedy ##
-      - intent: chitchat/bot_best_tv_comedy_recommend ##
-      - action: utter_chitchat/bot_best_tv_comedy_recommend_bbt ##
-      - intent: chitchat/bot_you_are_good 
-      - action: utter_chitchat/bot_you_are_good 
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: TV Comedy BBT
+  steps:
+  - intent: bot_tv_recommend
+  - action: utter_bot_tv_recommend
+  - intent: bot_tv_comedy ##
+  - action: utter_bot_tv_comedy ##
+  - intent: bot_best_tv_comedy_recommend ##
+  - action: utter_bot_best_tv_comedy_recommend_bbt ##
+  - intent: bot_you_are_good 
+  - action: utter_bot_you_are_good 
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: TV Thriller the wire
-    steps:
-      - intent: chitchat/bot_tv_recommend
-      - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_thrill ##
-      - action: utter_chitchat/bot_tv_thrill ##
-      - intent: chitchat/bot_best_tv_thrill_recommend ##
-      - action: utter_chitchat/bot_best_tv_thrill_recommend_tw ##
-      - intent: chitchat/bot_you_are_good 
-      - action: utter_chitchat/bot_you_are_good 
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: TV Thriller the wire
+  steps:
+  - intent: bot_tv_recommend
+  - action: utter_bot_tv_recommend
+  - intent: bot_tv_thrill ##
+  - action: utter_bot_tv_thrill ##
+  - intent: bot_best_tv_thrill_recommend ##
+  - action: utter_bot_best_tv_thrill_recommend_tw ##
+  - intent: bot_you_are_good 
+  - action: utter_bot_you_are_good 
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
+- story: TV Fantasy got
+  steps:
+  - intent: bot_tv_recommend
+  - action: utter_bot_tv_recommend
+  - intent: bot_tv_fantasy ##
+  - action: utter_bot_tv_fantasy ##
+  - intent: bot_best_tv_fantasy_recommend ##
+  - action: utter_bot_best_tv_fantasy_recommend_got ##
+  - intent: bot_you_are_good 
+  - action: utter_bot_you_are_good 
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
 
-  - story: TV Fantasy got
-    steps:
-      - intent: chitchat/bot_tv_recommend
-      - action: utter_chitchat/bot_which_genre
-      - intent: chitchat/bot_tv_fantasy ##
-      - action: utter_chitchat/bot_tv_fantasy ##
-      - intent: chitchat/bot_best_tv_fantasy_recommend ##
-      - action: utter_chitchat/bot_best_tv_fantasy_recommend_got ##
-      - intent: chitchat/bot_you_are_good 
-      - action: utter_chitchat/bot_you_are_good 
-      - intent: chitchat/bot_thanks_information
-      - action: utter_chitchat/bot_thanks_information
-      - intent: chitchat/bot_see_you_bye
-      - action: utter_chitchat/bot_see_you_bye
+- story: Art and Craft
+  steps:
+  - intent: bot_fan_art_and_craft
+  - action: utter_bot_fan_art_and_craft
+  - intent: bot_discuss_art_and_craft
+  - action: utter_bot_discuss_art_and_craft
+  - intent: bot_art_know_famous_artist_and_works ##
+  - action: utter_bot_art_know_famous_artist_and_works ##
+  - intent: bot_art_impact_society 
+  - action: utter_bot_art_impact_society 
+  - intent: bot_art_form_self_expression 
+  - action: utter_bot_art_form_self_expression 
+  - intent: bot_art_therapeutic_benefits 
+  - action: utter_bot_art_therapeutic_benefits 
+  - intent: bot_art_ability_everyone 
+  - action: utter_bot_art_ability_everyone 
+  - intent: bot_art_cultural_significance 
+  - action: utter_bot_art_cultural_significance 
+  - intent: bot_art_favourite_artist_piece ## checkpoint -> Home decor
+  - action: utter_bot_art_favourite_artist_piece ##
+  - intent: bot_thanks_information 
+  - action: utter_bot_thanks_information 
+  - intent: bot_see_you_bye 
+  - action: utter_bot_see_you_bye
 
