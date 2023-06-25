@@ -17,5 +17,6 @@ Time: 10 hrs
 1) 212 story flows initiated in nlu.yml
 2) Interactive Learning for 149 entries completed
 3) corresponding files updated for all 149.
+4) Trained, validated and debugged a prototype model
 
-Time: 11.96667 hrs (12 hrs)
+Time: 15.983333 hrs (16 hrs)
