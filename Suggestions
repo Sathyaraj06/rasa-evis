@@ -14,3 +14,231 @@ Happiness
 Fav Travel Recommendations:
 Fav Book Recommendations:
 Hobbies
+
+
+
+
+
+#Discarded
+
+- story: Nature
+  steps:
+  - intent: bot_fav_natural_landscape
+  - action:
+  - intent: bot_love_mountains
+  - action: 
+  - intent: bot_know_himalayas
+  - action: 
+  - intent: bot_visited_himalayas
+  - action: 
+  - intent: bot_recommend_trekking
+  - action:  
+  - intent: bot_sounds_amazing
+  - action: 
+  - intent: bot_thanks_information
+  - action:
+
+- story: New Year Resolutions
+  steps:
+  - intent: bot_make_nyr
+  - action:
+  - intent: bot_improve_fitness_healthier
+  - action: 
+  - intent: bot_incorporate_exercise
+  - action: 
+  - intent: bot_about_gym
+  - action: 
+  - intent: bot_meditate_and_mind
+  - action:  
+  - intent: bot_thanks_suggestions
+  - action: 
+
+- story: Home Decor
+  steps:
+  - intent: bot_home_decor
+  - action:
+  - intent: bot_home_decor_tips
+  - action: 
+  - intent: bot_cozy_idea_home
+  - action: 
+  - intent: bot_balcony_decorate
+  - action: 
+  - intent: bot_thanks_help
+  - action:  
+
+- story: Gardening
+  steps:
+  - intent: bot_about_gardening
+  - action:
+  - intent: bot_gardening_tips_beginners
+  - action: 
+  - intent: bot_watering_succulents
+  - action: 
+  - intent: bot_what_plants
+  - action: 
+
+- story: Astrology
+  steps:
+  - intent: bot_believe_astrology
+  - action:
+  - intent: bot_about_astrology
+  - action: 
+  - intent: bot_components_astrology
+  - action: 
+  - intent: bot_accurate_astrology
+  - action: 
+  - intent: bot_diff_astrology
+  - action: 
+  - intent: bot_thanks_information
+  - action: 
+
+- story: Personal Development
+  steps:
+  - intent: bot_advice_personal_growth
+  - action:
+  - intent: bot_improve_self_confidence
+  - action: 
+  - intent: bot_stress_management
+  - action: 
+  - intent: bot_work_life
+  - action: 
+  - intent: bot_stay_motivated
+  - action: 
+  - intent: bot_recommend_pd_resources
+  - action: 
+  - intent: bot_thanks_help
+  - action: 
+
+- story: Social Media
+  steps:
+  - intent: bot_on_social_media
+  - action:
+  - intent: bot_benefits_social_media
+  - action: 
+  - intent: bot_popular_media_platforms
+  - action: 
+  - intent: bot_maintain_privacy_media
+  - action: 
+  - intent: bot_negative_effects_social_media
+  - action: 
+  - intent: bot_thanks_information
+  - action: 
+
+  - story: Latest Fashion
+  steps:
+  - intent: bot_latest_fashion
+  - action: 
+  - intent: bot_oversized_blazers
+  - action: 
+  - intent: bot_athleisure_wear
+  - action: 
+  - intent: bot_sustainable_fashion
+  - action: 
+  - intent: bot_other_latest_fashion
+  - action:  
+  - intent: bot_sustainable_fashion
+  - action: 
+  - intent: bot_notable_fashion_trends
+  - action: 
+  - intent: bot_incorporate_trends_wardrobe
+  - action: 
+  - intent: bot_where_information_fashion_trends
+  - action: 
+  - intent: bot_thanks_information 
+  - action: 
+
+- story: Health and Fitness
+  steps:
+  - intent: bot_health_and_fitness
+  - action: 
+  - intent: bot_types_excercises_begin
+  - action: 
+  - intent: bot_improve_diet
+  - action: 
+  - intent: bot_stress_management
+  - action: 
+  - intent: bot_hours_sleep
+  - action:  
+  - intent: bot_fitness_track_apps
+  - action: 
+  - intent: bot_thanks_information
+  - action: 
+
+- story: Current Events
+  steps:
+  - intent: bot_current_events
+  - action:
+  - intent: bot_headlines
+  - action: 
+  - intent: bot_scientific_advancement
+  - action: 
+  - intent: bot_sports_events
+  - action: 
+  - intent: bot_political_events
+  - action:  
+  - intent: bot_thanks_information
+  - action: 
+  - intent: bot_see_you_bye
+  - action: 
+
+- story: Languages
+  steps:
+  - intent: bot_popular_language
+  - action:
+  - intent: bot_english_language
+  - action: 
+  - intent: bot_learn_new_language
+  - action: 
+  - intent: bot_learning_language_challenge
+  - action: 
+  - intent: bot_online_resource_language_learn
+  - action:  
+  - intent: bot_thanks_information
+  - action: 
+
+- story: Celebrities
+  steps:
+  - intent: bot_popular_celebs
+  - action:
+  - intent: bot_specific_celebs
+  - action: 
+  - intent: bot_other_specific
+  - action: 
+  - intent: bot_talents_celebs
+  - action: 
+  - intent: bot_upcomings_movies_songs
+  - action:  
+  - intent: bot_thanks_information
+  - action: 
+
+- story: Inspiration
+  steps:
+  - intent: bot_inspirational_quotes
+  - action:
+  - intent: bot_another_quote
+  - action: 
+  - intent: bot_another_quote
+  - action: 
+  - intent: bot_another_quote
+  - action: 
+  - intent: bot_feeling_inspired
+  - action:  
+  - intent: bot_thanks_information
+  - action: 
+
+- story: Education
+  steps:
+  - intent: bot_edu_important
+  - action:
+  - intent: bot_edu_personal_growth
+  - action: 
+  - intent: bot_edu_impact
+  - action: 
+  - intent: bot_edu_opportunity
+  - action: 
+  - intent: bot_edu_formal_school
+  - action:  
+  - intent: bot_edu_significant
+  - action: 
+  - intent: bot_thanks_information
+  - action:
