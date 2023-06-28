@@ -13,7 +13,7 @@ Time: 4.25 hrs
 
 Time: 10 hrs
 
-**Milestone 3**
+**Milestone 3: Paid (8000)**
 1) 212 story flows initiated in nlu.yml
 2) Interactive Learning for 149 entries completed
 3) corresponding files updated for all 149.
