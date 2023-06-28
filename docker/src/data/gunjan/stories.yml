@@ -286,3 +286,267 @@ stories:
   - intent: bot_see_you_bye 
   - action: utter_bot_see_you_bye
 
+- story: Funny Story
+  steps:
+  - intent: bot_funny_story
+  - action: utter_bot_funny_story
+  - intent: bot_more_funny_story
+  - action: utter_bot_more_funny_story
+  - intent: bot_more_funny_story
+  - action: utter_bot_more_funny_story
+  - intent: bot_laughing
+  - action: utter_bot_laughing
+  - intent: bot_clever
+  - action: utter_bot_clever
+  - intent: bot_nice_day
+  - action: utter_bot_nice_day
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
+  
+- story: Travel Destinations
+  steps:
+  - intent: bot_popular_destination
+  - action: utter_bot_popular_destination
+  - intent: bot_beach_destination
+  - action: utter_bot_beach_destination
+  - intent: bot_history_destination
+  - action: utter_bot_history_destination
+  - intent: bot_off_beat_destination
+  - action: utter_bot_off_beat_destination
+  - intent: bot_family_destination
+  - action: utter_bot_family_destination
+  - intent: bot_thanks_suggestions
+  - action: utter_bot_thanks_suggestions
+  - intent: bot_see_you_bye
+  - action: utter_bot_see_you_bye
+
+- story: Relationships
+  steps:
+  - intent: bot_difficulty_relationship
+  - action: utter_bot_difficulty_relationship
+  - intent: bot_concerned_romantic_relations
+  - action: utter_bot_concerned_romantic_relations
+  - intent: bot_argument_escalate
+  - action: utter_bot_argument_escalate
+  - intent: bot_create_support_atm
+  - action: utter_bot_create_support_atm
+  - intent: bot_rebuild_trust
+  - action: utter_bot_rebuild_trust
+  - intent: bot_seek_pro_help
+  - action: utter_bot_seek_pro_help
+  - intent: bot_thanks_advice
+  - action: utter_bot_thanks_advice
+
+- story: Pets
+  steps:
+  - intent: bot_pets_cats_dogs
+  - action: utter_bot_pets_cats_dogs
+  - intent: bot_pets_adv_cats
+  - action: utter_bot_pets_adv_cats
+  - intent: bot_pets_adv_dogs
+  - action: utter_bot_pets_adv_dogs
+  - intent: bot_pets_cats_vs_dogs
+  - action: utter_bot_pets_cats_vs_dogs
+  - intent: bot_personal_best_pet
+  - action: utter_bot_personal_best_pet
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
+
+- story: Achievements
+  steps:
+  - intent: bot_biggest_achievements
+  - action: utter_bot_biggest_achievements
+  - intent: bot_my_biggest_achievements
+  - action: utter_bot_my_biggest_achievements
+  - intent: bot_my_struggles_achievements
+  - action: utter_bot_my_struggles_achievements
+  - intent: bot_my_feelings_achievements
+  - action: utter_bot_my_feelings_achievements
+  - intent: bot_my_goals_achievements
+  - action: utter_bot_my_goals_achievements
+  - intent: bot_my_goals_achievements_works
+  - action: utter_bot_my_goals_achievements_works
+
+- story: Creativity
+  steps:
+  - intent: bot_you_creative
+  - action: utter_bot_you_creative
+  - intent: bot_creative_advice
+  - action: utter_bot_creative_advice
+  - intent: bot_creative_new_ideas
+  - action: utter_bot_creative_new_ideas
+  - intent: bot_creative_own_work
+  - action: utter_bot_creative_own_work
+  - intent: bot_creative_self_doubt
+  - action: utter_bot_creative_self_doubt
+  - intent: bot_my_goals_achievements_works
+  - action: utter_bot_my_goals_achievements_works
+  - intent: bot_thanks_suggestions
+  - action: utter_bot_thanks_suggestions
+
+- story: Life Experiences
+  steps:
+  - intent: bot_memorable_life_exp
+  - action: utter_bot_memorable_life_exp
+  - intent: bot_share_memorable_travel_story
+  - action: utter_bot_share_memorable_travel_story
+  - intent: bot_share_memorable_scuba_story
+  - action: utter_bot_share_memorable_scuba_story
+  - intent: bot_share_memorable_camp_story
+  - action: utter_bot_share_memorable_camp_story
+  - intent: bot_share_memorable_hike_story
+  - action: utter_bot_share_memorable_hike_story
+  - intent: bot_share_memorable_horror_story
+  - action: utter_bot_share_memorable_horror_story
+  - intent: bot_thanks_sharing
+  - action: utter_bot_thanks_sharing
+
+- story: Favorite Quotes
+  steps:
+  - intent: bot_share_fav_quote
+  - action: utter_bot_share_fav_quote
+  - intent: bot_more_share_fav_quote
+  - action: utter_bot_more_share_fav_quote
+  - intent: bot_more_share_fav_quote
+  - action: utter_bot_more_share_fav_quote
+  - intent: bot_more_share_fav_quote
+  - action: utter_bot_more_share_fav_quote
+  - intent: bot_more_share_fav_quote_success
+  - action: utter_bot_more_share_fav_quote_success
+  - intent: bot_more_share_fav_quote_love
+  - action: utter_bot_more_share_fav_quote_love
+  - intent: bot_more_share_fav_quote_happiness
+  - action: utter_bot_more_share_fav_quote_happiness
+  - intent: bot_thanks_sharing
+  - action: utter_bot_thanks_sharing
+
+- story: Music Recommendations
+  steps:
+  - intent: bot_suggest_songs
+  - action: utter_bot_suggest_songs
+  - intent: bot_suggest_songs_rock
+  - action: utter_bot_suggest_songs_rock
+  - intent: bot_suggest_songs_pop
+  - action: utter_bot_suggest_songs_pop
+  - intent: bot_suggest_songs_rap
+  - action: utter_bot_suggest_songs_rap
+  - intent: bot_suggest_songs_classic
+  - action: utter_bot_suggest_songs_classic
+  - intent: bot_suggest_songs_relaxing
+  - action: utter_bot_suggest_songs_relaxing
+  - intent: bot_suggest_songs_popular_now
+  - action: utter_bot_suggest_songs_popular_now
+  - intent: bot_suggest_songs_popular_all_time
+  - action: utter_bot_suggest_songs_popular_all_time
+  - intent: bot_thanks_suggestions
+  - action: utter_bot_thanks_suggestions
+
+- story: Friendship
+  steps:
+  - intent: bot_what_makes_friend
+  - action: utter_bot_what_makes_friend
+  - intent: bot_friend_build_trust
+  - action: utter_bot_friend_build_trust
+  - intent: bot_friend_comm_role
+  - action: utter_bot_friend_comm_role
+  - intent: bot_friend_shared_interest
+  - action: utter_bot_friend_shared_interest
+  - intent: bot_friend_ups_downs
+  - action: utter_bot_friend_ups_downs
+  - intent: bot_friend_circle_make
+  - action: utter_bot_friend_circle_make
+  - intent: bot_friend_bittersweet
+  - action: utter_bot_friend_bittersweet
+  - intent: bot_thanks_insights
+  - action: utter_bot_thanks_insights 
+
+- story: Compliments
+  steps:
+  - intent: bot_good_job
+  - action: utter_bot_good_job
+  - intent: bot_really_helpful
+  - action: utter_bot_really_helpful
+  - intent: bot_appreciate_support
+  - action: utter_bot_appreciate_support
+  - intent: bot_so_knowledge
+  - action: utter_bot_so_knowledge
+  - intent: bot_really_efficient
+  - action: utter_bot_really_efficient
+  - intent: bot_you_best
+  - action: utter_bot_you_best
+  - intent: bot_nice_response
+  - action: utter_bot_nice_response
+  - intent: bot_you_awesome
+  - action: utter_bot_you_awesome
+  - intent: bot_great_work
+  - action: utter_bot_great_work
+
+- story: Relationship Advice
+  steps:
+  - intent: bot_relation_advice
+  - action: utter_bot_relation_advice
+  - intent: bot_comms_partner
+  - action: utter_bot_comms_partner
+  - intent: bot_disagree_in_relation
+  - action: utter_bot_disagree_in_relation
+  - intent: bot_long_term_relation
+  - action: utter_bot_long_term_relation
+  - intent: bot_rough_patch
+  - action: utter_bot_rough_patch
+  - intent: bot_balance_relation_life
+  - action: utter_bot_balance_relation_life
+  - intent: bot_you_awesome
+  - action: utter_bot_you_awesome
+  - intent: bot_thanks_suggestions
+  - action: utter_bot_thanks_suggestions
+
+- story: Happiness
+  steps:
+  - intent: bot_find_happy
+  - action: utter_bot_find_happy
+  - intent: bot_self_care_prac
+  - action: utter_bot_self_care_prac
+  - intent: bot_realation_to_happy
+  - action: utter_bot_realation_to_happy
+  - intent: bot_pursue_goals
+  - action: utter_bot_pursue_goals
+  - intent: bot_cultivate_pos_mind
+  - action: utter_bot_cultivate_pos_mind
+  - intent: bot_thanks_advice
+  - action: utter_bot_thanks_advice
+  - intent: bot_appreciate_support
+  - action: utter_bot_appreciate_support
+
+- story: Travel Recommendations
+  steps:
+  - intent: bot_recommend_travel_dest
+  - action: utter_bot_recommend_travel_dest
+  - intent: bot_looking_beach_dest
+  - action: utter_bot_looking_beach_dest
+  - intent: bot_looking_tropical_dest
+  - action: utter_bot_looking_tropical_dest
+  - intent: bot_looking_cult_dest
+  - action: utter_bot_looking_cult_dest
+  - intent: bot_looking_scenery_dest
+  - action: utter_bot_looking_scenery_dest
+  - intent: bot_looking_mountain_dest
+  - action: utter_bot_looking_mountain_dest
+  - intent: bot_looking_history_dest
+  - action: utter_bot_looking_history_dest
+  - intent: bot_thanks_suggestions
+  - action: utter_bot_thanks_suggestions
+
+- story: Hobbies
+  steps:
+  - intent: bot_popular_hobby
+  - action: utter_bot_popular_hobby
+  - intent: bot_interest_photography
+  - action: utter_bot_interest_photography
+  - intent: bot_nature_landscape_pic
+  - action: utter_bot_nature_landscape_pic
+  - intent: bot_sunset_mountain_pic
+  - action: utter_bot_sunset_mountain_pic
+  - intent: bot_interesting_idea
+  - action: utter_bot_interesting_idea
+  - intent: bot_thanks_info
+  - action: utter_bot_thanks_info
