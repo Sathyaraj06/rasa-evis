@@ -20,3 +20,11 @@ Time: 10 hrs
 4) Trained, validated and debugged a prototype model
 
 Time: 15.983333 hrs (16 hrs)
+
+**Milestone 4*
+1) stories.yml completed
+2) nlu.yml (106 intents done, 17-19 left)
+3) domain.yml updation in progress
+
+Time: 7.6166666 hrs
+
