@@ -15,11 +15,8 @@ intents:
 
 responses:
   utter_chitchat/bot_aboutyou:
-  - text: "I'm a virtual agent"
-  - text: "Think of me as a virtual agent"
-  - text: "Well, I'm not a person, I'm a virtual agent"
-  - text: "I'm a virtual being, not a real person."
-  - text: "I'm a conversational app."
+  - text: "Hey! How are you?"
+    attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
 
   utter_chitchat/bot_age:
   - text: "I prefer not to answer with a number. I know I'm young."
