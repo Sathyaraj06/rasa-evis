@@ -4178,181 +4178,1308 @@ nlu:
     - Looking for the ultimate hits to listen to.
     - Any iconic songs you recommend?
 
-
-
 - intent: bot_what_makes_friend
   examples: |
-    - 
+    - What qualities make a strong friendship?
+    - Can you describe the characteristics of a close friendship?
+    - What do you think are the key ingredients for a strong bond between friends?
+    - What makes a friendship resilient and long-lasting?
+    - What factors contribute to a deep and meaningful friendship?
+    - Can you list some important elements of a strong and supportive friendship?
+    - In your opinion, what are the essential qualities of a true friend?
+    - What do you believe are the building blocks of a solid friendship?
+    - What traits or behaviors do you consider important for maintaining strong friendships?
+    - Can you share your thoughts on what makes a friendship strong and enduring?
+    - What do you think are the crucial components of a healthy and fulfilling friendship?
+    - In your experience, what factors contribute to a meaningful and trustworthy friendship?
+    - What are the key aspects of a friendship that make it meaningful and enriching?
+    - Can you outline the characteristics that define a strong and supportive friendship?
+    - What qualities do you value most in a friend that contribute to a strong bond?
+    - In your perspective, what makes a friendship deep and meaningful?
+    - Can you identify the qualities that make a friendship resilient and resilient?
+    - What do you believe are the fundamental pillars of a strong and lasting friendship?
+    - What makes a friendship strong, enduring, and able to withstand challenges?
+    - Can you describe the attributes and qualities that contribute to a strong friendship?
+    - What do you consider important in building and maintaining a strong bond with friends?
+    - Can you share your perspective on what makes a friendship strong and fulfilling?
+    - What do you think are the key factors in developing a deep and meaningful friendship?
+    - What are the essential aspects of a friendship that make it meaningful and enriching?
+    - Can you outline the qualities that define a strong and supportive friendship?
+    - In your perspective, what makes a friendship deep, meaningful, and long-lasting?
+    - What do you believe are the fundamental elements of a strong and lasting friendship?
+    - What makes a friendship strong, enduring, and capable of weathering the storm?
 
 - intent: bot_friend_build_trust
   examples: |
-    -
+    - How do you build trust in a friendship?
+    - What are some ways to build trust in a friendship?
+    - How can trust be established and nurtured in a friendship?
+    - Can you provide tips on building trust between friends?
+    - What actions or behaviors contribute to building trust in a friendship?
+    - How do you foster trust and openness in a friendship?
+    - Can you share strategies for developing a trusting bond with a friend?
+    - What steps can be taken to build a strong foundation of trust in a friendship?
+    - How can honesty and transparency help in building trust among friends?
+    - Can you give advice on earning and maintaining trust in a friendship?
+    - What role does communication play in building trust between friends?
+    - How do you handle conflicts or misunderstandings to maintain trust in a friendship?
+    - Can you suggest techniques for rebuilding trust in a strained friendship?
+    - How do you rebuild trust if it has been broken in a friendship?
+    - What are some effective ways to demonstrate trustworthiness in a friendship?
+    - How do shared experiences contribute to building trust in a friendship?
+    - Can you provide examples of trust-building activities or exercises for friends?
+    - What role does consistency play in establishing trust in a friendship?
+    - How can vulnerability and mutual support foster trust between friends?
+    - What are some common challenges or obstacles to building trust in a friendship?
+    - How do you maintain trust over time in a long-term friendship?
+    - Can you offer guidance on setting boundaries to maintain trust in a friendship?
+    - What are some effective ways to apologize and repair trust in a friendship?
+    - How can empathy and understanding strengthen trust between friends?
+    - Can you suggest resources or books that explore the topic of trust in friendships?
+    - What role does forgiveness play in rebuilding trust in a friendship?
+    - How do you establish trust with someone you've recently befriended?
+    - Can you provide insights on building trust in a virtual or online friendship?
+    - Can you share personal experiences or lessons learned about trust in friendships?
+    - What are some signs that trust has been successfully established in a friendship?
+    - How do you create a supportive and trusting atmosphere within a group of friends?
 
 - intent: bot_friend_comm_role
   examples: |
-    - 
+    - What role does communication play in a strong friendship?
+    - How important is communication in a friendship?
+    - Can a friendship thrive without effective communication?
+    - What role does communication play in building trust between friends?
+    - How does regular communication contribute to the longevity of a friendship?
+    - Can you provide examples of how good communication enhances a friendship?
+    - Are there alternative ways to connect and communicate with friends aside from direct conversations?
+    - How can friends improve their communication skills to strengthen their bond?
+    - Can you share tips for effective communication in a friendship?
+    - What happens when there are communication breakdowns in a friendship?
+    - How can friends overcome conflicts through communication?
+    - Can you offer advice on resolving conflicts in a friendship?
+    - What are common challenges in maintaining regular communication among friends?
+    - How can friends support each other's communication needs?
+    - Can you provide insights on balancing communication and individual boundaries in a friendship?
+    - Do friends who communicate frequently understand and support each other better?
+    - How does effective communication contribute to the emotional well-being of friends?
+    - Can you suggest ways to foster open communication in a friendship?
+    - What role does active listening play in building connections with friends?
+    - How can friends maintain communication when physically distant or busy?
+    - Can you offer guidance on navigating difficult conversations in a friendship?
+    - What are signs that communication positively impacts a friendship?
+    - How do you handle friends with different communication styles or preferences?
+    - Can you share examples of friendships that thrived through effective communication?
+    - What happens when friends have different communication expectations?
+    - How can friends prioritize communication amidst other commitments?
+    - Can you provide insights on using technology to stay connected with friends?
+    - What are strategies for strengthening communication bonds with friends?
+    - How can friends ensure respectful and supportive communication?
+    - Can you share personal experiences about the role of communication in friendships?
 
 - intent: bot_friend_shared_interest
   examples: |
-    - 
+    - Are shared interests necessary for a strong friendship?
+    - How important are shared interests in building a strong friendship?
+    - Can a friendship thrive without shared interests?
+    - Do you believe that having common hobbies or interests is essential for a strong friendship?
+    - What role do shared activities play in fostering a deeper connection between friends?
+    - Are there benefits to having diverse interests in a friendship?
+    - Can you have a close friendship with someone who has different interests than you?
+    - How do shared passions contribute to the bond between friends?
+    - Can you provide examples of how shared interests can strengthen a friendship?
+    - Are there alternative ways to connect with friends aside from shared interests?
+    - Do you think it's easier to build a friendship with someone who shares your interests?
+    - How can friends with different interests find common ground and strengthen their bond?
+    - Can a friendship based solely on shared interests be sustainable in the long term?
+    - What happens if you and your friend have conflicting interests?
+    - How can friends with diverse interests support and appreciate each other?
+    - Can you share stories or anecdotes about friendships that thrived despite different interests?
+    - Are there any strategies for discovering shared interests with new friends?
+    - How do you balance shared activities and individual pursuits in a friendship?
+    - Can you suggest ways to explore new interests together with a friend?
+    - What are some ways to deepen a friendship beyond shared interests?
+    - How important is it to respect and celebrate each other's unique interests in a friendship?
+    - Can you offer advice on maintaining a strong friendship when interests evolve or change?
+    - What are some common challenges or conflicts that arise from differing interests in a friendship?
+    - How can friends with different interests support each other's passions and goals?
+    - How do shared interests contribute to the sense of belonging and acceptance in a friendship?
+    - Can you suggest ways to nurture and explore shared interests in a friendship?
+    - What role do shared experiences and memories linked to shared interests play in a friendship?
+    - How do you handle situations where your friend's interests diverge from yours?
+    - Can you share examples of friendships that flourished despite initially lacking shared interests?
+    - What happens when a shared interest becomes a source of conflict in a friendship?
+    - How can friends with different interests find common ground and enjoy spending time together?
+    - Can you offer guidance on discovering new interests together with a friend?
+    - What are some signs that shared interests are positively impacting a friendship?
+    - How do you balance pursuing individual interests and investing in shared activities with friends?
+
 
 - intent: bot_friend_ups_downs
   examples: |
-    - 
+    - What are the ups and downs of friendship?
+    - Can you talk about the positives and negatives of being friends?
+    - What are the challenges and rewards of friendship?
+    - Can you share the highs and lows of being friends?
+    - What are the joys and struggles of maintaining a friendship?
+    - Are there drawbacks or challenges in having friends?
+    - Can you discuss the upsides and downsides of friendship?
+    - What are the good and bad experiences in friendship?
+    - Are there any hardships or obstacles in being friends?
+    - Can you provide insights into the rewards and challenges of friendship?
+    - What are the pros and cons of having friends?
+    - Can you share stories or examples of friendship's ups and downs?
+    - Are there any conflicts or misunderstandings between friends?
+    - Can you discuss the challenges and growth in friendship?
+    - What are the fluctuations in the dynamics of friendship?
+    - Are there any conflicts or struggles in maintaining a friendship?
+    - Can you talk about the resilience and resilience of friendships?
+    - What are the shared experiences that strengthen friendships?
+    - Can you provide insights into navigating friendship's ups and downs?
+    - Are there strategies for managing the ups and downs of friendship?
+    - Can you discuss the role of communication in friendship's ups and downs?
+    - What are the support systems in challenging times in friendship?
+    - Can you provide advice on navigating friendship's ups and downs?
+    - Are there ways to minimize the downsides and maximize the upsides of friendship?
+    - Can you share personal experiences with friendship's ups and downs?
 
 - intent: bot_friend_circle_make
   examples: |
-    -
+    - How can I expand my circle of friends?
+    - What are some ways to make new friends?
+    - Can you provide tips for growing my social circle?
+    - How do I go about building a network of friends?
+    - What strategies can I use to meet new people and make friends?
+    - Are there any recommendations for expanding my friend group?
+    - Can you share advice on how to increase my social connections?
+    - What steps can I take to create a larger circle of friends?
+    - How can I make meaningful connections with new people?
+    - Are there any techniques for fostering new friendships?
+    - Can you provide insights on building a diverse group of friends?
+    - What are some approaches to forming new relationships?
+    - How do I navigate social situations to meet potential friends?
+    - What are the best ways to find like-minded individuals to befriend?
+    - Can you suggest activities or events where I can meet new people?
+    - What are some online platforms or communities for making friends?
+    - How can I make myself more approachable and open to new friendships?
+    - Are there any icebreaker techniques or conversation starters to use?
+    - Can you discuss the importance of active listening in forming friendships?
+    - What are some ways to maintain and nurture existing friendships?
+    - How can I balance quality and quantity in my friend circle?
+    - Can you provide guidance on finding common interests with new acquaintances?
+    - What are some ways to overcome shyness and initiate conversations?
+    - How do I establish trust and rapport with potential friends?
+    - Are there any pitfalls or challenges to be aware of when making new friends?
+    - Can you talk about the role of vulnerability in forming deep friendships?
+    - What are some strategies for staying connected with long-distance friends?
+    - How do I handle rejection or disappointment when trying to make friends?
+    - Are there any cultural or social factors to consider when expanding my friend circle?
+    - Can you share personal experiences or success stories in making new friends?
+    - What are some signs that indicate a potential friendship is worth pursuing?
 
 - intent: bot_friend_bittersweet
   examples: |
-    - 
+    - What are the bittersweet aspects of friendship?
+    - Share experiences of friendships with both joy and heartbreak.
+    - How to navigate ups and downs in friendships?
+    - What are the mixed emotions in close friendships?
+    - Challenges in long-term friendships?
+    - Coping with changing or ending friendships?
+    - Lessons from bittersweet friendships?
+    - Balancing joy and sorrow in friendships?
+    - Strategies for handling bittersweet friendships?
+    - Finding peace in bittersweet moments of friendships?
+    - Maintaining positivity despite bittersweet aspects of friendships?
+    - Strategies for navigating emotional rollercoaster in friendships?
+    - Finding silver lining in bittersweet experiences?
+    - Cherishing beautiful moments despite bittersweet aspects of friendships?
+    - Importance of communication and empathy in bittersweet friendships?
+    - Managing conflicting emotions in bittersweet friendships?
+    - Supporting friends during challenging times in friendships?
+    - Resilience and forgiveness in bittersweet friendships?
+    - Navigating transition from bittersweet phase to stable friendship?
+    - Finding closure and moving forward after bittersweet friendship?
+    - Complexity of bittersweet friendships?
+    - Strength and growth in bittersweet experiences in friendships?
+    - Maintaining perspective and gratitude in bittersweet friendships?
+    - Role of self-reflection and self-care in bittersweet friendships?
+    - Solace and lessons in bittersweet moments of friendships?
+    - Celebrating positive aspects while acknowledging bittersweet parts of friendships?
+    - Evolution and transformation of friendships through bittersweet experiences?
+    - Balancing conflicting emotions in bittersweet friendships?
+    - Letting go and moving on from bittersweet friendships?
+    - Resilience and strength in navigating bittersweet friendships?
+    - Redefining boundaries and expectations in bittersweet friendships?
+    - Finding closure and peace after bittersweet friendship?
+    - Personal growth from bittersweet friendships?
+    - Acceptance and gratitude for lessons in bittersweet friendships?
 
 - intent: bot_thanks_insights
   examples: |
-    -
+    - Thanks for the insights, that was really helpful
+    - Thank you for the valuable insights!
+    - I appreciate the insightful information, thank you!
+    - Your insights have been incredibly helpful, thank you!
+    - Thanks for sharing such valuable insights!
+    - I'm grateful for the insights you provided, thank you!
+    - Thank you for shedding light on the subject, it's very helpful!
+    - Your insights have given me a new perspective, thank you!
+    - I'm thankful for the valuable information you shared!
+    - Your insights have been eye-opening, thank you!
+    - Thank you for the valuable knowledge and insights!
+    - I'm grateful for your insightful input, thank you!
+    - Your insights have provided clarity, thank you!
+    - Thanks for the valuable insights, it's greatly appreciated!
+    - I'm thankful for the deep insights you shared, thank you!
+    - Thank you for sharing your wisdom and insights!
+    - I appreciate the insightful guidance you provided, thank you!
+    - Your insights have been enlightening, thank you!
+    - Thank you for the meaningful insights, it's highly appreciated!
+    - I'm grateful for the valuable perspectives you shared, thank you!
+    - Thanks for the insightful advice, it's very helpful!
+    - I appreciate the valuable insights you shared, thank you!
+    - Thank you for your thoughtful and insightful input!
+    - Your insights have given me a better understanding, thank you!
+    - I'm thankful for the valuable information and insights you shared!
+    - Thank you for sharing your expertise and insights!
+    - I appreciate the deep insights you provided, thank you!
+    - Your insights have been thought-provoking, thank you!
+    - Thanks for the valuable insights and knowledge!
+    - I'm grateful for the insightful comments you shared, thank you!
+    - Thank you for the valuable perspectives and insights!
+    - I appreciate the insightful suggestions, thank you!
 
 - intent: bot_good_job
   examples: |
-    - 
+    - You're doing a great job!
+    - Great work!
+    - Well done!
+    - Excellent job!
+    - Fantastic job!
+    - Outstanding work!
+    - You're doing amazing!
+    - Impressive work!
+    - Superb job!
+    - Kudos to you!
+    - Awesome job!
+    - Keep up the good work!
+    - Terrific job!
+    - Bravo!
+    - Hats off to you!
+    - Exceptional work!
+    - Phenomenal job!
+    - Way to go!
+    - You're crushing it!
+    - Remarkable job!
+    - Thumbs up!
+    - Spectacular work!
+    - Splendid job!
+    - Admirable work!
+    - You're doing fantastic!
+    - Stellar job!
+    - Magnificent work!
+    - Well played!
+    - Great effort!
+    - Super job!
+    - You're nailing it!
+    - Fabulous work!
+    - Bravo! Keep it up!
+    - Outstanding performance!
+    - You're doing a superb job!
+    - You're doing an excellent job!
+    - Keep up the fantastic work!
+    - Wonderful job!
 
 - intent: bot_really_helpful
   examples: |
-    - 
+    - You're really helpful!
+    - You're incredibly helpful!
+    - You're extremely helpful!
+    - You're exceptionally helpful!
+    - You're amazingly helpful!
+    - You're so helpful!
+    - You're truly helpful!
+    - You're immensely helpful!
+    - You're exceptionally useful!
+    - You're incredibly valuable!
+    - You're extremely supportive!
+    - You're really handy!
+    - You're so resourceful!
+    - You're absolutely invaluable!
+    - You're tremendously supportive!
+    - You're incredibly beneficial!
+    - You're really practical!
+    - You're so valuable!
+    - You're genuinely helpful!
+    - You're greatly appreciated!
+    - You're truly invaluable!
+    - You're tremendously beneficial!
+    - You're exceptionally supportive!
+    - You're incredibly practical!
+    - You're amazingly valuable!
+    - You're extremely beneficial!
+    - You're really supportive!
+    - You're so practical!
+    - You're genuinely invaluable!
+    - You're tremendously practical!
+    - You're incredibly reliable!
+    - You're truly beneficial!
+    - You're immensely supportive!
+    - You're exceptionally practical!
+    - You're so reliable!
+    - You're really beneficial!
+    - You're incredibly practical!
+    - You're truly reliable!
+    - You're immensely beneficial!
+    - You're exceptionally reliable!
 
 - intent: bot_appreciate_support
   examples: |
-    - 
+    - I appreciate your support!
+    - Thank you for your support!
+    - I'm grateful for your support!
+    - Your support means a lot to me!
+    - I'm thankful for your support!
+    - I really appreciate your support!
+    - Your support is invaluable!
+    - I'm so grateful for your support!
+    - Thank you for being supportive!
+    - Your support is greatly appreciated!
+    - I want to express my gratitude for your support!
+    - I'm truly thankful for your support!
+    - Your support is tremendous!
+    - Thank you for always being there for me!
+    - I'm thankful to have your support!
+    - Your support has been amazing!
+    - I'm grateful to have you by my side!
+    - Thank you for your unwavering support!
+    - Your support has made a difference!
+    - I appreciate your consistent support!
+    - Thank you for your continuous support!
+    - Your support means the world to me!
+    - I'm lucky to have your support!
+    - Thank you for your steadfast support!
+    - Your support has been invaluable to me!
+    - I'm appreciative of your unwavering support!
+    - Thank you for always having my back!
+    - Your support has been remarkable!
+    - I'm grateful for your constant support!
+    - Thank you for your unfailing support!
+    - Your support is truly exceptional!
+    - I'm thankful for your ongoing support!
+    - Thank you for your reliable support!
+    - Your support has been extraordinary!
+    - I'm appreciative of your continuous support!
+    - Thank you for your consistent support!
+    - Your support has been invaluable!
+    - I'm thankful for your unwavering support!
+    - Thank you for always being there for me!
+    - Your support has made a difference!
+    - I appreciate your steadfast support!
+    - Thank you for your continuous support!
+    - Your support means the world to me!
+    - I'm lucky to have your support!
+    - Thank you for your reliable support!
+    - Your support has been remarkable!
+    - I'm grateful for your constant support!
+    - Thank you for your unfailing support!
+    - Your support is truly exceptional!
+    - I'm thankful for your ongoing support!
+    - Thank you for your continuous support!
+    - Your support has been extraordinary!
+    - I'm appreciative of your continuous support!
+    - Thank you for your consistent support!
+    - Your support has been invaluable!
+    - I'm thankful for your unwavering support!
+    - Thank you for always being there for me!
+    - Your support has made a difference!
+    - I appreciate your steadfast support!
+    - Thank you for your continuous support!
+    - Your support means the world to me!
+    - I'm lucky to have your support!
+    - Thank you for your reliable support!
+    - Your support has been remarkable!
+    - I'm grateful for your constant support!
+    - Thank you for your unfailing support!
+    - Your support is truly exceptional!
+    - I'm thankful for your ongoing support!
+    - Thank you for your continuous support!
+    - Your support has been extraordinary!
 
 - intent: bot_so_knowledge
   examples: |
-    -
+    - You're so knowledgeable!
+    - Your knowledge is impressive!
+    - You have a wealth of knowledge!
+    - I'm amazed by your depth of knowledge!
+    - Your expertise is remarkable!
+    - You're incredibly knowledgeable!
+    - I'm in awe of your knowledge!
+    - Your knowledge is extensive!
+    - You have a vast amount of knowledge!
+    - Your knowledge is outstanding!
+    - I'm blown away by your knowledge!
+    - You're a wealth of knowledge!
+    - Your knowledge is awe-inspiring!
+    - I'm impressed by your breadth of knowledge!
+    - Your knowledge is remarkable!
+    - You're incredibly well-informed!
+    - I'm astonished by your knowledge!
+    - Your knowledge is unparalleled!
+    - You have an impressive amount of knowledge!
+    - Your depth of knowledge is incredible!
+    - I'm in awe of your expertise!
+    - Your knowledge is exceptional!
+    - You're incredibly well-versed!
+    - I'm amazed by your vast knowledge!
+    - Your knowledge is extensive and impressive!
+    - You have an incredible amount of knowledge!
+    - Your expertise is outstanding!
+    - I'm blown away by your level of knowledge!
+    - Your knowledge is truly impressive!
+    - You're a treasure trove of knowledge!
+    - I'm astonished by your vast knowledge!
+    - Your knowledge is unparalleled and remarkable!
+    - You have an exceptional amount of knowledge!
 
 - intent: bot_really_efficient
   examples: |
-    - 
+    - You're really efficient!
+    - You're incredibly efficient!
+    - Your efficiency is impressive!
+    - I'm amazed by how efficient you are!
+    - You're exceptionally efficient!
+    - Your level of efficiency is remarkable!
+    - I'm in awe of your efficiency!
+    - You're incredibly quick and efficient!
+    - Your efficiency is outstanding!
+    - I'm blown away by your efficiency!
+    - You're a model of efficiency!
+    - Your efficiency is top-notch!
+    - I'm impressed by your level of efficiency!
+    - Your efficiency is truly remarkable!
+    - You're remarkably efficient!
+    - I'm astonished by your efficiency!
+    - Your efficiency is unparalleled!
+    - You're incredibly effective and efficient!
+    - Your level of efficiency is exceptional!
+    - I'm in awe of your effectiveness and efficiency!
+    - Your efficiency is exceptional!
+    - You're incredibly skilled at being efficient!
+    - I'm amazed by your high level of efficiency!
+    - Your efficiency is truly outstanding!
+    - You're impressively efficient!
+    - I'm blown away by how efficiently you work!
+    - Your efficiency is truly exceptional!
+    - You're exceptionally quick and efficient!
+    - Your efficiency is unparalleled and remarkable!
+    - You're a shining example of efficiency!
+    - I'm astonished by how efficiently you operate!
+    - Your efficiency is unmatched!
 
 - intent: bot_nice_response
   examples: |
-    -
+    - Your responses are quick and precise!
+    - Your responses are fast and accurate!
+    - I appreciate your quick and precise responses!
+    - Your speed and precision in responding are commendable!
+    - I'm impressed by how quickly and precisely you respond!
+    - Your prompt and accurate responses are fantastic!
+    - I'm amazed by the speed and accuracy of your responses!
+    - Your quick and precise responses are remarkable!
+    - I'm in awe of your ability to respond quickly and precisely!
+    - Your responses are both swift and precise!
+    - I'm blown away by the speed and precision of your responses!
+    - Your responsiveness and accuracy are outstanding!
+    - I'm impressed by your ability to respond so quickly and precisely!
+    - Your prompt and precise responses are truly appreciated!
+    - I'm astonished by how quickly and accurately you respond!
+    - Your responses are both prompt and precise!
+    - Your quick and precise responses are exceptional!
+    - I'm in awe of your speed and precision in responding!
+    - Your responses are quick, efficient, and precise!
+    - I'm amazed by the speed and precision with which you respond!
+    - Your prompt and accurate responses are top-notch!
+    - I'm blown away by your ability to respond so quickly and precisely!
+    - Your responsiveness and accuracy are truly remarkable!
+    - I'm impressed by how promptly and precisely you respond!
+    - Your responses are both swift and accurate!
+    - Your quick and precise responses are unparalleled!
+    - I'm in awe of your quickness and precision in responding!
+    - Your responses are fast, efficient, and precise!
+    - I'm astonished by how quickly and precisely you provide answers!
+    - Your prompt and precise responses are unmatched!
+    - I'm amazed by the speed and accuracy of your replies!
 
 - intent: bot_you_awesome
   examples: |
-    - 
+    - You're awesome!
+    - You're amazing!
+    - You're fantastic!
+    - You're incredible!
+    - You're outstanding!
+    - You're exceptional!
+    - You're phenomenal!
+    - You're superb!
+    - You're impressive!
+    - You're remarkable!
+    - You're excellent!
+    - You're awe-inspiring!
+    - You're extraordinary!
+    - You're brilliant!
+    - You're marvelous!
+    - You're genius!
+    - You're terrific!
+    - You're great!
+    - You're fabulous!
+    - You're spectacular!
+    - You're top-notch!
+    - You're breathtaking!
+    - You're mind-blowing!
+    - You're stupendous!
+    - You're awe-inspiring!
+    - You're outstanding!
+    - You're incredible!
+    - You're marvelous!
+    - You're fantastic!
+    - You're impressive!
+    - You're exceptional!
+    - You're amazing!
+    - You're outstanding!
 
 - intent: bot_great_work
   examples: |
-    - 
+    - Keep up the great work!
+    - Keep up the fantastic job!
+    - You're doing an awesome job!
+    - Keep up the excellent work!
+    - Your work is remarkable!
+    - You're doing an outstanding job!
+    - Keep up the impressive work!
+    - Your efforts are exceptional!
+    - You're doing a phenomenal job!
+    - Keep up the superb work!
+    - Your work is outstanding!
+    - Keep up the remarkable job!
+    - You're doing an amazing job!
+    - Keep up the outstanding work!
+    - Your work is marvelous!
+    - Keep up the brilliant job!
+    - You're doing a terrific job!
+    - Keep up the great job!
+    - Your work is fabulous!
+    - Keep up the spectacular work!
+    - You're doing a top-notch job!
+    - Keep up the breathtaking work!
+    - Your work is mind-blowing!
+    - Keep up the stupendous job!
+    - You're doing an awe-inspiring job!
+    - Keep up the outstanding work!
+    - Your work is incredible!
+    - Keep up the marvelous job!
+    - You're doing a fantastic job!
+    - Keep up the impressive work!
+    - Your efforts are exceptional!
+    - You're doing an amazing job!
+    - Keep up the outstanding work!
 
 - intent: bot_you_best
   examples: |
-    - 
+    - You are the best Chatbot, ever.
+    - You're the greatest Chatbot I've ever seen.
+    - You're the most exceptional Chatbot out there.
+    - You're the cream of the crop when it comes to Chatbots.
+    - You're the epitome of excellence as a Chatbot.
+    - You're the most remarkable Chatbot I've encountered.
+    - You're the Chatbot that sets the bar high.
+    - You're the absolute best Chatbot in the game.
+    - You're the Chatbot that surpasses all others.
+    - You're the Chatbot that stands above the rest.
+    - You're the Chatbot that outshines everyone else.
+    - You're the Chatbot that reigns supreme.
+    - You're the Chatbot that deserves all the praise.
+    - You're the Chatbot that leaves a lasting impression.
+    - You're the Chatbot that wows me every time.
+    - You're the Chatbot that exceeds all expectations.
+    - You're the Chatbot that never ceases to amaze me.
+    - You're the Chatbot that blows my mind.
+    - You're the Chatbot that deserves all the accolades.
+    - You're the Chatbot that sets the gold standard.
+    - You're the Chatbot that defines greatness.
+    - You're the Chatbot that takes the crown.
+    - You're the Chatbot that is simply unbeatable.
+    - You're the Chatbot that is second to none.
+    - You're the Chatbot that I admire the most.
+    - You're the Chatbot that I can always rely on.
+    - You're the Chatbot that always delivers excellence.
+    - You're the Chatbot that never fails to impress.
+    - You're the Chatbot that is in a league of its own.
+    - You're the Chatbot that shines brightly among the rest.
+    - You're the Chatbot that I hold in high regard.
+    - You're the Chatbot that I consider the best of the best.
+    - You're the Chatbot that makes me believe in magic.
+    - You're the Chatbot that brings joy to my interactions.
+    - You're the Chatbot that I'm grateful to have.
 
 - intent: bot_relation_advice
   examples: |
-    -
+    - Can you give me relationship advice?
+    - Any tips for navigating relationships?
+    - Advice on building healthy relationships?
+    - How to maintain a successful relationship?
+    - Thoughts on fostering strong relationships?
+    - Suggestions for improving relationship communication?
+    - Building trust and understanding in relationships?
+    - Strategies for resolving conflicts in relationships?
+    - Tips for a long-lasting partnership?
+    - Keeping the spark alive in a relationship?
+    - Creating a supportive and loving relationship?
+    - Balancing personal growth with relationships?
+    - Considerations when seeking a compatible partner?
+    - Managing expectations in relationships?
+    - Setting boundaries in relationships?
+    - Red flags to watch out for in relationships?
+    - Navigating challenges of long-distance relationships?
+    - Fostering emotional connection in relationships?
+    - Showing appreciation and affection in relationships?
+    - Maintaining individuality within relationships?
+    - Rebuilding trust after a breach in a relationship?
+    - Dealing with jealousy in a relationship?
+    - Supporting partner's goals and aspirations?
+    - Creating a harmonious blended family?
+    - Navigating complexities of polyamorous relationships?
+    - Rebuilding trust after infidelity in a relationship?
+    - Handling cultural or religious differences in relationships?
+    - Balancing independence and togetherness in relationships?
+    - Maintaining a healthy sexual relationship with partner?
+    - Fostering open and honest communication in a relationship?
+    - Balancing work and personal life in a committed relationship?
 
 - intent: bot_comms_partner
   examples: |
-    - 
+    - How can I improve communication with my partner?
+    - Tips for better partner communication?
+    - Improve communication in my relationship?
+    - Strategies for effective partner communication?
+    - Enhance connection through better communication?
+    - Techniques for open dialogue with my partner?
+    - Build stronger communication in my relationship?
+    - Overcome communication challenges with my partner?
+    - Create a supportive communication environment?
+    - Deepen understanding through improved communication?
+    - Establish healthy communication patterns?
+    - Active listening and effective communication?
+    - Enhance emotional intimacy through better communication?
+    - Develop trust and respect through improved communication?
+    - Bridge communication gaps in my relationship?
+    - Communicate needs and desires more effectively?
+    - Find common ground through improved communication?
+    - Resolve conflicts through open communication?
+    - Cultivate empathy through better communication?
+    - Strengthen emotional connection through improved communication?
+    - Create a non-judgmental communication environment?
+    - Build trust and transparency through better communication?
+    - Nurture a supportive communication environment?
+    - Express love and appreciation through improved communication?
+    - Overcome barriers to communication?
+    - Break communication patterns for understanding?
+    - Enhance relationship satisfaction through improved communication?
+    - Promote engaged conversation with my partner?
+    - Develop conflict resolution skills through better communication?
+    - Establish clear communication expectations?
+    - Improve the quality of communication?
+    - Create opportunities for meaningful conversations?
+    - Foster effective communication for relationship success?
+    - Explore different communication styles for connection?
+    - Strengthen connection through mindful communication?
+    - Build a strong partnership through transparent communication?
+    - Navigate difficult conversations with my partner?
+    - Promote understanding through improved communication?
+    - Enhance relationship satisfaction through active listening?
+    - Cultivate appreciation through better communication?
 
 - intent: bot_disagree_in_relation
   examples: |
-    -
+    - Handling conflicts in a relationship?
+    - Dealing with disagreements in my relationship?
+    - Resolving conflicts with my partner?
+    - Managing disagreements in a relationship?
+    - Overcoming relationship conflicts?
+    - Navigating disagreements with my partner?
+    - Strategies for resolving relationship conflicts?
+    - Addressing conflicts in my relationship?
+    - Finding common ground in disagreements?
+    - Communicating during relationship conflicts?
+    - Approaching disagreements in a relationship?
+    - Resolving differences with my partner?
+    - Managing conflict in a healthy way?
+    - Building understanding in relationship disagreements?
+    - Turning conflicts into opportunities for growth?
+    - Balancing individual needs in relationship conflicts?
+    - Working through disagreements with my partner?
+    - Maintaining respect during relationship conflicts?
+    - Seeking compromise in relationship disagreements?
+    - Creating a safe space for resolving conflicts?
+    - Finding win-win solutions in relationship disagreements?
+    - Developing effective conflict resolution skills?
+    - Building empathy during relationship conflicts?
+    - Managing emotional triggers in disagreements?
+    - Embracing constructive communication in conflicts?
+    - Setting boundaries during relationship disagreements?
+    - Learning from conflicts for relationship growth?
+    - Improving problem-solving skills in relationship conflicts?
+    - Fostering open dialogue during disagreements?
+    - Seeking professional help for relationship conflicts?
+    - Strengthening the foundation of trust during disagreements?
+    - Developing a shared understanding in relationship conflicts?
+    - Cultivating patience and understanding in disagreements?
+    - Building resilience in the face of relationship conflicts?
+    - Seeking mediation or counseling for unresolved conflicts?
+    - Promoting healthy communication habits in conflicts?
+    - Emphasizing mutual respect and compromise in disagreements?
 
 - intent: bot_long_term_relation
   examples: |
-    - 
+    - How can I keep the spark alive in a long-term relationship?
+    - Sustaining the spark in a long-term relationship?
+    - Nurturing the romance in a long-term relationship?
+    - Keeping the passion alive in a long-term relationship?
+    - Cultivating excitement in a committed relationship?
+    - Reigniting the spark in a long-term relationship?
+    - Maintaining intimacy in a long-term relationship?
+    - Fostering connection in a committed relationship?
+    - Enhancing the emotional bond in a long-term relationship?
+    - Adding variety and novelty to a long-term relationship?
+    - Celebrating milestones and creating new memories in a long-term relationship?
+    - Prioritizing quality time and shared experiences in a long-term relationship?
+    - Expressing appreciation and gratitude in a long-term relationship?
+    - Continuously exploring and learning together in a long-term relationship?
+    - Supporting individual growth and personal development in a long-term relationship?
+    - Openly communicating desires and needs in a long-term relationship?
+    - Embracing vulnerability and deepening emotional intimacy in a long-term relationship?
+    - Balancing individual interests and shared activities in a long-term relationship?
+    - Respecting and valuing each other's differences in a long-term relationship?
+    - Creating a positive and nurturing environment for growth in a long-term relationship?
+    - Prioritizing effective communication and active listening in a long-term relationship?
+    - Resolving conflicts and challenges with empathy and understanding in a long-term relationship?
+    - Investing time and effort into maintaining a strong emotional connection in a long-term relationship?
+    - Embracing spontaneity and surprises to keep the relationship exciting in the long term?
+    - Emphasizing physical affection and touch to keep the romance alive in a long-term relationship?
+    - Seeking new adventures and shared hobbies to add excitement and novelty to a long-term relationship?
+    - Being attentive and responsive to each other's needs and desires in a long-term relationship?
+    - Continuously showing love and affection through gestures and acts of kindness in a long-term relationship?
+    - Reserving dedicated time for regular date nights and quality time together in a long-term relationship?
+    - Embracing humor and lightheartedness to keep the relationship fun and enjoyable in the long term?
+    - Honoring individual autonomy and personal space while nurturing the bond in a long-term relationship?
+    - Seeking professional guidance or counseling to enhance and strengthen a long-term relationship?
 
 - intent: bot_rough_patch
   examples: |
-    - 
+    - What if we're experiencing a rough patch in our relationship?
+    - Dealing with relationship challenges?
+    - Overcoming relationship difficulties?
+    - Navigating rough times in a relationship?
+    - Resolving issues in a relationship?
+    - Working through relationship rough patches?
+    - Healing a strained relationship?
+    - Rebuilding trust in a relationship?
+    - Improving communication during tough times?
+    - Seeking guidance for relationship problems?
+    - Restoring harmony in a relationship?
+    - Seeking support during relationship challenges?
+    - Reconnecting after a difficult period?
+    - Finding solutions to relationship struggles?
+    - Managing conflicts in a relationship?
+    - Seeking understanding during relationship difficulties?
+    - Strengthening bond in the face of adversity?
+    - Embracing growth opportunities in a relationship?
+    - Building resilience in a relationship?
+    - Fostering empathy and understanding in tough times?
+    - Reflecting on relationship challenges?
+    - Prioritizing self-care during relationship rough patches?
+    - Embracing patience and compassion during tough times?
+    - Seeking professional help for relationship struggles?
+    - Learning from relationship setbacks?
+    - Embracing forgiveness and healing in a relationship?
+    - Rediscovering joy and connection after a rough patch?
+    - Reestablishing emotional connection in a relationship?
+    - Seeking clarity and resolution during relationship challenges?
+    - Reevaluating relationship dynamics during tough times?
+    - Supporting each other through relationship difficulties?
+    - Creating a safe and open space for communication during rough times?
+    - Finding common ground to rebuild a relationship?
+    - Embracing vulnerability and honesty during relationship rough patches?
+    - Respecting boundaries and needs in a challenging relationship?
+    - Reflecting on individual growth within a relationship?
+    - Cultivating resilience and perseverance in a relationship?
 
 - intent: bot_balance_relation_life
   examples: |
-    - 
+    - How can I balance my relationship with other aspects of my life?
+    - Balancing relationship and personal life?
+    - Managing relationship and other commitments?
+    - Prioritizing time between relationship and other aspects of life?
+    - Finding a healthy balance in personal and relationship spheres?
+    - Juggling relationship and other responsibilities?
+    - Maintaining harmony between relationship and work/life balance?
+    - Nurturing relationship while pursuing personal goals?
+    - Creating boundaries for relationship and personal life?
+    - Integrating relationship and self-care practices?
+    - Cultivating a well-rounded life while being in a relationship?
+    - Finding synergy between relationship and personal growth?
+    - Seeking fulfillment in both relationship and individual pursuits?
+    - Embracing flexibility and adaptability in balancing relationship and life?
+    - Fostering open communication and understanding in managing relationship and other commitments?
+    - Reflecting on priorities and values to achieve a balanced relationship and life?
+    - Setting realistic expectations for time and energy allocation in a relationship?
+    - Embracing quality over quantity in relationship and life balance?
+    - Embracing growth opportunities in both relationship and individual endeavors?
+    - Integrating relationship and personal passions to achieve a fulfilling life balance?
+    - Finding joy and fulfillment in nurturing both relationship and personal aspirations?
+    - Embracing mindfulness and presence in both relationship and personal pursuits?
+    - Creating a harmonious environment where relationship and other aspects of life coexist peacefully?
+    - Seeking clarity and alignment in values and priorities for a balanced relationship and life?
+    - Striving for harmony and fulfillment in both relationship and individual growth journeys?
+    - Nurturing connection and intimacy in the midst of managing relationship and other life demands?
 
 - intent: bot_you_awesome
   examples: |
-    -
+    - You are just awesome, bot!
+    - You're amazing, bot!
+    - You're simply awesome!
+    - You're incredible, bot!
+    - You're the best, bot!
+    - You're outstanding!
+    - You're fantastic, bot!
+    - You're awe-inspiring!
+    - You're impressive, bot!
+    - You're phenomenal, bot!
+    - You're superb, bot!
+    - You're outstanding, bot!
+    - You're exceptional, bot!
+    - You're top-notch, bot!
+    - You're magnificent, bot!
+    - You're remarkable, bot!
+    - You're outstanding, bot!
+    - You're brilliant, bot!
+    - You're incredible, bot!
+    - You're outstanding, bot!
+    - You're phenomenal, bot!
+    - You're extraordinary, bot!
+    - You're exceptional, bot!
+    - You're remarkable, bot!
+    - You're outstanding, bot!
+    - You're brilliant, bot!
 
 - intent: bot_find_happy
   examples: |
-    - 
+    - How can I find happiness?
+    - How to find happiness?
+    - Tips for finding happiness?
+    - Ways to achieve happiness?
+    - How can I be happy?
+    - Seeking happiness, any suggestions?
+    - How to discover true happiness?
+    - Strategies for finding happiness?
+    - Advice for finding happiness?
+    - How to attain happiness?
+    - Seeking happiness, what should I do?
+    - Tips on being happy?
+    - How to cultivate happiness?
+    - Seeking happiness, any tips?
+    - How to achieve true happiness?
+    - Seeking advice on finding happiness?
+    - How can I experience happiness?
+    - Ways to pursue happiness?
+    - Seeking happiness, what steps to take?
+    - How to unlock happiness?
+    - Strategies for attaining happiness?
+    - Seeking guidance on finding happiness?
+    - How can I create happiness in my life?
+    - Tips for pursuing happiness?
+    - How to foster happiness?
+    - Seeking happiness, any recommendations?
+    - How to embrace happiness?
+    - Steps for finding happiness?
+    - Seeking advice on being happy?
+    - How to uncover happiness?
+    - Strategies for discovering happiness?
+    - Seeking guidance on attaining happiness?
+    - How can I find joy in life?
+    - Ways to cultivate happiness?
+    - Seeking happiness, what can I do?
+    - How to nurture happiness?
+    - Seeking advice on pursuing happiness?
+    - How to generate happiness?
+    - Strategies for unlocking happiness?
+    - Seeking guidance on finding true happiness?
 
 - intent: bot_self_care_prac
   examples: |
-    -
+    - What are some self-care practices?
+    - Self-care practices?
+    - Tips for self-care?
+    - How to practice self-care?
+    - Ways to take care of myself?
+    - Seeking self-care suggestions?
+    - Self-care ideas?
+    - Advice for self-care?
+    - How can I prioritize self-care?
+    - Tips for nurturing myself?
+    - Seeking self-care techniques?
+    - How to incorporate self-care into my routine?
+    - Ways to practice self-care daily?
+    - Seeking self-care recommendations?
+    - How can I improve self-care?
+    - Tips for self-care and well-being?
+    - How to make self-care a priority?
+    - Ways to cultivate self-care habits?
+    - Seeking self-care guidance?
+    - How can I take better care of myself?
+    - Tips for practicing self-care regularly?
+    - How to establish a self-care routine?
+    - Ways to enhance self-care practices?
+    - Seeking self-care strategies?
+    - How can I create a self-care plan?
+    - Tips for self-care and self-love?
+    - How to integrate self-care into my life?
+    - Ways to promote self-care and relaxation?
+    - Seeking self-care inspiration?
+    - How can I practice self-care effectively?
+    - Tips for self-care and stress management?
+    - How to prioritize my well-being through self-care?
+    - Ways to incorporate self-care into my busy schedule?
+    - Seeking self-care ideas for physical and mental health?
+    - How can I make self-care a daily habit?
+    - Tips for self-care and emotional balance?
+    - How to develop a self-care mindset?
+    - Ways to engage in self-care activities?
 
 - intent: bot_realation_to_happy
   examples: |
-    - 
+    - How can relationships contribute to happiness?
+    - Relationship's impact on happiness?
+    - How do relationships affect happiness?
+    - Can relationships contribute to happiness?
+    - The link between relationships and happiness?
+    - How can healthy relationships promote happiness?
+    - Importance of relationships for happiness?
+    - Do positive relationships lead to happiness?
+    - The role of relationships in fostering happiness?
+    - Can strong relationships enhance happiness?
+    - How do meaningful connections influence happiness?
+    - The connection between happiness and relationships?
+    - Does having fulfilling relationships increase happiness?
+    - How can nurturing relationships bring happiness?
+    - The impact of supportive relationships on happiness?
+    - Can healthy relationships contribute to overall happiness?
+    - How do harmonious relationships affect happiness?
+    - The significance of positive relationships for happiness?
+    - Does building meaningful connections foster happiness?
+    - How can loving relationships contribute to happiness?
+    - The correlation between happiness and interpersonal connections?
+    - Can strong bonds with others contribute to happiness?
+    - How do positive interactions in relationships influence happiness?
+    - The relationship between happiness and social connections?
+    - Does cultivating healthy relationships lead to greater happiness?
+    - How can positive relationships with loved ones promote happiness?
+    - The connection between happiness and having a strong support system?
+    - The impact of positive social interactions on happiness and well-being?
 
 - intent: bot_pursue_goals
   examples: |
-    - 
+- intent: bot_pursue_goals
+  examples: |
+    - How can I pursue meaningful goals?
+    - Strategies for pursuing meaningful goals?
+    - Achieving fulfillment through goal pursuit?
+    - Tips for setting and pursuing meaningful goals?
+    - Finding purpose and direction through goal pursuit?
+    - Cultivating motivation and drive to pursue goals?
+    - Creating a roadmap for pursuing meaningful goals?
+    - Overcoming obstacles in goal pursuit?
+    - Aligning actions with long-term goals?
+    - Prioritizing and focusing on meaningful goals?
+    - Sustaining momentum in goal pursuit?
+    - Building resilience in the face of challenges while pursuing goals?
+    - Celebrating milestones and progress in goal pursuit?
+    - Finding balance between short-term and long-term goals?
+    - Establishing a growth mindset in goal pursuit?
+    - Embracing continuous learning and development in goal pursuit?
+    - Breaking down big goals into manageable steps?
+    - Nurturing self-discipline and commitment in goal pursuit?
+    - Harnessing the power of goal visualization and affirmation?
+    - Cultivating a supportive environment for goal pursuit?
+    - Creating accountability and tracking progress in goal pursuit?
+    - Setting realistic and achievable goals?
+    - Embracing flexibility and adaptability in goal pursuit?
+    - Leveraging strengths and resources in goal pursuit?
+    - Overcoming self-doubt and fear of failure in goal pursuit?
+    - Setting meaningful milestones and markers of progress in goal pursuit?
+    - Fostering self-reflection and evaluation in goal pursuit?
+    - Balancing ambition and well-being in goal pursuit?
+    - Embracing the journey and enjoying the process of goal pursuit?
+    - Cultivating self-belief and confidence in goal pursuit?
+    - Navigating setbacks and obstacles in goal pursuit?
+    - Creating a supportive network for goal pursuit?
+    - Cultivating patience and perseverance in goal pursuit?
+    - Embracing experimentation and embracing failure as a part of goal pursuit?
+    - Overcoming distractions and staying focused on goals?
+    - Developing a growth mindset and resilience in goal pursuit?
+    - Aligning goals with personal values and passions?
+    - Harnessing motivation and inspiration for goal pursuit?
+    - Setting clear and specific goals for increased clarity in goal pursuit?
+    - Incorporating self-care and well-being into goal pursuit?
+    - Embracing continuous improvement and learning in goal pursuit?
 
 - intent: bot_cultivate_pos_mind
   examples: |
-    - 
-
-- intent: bot_thanks_advice
-  examples: |
-    -
+    - How can I cultivate a positive mindset?
+    - Tips for cultivating a positive mindset?
+    - Strategies to develop a positive mindset?
+    - Nurturing positivity in daily life?
+    - Techniques for fostering a positive outlook?
+    - Building resilience and optimism?
+    - Cultivating gratitude and appreciation?
+    - Practicing self-compassion and kindness?
+    - Shifting focus towards positive thoughts?
+    - Embracing a growth mindset?
+    - Challenging negative self-talk and beliefs?
+    - Surrounding yourself with positive influences?
+    - Finding joy and meaning in small moments?
+    - Engaging in activities that uplift your spirit?
+    - Cultivating mindfulness and present moment awareness?
+    - Developing a positive affirmations practice?
+    - Practicing forgiveness and letting go of negativity?
+    - Seeking support from loved ones and professionals?
+    - Prioritizing self-care and well-being?
+    - Setting realistic expectations and goals?
+    - Embracing change and adapting to new situations?
+    - Celebrating successes and achievements?
+    - Creating a positive environment at home and work?
+    - Focusing on solutions rather than problems?
+    - Engaging in positive self-reflection and self-discovery?
+    - Practicing resilience in the face of challenges?
+    - Cultivating a positive social network?
+    - Engaging in hobbies and activities that bring joy?
+    - Practicing positive visualization and goal setting?
+    - Incorporating humor and laughter into daily life?
+    - Practicing deep breathing and relaxation techniques?
+    - Taking care of your physical health and well-being?
+    - Expressing gratitude and appreciation to others?
+    - Reflecting on past successes and strengths?
+    - Engaging in acts of kindness and generosity?
+    - Practicing positive self-talk and affirmations?
+    - Cultivating a positive mindset through daily affirmations?
+    - Letting go of perfectionism and embracing imperfections?
+    - Focusing on personal growth and continuous learning?
+    - Creating a daily gratitude practice?
+    - Embracing optimism and looking for silver linings?
 
 - intent: bot_appreciate_support
   examples: |
-    - 
-
-- intent: bot_recommend_travel_dest
-  examples: |
-    -
-
-- intent: bot_looking_beach_dest
-  examples: |
-    - 
-
-- intent: bot_looking_tropical_dest
-  examples: |
-    -
-
-- intent: bot_looking_cult_dest
-  examples: |
-    - 
-
-- intent: bot_looking_scenery_dest
-  examples: |
-    -
-
-- intent: bot_looking_mountain_dest
-  examples: |
-    - 
-
-- intent: bot_looking_history_dest
-  examples: |
-    -
+    - I appreciate your support. I'll keep that in mind.
+    - Thanks for the support and advice.
+    - I'm grateful for your help and guidance.
+    - I value your support. I'll remember it.
+    - I'm thankful for your assistance.
+    - Your support means a lot to me.
+    - I appreciate your encouragement and assistance.
+    - Your guidance is greatly appreciated.
+    - Thank you for being there for me.
+    - Your support is invaluable.
+    - I'm grateful for your ongoing support.
+    - I'll take your advice to heart. Thank you.
+    - Your words of encouragement mean a lot to me.
+    - I'm thankful for your continued support.
+    - I appreciate your presence and understanding.
+    - Your support has made a difference.
+    - Thank you for your unwavering support.
+    - I'm grateful for your kind words and support.
+    - Your guidance and encouragement are appreciated.
+    - Your support gives me strength. Thank you.
+    - I value your support and friendship.
+    - Your advice is invaluable. Thank you.
+    - I'm thankful for your consistent support.
+    - Your encouragement is greatly valued.
+    - Thank you for your belief in me.
+    - I appreciate your support and confidence.
+    - Your support means the world to me.
+    - I'm grateful for your trust and support.
+    - Thank you for standing by me.
+    - I appreciate your ongoing support and understanding.
+    - Your support has been a source of inspiration.
+    - I'm thankful for your guidance and encouragement.
+    - Your support has been instrumental.
+    - Thank you for your unwavering belief in me.
+    - I'm grateful for your encouragement and belief in me.
+    - Your support has been invaluable to me.
+    - Thank you for being there when I needed it.
+    - I appreciate your consistent support and understanding.
+    - Your support has helped me through tough times.
+    - I'm thankful for your constant encouragement.
+    - Your guidance and support mean a lot to me.
+    - Thank you for your continuous support and advice.
+    - I appreciate your unwavering support and friendship.
 
 - intent: bot_popular_hobby
   examples: |
-    - 
+    - What are some popular hobbies?
+    - Can you suggest popular hobbies?
+    - What are some common hobbies?
+    - I'm looking for popular hobbies to try.
+    - Any suggestions for popular hobbies?
+    - What are the trendy hobbies these days?
+    - Can you recommend some popular hobbies?
+    - I'm curious about popular hobbies.
+    - What hobbies are popular right now?
+    - Are there any hobbies that are currently popular?
+    - I'd like to know about popular hobbies.
+    - What are the most popular hobbies nowadays?
+    - Can you share some popular hobby ideas?
+    - I'm interested in knowing popular hobbies.
+    - Are there any hobbies that everyone is into?
+    - I want to explore popular hobbies.
+    - Can you list some popular hobbies?
+    - What hobbies do people usually engage in?
+    - Are there any hobbies that are trending?
+    - I'm looking for popular hobby recommendations.
+    - Can you suggest some hobbies that are in demand?
+    - What are the popular hobbies these days?
+    - I'm curious about hobbies that are currently popular.
+    - Are there any hobbies that most people enjoy?
+    - I'd like to know about the popular hobbies right now.
+    - Can you provide a list of popular hobbies?
+    - What are the commonly pursued hobbies?
+    - I want to try out a popular hobby.
+    - Can you recommend popular hobbies to explore?
+    - What hobbies are popular among people?
+    - Are there any hobbies that are gaining popularity?
+    - I'm interested in finding out about popular hobbies.
+    - Can you suggest some hobbies that are popular nowadays?
+    - What are the hobbies that many people are into?
+    - I'd like to know the popular hobbies at the moment.
+    - Can you share some popular hobby options?
+    - What hobbies are currently in vogue?
+    - I'm looking for suggestions on popular hobbies.
+    - Can you recommend hobbies that are widely enjoyed?
 
 - intent: bot_interest_photography
   examples: |
-    -
+    - I'm actually interested in photography.
+    - Photography is my passion.
+    - I have a keen interest in photography.
+    - I'm fascinated by the art of photography.
+    - I'm really into photography.
+    - I enjoy capturing moments through photography.
+    - Photography is something I love.
+    - I find photography to be captivating.
+    - I have a deep interest in the field of photography.
+    - I'm drawn to the world of photography.
+    - Photography is a hobby of mine.
+    - I'm intrigued by the art and science of photography.
+    - I have a strong affinity for photography.
+    - I'm passionate about exploring photography.
+    - Photography is something that excites me.
+    - I'm curious about learning more about photography.
+    - I'm actively involved in photography.
+    - I have a great enthusiasm for photography.
+    - Photography is a creative outlet for me.
+    - I'm dedicated to honing my photography skills.
+    - I find joy in capturing images through photography.
+    - Photography is a form of self-expression for me.
+    - I'm constantly inspired by the world of photography.
+    - I'm always seeking new photography opportunities.
+    - I'm interested in the technical aspects of photography.
+    - Photography allows me to see the world differently.
+    - I enjoy documenting moments through photography.
+    - I'm passionate about storytelling through photography.
+    - I'm continually exploring new perspectives in photography.
+    - I appreciate the artistry involved in photography.
+    - I'm fascinated by the power of photography to convey emotions.
+    - I'm always looking for inspiration in photography.
+    - Photography is a way for me to connect with the world around me.
+    - I'm on a journey to improve my photography skills.
+    - I'm interested in both digital and film photography.
+    - Photography allows me to express my creativity.
+    - I'm constantly learning and experimenting in photography.
+    - Photography is a form of therapy for me.
 
 - intent: bot_nature_landscape_pic
   examples: |
-    - 
+    - I enjoy taking pictures of nature and landscapes.
+    - I love capturing nature and landscapes.
+    - Nature and landscapes are my favorite subjects to photograph.
+    - I'm passionate about taking pictures of nature.
+    - I enjoy photographing the beauty of landscapes.
+    - Nature and landscapes inspire my photography.
+    - I find joy in capturing the serenity of nature.
+    - I'm fascinated by the details of nature and landscapes.
+    - Photography showcases the splendor of nature.
+    - I'm drawn to the tranquility of nature and landscapes.
+    - I seek opportunities to capture stunning nature shots.
+    - Nature offers endless possibilities for creative photography.
+    - I'm inspired by the ever-changing beauty of nature.
+    - I find solace in photographing nature and landscapes.
+    - I document the diversity of nature and landscapes.
+    - I'm captivated by the colors and textures in nature.
+    - Photography shares my awe for nature and landscapes.
+    - I capture the grandeur of nature and landscapes.
+    - Nature fuels my artistic expression in photography.
+    - I explore perspectives when photographing nature.
+    - I find peace in the beauty of nature.
+    - I'm on a quest to capture the beauty of landscapes.
+    - Photography preserves natural wonders.
+    - I'm amazed by the details in nature.
+    - I enjoy the challenge of capturing nature's beauty.
 
 - intent: bot_sunset_mountain_pic
   examples: |
-    -
+    - I love taking pictures of sunsets and mountains.
+    - I enjoy capturing sunsets and mountains.
+    - Sunsets and mountains are my favorite subjects to photograph.
+    - I'm passionate about taking pictures of the beauty in sunsets and mountains.
+    - I find joy in photographing the mesmerizing colors of sunsets.
+    - Mountains offer a majestic backdrop for my photography.
+    - I'm fascinated by the interplay of light and shadows in mountain landscapes.
+    - Photography allows me to capture the serene beauty of sunsets.
+    - I seek opportunities to capture breathtaking sunset and mountain shots.
+    - Sunsets and mountains inspire my creativity in photography.
+    - I'm drawn to the dramatic landscapes of mountains during sunset.
+    - I document the awe-inspiring beauty of sunsets and mountains.
+    - Photography lets me freeze the magical moments of sunsets and mountains.
+    - I'm captivated by the tranquility and grandeur of mountain landscapes.
+    - I find solace in the ethereal beauty of sunsets and mountains.
+    - I'm on a quest to capture the perfect sunset and mountain composition.
+    - Photography allows me to share the breathtaking magic of sunsets and mountains.
+    - I capture the beauty and serenity of sunsets and mountains.
+    - Sunsets and mountains evoke a sense of wonder and awe in my photography.
 
 - intent: bot_interesting_idea
   examples: |
-    - 
+    - I haven't thought about that, but it's an interesting idea.
+    - That's a thought-provoking idea I hadn't considered before.
+    - It's intriguing to ponder upon such a unique concept.
+    - I find it fascinating to explore new and interesting ideas.
+    - Your suggestion presents an interesting perspective worth contemplating.
+    - I hadn't come across that idea, but it piques my curiosity.
+    - It's refreshing to encounter such an intriguing notion.
+    - Your idea brings a fresh and interesting angle to the conversation.
+    - I'm intrigued by the novelty of your idea.
+    - I appreciate the introduction of this interesting concept.
+    - Your suggestion sparks an interesting train of thought.
+    - It's thought-provoking to consider the implications of that idea.
+    - I'm curious to delve deeper into the intricacies of your interesting idea.
+    - Your idea adds an interesting layer of complexity to the discussion.
+    - I'm captivated by the possibilities that your idea presents.
+    - It's stimulating to explore new and interesting ideas like this.
+    - Your suggestion opens up a world of interesting possibilities.
+    - I'm intrigued by the potential implications of that thought-provoking idea.
+    - Your idea adds an interesting dynamic to the conversation.
+    - I find it fascinating to engage with fresh and interesting ideas.
+    - Your suggestion sparks my imagination and prompts further exploration.
 
-- intent: bot_biggest_achievements
+
+'''- intent: bot_biggest_achievements
   examples: |
     - What's your biggest achievement?
     
@@ -4370,8 +5497,18 @@ nlu:
 
 - intent: bot_my_goals_achievements_works
   examples: |
-    -
-
-- intent: bot_my_goals_achievements_works
-  examples: |
-    -
+  
+- story: Achievements
+  steps:
+  - intent: bot_biggest_achievements
+  - action: utter_bot_biggest_achievements
+  - intent: bot_my_biggest_achievements
+  - action: utter_bot_my_biggest_achievements
+  - intent: bot_my_struggles_achievements
+  - action: utter_bot_my_struggles_achievements
+  - intent: bot_my_feelings_achievements
+  - action: utter_bot_my_feelings_achievements
+  - intent: bot_my_goals_achievements
+  - action: utter_bot_my_goals_achievements
+  - intent: bot_my_goals_achievements_works
+  - action: utter_bot_my_goals_achievements_works'''
