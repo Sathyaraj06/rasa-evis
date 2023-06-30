@@ -23,8 +23,8 @@ Time: 15.983333 hrs (16 hrs)
 
 **Milestone 4**
 1) stories.yml completed
-2) nlu.yml (106 intents done, 17-19 left)
-3) domain.yml updation in progress
+2) nlu.yml completed
+3) domain.yml 70% completed
 
-Time: 7.6166666 hrs
+Time: 9.583333 hrs
 
