@@ -1,0 +1,42 @@
+name: Trigger auto deployment for evis-rasa
+
+# When this action will be executed
+on:
+  # Automatically trigger it when detected changes in repo
+  push:
+    branches: 
+      [ main ]
+    paths:
+    - '**'
+    - '.github/workflows/evis-rasa-AutoDeployTrigger-aca59c94-90b3-45e7-bed3-b132cdb207cb.yml'
+
+  # Allow mannually trigger 
+  workflow_dispatch:
+      
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout to the branch
+        uses: actions/checkout@v2
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.EVISRASA_AZURE_CREDENTIALS }}
+
+      - name: Build and push container image to registry
+        uses: azure/container-apps-deploy-action@v1
+        with:
+          appSourcePath: ${{ github.workspace }} 
+          registryUrl: evisrasa.azurecr.io
+          registryUsername: ${{ secrets.EVISRASA_REGISTRY_USERNAME }}
+          registryPassword: ${{ secrets.EVISRASA_REGISTRY_PASSWORD }}
+          containerAppName: evis-rasa
+          resourceGroup: evis-dev
+          imageToBuild: evisrasa.azurecr.io/evis-rasa:${{ github.sha }}
+          
+
+     
+
