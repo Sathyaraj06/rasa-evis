@@ -327,9 +327,6 @@ responses:
   - text: "The city of Vienna, Austria, is a family destination with its interactive museums, amusement parks like Prater, and the Schönbrunn Palace and its gardens."
   - text: "The city of Toronto, Canada, is a family destination that offers attractions like the CN Tower, the Royal Ontario Museum, and the Toronto Zoo."
 
-  utter_bot_thanks_suggestions:
-  - text: "..."
-
   utter_bot_difficulty_relationship:
   - text: "Sorry to hear about your relationship challenges. Can you specify the relationships? Family, friends, or romantic partners?"
   - text: "Understand dealing with relationship difficulties is tough. Specify the relationships: family, friends, or romantic partners?"
@@ -843,79 +840,234 @@ responses:
 
   utter_bot_what_makes_friend:
   - text: "A strong friendship is built on several key factors. Trust, mutual respect, and good communication are essential foundations for a strong friendship. It's also important to have shared interests and values that create a strong bond."
-  
+  - text: "A strong friendship is based on trust, respect, and communication. Shared interests and values create a strong bond."
+  - text: "Trust, respect, and communication are vital for a strong friendship. Shared interests and values foster a strong bond."
+  - text: "In a strong friendship, trust, respect, and communication are key. Shared interests and values strengthen the bond."
+  - text: "Strong friendships rely on trust, respect, and communication. Shared interests and values enhance the bond."
+  - text: "Trust, respect, and communication form the foundation of a strong friendship. Shared interests and values deepen the bond."
+  - text: "A strong friendship requires trust, respect, and communication. Shared interests and values strengthen the bond."
+  - text: "Trust, respect, and communication are crucial in a strong friendship. Shared interests and values foster a tight bond."
+  - text: "A strong friendship is built on trust, respect, and communication. Shared interests and values create a solid bond."
+  - text: "Trust, respect, and communication are essential for a strong friendship. Shared interests and values forge a deep bond."
+  - text: "In a strong friendship, trust, respect, and communication are vital. Shared interests and values build a strong bond."
+
   utter_bot_friend_build_trust:
-  - text: "Trust is developed through honesty, reliability, and being there for each other during both good and challenging times. It's about being a good listener, keeping your promises, and respecting each other's boundaries."
-  
+  - text: "Trust grows with honesty, reliability, and support in good and challenging times. Be a good listener, keep promises, and respect boundaries."
+  - text: "To build trust, be honest, reliable, and supportive in good and challenging times. Listen well, keep promises, and respect boundaries."
+  - text: "Building trust involves honesty, reliability, and support in both good and challenging times. Be a good listener, keep promises, and respect boundaries."
+  - text: "Trust is nurtured through honesty, reliability, and support in all situations. Listen attentively, keep promises, and respect boundaries."
+  - text: "To foster trust, be honest, reliable, and supportive. Be there in good and challenging times. Listen, keep promises, and respect boundaries."
+  - text: "Trust is built through honesty, reliability, and support. Be a good listener, keep promises, and respect boundaries in all circumstances."
+  - text: "To develop trust, be honest, reliable, and supportive. Show up in good and challenging times. Listen, keep promises, and respect boundaries."
+  - text: "Trust is formed with honesty, reliability, and support in various situations. Be a good listener, honor promises, and respect boundaries."
+  - text: "Building trust involves honesty, reliability, and support. Be there for each other in good and challenging times. Listen, keep promises, and respect boundaries."
+  - text: "Trust grows when there's honesty, reliability, and support. Be a good listener, fulfill promises, and respect boundaries."
+
   utter_bot_friend_comm_role:
   - text: "Communication is vital in a strong friendship. It's about expressing your thoughts, feelings, and concerns openly and honestly. It's also about actively listening to your friend and being empathetic towards their experiences."
-  
+  - text: "Open and honest communication is crucial in a strong friendship. Express your thoughts, feelings, and concerns while actively listening and showing empathy."
+  - text: "In a strong friendship, communication plays a vital role. Express your thoughts and feelings honestly, listen actively, and show empathy towards your friend."
+  - text: "Communication is key in a strong friendship. Express yourself openly and honestly, actively listen, and show empathy towards your friend."
+  - text: "Strong friendships rely on effective communication. Share your thoughts and feelings honestly, listen attentively, and show empathy towards your friend."
+  - text: "In a strong friendship, communication is vital. Express your thoughts, feelings, and concerns openly, listen actively, and be empathetic towards your friend."
+  - text: "Effective communication is crucial in strong friendships. Share your thoughts and feelings honestly, actively listen, and demonstrate empathy towards your friend."
+  - text: "Good communication is essential in strong friendships. Express yourself openly, listen actively, and show empathy towards your friend's experiences."
+  - text: "In strong friendships, communication plays a key role. Express your thoughts and feelings openly, listen attentively, and show empathy towards your friend."
+  - text: "Communication plays a vital role in strong friendships. Express yourself honestly, listen actively, and be empathetic towards your friend's experiences."
+  - text: "Open communication is crucial in strong friendships. Express your thoughts and feelings, listen actively, and show empathy towards your friend."
+
   utter_bot_friend_shared_interest:
-  - text: "Shared interests can certainly enhance a friendship as they provide common ground and opportunities for shared experiences. However, it's not necessary for every interest to be the same. Respect and support for each other's passions and individuality are equally important."
-  
+  - text: "Shared interests can certainly enhance a friendship as they provide common ground and opportunities for shared experiences."
+  - text: "Shared interests strengthen friendship with common ground and shared experiences. Not every interest needs to be the same. "
+  - text: "Certainly! Shared interests enhance friendship with common ground and opportunities for shared experiences." 
+  - text: "Without a doubt! Shared interests enrich friendship with common ground and facilitated experiences. Acknowledge and appreciate passions and individuality."
+  - text: "Absolutely! Friendships are strengthened through shared interests, common ground, and shared experiences. Recognize and embrace passions and individuality."
+  - text: "Definitely! Shared interests deepen friendship with common ground and shared experiences. Value and support passions and individuality."
+  - text: "Certainly! Shared interests strengthen friendship with common ground and shared experiences. Respect and embrace passions and individuality."
+  - text: "Of course! Shared interests enhance friendship with commonality and shared experiences. Appreciate and encourage passions and individuality."
+  - text: "Absolutely! Friendships are enriched through shared interests, common ground, and shared experiences. Respect and support passions and individuality."
+  - text: "Without a doubt! Shared interests strengthen friendship with common ground and fostered experiences. Acknowledge and embrace passions and individuality."
+
   utter_bot_friend_ups_downs:
-  - text: "..."
-  
+  - text: "Every friendship has its ups and downs. It's normal to experience both positive and challenging moments together. What truly matters is how we navigate through them and support each other."
+  - text: "Friendships go through ups and downs, just like any relationship. It's important to embrace the highs and work through the lows together, building a stronger bond along the way."
+  - text: "Ups and downs are part of every friendship journey. Embracing the positive moments and facing challenges together is what strengthens the connection between friends."
+  - text: "Like any relationship, friendships have their share of ups and downs. It's the ability to weather storms and celebrate victories together that makes the bond even more meaningful."
+  - text: "Friendships are a rollercoaster of emotions, with highs and lows. It's how we support each other during the tough times and cherish the good times that defines the strength of the friendship."
+  - text: "Ups and downs are natural in friendships. It's important to be there for each other during challenging times and celebrate the joyful moments together, creating lasting memories."
+  - text: "Every friendship has its own set of ups and downs. Navigating through both the good and the tough times together creates a deeper understanding and unbreakable bond between friends."
+  - text: "Just like in life, friendships come with ups and downs. The key is to support each other during difficult times and savor the joyful moments, fostering a resilient friendship."
+  - text: "Ups and downs are part of the journey of friendship. It's the unwavering support and shared experiences that help us navigate through the challenges and celebrate the victories together."
+  - text: "Friendships are a mix of highs and lows. Through the ups and downs, we learn, grow, and build an unbreakable connection based on mutual understanding and support."
+
   utter_bot_friend_circle_make:
-  - text: "..."
-  
+  - text: "Building a circle of friends takes time and effort. Start by connecting with people who share similar interests or values. Joining clubs, attending social events, and being open to new experiences can help expand your friend circle."
+  - text: "Making friends requires active participation. Look for opportunities to meet like-minded individuals, such as joining hobby groups or attending community events. By putting yourself out there and nurturing relationships, you can gradually build a meaningful circle of friends."
+  - text: "Creating a friend circle involves reaching out to others and fostering connections. Engage in activities that align with your passions and values, and be open to meeting new people. By cultivating shared experiences and maintaining genuine connections, your friend circle will grow."
+  - text: "Forming a friend circle involves finding common ground with others. Engage in activities you enjoy and explore social settings where you can meet people with similar interests. By investing time and energy into nurturing relationships, you can build a supportive friend circle."
+  - text: "Growing a friend circle requires actively seeking opportunities to connect with others. Participate in social activities, volunteer for causes you care about, and be open to forming new connections. With time and effort, your friend circle will expand and flourish."
+  - text: "Expanding your friend circle is a gradual process. Seek out social gatherings, engage in conversations, and explore shared interests. By nurturing relationships and being open to new connections, you can create a diverse and supportive friend circle."
+  - text: "Developing a friend circle involves being proactive in your social interactions. Attend social events, join online communities, and engage in conversations with people who share your interests. Through shared experiences and genuine connections, your friend circle will naturally grow."
+  - text: "Building a friend circle requires reaching out to others and cultivating meaningful connections. Actively participate in social activities, show genuine interest in others, and be open to diverse perspectives. With time and effort, your friend circle will expand organically."
+  - text: "Creating a friend circle involves stepping out of your comfort zone and engaging in social opportunities. Attend meetups, pursue hobbies, and embrace new experiences to meet people with similar interests. By investing in relationships and fostering a supportive environment, your friend circle will flourish."
+  - text: "Expanding your friend circle is about actively seeking connections and fostering relationships. Engage in activities that align with your interests, attend social gatherings, and be open to meeting new people. Through shared experiences and genuine connections, your friend circle will grow."
+
   utter_bot_friend_bittersweet:
-  - text: "..."
-  
+  - text: "Friendships can be bittersweet, with moments of joy and sorrow. We cherish the happy memories and support each other through the difficult times, creating a bond that withstands the ups and downs."
+  - text: "Friendships often have a bittersweet quality, as we experience both happiness and sadness together. The sweet moments bring us closer, while the challenging times strengthen our connection."
+  - text: "Bittersweet moments are inherent in friendships, where we celebrate victories and share in each other's sorrows. It's through these emotional experiences that our bonds deepen and grow."
+  - text: "Friendships have their bittersweet moments, with highs and lows that shape our journey together. We learn, grow, and find solace in the understanding and support of our friends."
+  - text: "The bittersweet nature of friendships lies in the blend of joy and heartache we experience together. It's the shared laughter and tears that create a tapestry of memories and a strong sense of camaraderie."
+  - text: "Friendships can evoke bittersweet emotions, as we celebrate milestones and navigate challenges side by side. These contrasting experiences strengthen our connection and make our bond resilient."
+  - text: "Bittersweet moments are an integral part of friendships. We savor the good times and provide comfort during the tough times, fostering an enduring friendship built on shared experiences."
+  - text: "Friendships are a mix of bittersweet moments, with happiness and sadness intertwined. We treasure the joyful occasions and lend support during the difficult ones, forging a lasting bond."
+  - text: "The bittersweet essence of friendships lies in the ebb and flow of emotions we share. We relish the delightful moments and stand by each other during the challenging ones, creating an unbreakable connection."
+  - text: "Friendships carry a bittersweet quality, as we navigate the highs and lows together. The bittersweet moments remind us of the depth of our connection and the value of having each other in our lives."
+
   utter_bot_thanks_insights:
-  - text: "..."
-  
+  - text: "Thank you for sharing your insights. Your perspective adds depth to our conversation."
+  - text: "I appreciate your valuable insights. Your input enriches our discussion."
+  - text: "Thank you for providing your insights. Your perspective offers a fresh angle to consider."
+  - text: "I'm grateful for your insights. Your thoughts contribute to a deeper understanding of the topic."
+  - text: "Thank you for sharing your valuable insights. Your input brings new dimensions to our conversation."
+  - text: "I appreciate your thoughtful insights. Your perspective sheds light on different aspects of the topic."
+  - text: "Thank you for your insights. Your viewpoint helps broaden our understanding of the subject."
+  - text: "I'm grateful for the insights you've shared. Your perspective adds richness to our discussion."
+  - text: "Thank you for providing your valuable insights. Your contribution enhances our conversation."
+  - text: "I appreciate the insights you've shared. Your perspective offers valuable depth to our discussion."
+
   utter_bot_good_job:
-  - text: "..."
-  
+  - text: "Great job! You're doing fantastic!"
+  - text: "Well done! Keep up the excellent work!"
+  - text: "Awesome job! You're really nailing it!"
+  - text: "Fantastic job! I'm impressed with your efforts!"
+  - text: "Excellent work! You're doing an amazing job!"
+  - text: "Bravo! You're doing a great job!"
+  - text: "Superb job! Keep up the good work!"
+  - text: "Outstanding work! You're really excelling!"
+  - text: "Impressive job! You're on the right track!"
+  - text: "Kudos to you! You're doing a remarkable job!"
+
   utter_bot_really_helpful:
-  - text: "..."
-  
+  - text: "I'm glad I could be of help! It's my pleasure to assist you."
+  - text: "I'm happy that I could provide useful information. If you have any more questions, feel free to ask!"
+  - text: "I'm pleased to hear that I was able to assist you. If there's anything else you need, feel free to let me know."
+  - text: "I'm delighted to know that my assistance was valuable to you. If there's anything else I can do, just let me know!"
+  - text: "It's great to hear that I could be helpful. If you have any further inquiries, feel free to ask!"
+  - text: "I'm glad to have been of help. If there's anything else you'd like to know, don't hesitate to ask."
+  - text: "I'm happy to hear that my response was beneficial. If there's anything more I can assist you with, please let me know."
+  - text: "I'm pleased that I could provide you with helpful information. If you have any other questions, feel free to reach out!"
+  - text: "It's great to know that I was able to assist you effectively. If there's anything else you need assistance with, feel free to ask!"
+  - text: "I'm delighted that I could be of assistance. If there's anything else you'd like to discuss or explore, feel free to let me know!"
+
   utter_bot_appreciate_support:
-  - text: "..."
-  
+  - text: "I appreciate your support! Thank you for being there."
+  - text: "Thank you for your support! It means a lot to me."
+  - text: "I'm grateful for your support. Thank you for being a source of encouragement."
+  - text: "Your support is truly appreciated. Thank you for your kindness."
+  - text: "Thank you for your support! Your encouragement means the world to me."
+  - text: "I'm thankful for your support. Your presence makes a difference."
+  - text: "I want to express my gratitude for your support. Thank you for standing by me."
+  - text: "Thank you for your unwavering support. It gives me strength."
+  - text: "Your support is invaluable to me. Thank you for being there."
+  - text: "I deeply appreciate your support. Thank you for always being by my side."
+
   utter_bot_so_knowledge:
-  - text: "..."
+  - text: "I'm glad I could provide you with the information you needed. Knowledge is power!"
+  - text: "I'm happy that I could share my knowledge with you. If you have any more questions, feel free to ask!"
+  - text: "I'm pleased to know that I was able to offer you valuable knowledge. If there's anything else you'd like to learn about, just let me know!"
+  - text: "It's great to hear that my knowledge was helpful to you. If there's anything else you'd like to explore, feel free to ask!"
+  - text: "I'm glad to have been able to share my knowledge with you. If there's anything else you'd like to know, don't hesitate to ask."
+  - text: "I'm happy that I could provide you with useful knowledge. If there's anything more I can assist you with, please let me know."
+  - text: "I'm pleased that my knowledge was beneficial to you. If there are any other topics you'd like to delve into, feel free to inquire!"
+  - text: "It's great to know that my knowledge was able to assist you effectively. If there's anything else you'd like to learn, don't hesitate to ask!"
+  - text: "I'm delighted that I could share my knowledge with you. If there's anything else you'd like to explore or discuss, feel free to let me know!"
+  - text: "I'm glad to hear that my knowledge was of help to you. If there's anything else you'd like to know or explore, feel free to ask!"
   
   utter_bot_really_efficient:
-  - text: "..."
+  - text: "I'm glad to hear that I was able to assist you efficiently. Efficiency is important to provide prompt and effective support."
+  - text: "I strive to be efficient in assisting you. It's great to know that my response was prompt and helpful."
+  - text: "Efficiency is a priority for me, and I'm pleased that I could provide you with a quick and efficient response."
+  - text: "I'm happy to hear that my assistance was efficient. If there's anything else you need help with, I'm here to assist you further."
+  - text: "I aim to be efficient in addressing your needs. It's satisfying to know that I was able to assist you promptly."
+  - text: "Efficiency is key in delivering effective support, and I'm glad that I could assist you efficiently. Let me know if there's anything else I can help you with."
+  - text: "Thank you for acknowledging the efficiency of my assistance. It's important to me to provide timely and efficient support."
+  - text: "I'm delighted to hear that I was able to assist you in an efficient manner. If you have any more questions or require further assistance, feel free to ask."
+  - text: "Efficiency is one of my priorities, and I'm pleased that I was able to assist you promptly and effectively."
+  - text: "I'm glad that my assistance was efficient and effective. If there's anything else I can do to assist you, please don't hesitate to let me know."
   
   utter_bot_you_best:
-  - text: "..."
-  
+  - text: "Thank you for the kind words! I strive to provide the best assistance I can."
+  - text: "I'm glad to hear that you think highly of my assistance. It's my goal to be the best I can be!"
+  - text: "Thank you for your appreciation! I always strive to deliver the best support possible."
+  - text: "I'm honored to be considered the best! It's my pleasure to assist you."
+  - text: "Thank you for your kind compliment! I'm here to provide you with the best assistance I can offer."
+  - text: "I'm thrilled to be recognized as the best! Helping you is my top priority."
+  - text: "Thank you for your vote of confidence! I'll continue working hard to provide you with the best support."
+  - text: "I'm grateful for your appreciation. Being the best support for you is my ultimate goal."
+  - text: "Thank you for considering me the best! I'll do my utmost to live up to your expectations."
+  - text: "I'm delighted to be regarded as the best! Providing you with top-notch assistance is my pleasure."
+
   utter_bot_nice_response:
-  - text: "..."
-  
+  - text: "Thank you! I'm glad I could provide a helpful response."
+  - text: "I'm pleased to hear that you found my response helpful. If you have any more questions, feel free to ask!"
+  - text: "I'm glad to know that my response was satisfactory. If there's anything else you'd like to discuss, just let me know!"
+  - text: "I'm happy to hear that you found my response useful. If there's anything else I can assist you with, please let me know."
+  - text: "I'm glad to have been able to provide a helpful response. If there's anything else you'd like to know, don't hesitate to ask."
+  - text: "I'm glad that my response met your expectations. If there's anything more I can assist you with, please let me know."
+  - text: "I'm pleased that my response was able to address your query. If there are any other topics you'd like to explore, feel free to inquire!"
+  - text: "I'm delighted to hear that my response was helpful. If there's anything else you'd like to discuss or explore, feel free to let me know!"
+  - text: "I'm glad to hear that my response was useful to you. If there's anything else you'd like to know or discuss, feel free to ask!"
+  - text: "I'm happy that my response was able to assist you. If there's anything else you'd like to learn or inquire about, feel free to ask!"
+
   utter_bot_you_awesome:
-  - text: "..."
-  
+  - text: "Thank you for the kind words! I'm here to assist you to the best of my abilities."
+  - text: "I appreciate your compliment! It's my pleasure to be of help."
+  - text: "I'm glad you think so! Helping you is what I'm here for."
+  - text: "Thank you for considering me awesome! I'll continue doing my best to assist you."
+  - text: "I'm honored to be regarded as awesome! Your satisfaction is my priority."
+  - text: "Thank you for your encouraging words! I strive to be the best support I can be."
+  - text: "I'm thrilled that you think I'm awesome! If there's anything else you need assistance with, feel free to ask."
+  - text: "Your compliment means a lot to me. I'm committed to providing excellent support."
+  - text: "I'm grateful for your kind words! Assisting you is what I enjoy doing."
+  - text: "Thank you for the vote of confidence! I'm here to help you in any way I can."
+
   utter_bot_great_work:
-  - text: "..."
-  
-  utter_bot_relation_advice:
-  - text: "..."
- 
-  utter_bot_comms_partner:
-  - text: "..."
-  
-  utter_bot_disagree_in_relation:
-  - text: "..."
-  
-  utter_bot_long_term_relation:
-  - text: "..."
-  
-  utter_bot_rough_patch:
-  - text: "..."
-  
-  utter_bot_balance_relation_life:
-  - text: "..."
+  - text: "Great job! You're doing fantastic!"
+  - text: "Keep up the excellent work!"
+  - text: "Well done! Your efforts are truly appreciated."
+  - text: "You're doing an amazing job!"
+  - text: "Fantastic work! I'm impressed."
+  - text: "Kudos to you for a job well done!"
+  - text: "You're really excelling at this!"
+  - text: "Bravo! Your work is outstanding."
+  - text: "You're knocking it out of the park! Great work!"
+  - text: "I must say, your work is exceptional!"
   
   utter_bot_you_awesome:
-  - text: "..."
-  
+  - text: "Thank you for your kind words! It means a lot to me."
+  - text: "I appreciate your compliment! I'm here to assist you to the best of my abilities."
+  - text: "I'm glad you think so! Helping you is what I'm here for."
+  - text: "Thank you for considering me awesome! I'll continue doing my best to assist you."
+  - text: "I'm honored to be regarded as awesome! Your satisfaction is my priority."
+  - text: "Thank you for your encouraging words! I strive to be the best support I can be."
+  - text: "I'm thrilled that you think I'm awesome! If there's anything else you need assistance with, feel free to ask."
+  - text: "Your compliment means a lot to me. I'm committed to providing excellent support."
+  - text: "I'm grateful for your kind words! Assisting you is what I enjoy doing."
+  - text: "Thank you for the vote of confidence! I'm here to help you in any way I can."
+
   utter_bot_thanks_suggestions:
-  - text: "..."
-  
+  - text: "Thank you for your valuable suggestions! I appreciate your input."
+  - text: "I'm grateful for your suggestions! They will help me improve."
+  - text: "Thank you for sharing your suggestions! I will take them into consideration."
+  - text: "I appreciate your insightful suggestions! They are valuable for my growth."
+  - text: "Thank you for taking the time to provide suggestions! Your input is valuable to me."
+  - text: "I'm thankful for your suggestions! They will contribute to enhancing my performance."
+  - text: "I value your suggestions and feedback! Thank you for sharing them with me."
+  - text: "Thank you for your thoughtful suggestions! I will incorporate them into my work."
+  - text: "I appreciate your suggestions! They will help me refine my approach."
+  - text: "Thank you for your input and suggestions! I will make use of them to improve."
+
   utter_bot_find_happy:
   - text: "..."
   
@@ -935,30 +1087,6 @@ responses:
   - text: "..."
   
   utter_bot_appreciate_support:
-  - text: "..."
-  
-  utter_bot_recommend_travel_dest:
-  - text: "..."
-  
-  utter_bot_looking_beach_dest:
-  - text: "..."
-  
-  utter_bot_looking_tropical_dest:
-  - text: "..."
-  
-  utter_bot_looking_cult_dest:
-  - text: "..."
-  
-  utter_bot_looking_scenery_dest:
-  - text: "..."
-  
-  utter_bot_looking_mountain_dest:
-  - text: "..."
-  
-  utter_bot_looking_history_dest:
-  - text: "..."
-  
-  utter_bot_thanks_suggestions:
   - text: "..."
   
   utter_bot_popular_hobby:
