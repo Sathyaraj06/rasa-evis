@@ -1,8 +1,8 @@
 echo "started---------------"
 
-sudo docker rm -f $(sudo docker ps -aq)
+# sudo docker rm -f $(sudo docker ps -aq)
 
-sudo docker rmi $(sudo docker images -q)
+# sudo docker rmi $(sudo docker images -q)
 
 git reset --hard
 
@@ -10,7 +10,7 @@ git pull
 
 sudo chmod 777 deploy.sh
 
-sudo docker-compose build
+# sudo docker-compose build
 
 sudo docker-compose up -d kalani
 
