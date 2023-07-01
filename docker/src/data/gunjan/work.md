@@ -24,7 +24,7 @@ Time: 15.983333 hrs (16 hrs)
 **Milestone 4**
 1) stories.yml completed
 2) nlu.yml completed
-3) domain.yml 70% completed
+3) domain.yml completed
 
-Time: 9.583333 hrs
+Time: 10.0833333 hrs
 
