@@ -18,9 +18,9 @@ sudo docker-compose up -d kalani
 
 sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
 
-sudo docker images
+# sudo docker images
 
-sudo docker ps -a
+# sudo docker ps -a
 
 echo "ended---------------"
 
