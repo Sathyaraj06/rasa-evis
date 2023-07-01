@@ -18,7 +18,7 @@ RUN if [ "${org}" == "base" ]; then
       
     elif [ "${org}" == "hexaware" ]; then
     
-      RUN rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml --out models --fixed-model-name model
+      RUN rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml
 
     elif [ "${org}" == "kalani" ]; then
     
