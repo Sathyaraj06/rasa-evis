@@ -12,11 +12,11 @@ sudo chmod 777 deploy.sh
 
 # sudo docker-compose build
 
-sudo docker-compose up build --no-cache -d kalani
+sudo docker-compose up build --no-cache -d hexaware
 
 # sudo docker-compose up -d --no-recreate dummy
 
-sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
+# sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
 
 # sudo docker images
 
