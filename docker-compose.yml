@@ -20,8 +20,11 @@ services:
 
   kalani:
     container_name: kalani
-    image: rasa-evis:latest
-    build: ./docker
+    build: 
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        org: kalani
     ports:
       - "1000:5005"
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
