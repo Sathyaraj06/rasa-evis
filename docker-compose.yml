@@ -4,19 +4,25 @@ services:
 
   dummy:
     container_name: dummy
-    image: rasa-evis:latest
-    build: ./docker
+    build: 
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        org: dummy
     ports:
-      - "1001:5005"
-    command: rasa run -m models/20230407-142457-chitchat.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
+      - "1000:5005"
+    command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
   chitchat:
     container_name: chitchat
-    image: rasa-evis:latest
-    build: ./docker
+    build: 
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        org: chitchat
     ports:
-      - "1000:5005"
-    command: rasa run -m models/20230407-142457-chitchat.tar.gz --enable-api --log-file rasa.log --debug --cors "*" 
+      - "1001:5005"
+    command: rasa run --enable-api --log-file rasa.log --debug --cors "*" 
 
   kalani:
     container_name: kalani
@@ -26,16 +32,19 @@ services:
       args:
         org: kalani
     ports:
-      - "1000:5005"
+      - "1002:5005"
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
   hexaware:
    container_name: hexaware
-   image: rasa-evis:latest
-   build: ./docker
-   ports:
-     - "1000:5005"
-   command: rasa run -m models/20230407-142457-chitchat.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
+   build: 
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        org: kalani
+    ports:
+      - "1003:5005"
+   command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
 
   # hexaware:
