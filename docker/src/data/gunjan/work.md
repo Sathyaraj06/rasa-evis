@@ -26,5 +26,5 @@ Time: 15.983333 hrs (16 hrs)
 2) nlu.yml completed
 3) domain.yml completed
 
-Time: 10.0833333 hrs
+Time: 10.0833333 hrs (10 hrs)
 
