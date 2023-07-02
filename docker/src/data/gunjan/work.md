@@ -25,6 +25,7 @@ Time: 15.983333 hrs (16 hrs)
 1) stories.yml completed
 2) nlu.yml completed
 3) domain.yml completed
+4) Debugged and model trained
 
-Time: 10.0833333 hrs (10 hrs)
+Time: 12.1166667 hrs (12 hrs)
 
