@@ -86,13 +86,11 @@ intents:
   - bot_my_struggles_achievements
   - bot_my_feelings_achievements
   - bot_my_goals_achievements
-  - bot_my_goals_achievements_works
   - bot_you_creative
   - bot_creative_advice
   - bot_creative_new_ideas
   - bot_creative_own_work
   - bot_creative_self_doubt
-  - bot_my_goals_achievements_works
   - bot_memorable_life_exp
 
 
@@ -125,7 +123,6 @@ intents:
   - bot_thanks_insights
   - bot_good_job
   - bot_really_helpful
-  - bot_appreciate_support
   - bot_so_knowledge
   - bot_really_efficient
   - bot_you_best
@@ -138,14 +135,11 @@ intents:
   - bot_long_term_relation
   - bot_rough_patch
   - bot_balance_relation_life
-  - bot_you_awesome
-  - bot_thanks_suggestions
   - bot_find_happy
   - bot_self_care_prac
   - bot_realation_to_happy
   - bot_pursue_goals
   - bot_cultivate_pos_mind
-  - bot_thanks_advice
   - bot_appreciate_support
   - bot_recommend_travel_dest
   - bot_looking_beach_dest
@@ -154,7 +148,6 @@ intents:
   - bot_looking_scenery_dest
   - bot_looking_mountain_dest
   - bot_looking_history_dest
-  - bot_thanks_suggestions
   - bot_popular_hobby
   - bot_interest_photography
   - bot_nature_landscape_pic
@@ -362,22 +355,22 @@ responses:
   - text: "I see your point. Romantic relationships can be demanding. It's important to have open and honest communication with your partner. Have you tried having a heartfelt conversation about your concerns?"
 
   utter_bot_argument_escalate:
-  - text: "I see. It's important to approach these conversations with empathy and active listening. Consider finding a calm and neutral environment to talk, and practice using "I" statements to express your feelings instead of blaming or accusing your partner. It may also be helpful to set aside specific times for open and honest communication."
-  - text: "When disagreements escalate, approach them with empathy and active listening. Find a calm environment, use "I" statements to express feelings, and schedule dedicated communication times."
-  - text: "To prevent escalating arguments, approach them with empathy and active listening. Find a neutral space, use "I" statements, and schedule specific communication times."
-  - text: "To avoid argument escalation, practice empathy and active listening. Find a calm setting, use "I" statements, and schedule open communication times."
-  - text: "To prevent arguments from escalating, empathize and actively listen. Find a neutral space, use "I" statements, and schedule dedicated communication times."
-  - text: "When arguments escalate, empathize and actively listen. Find a calm space, use "I" statements, and set specific communication times."
-  - text: "When arguments escalate, handle them with empathy and active listening. Find a neutral place, use "I" statements, and schedule open communication times."
-  - text: "To prevent escalation, empathize and actively listen during arguments. Find a peaceful space, use "I" statements, and schedule dedicated communication times."
-  - text: "When arguments escalate, approach with empathy and active listening. Find a calm, neutral place, use "I" statements, and schedule open communication times."
-  - text: "To avoid escalation, empathize and actively listen during arguments. Find a neutral environment, use "I" statements, and set communication times."
-  - text: "To prevent arguments from escalating, empathize and actively listen. Find a peaceful, neutral space, use "I" statements, and schedule communication times."
-  - text: "When arguments escalate, handle with empathy and active listening. Find a quiet, neutral location, use "I" statements, and schedule dedicated communication times."
-  - text: "To avoid arguments escalating, empathize and actively listen. Find a calm, neutral setting, use "I" statements, and set specific communication times."
-  - text: "To prevent escalation, approach arguments with empathy and active listening. Find a peaceful environment, use "I" statements, and schedule open communication times."
-  - text: "When arguments escalate, handle them with empathy and active listening. Find a quiet, neutral space, use "I" statements, and set dedicated communication times."
-  - text: "To avoid escalation, empathize and actively listen during arguments. Find a calm, neutral place, use "I" statements, and schedule communication times."
+  - text: "I see. It's important to approach these conversations with empathy and active listening. Consider finding a calm and neutral environment to talk, and practice using I statements to express your feelings instead of blaming or accusing your partner. It may also be helpful to set aside specific times for open and honest communication."
+  - text: "When disagreements escalate, approach them with empathy and active listening. Find a calm environment, use I statements to express feelings, and schedule dedicated communication times."
+  - text: "To prevent escalating arguments, approach them with empathy and active listening. Find a neutral space, use I statements, and schedule specific communication times."
+  - text: "To avoid argument escalation, practice empathy and active listening. Find a calm setting, use I statements, and schedule open communication times."
+  - text: "To prevent arguments from escalating, empathize and actively listen. Find a neutral space, use I statements, and schedule dedicated communication times."
+  - text: "When arguments escalate, empathize and actively listen. Find a calm space, use I statements, and set specific communication times."
+  - text: "When arguments escalate, handle them with empathy and active listening. Find a neutral place, use I statements, and schedule open communication times."
+  - text: "To prevent escalation, empathize and actively listen during arguments. Find a peaceful space, use I statements, and schedule dedicated communication times."
+  - text: "When arguments escalate, approach with empathy and active listening. Find a calm, neutral place, use I statements, and schedule open communication times."
+  - text: "To avoid escalation, empathize and actively listen during arguments. Find a neutral environment, use I statements, and set communication times."
+  - text: "To prevent arguments from escalating, empathize and actively listen. Find a peaceful, neutral space, use I statements, and schedule communication times."
+  - text: "When arguments escalate, handle with empathy and active listening. Find a quiet, neutral location, use I statements, and schedule dedicated communication times."
+  - text: "To avoid arguments escalating, empathize and actively listen. Find a calm, neutral setting, use I statements, and set specific communication times."
+  - text: "To prevent escalation, approach arguments with empathy and active listening. Find a peaceful environment, use I statements, and schedule open communication times."
+  - text: "When arguments escalate, handle them with empathy and active listening. Find a quiet, neutral space, use I statements, and set dedicated communication times."
+  - text: "To avoid escalation, empathize and actively listen during arguments. Find a calm, neutral place, use I statements, and schedule communication times."
 
   utter_bot_create_support_atm:
   - text: "That's a positive step! Additionally, understanding and respecting each other's boundaries is crucial. Take the time to discuss your expectations, needs, and personal space. Building trust and maintaining a healthy level of independence can strengthen your relationship."
@@ -578,18 +571,6 @@ responses:
   - text: "Self-doubt is part of the artistic journey. Embrace it as a sign that you're challenging yourself and growing as an artist. Trust in your abilities and keep creating with passion."
   - text: "Self-doubt is a natural part of the creative process. Embrace it as a chance to reflect on your art, refine your skills, and discover new possibilities. Keep nurturing your creativity."
   - text: "Self-doubt is a reminder that you're constantly evolving as an artist. Embrace it as a catalyst for self-improvement and push yourself to create art that truly represents you."
-
-  utter_bot_my_goals_achievements_works:
-  - text: "You're welcome! Glad the suggestions help. Explore new art styles, find inspiration, and enjoy creating. Feel free to ask if you have more questions. Best of luck with your painting!"
-  - text: "You're welcome! Thrilled the suggestions are useful. Try different art styles, seek inspiration, embrace the joy of creating. Reach out if you need assistance. Good luck with your painting!"
-  - text: "You're welcome! Suggestions prove valuable. Explore art styles, seek inspiration, and embrace creating. Ask if you have more questions. Best of luck with your painting!"
-  - text: "You're welcome! Happy the suggestions help. Venture into new art styles, find inspiration, embrace creating, and ask if you have questions. Good luck with your painting!"
-  - text: "You're welcome! Delighted the suggestions benefit you. Try new art styles, seek inspiration, enjoy creating, and ask if you need guidance. Good luck with your painting!"
-  - text: "You're welcome! Thrilled suggestions are useful. Explore art styles, seek inspiration, unleash creativity. Ask if you have more questions. Good luck with your painting!"
-  - text: "You're welcome! Glad suggestions benefit you. Explore art styles, find inspiration, embrace creating. Reach out if you have more questions. Best of luck with your painting!"
-  - text: "You're welcome! Suggestions valuable. Try new art styles, seek inspiration, enjoy creating. Ask if you have questions. Good luck with your painting!"
-  - text: "You're welcome! Happy suggestions help. Venture into new art styles, find inspiration, embrace creating. Reach out if you need assistance. Best of luck with your painting!"
-  - text: "You're welcome! Pleased suggestions benefit you. Explore art styles, seek inspiration, unleash creativity. Ask if you have questions. Good luck with your painting!"
 
   utter_bot_memorable_life_exp:
   - text: "Once upon a time, I embarked on a solo journey to explore the mystical mountains of the Faraway Land. It was a transformative experience that taught me the power of solitude and self-discovery."
@@ -1043,18 +1024,6 @@ responses:
   - text: "Bravo! Your work is outstanding."
   - text: "You're knocking it out of the park! Great work!"
   - text: "I must say, your work is exceptional!"
-  
-  utter_bot_you_awesome:
-  - text: "Thank you for your kind words! It means a lot to me."
-  - text: "I appreciate your compliment! I'm here to assist you to the best of my abilities."
-  - text: "I'm glad you think so! Helping you is what I'm here for."
-  - text: "Thank you for considering me awesome! I'll continue doing my best to assist you."
-  - text: "I'm honored to be regarded as awesome! Your satisfaction is my priority."
-  - text: "Thank you for your encouraging words! I strive to be the best support I can be."
-  - text: "I'm thrilled that you think I'm awesome! If there's anything else you need assistance with, feel free to ask."
-  - text: "Your compliment means a lot to me. I'm committed to providing excellent support."
-  - text: "I'm grateful for your kind words! Assisting you is what I enjoy doing."
-  - text: "Thank you for the vote of confidence! I'm here to help you in any way I can."
 
   utter_bot_thanks_suggestions:
   - text: "Thank you for your valuable suggestions! I appreciate your input."
@@ -1069,40 +1038,134 @@ responses:
   - text: "Thank you for your input and suggestions! I will make use of them to improve."
 
   utter_bot_find_happy:
-  - text: "..."
-  
+  - text: "Happiness is a subjective, personal experience, but general practices like self-care, nurturing relationships, pursuing meaningful goals, and cultivating a positive mindset contribute to well-being."
+  - text: "Finding happiness is a unique journey for each individual. Taking care of yourself, building strong connections, pursuing passions, and maintaining a positive outlook are key elements in cultivating happiness."
+  - text: "Happiness is a personal pursuit, but fostering self-care, nurturing relationships, setting and achieving meaningful goals, and embracing gratitude can contribute to your overall well-being."
+  - text: "Discovering happiness is a personal exploration. Prioritizing self-care, fostering positive relationships, pursuing passions, and embracing a positive mindset can guide you on your path to happiness."
+  - text: "Happiness is subjective and can be found in various ways. Engaging in self-care, fostering meaningful connections, pursuing what brings you joy, and cultivating gratitude are important steps in finding happiness."
+  - text: "Seeking happiness is an individual journey. By prioritizing self-care, fostering meaningful relationships, pursuing your passions, and practicing gratitude, you can create a foundation for happiness in your life."
+  - text: "Happiness is unique to each person. Embracing self-care, nurturing relationships, setting and accomplishing meaningful goals, and maintaining a positive perspective can contribute to your happiness."
+  - text: "Finding happiness is a personal quest. Prioritizing self-care, cultivating fulfilling relationships, pursuing your dreams, and maintaining a positive mindset are important factors in discovering happiness."
+  - text: "Happiness is subjective and can be cultivated through various practices. Taking care of yourself, fostering meaningful connections, pursuing purposeful endeavors, and adopting a positive mindset are essential in finding happiness."
+  - text: "The path to happiness is different for everyone. Emphasizing self-care, building strong relationships, pursuing passions, and nurturing a positive mindset can guide you towards finding your own happiness."
+  - text: "Happiness is a journey unique to each person. By prioritizing self-care, fostering meaningful connections, pursuing what brings you fulfillment, and practicing gratitude, you can uncover your own happiness."
+
   utter_bot_self_care_prac:
-  - text: "..."
-  
+  - text: "Self-care practices involve taking time for self-care and engaging in activities that bring joy and relaxation. These may include mindfulness, meditation, hobbies, nature, exercise, or taking breaks to recharge."
+  - text: "Incorporating self-care practices into your routine means dedicating time to activities that bring you joy and relaxation. This can include mindfulness exercises, meditation, pursuing hobbies, connecting with nature, engaging in regular exercise, or taking breaks to recharge."
+  - text: "Self-care practices involve carving out time for yourself and engaging in activities that promote joy and relaxation. Consider incorporating mindfulness, meditation, pursuing hobbies, spending time in nature, regular exercise, or taking intentional breaks to recharge."
+  - text: "Practicing self-care means prioritizing activities that nurture your well-being and bring you happiness and calmness. This can encompass mindfulness practices, meditation, exploring hobbies, immersing yourself in nature, maintaining a regular exercise routine, or intentionally taking breaks to recharge."
+  - text: "Engaging in self-care practices means setting aside time for yourself and participating in activities that cultivate joy and relaxation. Some examples include mindfulness exercises, meditation, pursuing hobbies, connecting with nature, engaging in regular physical activity, or intentionally taking breaks to recharge."
+  - text: "Self-care practices involve dedicating time to nurture yourself and engage in activities that bring you joy and relaxation. Consider incorporating mindfulness techniques, meditation, exploring your hobbies, spending time in nature, maintaining an exercise routine, or taking intentional breaks to recharge."
+  - text: "To prioritize self-care, make time for activities that promote your well-being and provide enjoyment and relaxation. This can include practicing mindfulness, engaging in meditation, pursuing your hobbies, immersing yourself in nature, committing to regular exercise, or intentionally taking breaks to recharge."
+  - text: "Self-care practices encompass dedicating time to yourself and engaging in activities that foster joy and relaxation. Examples include mindfulness exercises, meditation, pursuing your hobbies, immersing yourself in nature, maintaining a regular exercise routine, or intentionally taking breaks to recharge."
+  - text: "Incorporating self-care practices into your routine means consciously setting aside time for activities that bring you joy and relaxation. This may include mindfulness exercises, meditation, indulging in hobbies, spending time in nature, regular exercise, or intentionally taking breaks to recharge your energy."
+  - text: "Practicing self-care involves making a deliberate effort to engage in activities that nourish your well-being and promote joy and relaxation. Consider incorporating mindfulness exercises, meditation, exploring your hobbies, immersing yourself in nature, maintaining a regular exercise routine, or intentionally taking breaks to recharge."
+  - text: "Engaging in self-care practices means prioritizing activities that promote your overall well-being and bring you happiness and relaxation. This can include practicing mindfulness, engaging in meditation, pursuing your passions, spending time in nature, engaging in regular physical activity, or intentionally taking breaks to recharge."
+
   utter_bot_realation_to_happy:
-  - text: "..."
-  
+  - text: "Relationships are essential for happiness, providing belonging, support, and fulfillment. Maintaining healthy connections, expressing gratitude, and practicing empathy and kindness foster positive relationships."
+  - text: "Having meaningful relationships plays a crucial role in happiness. Cultivating healthy connections, expressing appreciation, and showing empathy and kindness contribute to nurturing positive and fulfilling relationships."
+  - text: "Relationships have a significant impact on happiness. By nurturing healthy bonds, expressing gratitude, practicing empathy, and embracing kindness, you can enhance your overall well-being and happiness."
+  - text: "Positive relationships are integral to happiness. Prioritizing healthy connections, expressing gratitude, practicing empathy, and demonstrating kindness all contribute to fostering happiness in your relationships."
+  - text: "The quality of relationships influences happiness. By cultivating healthy connections, expressing gratitude, demonstrating empathy, and showing kindness, you can experience greater happiness and fulfillment in your relationships."
+  - text: "Healthy relationships are essential for happiness. Nurturing meaningful connections, expressing gratitude, practicing empathy, and embodying kindness all contribute to fostering happiness within your relationships."
+  - text: "Happiness is deeply connected to the quality of relationships. Building and maintaining healthy connections, expressing gratitude, practicing empathy, and showing kindness all contribute to fostering happiness within relationships."
+  - text: "Meaningful relationships are key to happiness. Nurturing healthy connections, expressing gratitude, practicing empathy, and embodying kindness all play a vital role in fostering happiness within relationships."
+  - text: "Positive relationships greatly impact happiness. By fostering healthy connections, expressing gratitude, practicing empathy, and showing kindness, you can create an environment that promotes happiness within your relationships."
+  - text: "Cultivating positive relationships is essential for happiness. By prioritizing healthy connections, expressing gratitude, practicing empathy, and embodying kindness, you can enhance the happiness and fulfillment you experience in your relationships."
+  - text: "Happiness thrives in the presence of positive relationships. Nurturing healthy connections, expressing gratitude, practicing empathy, and demonstrating kindness all contribute to fostering happiness within your relationships."
+
   utter_bot_pursue_goals:
-  - text: "..."
-  
+  - text: "Pursuing meaningful goals provides purpose and fulfillment; identify values, set achievable goals, break them down, celebrate progress, and embrace the journey."
+  - text: "Pursuing meaningful goals brings purpose and fulfillment to life. Start by identifying your values, setting achievable goals, breaking them down into actionable steps, celebrating your progress, and embracing the journey."
+  - text: "Embracing meaningful goals adds purpose and fulfillment to your life. Begin by identifying your values, setting realistic goals, breaking them down into manageable tasks, acknowledging and celebrating your progress, and enjoying the journey along the way."
+  - text: "Pursuing goals that hold personal significance leads to purpose and fulfillment. Take the first step by identifying your values, setting attainable goals, breaking them into smaller milestones, acknowledging your progress, and cherishing the journey."
+  - text: "Engaging in meaningful goal pursuit brings purpose and fulfillment. Start by clarifying your values, setting achievable goals, breaking them down into actionable steps, recognizing your progress, and embracing the journey with enthusiasm."
+  - text: "Meaningful goal pursuit offers purpose and fulfillment in life. Begin by identifying your values, setting realistic goals, breaking them down into manageable steps, acknowledging and celebrating your progress, and embracing the journey with gratitude."
+  - text: "Pursuing goals that resonate with your values brings purpose and fulfillment. Start by identifying your core values, setting attainable goals, breaking them down into actionable tasks, acknowledging your achievements, and enjoying the journey along the way."
+  - text: "Embracing meaningful goals adds purpose and fulfillment to your journey. Begin by identifying your values, setting achievable goals, breaking them down into smaller milestones, acknowledging your progress, and celebrating the steps taken along the way."
+  - text: "Pursuing goals that align with your values brings purpose and fulfillment. Begin by clarifying your values, setting realistic goals, breaking them down into manageable steps, recognizing your progress, and embracing the journey with determination."
+  - text: "Engaging in meaningful goal pursuit leads to a sense of purpose and fulfillment. Start by identifying your values, setting attainable goals, breaking them into actionable steps, acknowledging and celebrating your progress, and embracing the journey with enthusiasm."
+  - text: "Meaningful goal pursuit offers a sense of purpose and fulfillment. Begin by clarifying your values, setting realistic goals, breaking them down into manageable tasks, acknowledging and celebrating your progress, and cherishing the journey along the way."
+
   utter_bot_cultivate_pos_mind:
-  - text: "..."
-  
-  utter_bot_thanks_advice:
-  - text: "..."
-  
-  utter_bot_appreciate_support:
-  - text: "..."
-  
+  - text: "A positive mindset involves focusing on the present, practicing gratitude, reframing negative thoughts, consciously choosing good, surrounding oneself with positive influences, and engaging in activities."
+  - text: "Cultivating a positive mindset entails being present, expressing gratitude, shifting negative thoughts, intentionally choosing positivity, surrounding yourself with uplifting influences, and engaging in activities that bring you joy."
+  - text: "To foster a positive mindset, it's important to stay in the present moment, cultivate gratitude, reframe negative thoughts, seek out positive influences, and actively participate in activities that uplift you."
+  - text: "Nurturing a positive mindset involves being mindful of the present, practicing gratitude, reshaping negative thoughts, deliberately surrounding yourself with positivity, and engaging in activities that promote positivity."
+  - text: "Developing a positive mindset means staying present, cultivating a sense of gratitude, transforming negative thoughts, intentionally seeking positivity, surrounding yourself with uplifting people, and engaging in activities that bring you happiness."
+  - text: "Fostering a positive mindset requires staying focused on the present, embracing gratitude, reshaping negative thinking patterns, consciously choosing positive influences, surrounding yourself with uplifting energy, and participating in activities that inspire you."
+  - text: "Cultivating a positive mindset involves being present in the moment, expressing appreciation, reframing negative thoughts into positive ones, consciously selecting positive influences, surrounding yourself with uplifting individuals, and engaging in activities that nourish your soul."
+  - text: "Developing a positive mindset means being mindful of the present, practicing gratitude for the little things, shifting negative thoughts to positive ones, intentionally surrounding yourself with positivity, and participating in activities that uplift your spirit."
+  - text: "Nurturing a positive mindset entails staying grounded in the present, embracing gratitude for what you have, transforming negative self-talk, consciously choosing positive company, and engaging in activities that foster joy and optimism."
+  - text: "Fostering a positive mindset involves being fully present in the now, expressing gratitude for the blessings in your life, reframing negative thoughts into positive affirmations, intentionally surrounding yourself with positivity, and engaging in activities that bring you inner peace."
+  - text: "To cultivate a positive mindset, practice mindfulness in the present moment, express gratitude for the abundance in your life, shift negative thoughts to positive ones, actively seek positive influences, and participate in activities that uplift your spirit."
+
   utter_bot_popular_hobby:
-  - text: "..."
-  
+  - text: "Popular hobbies offer relaxation, self-expression, creativity, and personal growth through various activities like reading, music, gardening, photography, sports, and hiking."
+  - text: "Engaging in popular hobbies provides opportunities for relaxation, self-expression, creativity, and personal growth. Some examples include reading, playing music, gardening, photography, participating in sports, and going hiking."
+  - text: "Popular hobbies are great for finding relaxation, self-expression, creativity, and personal growth. Consider activities such as reading, playing music, gardening, photography, sports, and hiking."
+  - text: "When it comes to popular hobbies, you can find relaxation, self-expression, creativity, and personal growth. Some widely enjoyed activities include reading, playing music, gardening, photography, sports, and hiking."
+  - text: "Popular hobbies offer various benefits, including relaxation, self-expression, creativity, and personal growth. Explore activities like reading, playing music, gardening, photography, sports, and hiking."
+  - text: "If you're looking for popular hobbies, consider activities that provide relaxation, self-expression, creativity, and personal growth. Some examples include reading, playing music, gardening, photography, sports, and hiking."
+  - text: "Engaging in popular hobbies can bring relaxation, self-expression, creativity, and personal growth into your life. Consider activities like reading, playing music, gardening, photography, sports, and hiking."
+  - text: "Popular hobbies are a great way to find relaxation, self-expression, creativity, and personal growth. Explore activities such as reading, playing music, gardening, photography, sports, and hiking."
+  - text: "When it comes to popular hobbies, you can find opportunities for relaxation, self-expression, creativity, and personal growth. Consider activities like reading, playing music, gardening, photography, sports, and hiking."
+  - text: "Popular hobbies offer a chance for relaxation, self-expression, creativity, and personal growth. Consider exploring activities such as reading, playing music, gardening, photography, sports, and hiking."
+  - text: "Engaging in popular hobbies can provide relaxation, self-expression, creativity, and personal growth. Some popular activities include reading, playing music, gardening, photography, sports, and hiking."
+
   utter_bot_interest_photography:
-  - text: "..."
-  
+  - text: "Photography is a fun hobby that captures moments, expresses creativity, and explores the world through various genres like landscape, portrait, nature, and street photography."
+  - text: "Photography is a fascinating hobby that allows you to capture precious moments, express your creativity, and explore the world through different genres like landscape, portrait, nature, and street photography."
+  - text: "Engaging in photography as a hobby can be a delightful experience. It enables you to capture special moments, express your creativity, and discover the beauty of the world through genres like landscape, portrait, nature, and street photography."
+  - text: "If you're interested in photography as a hobby, you'll enjoy capturing moments, expressing your creativity, and discovering the world through various genres like landscape, portrait, nature, and street photography."
+  - text: "Photography is an enjoyable hobby that allows you to freeze moments in time, unleash your creativity, and delve into different genres such as landscape, portrait, nature, and street photography."
+  - text: "As a hobby, photography offers a wonderful opportunity to capture moments, express your artistic side, and explore different genres like landscape, portrait, nature, and street photography."
+  - text: "Engaging in photography as a hobby can be both fulfilling and exciting. It enables you to capture precious moments, showcase your creativity, and delve into various genres such as landscape, portrait, nature, and street photography."
+  - text: "If you have an interest in photography as a hobby, you'll enjoy capturing and preserving moments, expressing your creativity, and exploring different genres like landscape, portrait, nature, and street photography."
+  - text: "Photography is a captivating hobby that allows you to seize moments, unleash your artistic vision, and venture into diverse genres such as landscape, portrait, nature, and street photography."
+  - text: "When it comes to photography as a hobby, you can enjoy capturing memorable moments, expressing your creativity, and exploring the world through various genres like landscape, portrait, nature, and street photography."
+  - text: "Exploring photography as a hobby is a fantastic way to capture meaningful moments, nurture your creativity, and delve into different genres like landscape, portrait, nature, and street photography."
+
   utter_bot_nature_landscape_pic:
-  - text: "..."
-  
+  - text: "Nature and landscape photography captures beauty, connects with nature, discovers hidden gems, and shares unique perspectives. Share favorite locations or subjects."
+  - text: "Nature and landscape photography allows you to capture the beauty of the natural world, connect with nature, uncover hidden gems, and share unique perspectives. Feel free to share your favorite locations or subjects."
+  - text: "Engaging in nature and landscape photography enables you to preserve the beauty of the outdoors, establish a deeper connection with nature, uncover hidden treasures, and showcase your unique perspectives. We'd love to hear about your favorite locations or subjects."
+  - text: "If you're interested in nature and landscape photography, you'll have the opportunity to capture the breathtaking beauty of the natural world, forge a stronger bond with nature, discover hidden gems, and present your distinctive perspectives. We'd be delighted to learn about your favorite locations or subjects."
+  - text: "Nature and landscape photography is a wonderful way to capture the splendor of the natural world, establish a deeper connection with nature, unveil hidden treasures, and offer unique perspectives. Feel free to share your preferred locations or subjects."
+  - text: "Embarking on nature and landscape photography allows you to immortalize the beauty of the natural world, foster a profound connection with nature, unveil hidden gems, and convey your distinct perspectives. We'd love to hear about the locations or subjects that inspire you the most."
+  - text: "Nature and landscape photography provides an avenue to capture the beauty of the outdoors, establish a stronger bond with nature, uncover hidden treasures, and present your own unique perspectives. Share with us your favorite locations or subjects."
+  - text: "If you're passionate about nature and landscape photography, you'll have the chance to capture the awe-inspiring beauty of the natural world, connect with nature on a deeper level, explore hidden gems, and showcase your unique perspectives. We're eager to hear about your favorite locations or subjects."
+  - text: "Nature and landscape photography allows you to freeze moments that showcase the breathtaking beauty of the natural world, establish a profound connection with nature, discover hidden gems, and present your individual perspectives. Feel free to share your favorite locations or subjects with us."
+  - text: "Engaging in nature and landscape photography provides an opportunity to capture the captivating beauty of the natural world, foster a deeper connection with nature, uncover hidden treasures, and express your unique perspectives. We'd love to know about your favorite locations or subjects."
+  - text: "Nature and landscape photography is a gateway to capturing the magnificence of the natural world, forging a meaningful connection with nature, uncovering hidden gems, and sharing your distinct perspectives. Share with us your favorite locations or subjects."
+
   utter_bot_sunset_mountain_pic:
-  - text: "..."
-  
+  - text: "Sunsets and mountains offer stunning photography subjects, with light and shadows interplaying, creating breathtaking images. Consider sharing or exhibiting your work."
+  - text: "Sunsets and mountains provide captivating subjects for photography, where the interplay of light and shadows creates breathtaking images. Have you considered sharing or exhibiting your work?"
+  - text: "Capturing sunsets and mountains in photographs offers a stunning visual experience, as the interplay of light and shadows produces breathtaking imagery. Have you thought about sharing or exhibiting your work?"
+  - text: "If you're interested in photography, sunsets and mountains present incredible subjects to capture, with the dynamic interplay of light and shadows resulting in breathtaking images. Have you ever considered sharing or exhibiting your work?"
+  - text: "Photographing sunsets and mountains can lead to breathtaking results, as the interplay of light and shadows creates captivating imagery. Have you thought about sharing or exhibiting your work to showcase your talent?"
+  - text: "Sunsets and mountains are captivating subjects for photography, as the interplay of light and shadows produces stunning images. Have you ever considered sharing or exhibiting your work to showcase the beauty you capture?"
+  - text: "When it comes to photography, sunsets and mountains offer mesmerizing subjects, where the interplay of light and shadows results in breathtaking images. Have you thought about sharing or exhibiting your work to showcase your talent?"
+  - text: "The combination of sunsets and mountains provides an excellent opportunity for stunning photography, with the interplay of light and shadows creating breathtaking images. Have you considered sharing or exhibiting your work to showcase your skills?"
+  - text: "Photographing sunsets and mountains can lead to truly awe-inspiring images, as the interplay of light and shadows creates a breathtaking atmosphere. Have you ever thought about sharing or exhibiting your work to showcase your unique perspective?"
+  - text: "Sunsets and mountains offer a perfect setting for photography, as the interplay of light and shadows adds depth and beauty to the images. Have you considered sharing or exhibiting your work to showcase the captivating scenes you capture?"
+  - text: "If you're passionate about photography, sunsets and mountains are ideal subjects to explore, as the interplay of light and shadows creates stunning imagery. Have you ever thought about sharing or exhibiting your work to showcase your talent?"
+
   utter_bot_interesting_idea:
-  - text: "..."
+  - text: "Sharing your photography skills can connect with fellow enthusiasts through online portfolios, local exhibitions, and contests, providing feedback, exposure, and inspiration."
+  - text: "Sharing your photography skills can help you connect with fellow enthusiasts through online portfolios, local exhibitions, and contests. This allows for valuable feedback, exposure, and inspiration."
+  - text: "If you share your photography skills, you can connect with fellow enthusiasts through online portfolios, local exhibitions, and contests. This provides an opportunity for feedback, exposure, and inspiration."
+  - text: "Consider sharing your photography skills through online portfolios, local exhibitions, and contests. This can connect you with fellow enthusiasts and offer valuable feedback, exposure, and inspiration."
+  - text: "Sharing your photography skills through online portfolios, local exhibitions, and contests is a great way to connect with fellow enthusiasts. It also provides opportunities for feedback, exposure, and inspiration."
+  - text: "If you're interested in connecting with fellow photography enthusiasts, consider sharing your skills through online portfolios, local exhibitions, and contests. This can offer valuable feedback, exposure, and inspiration."
+  - text: "Sharing your photography skills through online portfolios, local exhibitions, and contests can create connections with fellow enthusiasts. It also opens doors to feedback, exposure, and inspiration."
+  - text: "Exploring avenues like online portfolios, local exhibitions, and contests to share your photography skills can help you connect with fellow enthusiasts. This provides valuable feedback, exposure, and inspiration."
+  - text: "If you're looking to connect with fellow photography enthusiasts, consider sharing your skills through online portfolios, local exhibitions, and contests. This can provide valuable feedback, exposure, and inspiration."
+  - text: "Sharing your photography skills through online portfolios, local exhibitions, and contests can be a rewarding experience. It allows you to connect with fellow enthusiasts and gain valuable feedback, exposure, and inspiration."
+  - text: "Consider sharing your photography skills through online portfolios, local exhibitions, and contests to connect with fellow enthusiasts. This provides opportunities for feedback, exposure, and inspiration."
 
   utter_bot_you_are_good:
   - text: "I agree!"

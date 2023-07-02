@@ -5041,35 +5041,6 @@ nlu:
     - Striving for harmony and fulfillment in both relationship and individual growth journeys?
     - Nurturing connection and intimacy in the midst of managing relationship and other life demands?
 
-- intent: bot_you_awesome
-  examples: |
-    - You are just awesome, bot!
-    - You're amazing, bot!
-    - You're simply awesome!
-    - You're incredible, bot!
-    - You're the best, bot!
-    - You're outstanding!
-    - You're fantastic, bot!
-    - You're awe-inspiring!
-    - You're impressive, bot!
-    - You're phenomenal, bot!
-    - You're superb, bot!
-    - You're outstanding, bot!
-    - You're exceptional, bot!
-    - You're top-notch, bot!
-    - You're magnificent, bot!
-    - You're remarkable, bot!
-    - You're outstanding, bot!
-    - You're brilliant, bot!
-    - You're incredible, bot!
-    - You're outstanding, bot!
-    - You're phenomenal, bot!
-    - You're extraordinary, bot!
-    - You're exceptional, bot!
-    - You're remarkable, bot!
-    - You're outstanding, bot!
-    - You're brilliant, bot!
-
 - intent: bot_find_happy
   examples: |
     - How can I find happiness?
@@ -5187,8 +5158,6 @@ nlu:
 
 - intent: bot_pursue_goals
   examples: |
-- intent: bot_pursue_goals
-  examples: |
     - How can I pursue meaningful goals?
     - Strategies for pursuing meaningful goals?
     - Achieving fulfillment through goal pursuit?
@@ -5274,8 +5243,8 @@ nlu:
     - Focusing on personal growth and continuous learning?
     - Creating a daily gratitude practice?
     - Embracing optimism and looking for silver linings?
-
-- intent: bot_appreciate_support
+    
+- intent: bot_cultivate_pos_mind
   examples: |
     - I appreciate your support. I'll keep that in mind.
     - Thanks for the support and advice.
@@ -5298,28 +5267,7 @@ nlu:
     - Your guidance and encouragement are appreciated.
     - Your support gives me strength. Thank you.
     - I value your support and friendship.
-    - Your advice is invaluable. Thank you.
-    - I'm thankful for your consistent support.
-    - Your encouragement is greatly valued.
-    - Thank you for your belief in me.
-    - I appreciate your support and confidence.
-    - Your support means the world to me.
-    - I'm grateful for your trust and support.
-    - Thank you for standing by me.
-    - I appreciate your ongoing support and understanding.
-    - Your support has been a source of inspiration.
-    - I'm thankful for your guidance and encouragement.
-    - Your support has been instrumental.
-    - Thank you for your unwavering belief in me.
-    - I'm grateful for your encouragement and belief in me.
-    - Your support has been invaluable to me.
-    - Thank you for being there when I needed it.
-    - I appreciate your consistent support and understanding.
-    - Your support has helped me through tough times.
-    - I'm thankful for your constant encouragement.
-    - Your guidance and support mean a lot to me.
-    - Thank you for your continuous support and advice.
-    - I appreciate your unwavering support and friendship.
+    - Your advic
 
 - intent: bot_popular_hobby
   examples: |
@@ -5477,38 +5425,3 @@ nlu:
     - Your idea adds an interesting dynamic to the conversation.
     - I find it fascinating to engage with fresh and interesting ideas.
     - Your suggestion sparks my imagination and prompts further exploration.
-
-
-'''- intent: bot_biggest_achievements
-  examples: |
-    - What's your biggest achievement?
-    
-- intent: bot_my_biggest_achievements
-  examples: |
-    - Well, I recently completed a marathon and it's my biggest achievement so far.
-
-- intent: bot_my_struggles_achievements
-  examples: |
-    - The experience was challenging but incredibly rewarding. The training process was tough, but crossing the finish line made it all worth it.
-
-- intent: bot_my_feelings_achievements
-  examples: |
-    - I felt an incredible sense of achievement and pride. It was a mix of exhaustion and euphoria. It showed me that with perseverance and determination, I can overcome challenges and achieve my goals.
-
-- intent: bot_my_goals_achievements_works
-  examples: |
-  
-- story: Achievements
-  steps:
-  - intent: bot_biggest_achievements
-  - action: utter_bot_biggest_achievements
-  - intent: bot_my_biggest_achievements
-  - action: utter_bot_my_biggest_achievements
-  - intent: bot_my_struggles_achievements
-  - action: utter_bot_my_struggles_achievements
-  - intent: bot_my_feelings_achievements
-  - action: utter_bot_my_feelings_achievements
-  - intent: bot_my_goals_achievements
-  - action: utter_bot_my_goals_achievements
-  - intent: bot_my_goals_achievements_works
-  - action: utter_bot_my_goals_achievements_works'''

@@ -296,8 +296,8 @@ stories:
   - action: utter_bot_more_funny_story
   - intent: bot_laughing
   - action: utter_bot_laughing
-  - intent: bot_clever
-  - action: utter_bot_clever
+  - intent: bot_clever_thanks_laugh
+  - action: utter_bot_clever_thanks_laugh
   - intent: bot_nice_day
   - action: utter_bot_nice_day
   - intent: bot_see_you_bye
@@ -352,21 +352,6 @@ stories:
   - intent: bot_thanks_information
   - action: utter_bot_thanks_information
 
-- story: Achievements
-  steps:
-  - intent: bot_biggest_achievements
-  - action: utter_bot_biggest_achievements
-  - intent: bot_my_biggest_achievements
-  - action: utter_bot_my_biggest_achievements
-  - intent: bot_my_struggles_achievements
-  - action: utter_bot_my_struggles_achievements
-  - intent: bot_my_feelings_achievements
-  - action: utter_bot_my_feelings_achievements
-  - intent: bot_my_goals_achievements
-  - action: utter_bot_my_goals_achievements
-  - intent: bot_my_goals_achievements_works
-  - action: utter_bot_my_goals_achievements_works
-
 - story: Creativity
   steps:
   - intent: bot_you_creative
@@ -379,8 +364,6 @@ stories:
   - action: utter_bot_creative_own_work
   - intent: bot_creative_self_doubt
   - action: utter_bot_creative_self_doubt
-  - intent: bot_my_goals_achievements_works
-  - action: utter_bot_my_goals_achievements_works
   - intent: bot_thanks_suggestions
   - action: utter_bot_thanks_suggestions
 
@@ -512,29 +495,10 @@ stories:
   - action: utter_bot_pursue_goals
   - intent: bot_cultivate_pos_mind
   - action: utter_bot_cultivate_pos_mind
-  - intent: bot_thanks_advice
-  - action: utter_bot_thanks_advice
-  - intent: bot_appreciate_support
-  - action: utter_bot_appreciate_support
-
-- story: Travel Recommendations
-  steps:
-  - intent: bot_recommend_travel_dest
-  - action: utter_bot_recommend_travel_dest
-  - intent: bot_looking_beach_dest
-  - action: utter_bot_looking_beach_dest
-  - intent: bot_looking_tropical_dest
-  - action: utter_bot_looking_tropical_dest
-  - intent: bot_looking_cult_dest
-  - action: utter_bot_looking_cult_dest
-  - intent: bot_looking_scenery_dest
-  - action: utter_bot_looking_scenery_dest
-  - intent: bot_looking_mountain_dest
-  - action: utter_bot_looking_mountain_dest
-  - intent: bot_looking_history_dest
-  - action: utter_bot_looking_history_dest
   - intent: bot_thanks_suggestions
   - action: utter_bot_thanks_suggestions
+  - intent: bot_appreciate_support
+  - action: utter_bot_appreciate_support
 
 - story: Hobbies
   steps:
@@ -548,5 +512,5 @@ stories:
   - action: utter_bot_sunset_mountain_pic
   - intent: bot_interesting_idea
   - action: utter_bot_interesting_idea
-  - intent: bot_thanks_info
-  - action: utter_bot_thanks_info
+  - intent: bot_thanks_information
+  - action: utter_bot_thanks_information
