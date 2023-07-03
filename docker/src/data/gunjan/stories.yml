@@ -464,25 +464,6 @@ stories:
   - intent: bot_great_work
   - action: utter_bot_great_work
 
-- story: Relationship Advice
-  steps:
-  - intent: bot_relation_advice
-  - action: utter_bot_relation_advice
-  - intent: bot_comms_partner
-  - action: utter_bot_comms_partner
-  - intent: bot_disagree_in_relation
-  - action: utter_bot_disagree_in_relation
-  - intent: bot_long_term_relation
-  - action: utter_bot_long_term_relation
-  - intent: bot_rough_patch
-  - action: utter_bot_rough_patch
-  - intent: bot_balance_relation_life
-  - action: utter_bot_balance_relation_life
-  - intent: bot_you_awesome
-  - action: utter_bot_you_awesome
-  - intent: bot_thanks_suggestions
-  - action: utter_bot_thanks_suggestions
-
 - story: Happiness
   steps:
   - intent: bot_find_happy
