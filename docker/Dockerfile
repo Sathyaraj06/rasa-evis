@@ -12,6 +12,7 @@ USER root
 
 ENTRYPOINT []
 
+RUN echo "$org";
 
 RUN if [ "$org" == "base" ]; then \
       echo arg; \
