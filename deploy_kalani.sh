@@ -8,8 +8,6 @@ git reset --hard
 
 git pull
 
-sudo chmod 777 deploy.sh
-
 # sudo docker-compose build
 
 sudo docker-compose up build --no-cache -d kalani
