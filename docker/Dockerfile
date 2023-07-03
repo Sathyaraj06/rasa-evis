@@ -25,8 +25,7 @@ RUN if [ "$org" == "hexaware" ]; then \
     fi
 
 RUN if [ "$org" == "kalani" ]; then \
-      echo arg; \
-      rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml; \
+     train/kalani.sh; \
     fi
 
 RUN if [ "$org" == "gunjan" ]; then \
