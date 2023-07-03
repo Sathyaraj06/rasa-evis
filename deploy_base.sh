@@ -12,7 +12,7 @@ sudo chmod 777 deploy.sh
 
 # sudo docker-compose build
 
-sudo docker-compose up build --no-cache -d base
+sudo docker-compose up --build --force-recreate -d base
 
 # sudo docker-compose up -d --no-recreate dummy
 

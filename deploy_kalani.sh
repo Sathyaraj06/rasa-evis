@@ -8,9 +8,11 @@ git reset --hard
 
 git pull
 
+sudo chmod 777 deploy_kalani.sh
+
 # sudo docker-compose build
 
-sudo docker-compose up build --no-cache -d kalani
+sudo docker-compose up --build --force-recreate -d kalani
 
 # sudo docker-compose up -d --no-recreate dummy
 

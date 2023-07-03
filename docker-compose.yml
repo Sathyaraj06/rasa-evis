@@ -10,7 +10,7 @@ services:
       args:
         org: dummy
     ports:
-      - "1000:5005"
+      - "1002:5005"
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
   chitchat:
@@ -32,7 +32,7 @@ services:
       args:
         org: kalani
     ports:
-      - "1002:5005"
+      - "1000:5005"
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
   hexaware:

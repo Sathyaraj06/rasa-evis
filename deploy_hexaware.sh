@@ -12,7 +12,7 @@ sudo chmod 777 deploy.sh
 
 # sudo docker-compose build
 
-sudo docker-compose up build --no-cache -d hexaware
+sudo docker-compose up --build --force-recreate -d hexaware
 
 # sudo docker-compose up -d --no-recreate dummy
 
