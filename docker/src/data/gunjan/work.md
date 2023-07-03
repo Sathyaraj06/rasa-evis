@@ -27,5 +27,13 @@ Time: 15.983333 hrs (16 hrs)
 3) domain.yml completed
 4) Debugged and model trained
 
+Rasa Version      :         2.8.9
+Minimum Compatible Version: 2.8.9
+Rasa SDK Version  :         2.8.6
+Rasa X Version    :         None
+Python Version    :         3.8.16
+
+Model: https://drive.google.com/file/d/1lD3laCkcsRPSyKSa0uvoWDt7bTcbOlOZ/view?usp=sharing
+
 Time: 12.1166667 hrs (12 hrs)
 
