@@ -42,7 +42,7 @@ services:
       dockerfile: Dockerfile
       args:
         org: kalani
-      ports:
+   ports:
       - "1003:5005"
    command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
