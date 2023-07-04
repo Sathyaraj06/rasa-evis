@@ -13,7 +13,6 @@ USER root
 
 ARG org
 
-ENV org = ${org}
 
 ENTRYPOINT []
 
