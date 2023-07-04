@@ -5,20 +5,19 @@ FROM rasa/rasa:latest-full
 # copy all source and the Rasa generated model
 COPY ./src/ /app
 
-COPY kalani.sh /app
 # inform which port will run on
 EXPOSE 5005
 
 USER root
 
-RUN chmod 777 ./kalani.sh
-
-RUN ./kalani.sh
-
-# ENTRYPOINT [""]
-# CMD ["./kalani.sh"]
+ENTRYPOINT []
 
 
+RUN $org
+
+
+
+# RUN echo "$org";
 
 # RUN if [ "$org" == "base" ]; then \
 #       rasa train --data data/base/nlu.yml data/hexaware/nlu.yml data/base/rules.yml data/hexaware/rules.yml data/base/stories.yml data/hexaware/stories.yml -d data/base/domain.yml data/hexaware/domain.yml --config data/hexaware/config.yml --out models --fixed-model-name model; \

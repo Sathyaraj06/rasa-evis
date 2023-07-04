@@ -19,7 +19,7 @@ services:
       context: ./docker
       dockerfile: Dockerfile
       args:
-        org: chitchat
+        org: rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml
     ports:
       - "1001:5005"
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*" 
