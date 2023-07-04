@@ -1,8 +1,9 @@
 # WROKING
-
+ARG org
 # from rasa base image
 FROM rasa/rasa:latest-full
 # copy all source and the Rasa generated model
+
 COPY ./src/ /app
 
 # inform which port will run on
@@ -10,10 +11,14 @@ EXPOSE 5005
 
 USER root
 
+ARG org
+
+ENV org = ${org}
+
 ENTRYPOINT []
 
 
-RUN $org
+RUN {org}/${org}
 
 
 
