@@ -13,8 +13,8 @@ USER root
 
 RUN chmod 777 ./kalani.sh
 
-ENTRYPOINT ["./kalani.sh"]
-CMD ["$org"]
+# ENTRYPOINT [""]
+CMD ["./kalani.sh"]
 
 
 
