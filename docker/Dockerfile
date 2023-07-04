@@ -18,6 +18,8 @@ ENTRYPOINT []
 
 RUN $org
 
+RUN chmod 777 ./actions-bg.sh
+
 RUN ./actions-bg.sh
 
 # CMD [ "rasa", "run","--enable-api", "--log-file" , "rasa.log", "--debug", "--cors","*","--detach" ]
