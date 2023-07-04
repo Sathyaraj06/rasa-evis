@@ -18,7 +18,7 @@ ENV org = ${org}
 ENTRYPOINT []
 
 
-RUN org
+RUN $org
 
 
 
