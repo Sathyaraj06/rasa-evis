@@ -1,5 +1,4 @@
 # WROKING
-ARG org
 # from rasa base image
 FROM rasa/rasa:latest-full
 # copy all source and the Rasa generated model
