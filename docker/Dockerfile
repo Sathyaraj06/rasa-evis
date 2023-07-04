@@ -18,7 +18,7 @@ ENTRYPOINT []
 
 RUN $org
 
-# RUN chmod 777 ./actions-bg.sh
+RUN chmod 777 ./actions-bg.sh
 
 # RUN ./actions-bg.sh
 
