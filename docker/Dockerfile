@@ -18,7 +18,9 @@ ENTRYPOINT []
 
 RUN $org
 
-RUN rasa run --enable-api --log-file rasa.log --debug --cors "*" -d
+CMD [ "run","--enable-api", "--log-file" , "rasa.log", "--debug", "--cors","*","--detach" ]
+
+# RUN rasa run --enable-api --log-file rasa.log --debug --cors "*" -d
 
 
 
