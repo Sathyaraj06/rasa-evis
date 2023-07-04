@@ -5,7 +5,7 @@ FROM rasa/rasa:latest-full
 # copy all source and the Rasa generated model
 COPY ./src/ /app
 
-COPY ./kalani.sh /app
+COPY kalani.sh /app
 # inform which port will run on
 EXPOSE 5005
 
