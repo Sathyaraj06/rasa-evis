@@ -1,1 +1,0 @@
-rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml;
