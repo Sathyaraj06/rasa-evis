@@ -11,7 +11,7 @@ EXPOSE 5005
 
 USER root
 
-RUN sudo chmod 777 ./kalani.sh
+RUN chmod 777 ./kalani.sh
 
 ENTRYPOINT ["./kalani.sh"]
 CMD ["$org"]
