@@ -12,23 +12,23 @@ USER root
 
 ENTRYPOINT []
 
-RUN echo "$org";
+# RUN echo "$org";
 
-RUN if [ "$org" == "base" ]; then \
-      rasa train --data data/base/nlu.yml data/hexaware/nlu.yml data/base/rules.yml data/hexaware/rules.yml data/base/stories.yml data/hexaware/stories.yml -d data/base/domain.yml data/hexaware/domain.yml --config data/hexaware/config.yml --out models --fixed-model-name model; \
-    fi
+# RUN if [ "$org" == "base" ]; then \
+#       rasa train --data data/base/nlu.yml data/hexaware/nlu.yml data/base/rules.yml data/hexaware/rules.yml data/base/stories.yml data/hexaware/stories.yml -d data/base/domain.yml data/hexaware/domain.yml --config data/hexaware/config.yml --out models --fixed-model-name model; \
+#     fi
 
-RUN if [ "$org" == "hexaware" ]; then \
-      rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml; \
-    fi
+# RUN if [ "$org" == "hexaware" ]; then \
+#       rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml; \
+#     fi
 
-RUN if [ "$org" == "kalani" ]; then \
-      rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml; \
-    fi
+# RUN if [ "$org" == "kalani" ]; then \
+#       rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml; \
+#     fi
 
-RUN if [ "$org" == "gunjan" ]; then \
-      rasa train --data data/gunjan/nlu.yml data/gunjan/rules.yml data/gunjan/stories.yml -d data/gunjan/domain.yml --config data/gunjan/config.yml; \
-    fi
+# RUN if [ "$org" == "gunjan" ]; then \
+#       rasa train --data data/gunjan/nlu.yml data/gunjan/rules.yml data/gunjan/stories.yml -d data/gunjan/domain.yml --config data/gunjan/config.yml; \
+#     fi
 
 
 
