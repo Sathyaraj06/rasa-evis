@@ -33,7 +33,7 @@ services:
         org: rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml
     ports:
       - "1000:5005"
-    command: sh -c rasa run --enable-api --log-file rasa.log --debug --cors "*"; sh actions-bg.sh
+    command: sh -c rasa run --enable-api --log-file rasa.log --debug --cors "*" && sh actions-bg.sh
 
   hexaware:
    container_name: hexaware
