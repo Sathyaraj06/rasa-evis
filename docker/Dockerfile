@@ -10,7 +10,7 @@ EXPOSE 5005
 
 USER root
 
-RUN chmod 777 /kalani.sh
+RUN chmod 777 kalani.sh
 
 ENTRYPOINT ["kalani.sh"]
 
