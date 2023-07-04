@@ -1,24 +1,24 @@
-# WROKING
-# from rasa base image
+
 FROM rasa/rasa:latest-full
 # copy all source and the Rasa generated model
 
 COPY ./src/ /app
 
-# inform which port will run on
 EXPOSE 5005
 
 USER root
 
 ARG org
 
-
 ENTRYPOINT []
-
 
 RUN $org
 
 RUN chmod 777 ./actions-bg.sh
+
+
+
+
 
 # RUN ./actions-bg.sh
 
