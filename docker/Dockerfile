@@ -5,14 +5,15 @@ FROM rasa/rasa:latest-full
 # copy all source and the Rasa generated model
 COPY ./src/ /app
 
+COPY ./kalani.sh /app
 # inform which port will run on
 EXPOSE 5005
 
 USER root
 
-# RUN chmod 777 app/kalani.sh
+RUN chmod 777 app/kalani.sh
 
-ENTRYPOINT []
+ENTRYPOINT ["kalani.sh"]
 
 
 
