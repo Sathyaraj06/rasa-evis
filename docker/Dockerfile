@@ -12,7 +12,7 @@ ARG org
 
 ENTRYPOINT []
 
-RUN $org && cp -r /app/models /shared/models
+RUN $org && cp -r /app/models src/shared/models
 
 RUN chmod 777 ./actions-bg.sh
 
