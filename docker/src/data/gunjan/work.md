@@ -21,7 +21,7 @@ Time: 10 hrs
 
 Time: 15.983333 hrs (16 hrs)
 
-**Milestone 4**
+**Milestone 4: Paid (6000)**
 1) stories.yml completed
 2) nlu.yml completed
 3) domain.yml completed
@@ -36,4 +36,12 @@ Python Version    :         3.8.16
 Model: https://drive.google.com/file/d/1lD3laCkcsRPSyKSa0uvoWDt7bTcbOlOZ/view?usp=sharing
 
 Time: 12.1166667 hrs (12 hrs)
+
+**Milestone 5**
+1) yml fixes
+2) aoi_pika fix
+3) SQLAlchemy fix
+4) Training model locally (for checking .yml specs)
+
+Time: 1.11666 hrs
 
