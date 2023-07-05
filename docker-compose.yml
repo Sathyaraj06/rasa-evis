@@ -34,8 +34,8 @@ services:
     ports:
       - "1000:5005"
     volumes:
-      - "./shared/models1:/models1"
-      - "./shared/logs:/logs"
+      - "./shared/models1:/app/models1"
+      - "./shared/logs:/app/logs"
     command: rasa run -m models/kalani.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
   hexaware:
