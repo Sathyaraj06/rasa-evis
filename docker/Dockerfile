@@ -16,7 +16,7 @@ RUN $org
 
 RUN chmod 777 ./actions-bg.sh
 
-RUN rm -rf /app/shared
+# RUN rm -rf /app/shared
 
 
 
