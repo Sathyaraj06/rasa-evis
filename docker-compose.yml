@@ -33,9 +33,9 @@ services:
         org: rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml --out ./models1 --fixed-model-name kalani
     ports:
       - "1000:5005"
-    volumes:
-      - "./shared/models1:/app/models1"
-      - "./shared/logs:/app/logs"
+    # volumes:
+    #   - "./shared/models1:/app/models1"
+    #   - "./shared/logs:/app/logs"
     command: rasa run -m models/kalani.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
   hexaware:
