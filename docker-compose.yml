@@ -36,7 +36,7 @@ services:
     volumes:
       - "./shared/models:/app/shared"
     command: >
-      sh -c "rasa run -m models/kalani.tar.gz --enable-api --log-file rasa.log --debug && sh ./actions-bg.sh"
+      rasa run -m models/kalani.tar.gz --enable-api --log-file rasa.log --debug && sh /app/actions-bg.sh
 
   hexaware:
    container_name: hexaware
