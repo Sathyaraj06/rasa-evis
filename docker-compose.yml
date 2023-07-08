@@ -8,7 +8,7 @@ services:
       context: ./docker
       dockerfile: Dockerfile
       args:
-        org: rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml
+        org: rasa train --data data/chitchat/nlu.yml data/evis/nlu.yml data/chitchat/rules.yml data/evis/rules.yml data/chitchat/stories.yml data/evis/stories.yml -d data/evis/domain --config data/evis/config.yml
     ports:
       - "1001:5005"
     command: rasa run --enable-api --log-file rasa.log --debug --cors "*" 
@@ -26,13 +26,13 @@ services:
       - "./shared/models:/app/shared"
     command: rasa run -m models/kalani.tar.gz --enable-api --log-file rasa.log --debug && ./actions-bg.sh
 
-  hexaware:
-   container_name: hexaware
+  evis:
+   container_name: evis
    build: 
       context: ./docker
       dockerfile: Dockerfile
       args:
-        org: rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml
+        org: rasa train --data data/gunjan/nlu.yml data/evis/nlu.yml data/gunjan/rules.yml data/evis/rules.yml data/gunjan/stories.yml data/evis/stories.yml -d data/evis/domain --config data/evis/config.yml
    ports:
       - "1003:5005"
    command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
@@ -60,19 +60,19 @@ services:
   #     context: ./docker
   #     dockerfile: Dockerfile
   #     args:
-  #       org: rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml
+  #       org: rasa train --data data/chitchat/nlu.yml data/evis/nlu.yml data/chitchat/rules.yml data/evis/rules.yml data/chitchat/stories.yml data/evis/stories.yml -d data/evis/domain --config data/evis/config.yml
   #   ports:
   #     - "1002:5005"
   #   command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
 
-  # hexaware:
-  #  container_name: hexaware
+  # evis:
+  #  container_name: evis
   #  image: rasa-faq:latest
   #  ports:
   #    - "5005:5005"
   #  restart: always
-  #  command: rasa run -m models/hexaware-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
+  #  command: rasa run -m models/evis-model.tar.gz --enable-api  --log-file rasa.log --debug --cors "*"
 
   # organization:
   #   container_name: organization
