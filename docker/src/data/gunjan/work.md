@@ -41,7 +41,12 @@ Time: 12.1166667 hrs (12 hrs)
 1) yml fixes
 2) aoi_pika fix
 3) SQLAlchemy fix
-4) Training model locally (for checking .yml specs)
+4) Trained model locally (for checking .yml specs)
+5) UI softwares searched
 
-Time: 1.11666 hrs
+Rasa X: Rasa X is an open-source tool the Rasa framework provides.
+Botfront: Botfront is an open-source platform that extends Rasa and provides a visual interface for designing conversational AI bots. 
+Rasa UI: Rasa UI is an open-source project that provides a web-based user interface for managing Rasa projects.
+
+Time: 1.91666 hrs
 
