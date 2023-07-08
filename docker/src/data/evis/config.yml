@@ -1,24 +1,20 @@
-recipe: default.v1
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
 language: en
 
 pipeline:
-  - name: "WhitespaceTokenizer"
-  - name: "RegexFeaturizer"
-    #  - name: "spellchecking.CorrectSpelling"
-    case_sensitive: False
-    use_lookup_tables: True
-    use_regexes: True
-    "use_word_boundaries": True
-  - name: "LexicalSyntacticFeaturizer"
-  - name: "CountVectorsFeaturizer"
-  - name: "CountVectorsFeaturizer"
-    analyzer: "char_wb"
+  # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
+  # # If you'd like to customize it, uncomment and adjust the pipeline.
+  # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
-  # - name: "CRFEntityExtractor"
-  - name: "RegexEntityExtractor"
-  - name: "DIETClassifier"
-    batch_strategy: sequence
+  - name: DIETClassifier
     epochs: 20
   - name: EntitySynonymMapper
   - name: ResponseSelector
@@ -26,18 +22,23 @@ pipeline:
     retrieval_intent: chitchat
   - name: ResponseSelector
     epochs: 20
-    retrieval_intent: evis
-  # - name: FallbackClassifier
-  #   threshold: 0.3
-  #   ambiguity_threshold: 0.1
+    retrieval_intent: faq
+  - name: FallbackClassifier
+    threshold: 0.3
+    ambiguity_threshold: 0.1
 
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: TEDPolicy
-    max_history: 5
-    epochs: 20
-    batch_size: 50
-    max_training_samples: 300
-  - name: MemoizationPolicy
-  - name: RulePolicy
-    core_fallback_action_name: "action_default_fallback"
-    enable_fallback_prediction: True
+# # No configuration for policies was provided. The following default policies were used to train your model.
+# # If you'd like to customize them, uncomment and adjust the policies.
+# # See https://rasa.com/docs/rasa/policies for more information.
+#   - name: MemoizationPolicy
+#   - name: RulePolicy
+#   - name: UnexpecTEDIntentPolicy
+#     max_history: 5
+#     epochs: 100
+#   - name: TEDPolicy
+#     max_history: 5
+#     epochs: 100
+#     constrain_similarities: true
