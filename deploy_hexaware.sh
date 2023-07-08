@@ -4,6 +4,10 @@ echo "started---------------"
 
 # sudo docker rmi $(sudo docker images -q)
 
+# sudo docker volume prune
+
+# sudo docker network prune
+
 git reset --hard
 
 git pull
