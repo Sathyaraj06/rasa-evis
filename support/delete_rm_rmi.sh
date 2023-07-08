@@ -6,6 +6,10 @@ echo "started---------------"
 
  sudo docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)
 
+ sudo docker volume prune
+
+ sudo docker network prune
+
  sudo docker images
 
  sudo docker ps -a

@@ -2,19 +2,8 @@ version: '3.1'
 
 services:
 
-  dummy:
-    container_name: dummy
-    build: 
-      context: ./docker
-      dockerfile: Dockerfile
-      args:
-        org: rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml
-    ports:
-      - "1002:5005"
-    command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
-
-  chitchat:
-    container_name: chitchat
+  common:
+    container_name: common
     build: 
       context: ./docker
       dockerfile: Dockerfile
@@ -47,6 +36,23 @@ services:
    ports:
       - "1003:5005"
    command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
+
+
+
+
+
+
+
+  # dummy:
+  #   container_name: dummy
+  #   build: 
+  #     context: ./docker
+  #     dockerfile: Dockerfile
+  #     args:
+  #       org: rasa train --data data/chitchat/nlu.yml data/hexaware/nlu.yml data/chitchat/rules.yml data/hexaware/rules.yml data/chitchat/stories.yml data/hexaware/stories.yml -d data/hexaware/domain --config data/hexaware/config.yml
+  #   ports:
+  #     - "1002:5005"
+  #   command: rasa run --enable-api --log-file rasa.log --debug --cors "*"
 
 
   # hexaware:
