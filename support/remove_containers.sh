@@ -14,6 +14,8 @@ echo "started---------------"
 
  sudo docker ps -a
 
+ sudo docker restart $(sudo docker ps -a -q)
+
 echo "ended---------------"
 
 # token: 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
