@@ -23,6 +23,9 @@ pipeline:
   - name: ResponseSelector
     epochs: 10
     retrieval_intent: faq
+  - name: ResponseSelector
+    epochs: 10
+    retrieval_intent: evis
   - name: FallbackClassifier
     threshold: 0.3
     ambiguity_threshold: 0.1

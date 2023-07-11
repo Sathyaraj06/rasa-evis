@@ -26,13 +26,27 @@ services:
       - "./shared/models:/app/shared"
     command: rasa run -m models/kalani.tar.gz --enable-api --log-file rasa.log --debug --cors "*" && ./actions-bg.sh
 
+  evisalone:
+    container_name: evisalone
+    build: 
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        org: rasa train --data data/evis/nlu.yml data/evis/rules.yml data/evis/stories.yml -d data/evis/domain.yml --config data/evis/config.yml --out ./models --fixed-model-name evisalone
+    ports:
+      - "1006:5005"
+    volumes:
+      - "./shared/models:/app/shared"
+    command: rasa run -m models/evisalone.tar.gz --enable-api --log-file rasa.log --debug --cors "*" && ./actions-bg.sh
+
+
   evis:
     container_name: evis
     build: 
       context: ./docker
       dockerfile: Dockerfile
       args:
-        org: rasa train --data data/gunjan/nlu.yml data/evis/nlu.yml data/gunjan/rules.yml data/evis/rules.yml data/gunjan/stories.yml data/evis/stories.yml -d data/evis/domain --config data/evis/config.yml --out ./models --fixed-model-name evis
+        org: rasa train --data data/gunjan/nlu.yml data/evis/nlu.yml data/gunjan/rules.yml data/evis/rules.yml data/gunjan/stories.yml data/evis/stories.yml --config data/evis/config.yml -d data/evis/domain --out ./models --fixed-model-name evis
     ports:
       - "1003:5005"
     volumes:
