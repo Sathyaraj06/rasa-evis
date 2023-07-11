@@ -12,6 +12,7 @@ intents:
     - evis/contact_sales
     - evis/human_handoff
     - evis
+    - bot_mock1/mock
     - bot_mock1
 
 responses:
@@ -33,7 +34,7 @@ responses:
   utter_evis/human_handoff:
   - text: "nil"
 
-  utter_bot_mock1:
+  utter_bot_mock1/mock:
   - text: "mock"
 
 actions:

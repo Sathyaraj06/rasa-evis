@@ -424,6 +424,6 @@ nlu:
       - let me speak to a real person please
       - i want to talk to a real person
 
-  - intent: bot_mock1
+  - intent: bot_mock1/mock
     examples: |
       - are you a mock?
