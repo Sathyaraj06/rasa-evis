@@ -19,10 +19,7 @@ pipeline:
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 10
-    retrieval_intent: chitchat
-  - name: ResponseSelector
-    epochs: 10
-    retrieval_intent: faq
+    retrieval_intent: bot_mock1
   - name: ResponseSelector
     epochs: 10
     retrieval_intent: evis
