@@ -5,35 +5,38 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
-    - evis/whatisevis
-    - evis/why_evis
-    - evis/how_to_get_started
-    - evis/book_demo
-    - evis/contact_sales
-    - evis/human_handoff
-    - evis
+    - whatisevis
+    - why_evis
+    - how_to_get_started
+    - book_demo
+    - contact_sales
+    - human_handoff
+    - bot_mock1/mock
     - bot_mock1
 
 responses:
-  utter_evis/whatisevis:
+  utter_whatisevis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: "Video link and steps 1., 2., 3."
+  - text: Evis provides the chatbot and tools needed to build high-performing, resilient assistants that work.!
+  - text: Evis resilient assistants that work.!
 
-  utter_evis/why_evis:
+  utter_why_evis:
   - text: Evis provides the chatbot and tools needed to build high-performing, resilient assistants that work.!
 
-  utter_evis/how_to_get_started:
+  utter_how_to_get_started:
   - text: "Video link and steps 1., 2., 3."
 
-  utter_evis/book_demo:
+  utter_book_demo:
   - text: "nil"
 
-  utter_evis/contact_sales:
+  utter_contact_sales:
   - text: "nil"
 
-  utter_evis/human_handoff:
+  utter_human_handoff:
   - text: "nil"
 
-  utter_bot_mock1:
+  utter_bot_mock1/mock:
   - text: "mock"
 
 actions:

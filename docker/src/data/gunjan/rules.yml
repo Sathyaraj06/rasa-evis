@@ -2,17 +2,12 @@ version: "3.1"
 
 rules:
 
-# - rule: Say goodbye anytime the user says goodbye
-#   steps:
-#   - intent: goodbye
-#   - action: utter_goodbye
-
-- rule: respond to chitchat
+- rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: chitchat
-  - action: action_common
+  - intent: goodbye
+  - action: utter_goodbye
 
-- rule: respond to faq
+- rule: Say 'I am a bot' anytime the user challenges
   steps:
-  - intent: faq
-  - action: action_common 
+  - intent: bot_challenge
+  - action: utter_iamabot
