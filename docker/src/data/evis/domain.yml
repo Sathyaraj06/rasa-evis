@@ -18,6 +18,9 @@ intents:
 responses:
   utter_evis/whatisevis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: "Video link and steps 1., 2., 3."
+  - text: Evis provides the chatbot and tools needed to build high-performing, resilient assistants that work.!
+  - text: Evis resilient assistants that work.!
 
   utter_evis/why_evis:
   - text: Evis provides the chatbot and tools needed to build high-performing, resilient assistants that work.!
