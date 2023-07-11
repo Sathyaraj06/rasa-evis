@@ -4313,7 +4313,6 @@ nlu:
       - What are some signs that shared interests are positively impacting a friendship?
       - How do you balance pursuing individual interests and investing in shared activities with friends?
 
-
   - intent: bot_friend_ups_downs
     examples: |
       - What are the ups and downs of friendship?
