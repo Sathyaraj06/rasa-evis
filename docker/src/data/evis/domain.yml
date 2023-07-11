@@ -28,7 +28,8 @@ responses:
   - text: "Video link and steps 1., 2., 3."
 
   utter_book_demo:
-  - text: "nil"
+  - text: "Hey! How are you?"
+    attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
 
   utter_contact_sales:
   - text: "nil"
