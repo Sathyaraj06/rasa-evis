@@ -37,7 +37,7 @@ services:
       - "1006:5005"
     volumes:
       - "./shared/models:/app/shared"
-    command: rasa run -m models/evisalone.tar.gz --enable-api --log-file rasa.log --debug --cors "*" && ./actions-bg.sh
+    command: rasa run -m models/evisalone.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
 
   evis:
