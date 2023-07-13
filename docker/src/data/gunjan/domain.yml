@@ -57,7 +57,6 @@ intents:
   - bot_movie_recommendation
   - bot_do_you_like_movie
   - bot_see_you_bye
-
   - bot_funny_story
   - bot_more_funny_story
   - bot_laughing
@@ -92,8 +91,6 @@ intents:
   - bot_creative_own_work
   - bot_creative_self_doubt
   - bot_memorable_life_exp
-
-
   - bot_share_memorable_travel_story
   - bot_share_memorable_scuba_story
   - bot_share_memorable_camp_story
