@@ -2187,9 +2187,6 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-actions:
-  - action_common
-  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

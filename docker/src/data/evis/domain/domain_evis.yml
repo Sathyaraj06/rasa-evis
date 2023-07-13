@@ -11,7 +11,6 @@ intents:
     - book_demo
     - contact_sales
     - human_handoff
-    - bot_mock1/mock
     - bot_mock1
 
 responses:
@@ -28,7 +27,8 @@ responses:
   - text: "Video link and steps 1., 2., 3."
 
   utter_book_demo:
-  - text: "nil"
+  - text: "Hey! How are you?"
+    attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
 
   utter_contact_sales:
   - text: "nil"
@@ -36,8 +36,5 @@ responses:
   utter_human_handoff:
   - text: "nil"
 
-  utter_bot_mock1/mock:
+  utter_bot_mock1:
   - text: "mock"
-
-actions:
-  - action_common
