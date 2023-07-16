@@ -1,16 +1,3 @@
-# version: "3.1"
-
-# rules:
-# - rule: respond to evis
-#   steps:
-#   - intent: evis
-#   - action: action_common
-
-# - rule: Say 'I am a mock' anytime the user mocks
-#   steps:
-#   - intent: bot_mock1
-#   - action: action_common
-
 version: "3.1"
 
 rules:
@@ -20,7 +7,12 @@ rules:
   - intent: whatisevis
   - action: utter_whatisevis
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Say why_evis anytime the user says why_evis
   steps:
-  - intent: bot_why_evis
+  - intent: why_evis
   - action: utter_why_evis
+
+- rule: Say how_to_get_started anytime the user says how_to_get_started
+  steps:
+  - intent: how_to_get_started
+  - action: utter_how_to_get_started
