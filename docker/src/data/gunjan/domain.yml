@@ -148,7 +148,6 @@ intents:
   - chitchat/bot_you_are_annoying
   - chitchat/bot_answer_my_question
   - chitchat/bot_you_are_bad
-  - chitchat/bot_you_need_to_improve
   - chitchat/bot_you_are_beautiful
   - chitchat/bot_whats_your_birth_date
   - chitchat/bot_you_are_boring
@@ -165,9 +164,7 @@ intents:
   - chitchat/bot_give_me_high_five
   - chitchat/bot_i_am_insulting_you
   - chitchat/bot_ask_whats_my_name
-  - chitchat/bot_tell_a_joke
   - chitchat/bot_whats_time
-  - chitchat/bot_whats_weather
   - chitchat/bot_are_you_multilingual
   - chitchat/bot_are_you_busy
   - chitchat/bot_can_you_help
@@ -176,7 +173,6 @@ intents:
   - chitchat/bot_you_are_fired
   - chitchat/bot_you_are_funny
   - chitchat/bot_are_you_happy
-  - chitchat/bot_whats_your_hobby
   - chitchat/bot_are_you_hungry
   - chitchat/bot_marry_me
   - chitchat/bot_will_you_be_my_friend
@@ -186,13 +182,10 @@ intents:
   - chitchat/bot_are_you_real
   - chitchat/bot_whats_your_hometown
   - chitchat/bot_what_can_you_do
-  - chitchat/bot_you_are_right
   - chitchat/bot_are_you_sure
   - chitchat/bot_talk_to_me
   - chitchat/bot_are_you_there
-  - chitchat/bot_you_are_good
   - chitchat/bot_ok_no_problem
-  - chitchat/bot_thank_you_so_much
   - chitchat/bot_thats_my_pleasure
   - chitchat/bot_its_good_job
   - chitchat/bot_wait_hold_on
@@ -235,7 +228,7 @@ intents:
   - chitchat/bot_i_want_to_see_you
   - chitchat/bot_i_want_to_talk
   - chitchat/bot_i_will_be_back
-  - chitchat/bot_i_am sorry
+  - chitchat/bot_i_am_sorry
   - chitchat/user_reponding_yeap
   - chitchat/bot_i_am_gng_to_commit_suicide
   - chitchat/bot_do_you_have_girlfriend_boyfriend
@@ -636,7 +629,7 @@ responses:
   - text: "Okay. You know where to find me."
   - text: "All right. I'll be here."
 
-  utter_chitchat/bot_i_am sorry:
+  utter_chitchat/bot_i_am_sorry:
   - text: "Hmmm that's okay."
   - text: "Thants fine."
   - text: "Hmmm okay. I am chill person"
