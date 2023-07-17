@@ -496,6 +496,7 @@ stories:
   - intent: bot_thanks_information
   - action: utter_bot_thanks_information
 
+# decide it is needed or not
 - story: Story1
   steps: 
   - intent: chitchat
