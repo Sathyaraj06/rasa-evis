@@ -30,10 +30,10 @@ responses:
   utter_evis/how_to_get_started:
   - text: "Please choose from the below options."
     buttons:
-      - name: Book Demo
-        input: book a demo
-      - name: Live Person
-        input: connect to live person
+      - title: Book Demo
+        payload: book a demo
+      - title: Live Person
+        payload: connect to live person
 
   utter_evis/book_demo:
   - text: "Hey! How are you?"
@@ -41,10 +41,13 @@ responses:
 
   utter_evis/contact_sales:
   - text: "human_handoff"
+  - payload: { "intent" : "human_handoff" }
 
   utter_evis/human_handoff:
   - text: "human_handoff"
+  - payload: { "intent" : "human_handoff" }
 
-  utter_mock1:
+  utter_mock1: # + actions - each method - each domain resposne
   - text: "Hey! How are you?"
-    attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
+    
+    

@@ -42,3 +42,39 @@ policies:
 #     max_history: 5
 #     epochs: 100
 #     constrain_similarities: true
+
+
+
+
+# intents
+
+    # entities
+
+    # slots:
+        # places
+        # food
+        # type
+        # role
+        # group
+        # maps
+        # slot_name
+            # mappings
+                # type: from_intent
+                # value: my_value
+                # intent: intent_name
+                # not_intent: excluded_intent
+
+    # response
+        # text
+        # buttons
+          # title
+          # payload
+        # attachment { }
+        # payload
+            # src
+
+    # forms
+
+
+    # actions
+    # templates
