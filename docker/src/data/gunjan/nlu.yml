@@ -1751,7 +1751,7 @@ nlu:
     - good evening
     - good evening to you
     - hey good evening
-    - hello good evening
+    - good evening
     - evening
     - good evening there
     - have an awesome evening
@@ -1772,14 +1772,14 @@ nlu:
     - GM
     - good morning
     - good morning to you
-    - hello good morning
+    - good morning
     - have a nice morning
     - have a great morning
     - morning
     - good morning there
     - top of the morning to you
     - a good morning
-    - hi good morning
+    - good morning
     - and a good morning to you
     - good morning too
     - Wishing you a good morning
@@ -1793,7 +1793,7 @@ nlu:
     - have a good night
     - good night to you
     - thank you good night
-    - bye good night
+    - good night
     - good night bye
     - good good night
     - good night for now

@@ -7,11 +7,6 @@ rules:
   - intent: whatisevis
   - action: utter_whatisevis
 
-- rule: Say why_evis anytime the user says why_evis
-  steps:
-  - intent: why_evis
-  - action: utter_why_evis
-
 - rule: Say how_to_get_started anytime the user says how_to_get_started
   steps:
   - intent: how_to_get_started
