@@ -39,6 +39,18 @@ services:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evisalone.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
+  gunjan:
+    container_name: gunjan
+    build: 
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        org: rasa train --data data/gunjan/nlu.yml data/gunjan/rules.yml data/gunjan/stories.yml -d data/gunjan/domain.yml --config data/gunjan/config.yml --out ./models --fixed-model-name gunjan
+    ports:
+      - "1006:5005"
+    volumes:
+      - "./shared/models:/app/shared"
+    command: rasa run -m models/gunjan.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
   evis:
     container_name: evis
