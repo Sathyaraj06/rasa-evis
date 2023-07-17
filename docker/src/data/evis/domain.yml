@@ -12,6 +12,8 @@ intents:
     - evis/contact_sales
     - evis/human_handoff
 
+    - mock1
+
 responses:
   utter_evis/whatisevis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
@@ -36,4 +38,7 @@ responses:
   - text: "nil"
 
   utter_evis/human_handoff:
+  - text: "nil"
+
+  utter_mock1:
   - text: "nil"

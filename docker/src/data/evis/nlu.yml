@@ -423,3 +423,7 @@ nlu:
       - let me speak to a real person
       - let me speak to a real person please
       - i want to talk to a real person
+
+  - intent: mock1
+    examples: |
+      - mock1

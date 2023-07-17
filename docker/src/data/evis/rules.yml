@@ -5,3 +5,8 @@ rules:
     steps:
       - intent: evis
       - action: utter_evis
+
+  - rule: respond to mock1
+    steps:
+      - intent: mock1
+      - action: utter_mock1
