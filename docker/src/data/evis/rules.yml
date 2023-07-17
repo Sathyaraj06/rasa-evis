@@ -1,13 +1,13 @@
-version: "3.1"
+# version: "3.1"
 
-rules:
+# rules:
 
-- rule: Say whatisevis anytime the user says whatisevis
-  steps:
-  - intent: whatisevis
-  - action: utter_whatisevis
+# - rule: Say whatisevis anytime the user says whatisevis
+#   steps:
+#   - intent: whatisevis
+#   - action: utter_whatisevis
 
-- rule: Say how_to_get_started anytime the user says how_to_get_started
-  steps:
-  - intent: how_to_get_started
-  - action: utter_how_to_get_started
+# - rule: Say how_to_get_started anytime the user says how_to_get_started
+#   steps:
+#   - intent: how_to_get_started
+#   - action: utter_how_to_get_started

@@ -1,7 +1,7 @@
 version: "3.1"
 
 nlu:
-  - intent: whatisevis
+  - intent: evis/whatisevis
     examples: |
       - Can you brief me about evis
       - Can you tell me more about evis?
@@ -76,7 +76,7 @@ nlu:
       - EVIS IS SOFTWARE?
       - evis os
       - what is Evis
-  - intent: why_evis
+  - intent: evis/why_evis
     examples: |
       - why should i use evis instead of others
       - why evis
@@ -122,7 +122,7 @@ nlu:
       - why is evis interesting
       - Why evis?
       - Why choose evis?
-  - intent: book_demo
+  - intent: evis/book_demo
     examples: |
       - I would like to have a demo scheduled
       - Is there a live demo of evis somewhere ?
@@ -130,7 +130,7 @@ nlu:
       - bookin
       - I want to see a demonstration of evis enterprise
       - How can I try out evis enterprise
-  - intent: contact_sales
+  - intent: evis/contact_sales
     examples: |
       - But I wanted a sales call
       - Can I have a call tomorrow at 3pm?
@@ -219,7 +219,7 @@ nlu:
       - please connect me to sales
       - request a call
       - request call with sales team
-  - intent: how_to_get_started
+  - intent: evis/how_to_get_started
     examples: |
       - can you help me to build a bot
       - can you tell me how to build a bot?
@@ -355,7 +355,7 @@ nlu:
       - can you tell me how to create a new evis project
       - can you help me build my bot?
       - how to build bot with evis
-  - intent: human_handoff
+  - intent: evis/human_handoff
     examples: |
       - Can I speak to anyone who can really help me?
       - I don't wanna talk to a bot

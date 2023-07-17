@@ -5,19 +5,19 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
-    - whatisevis
-    - why_evis
-    - how_to_get_started
-    - book_demo
-    - contact_sales
-    - human_handoff
+    - evis/whatisevis
+    - evis/why_evis
+    - evis/how_to_get_started
+    - evis/book_demo
+    - evis/contact_sales
+    - evis/human_handoff
 
 responses:
-  utter_whatisevis:
+  utter_evis/whatisevis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
   - text: Evis resilient assistants that work.!
 
-  utter_why_evis:
+  utter_evis/why_evis:
   - text: "Evis provides the chatbot and tools needed to build high-performing, resilient assistants that work.!"
   - text: "Evis offers the chatbot and necessary tools to create high-performing, resilient assistants that get the job done!"
   - text: "With Evis, you get access to chatbot technology and essential tools for building high-performing, robust assistants that excel in their tasks!"
@@ -25,15 +25,15 @@ responses:
   - text: "Get the chatbot and tools you need from Evis to build assistants that perform exceptionally well and handle challenges with resilience!"
   - text: "Evis empowers you with the chatbot and necessary tools to craft high-performing, resilient assistants that excel in their performance!"
 
-  utter_how_to_get_started:
+  utter_evis/how_to_get_started:
   - text: "Video link and steps 1., 2., 3."
 
-  utter_book_demo:
+  utter_evis/book_demo:
   - text: "Hey! How are you?"
     attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
 
-  utter_contact_sales:
+  utter_evis/contact_sales:
   - text: "nil"
 
-  utter_human_handoff:
+  utter_evis/human_handoff:
   - text: "nil"
