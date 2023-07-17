@@ -37,7 +37,7 @@ responses:
 
   utter_evis/book_demo:
   - text: "Hey! How are you?"
-    attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
+    attachment: { "type":"video/mp4", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
 
   utter_evis/contact_sales:
   - custom: 
