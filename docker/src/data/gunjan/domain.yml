@@ -66,6 +66,7 @@ intents:
   - bot_off_beat_destination
   - bot_family_destination
   - bot_thanks_suggestions
+  - bot_see_you_bye
   - bot_difficulty_relationship
   - bot_concerned_romantic_relations
   - bot_argument_escalate
