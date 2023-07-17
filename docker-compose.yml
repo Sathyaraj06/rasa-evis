@@ -47,7 +47,7 @@ services:
       args:
         org: rasa train --data data/gunjan/nlu.yml data/gunjan/rules.yml data/gunjan/stories.yml -d data/gunjan/domain.yml --config data/gunjan/config.yml --out ./models --fixed-model-name gunjan
     ports:
-      - "1006:5005"
+      - "1008:5005"
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/gunjan.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
