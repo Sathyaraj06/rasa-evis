@@ -5738,13 +5738,6 @@ nlu:
     - so saad
     - so sad
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-
 - intent: bot_funny_story
   examples: |
     - Can you tell me a funny anecdote?

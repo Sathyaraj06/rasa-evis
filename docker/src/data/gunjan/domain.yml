@@ -3,7 +3,6 @@ version: "3.1"
 intents:
   - mood_great
   - mood_unhappy
-  - bot_challenge
   - bot_who_are_you
   - bot_tell_a_joke
   - bot_thanks_information

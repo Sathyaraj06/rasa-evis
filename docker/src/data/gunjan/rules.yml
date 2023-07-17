@@ -6,12 +6,13 @@ rules:
       - intent: chitchat
       - action: utter_chitchat
 
-  # - rule: Say goodbye anytime the user says goodbye
-  #   steps:
-  #   - intent: goodbye
-  #   - action: utter_goodbye
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+    - intent: bot_see_you_bye
+    - action: utter_bot_see_you_bye
 
-  # - rule: Say 'I am a bot' anytime the user challenges
-  #   steps:
-  #   - intent: bot_challenge
-  #   - action: utter_iamabot
+  - rule: Say about you anytime the user says bask who are you
+    steps:
+    - intent: bot_who_are_you
+    - action: utter_bot_who_are_you
+
