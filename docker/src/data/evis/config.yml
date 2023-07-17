@@ -18,7 +18,7 @@ pipeline:
     epochs: 1
   - name: EntitySynonymMapper
   - name: ResponseSelector
-    epochs: 10
+    epochs: 50
     retrieval_intent: evis
   - name: ResponseSelector
     epochs: 1
