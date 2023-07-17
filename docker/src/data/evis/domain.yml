@@ -41,11 +41,12 @@ responses:
 
   utter_evis/contact_sales:
   - text: "human_handoff"
-  - custom: { "intent" : "human_handoff" }
+  - custom: 
+      text : "human_handoff"
 
   utter_evis/human_handoff:
-  - text: "human_handoff"
-  - custom: { "intent" : "human_handoff" }
+  - custom: 
+      intent : "human_handoff"
 
   utter_mock1: # + actions - each method - each domain resposne
   - text: "Hey! How are you?"
