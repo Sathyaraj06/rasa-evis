@@ -35,10 +35,10 @@ responses:
     attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
 
   utter_evis/contact_sales:
-  - text: "nil"
+  - text: "intent_human_handoff"
 
   utter_evis/human_handoff:
-  - text: "nil"
+  - text: "intent_human_handoff"
 
   utter_mock1:
   - text: "nil"
