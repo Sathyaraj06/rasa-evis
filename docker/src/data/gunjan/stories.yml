@@ -495,3 +495,8 @@ stories:
   - action: utter_bot_interesting_idea
   - intent: bot_thanks_information
   - action: utter_bot_thanks_information
+
+- story: Story1
+  steps: 
+  - intent: chitchat
+  - action: utter_chitchat

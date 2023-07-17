@@ -233,7 +233,6 @@ intents:
   - chitchat/bot_i_am_gng_to_commit_suicide
   - chitchat/bot_do_you_have_girlfriend_boyfriend
   - chitchat
-  - bot_mock
 
 responses:
   utter_chitchat/bot_whats_your_age:
@@ -683,9 +682,6 @@ responses:
   utter_chitchat/bot_i_am_gng_to_commit_suicide:
   - text: "nil"
 
-  utter_mock:
-  - text: "I am mock"
-  
   utter_bot_funny_story:
   - text: "Once upon a time, a clumsy artist was painting a masterpiece when they accidentally spilled a bucket of paint on themselves. They ended up looking like a walking rainbow!"
   - text: "In a hilarious turn of events, an artist mistook a tube of paint for their toothpaste and ended up with a colorful surprise when they brushed their teeth!"

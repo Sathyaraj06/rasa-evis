@@ -1,6 +1,7 @@
 version: "3.1"
 
 nlu:
+
 - intent: chitchat/bot_whats_your_age
   examples: |
     - tell me your age
@@ -3618,10 +3619,6 @@ nlu:
     - rasa codigo abierto
     - 卧槽
 
-- intent: bot_mock
-  examples: |
-    - are you mock?
-
 - intent: bot_who_are_you
   examples: |
     - tell me about your personality
@@ -4611,7 +4608,6 @@ nlu:
     - You've got a valid point.
     - Your perspective is correct.
 
-
 - intent: bot_you_are_good
   examples: |
     - you are very helpful
@@ -4940,7 +4936,6 @@ nlu:
     - I'm in the mood for a TV show in the 'Sci-Fi' genre. What would you personally recommend?
     - Can you recommend a TV show in the 'Sci-Fi' genre based on your preference?
     - Which TV show in the 'Sci-Fi' genre would you personally recommend watching?
-
 
 - intent: bot_tv_comedy
   examples: |
@@ -6244,7 +6239,6 @@ nlu:
     - I'm thankful for the motivating tips!
     - Thanks for the uplifting advice!
 
-
 - intent: bot_difficulty_relationship
   examples: |
     - I've been having some difficulties in my relationships lately. Do you have any advice on how to improve them?
@@ -6517,7 +6511,6 @@ nlu:
     - Thank you for your advice. It's empowering and reassuring. I'll put these suggestions into practice.
     - Thanks for the advice. It's encouraging and inspiring. I'll take your suggestions to heart.
     - Thank you for your valuable advice. It has instilled hope in me. I'll implement these suggestions.
-
 
 - intent: bot_pets_cats_dogs
   examples: |
@@ -7932,7 +7925,6 @@ nlu:
     - Can you offer guidance on discovering new interests together with a friend?
     - What are some signs that shared interests are positively impacting a friendship?
     - How do you balance pursuing individual interests and investing in shared activities with friends?
-
 
 - intent: bot_friend_ups_downs
   examples: |
