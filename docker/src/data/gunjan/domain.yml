@@ -1,10 +1,6 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
   - mood_great
   - mood_unhappy
   - bot_challenge
@@ -233,6 +229,8 @@ intents:
   - chitchat/user_reponding_yeap
   - chitchat/bot_i_am_gng_to_commit_suicide
   - chitchat/bot_do_you_have_girlfriend_boyfriend
+  - chitchat/bot_will_you_be_my_girlfriend
+  - chitchat/non_english
   - chitchat
 
 responses:
@@ -429,15 +427,6 @@ responses:
   - text: "I'm still learning. I may misinterpret things from time to time."
   - text: "Maybe I misunderstood what you said."
   - text: "Sorry, looks like I misunderstood what you said."
-
-  utter_chitchat/emotions_ha_ha:
-  - text: "Glad I can make you laugh."
-  - text: "Glad you think I'm funny."
-  - text: "I like it when people laugh."
-  - text: "I wish I could laugh out loud, too."
-
-  utter_chitchat/emotions_wow:
-  - text: "Wow indeed!"
 
   utter_chitchat/bot_good_evening:
   - text: "How is your day going?"
@@ -2701,25 +2690,6 @@ responses:
   - text: "I have an eclectic mix of hobbies that I find fascinating."
   - text: "I'm always finding new hobbies to keep me entertained."
   - text: "I'm constantly exploring different hobbies and activities."
-
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60

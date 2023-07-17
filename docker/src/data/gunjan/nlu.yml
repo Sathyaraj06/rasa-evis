@@ -3911,6 +3911,15 @@ nlu:
     - till next time
     - I must go
     - bye
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
     - goodbye
     - see you
     - see you soon
@@ -5694,54 +5703,6 @@ nlu:
     - Do you have a favorite art piece or artist that you find thought-provoking?
     - Can you share the art piece or artist that has had a profound impact on your artistic journey?
     - Is there an art piece or artist that you consider to be a true masterpiece?
-
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
 
 - intent: mood_great
   examples: |
