@@ -29,7 +29,7 @@ responses:
 
   utter_evis/how_to_get_started:
   - text: "Please choose from the below options."
-    button:
+    buttons:
       - name: Book Demo
         input: book a demo
       - name: Live Person
