@@ -200,7 +200,6 @@ intents:
   - chitchat/dialog_sorry
   - chitchat/dialog_what_do_you_mean
   - chitchat/dialog_wrong
-  - chitchat/bot_see_you_bye
   - chitchat/bot_good_evening
   - chitchat/bot_good_morning
   - chitchat/bot_good_night
