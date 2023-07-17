@@ -143,6 +143,7 @@ intents:
   - bot_nature_landscape_pic
   - bot_sunset_mountain_pic
   - bot_interesting_idea
+  - bot_whats_your_hobby
 
   - chitchat/bot_whats_your_age
   - chitchat/bot_you_are_annoying
