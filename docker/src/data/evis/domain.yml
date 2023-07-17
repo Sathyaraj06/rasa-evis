@@ -28,17 +28,22 @@ responses:
   - text: "Evis empowers you with the chatbot and necessary tools to craft high-performing, resilient assistants that excel in their performance!"
 
   utter_evis/how_to_get_started:
-  - text: "Video link and steps 1., 2., 3."
+  - text: "Please choose from the below options."
+    button:
+      - name: Book Demo
+        input: book a demo
+      - name: Live Person
+        input: connect to live person
 
   utter_evis/book_demo:
   - text: "Hey! How are you?"
     attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
 
   utter_evis/contact_sales:
-  - text: "intent_human_handoff"
+  - intent: "human_handoff"
 
   utter_evis/human_handoff:
-  - text: "intent_human_handoff"
+  - intent: "human_handoff"
 
   utter_mock1:
-  - text: "nil"
+  - text: "mock"
