@@ -438,6 +438,9 @@ nlu:
   - intent: evis/want_to_add_chatbot
     examples: |
       - Want to add a chatbot
+      - I Want to add a chatbot
+      - Add a chatbot to my website
+      - Wanted to add a chat bot
 
   - intent: mock1
     examples: |
