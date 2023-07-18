@@ -57,12 +57,12 @@ responses:
       - title: Integration
         payload: Integration
 
- utter_evis/other_questions:
+  utter_evis/other_questions:
   - text: "Please type your query below"
 
   utter_evis/product_video:
   - text: "Please have a glance at our product"
-      attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
+    attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
 
   utter_evis/book_demo:
   - custom: 
