@@ -134,9 +134,9 @@ nlu:
       - bookin
       - I want to see a demonstration of evis enterprise
       - How can I try out evis enterprise
-  - intent: evis/other_questions
+  - intent: evis/pricing_plans
     examples: |
-      - Other Questions
+      - Pricing Plans
   - intent: evis/contact_sales
     examples: |
       - But I wanted a sales call

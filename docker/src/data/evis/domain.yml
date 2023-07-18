@@ -12,7 +12,7 @@ intents:
     - evis/contact_sales
     - evis/human_handoff
     - evis/product_video
-    - evis/other_questions
+    - evis/pricing_plans
     - evis/want_to_add_chatbot
 
     - mock1
@@ -56,8 +56,8 @@ responses:
       - title: Integration
         payload: Chatbot Integration
 
-  utter_evis/other_questions:
-  - text: "Please type your query below"
+  utter_evis/pricing_plans:
+  - text: "There are three types of plans available Base, Premium and Enterprise, which can be opted for monthly or yearly basis. Please [click here](https://dashboardliveagent.netlify.app/dashboard/settings/subscriptions) to know more on it"
 
   utter_evis/product_video:
   - text: "Please have a glance at our product"
