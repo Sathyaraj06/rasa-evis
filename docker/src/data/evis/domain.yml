@@ -13,6 +13,7 @@ intents:
     - evis/human_handoff
     - evis/product_video
     - evis/other_questions
+    - evis/want_to_add_chatbot
 
     - mock1
 
@@ -34,16 +35,14 @@ responses:
     buttons:
       - title: Want to add a chatbot
         payload: Want to add a chatbot
-      - title: About pricing and features
-        payload: About pricing and features
-      - title: Connect with evis team
+      - title: Pricing and Features
+        payload: Pricing and Features
+      - title: Connect with team
         payload: Connect with evis team
       - title: Book a demo
         payload: Book a demo
       - title: More about Evis
         payload: Explore Evis
-      - title: Other questions
-        payload: Other questions
 
   utter_evis/explore_evis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
@@ -55,7 +54,7 @@ responses:
       - title: Product Video
         payload: Product Video
       - title: Integration
-        payload: Integration
+        payload: Chatbot Integration
 
   utter_evis/other_questions:
   - text: "Please type your query below"
@@ -63,6 +62,13 @@ responses:
   utter_evis/product_video:
   - text: "Please have a glance at our product"
     attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
+
+  utter_evis/want_to_add_chatbot:
+  - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget.
+           You can also try our product free for 30 days. Below are the step by step link to create and integrate chatbot.
+           \n\r - [Login](https://dashboardliveagent.netlify.app/auth/login)
+           \n\r - [Create Organization](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true)
+           \n\r - [Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
 
   utter_evis/book_demo:
   - custom: 
@@ -80,3 +86,6 @@ responses:
   - text: "mock1"
     
     
+      #   buttons:
+      # - title: Start Free Trial
+      #   url: https://dashboardliveagent.netlify.app/dashboard/settings/subscriptions

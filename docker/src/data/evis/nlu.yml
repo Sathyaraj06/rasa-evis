@@ -79,6 +79,7 @@ nlu:
   - intent: evis/explore_evis
     examples: |
       - Explore Evis
+      - Chatbot Integration
   - intent: evis/why_evis
     examples: |
       - why should i use evis instead of others
@@ -434,6 +435,10 @@ nlu:
     examples: |
       - Product Tour
       - Product Video
+  - intent: evis/want_to_add_chatbot
+    examples: |
+      - Want to add a chatbot
+
   - intent: mock1
     examples: |
       - mock1
