@@ -19,8 +19,8 @@ intents:
 
 responses:
   utter_evis/what_is_evis:
-  - text: Evis \\n\\r is a chatbot \n\r for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
-  - text: Evis \\\n\\\r resilient assistants that work.!
+  - text: "Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/)"
+  - text: "Evis resilient assistants that work.!"
 
   utter_evis/why_evis:
   - text: "Evis  provides the chatbot and tools needed to build high-performing, resilient assistants that work.!"
@@ -45,7 +45,7 @@ responses:
         payload: Explore Evis
 
   utter_evis/explore_evis:
-  - text: Evis \\\n\\\r is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: Evis  is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
     buttons:
       - title: Pricing Plans
         payload: Pricing Plans
@@ -64,7 +64,7 @@ responses:
     attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
 
   utter_evis/want_to_add_chatbot:
-  - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. You can also try our product free for 30 days. Below are the step by step link to create and integrate chatbot. | - [Login](https://dashboardliveagent.netlify.app/auth/login) - [Create Organization](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true) - [Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
+  - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. You can also try our product free for 30 days. Below are the step by step link to create and integrate chatbot. \\n\\r 1. [Login](https://dashboardliveagent.netlify.app/auth/login) \\n\\r 2. [Create Organization](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true) \\n\\r 3. [Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
 
   utter_evis/book_demo:
   - custom: 
