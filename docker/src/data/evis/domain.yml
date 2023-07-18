@@ -19,8 +19,8 @@ intents:
 
 responses:
   utter_evis/what_is_evis:
-  - text: Evis \n\r is a chatbot \n\r for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
-  - text: Evis \n\r resilient assistants that work.!
+  - text: Evis \\n\\r is a chatbot \n\r for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: Evis \\\n\\\r resilient assistants that work.!
 
   utter_evis/why_evis:
   - text: "Evis  provides the chatbot and tools needed to build high-performing, resilient assistants that work.!"
@@ -45,7 +45,7 @@ responses:
         payload: Explore Evis
 
   utter_evis/explore_evis:
-  - text: Evis \n\r is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: Evis \\\n\\\r is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
     buttons:
       - title: Pricing Plans
         payload: Pricing Plans
