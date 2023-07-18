@@ -5,17 +5,19 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
-    - evis/whatisevis
+    - evis/what_is_evis
     - evis/why_evis
     - evis/how_to_get_started
     - evis/book_demo
     - evis/contact_sales
     - evis/human_handoff
+    - evis/product_video
+    - evis/other_questions
 
     - mock1
 
 responses:
-  utter_evis/whatisevis:
+  utter_evis/what_is_evis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
   - text: Evis resilient assistants that work.!
 
@@ -28,16 +30,43 @@ responses:
   - text: "Evis empowers you with the chatbot and necessary tools to craft high-performing, resilient assistants that excel in their performance!"
 
   utter_evis/how_to_get_started:
-  - text: "Please choose from the below options."
+  - text: "Please type your questions or choose from the below options."
     buttons:
-      - title: Book Demo
-        payload: book a demo
-      - title: Live Person
-        payload: connect to live person
+      - title: Want to add a chatbot
+        payload: Want to add a chatbot
+      - title: About pricing and features
+        payload: About pricing and features
+      - title: Connect with evis team
+        payload: Connect with evis team
+      - title: Book a demo
+        payload: Book a demo
+      - title: More about Evis
+        payload: Explore Evis
+      - title: Other questions
+        payload: Other questions
+
+  utter_evis/explore_evis:
+  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+    buttons:
+      - title: Pricing Plans
+        payload: Pricing Plans
+      - title: Features
+        payload: Features
+      - title: Product Video
+        payload: Product Video
+      - title: Integration
+        payload: Integration
+
+ utter_evis/other_questions:
+  - text: "Please type your query below"
+
+  utter_evis/product_video:
+  - text: "Please have a glance at our product"
+      attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
 
   utter_evis/book_demo:
-  - text: "Hey! How are you?"
-    attachment: { "type":"video/mp4", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
+  - custom: 
+      intent : "book_demo"
 
   utter_evis/contact_sales:
   - custom: 

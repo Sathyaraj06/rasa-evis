@@ -16,7 +16,7 @@ intents:
 responses:
   utter_chitchat/bot_aboutyou:
     - text: "Hey! How are you?"
-      attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
+      attachment: { "type":"video", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
 
   utter_chitchat/bot_age:
     - text: "I prefer not to answer with a number. I know I'm young."
@@ -39,7 +39,7 @@ responses:
 
   utter_faq/bot_be_clever:
     - text: "Check this video"
-      attachment: { "type":"video", "payload":{ "src": "https://youtube.com/embed/9C1Km6xfdMA" } }
+      attachment: { "type":"video", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
 
 
 actions:
