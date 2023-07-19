@@ -293,6 +293,8 @@ nlu:
   - intent: evis/chatbot_integration
     examples: |
       - Chatbot Integration
+      - Integration the bot
+      - Integration the chatbot
 
   - intent: evis/contact_sales
     examples: |

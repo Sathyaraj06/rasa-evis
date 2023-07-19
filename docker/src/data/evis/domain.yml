@@ -24,7 +24,7 @@ intents:
 
 responses:
   utter_evis/what_is_evis:
-  - text: "Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/)"
+  - text: "Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app)"
   - text: "Evis resilient assistants that work.!"
 
   utter_evis/why_evis:
@@ -50,7 +50,7 @@ responses:
         payload: Explore Evis
 
   utter_evis/explore_evis:
-  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app).
     buttons:
       - title: Pricing Plans
         payload: Pricing Plans
@@ -62,7 +62,7 @@ responses:
         payload: Chatbot Integration
 
   utter_evis/pricing_and_features:
-  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: Evis provides varieties of features for rich customer experience and best subscription plans. Please select any of the below.
     buttons:
       - title: Pricing Plans
         payload: Pricing Plans
@@ -77,16 +77,32 @@ responses:
           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to start free trial."
 
   utter_evis/pricing_plans:
-  - text: "There are three types of plans available- Base, Premium and Enterprise (Lifetime), which can be opted for monthly or yearly basis. 
-          \\r\\n Enterprise plan includes all the Premium features with enterprise installation along with Customized themes & functionalities, 
+  - text: "There are multiple type of plans available- Free, Base and Premium, which can be opted for monthly or yearly basis and Enterprise for lifetime. 
+          \\r\\n Enterprise plan includes all Premium features with enterprise installation, Customized themes & functionalities, 
           Secured infrastructure host and dedicated customer support. 
           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
 
   utter_evis/features:
-  - text: "There are three types of plans available- Base, Premium and Enterprise (Lifetime), which can be opted for monthly or yearly basis. 
-          \\r\\n Enterprise plan includes all the Premium features with enterprise installation along with Customized themes & functionalities, 
-          Secured infrastructure host and dedicated customer support. 
-          Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
+  - text: "Evisbot provides high level features with rich user experiece to customers. Please select from the below features to explore."
+    buttons:
+      - title: Chit Chats
+        payload: Chit Chats
+      - title: Live Agent assist
+        payload: Live Agent assist
+      - title: Live Tracking Dashboard
+        payload: Live Tracking Dashboard
+      - title: Chat History
+        payload: Chat History
+      - title: Business Hours
+        payload: Business Hours
+      - title: Website Views Report
+        payload: Website Views Report
+      - title: Mobile Application
+        payload: Mobile Application
+      - title: Authentication
+        payload: Authentication
+      - title: Enterprise Installation
+        payload: Enterprise Installation
 
   utter_evis/chatbot_integration:
   - text: "Integrating bot to your website requires zero coding knowledge. Once organization name is created, provide your website url in evis settings page.
