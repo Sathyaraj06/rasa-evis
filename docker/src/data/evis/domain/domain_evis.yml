@@ -12,17 +12,23 @@ intents:
     - evis/contact_sales
     - evis/human_handoff
     - evis/product_video
-    - evis/other_questions
+    - evis/pricing_plans
+    - evis/want_to_add_chatbot
+    - evis/explore_evis
+    - evis/pricing_and_features
+    - evis/start_free_trial
+    - evis/features
+    - evis/chatbot_integration
 
     - mock1
 
 responses:
   utter_evis/what_is_evis:
-  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
-  - text: Evis resilient assistants that work.!
+  - text: "Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/)"
+  - text: "Evis resilient assistants that work.!"
 
   utter_evis/why_evis:
-  - text: "Evis provides the chatbot and tools needed to build high-performing, resilient assistants that work.!"
+  - text: "Evis  provides the chatbot and tools needed to build high-performing, resilient assistants that work.!"
   - text: "Evis offers the chatbot and necessary tools to create high-performing, resilient assistants that get the job done!"
   - text: "With Evis, you get access to chatbot technology and essential tools for building high-performing, robust assistants that excel in their tasks!"
   - text: "Evis equips you with the chatbot platform and essential tools required to develop high-performing, resilient assistants that deliver results!"
@@ -34,16 +40,14 @@ responses:
     buttons:
       - title: Want to add a chatbot
         payload: Want to add a chatbot
-      - title: About pricing and features
-        payload: About pricing and features
-      - title: Connect with evis team
-        payload: Connect with evis team
+      - title: Pricing and Features
+        payload: Pricing and Features
+      - title: Chat with team
+        payload: Chat with evis team
       - title: Book a demo
         payload: Book a demo
       - title: More about Evis
         payload: Explore Evis
-      - title: Other questions
-        payload: Other questions
 
   utter_evis/explore_evis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
@@ -55,14 +59,54 @@ responses:
       - title: Product Video
         payload: Product Video
       - title: Integration
-        payload: Integration
+        payload: Chatbot Integration
 
- utter_evis/other_questions:
-  - text: "Please type your query below"
+  utter_evis/pricing_and_features:
+  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+    buttons:
+      - title: Pricing Plans
+        payload: Pricing Plans
+      - title: Features
+        payload: Features
+      - title: Start Free Trial
+        payload: Start Free Trial
+
+  utter_evis/start_free_trial:
+  - text: "You can try our chatbot free for 30 days without any credit cards.
+          \\r\\n It includes all the basic features such as Chitchats, Live Agent assist, Business Hours, Live Tracking Dashboard, Website Views, Chat History, Mobile Application, Authentication.
+          Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to start free trial."
+
+  utter_evis/pricing_plans:
+  - text: "There are three types of plans available- Base, Premium and Enterprise (Lifetime), which can be opted for monthly or yearly basis. 
+          \\r\\n Enterprise plan includes all the Premium features with enterprise installation along with Customized themes & functionalities, 
+          Secured infrastructure host and dedicated customer support. 
+          Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
+
+  utter_evis/features:
+  - text: "There are three types of plans available- Base, Premium and Enterprise (Lifetime), which can be opted for monthly or yearly basis. 
+          \\r\\n Enterprise plan includes all the Premium features with enterprise installation along with Customized themes & functionalities, 
+          Secured infrastructure host and dedicated customer support. 
+          Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
+
+  utter_evis/chatbot_integration:
+  - text: "Integrating bot to your website requires zero coding knowledge. Once organization name is created, provide your website url in evis settings page.
+          \\r\\n Post this, just copy paste two lines of code from evis page to your website. Please choose between any of the link to navigate.
+          \\r\\n- [Create Organization Name](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true) 
+          \\r\\n- [Add Website Url](https://dashboardliveagent.netlify.app/dashboard/organization/settings) 
+          \\r\\n- [Copy Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)
+          \\r\\n- [Activate Free or Premium Plan](https://dashboardliveagent.netlify.app/home/pricing)"
 
   utter_evis/product_video:
   - text: "Please have a glance at our product"
-      attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
+    attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
+
+  utter_evis/want_to_add_chatbot:
+  - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. 
+          \\r\\n You can also try our product free for 30 days. Below are the step by step link to create and integrate chatbot. 
+          \\r\\n 1. [Login](https://dashboardliveagent.netlify.app/auth/login) 
+          \\r\\n 2. [Activate Free Trial or Premium](https://dashboardliveagent.netlify.app/home/pricing)"
+          \\r\\n 3. [Create Organization](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true) 
+          \\r\\n 4. [Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
 
   utter_evis/book_demo:
   - custom: 
@@ -80,3 +124,6 @@ responses:
   - text: "mock1"
     
     
+      #   buttons:
+      # - title: Start Free Trial
+      #   url: https://dashboardliveagent.netlify.app/dashboard/settings/subscriptions
