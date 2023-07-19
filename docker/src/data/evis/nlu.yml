@@ -1,6 +1,142 @@
 version: "3.1"
 
 nlu:
+  - intent: evis/how_to_get_started
+    examples: |
+      - can you help me to build a bot
+      - can you tell me how to build a bot?
+      - Can I build a FAQ robot with Evis?
+      - I wanted to build a bot my product customer support
+      - Get started
+      - HOW CAN i connect to evis
+      - Help me get started
+      - Hot to get started with evis
+      - How can I develop a bot?
+      - How can I get started with Evis
+      - How can I get started with Evis?
+      - How can I get started with evis?
+      - How can I get started?
+      - How can I try out Evis?
+      - How can i launch a bot?
+      - How do I build a bot
+      - How do I get started
+      - How do I get started with Evis?
+      - How do I get started?
+      - How do I start
+      - How get started?
+      - How to build a bot in evis
+      - How to download?
+      - How to get start
+      - How to get started
+      - How to get started with Evis
+      - How to get started with Evis [core](product)?
+      - How to get started with Evis?
+      - How to get started?
+      - How to get starter?
+      - How to make a bot
+      - How to start using Evis
+      - I like to build a bot
+      - I need to know if I can use Evis to build an application?
+      - I want to build a bot
+      - I want to build a chatbot
+      - I want to create chatbot using Evis
+      - I want to implement evis
+      - I want to know how to get started with evis
+      - Lets start with the basics
+      - Please tell me how I can start?
+      - Please tell me how to get started
+      - Please tell me how to get started with evis
+      - Show me learning resources about Evis
+      - Sure, give me the basics
+      - Tell me how to get started
+      - Tell me how to get started with Evis
+      - Tell me more about Get started with Evis
+      - What are the prerequisites for installing Evis
+      - What do I Need for Evis implementation?
+      - can i try it out
+      - can u teach me
+      - can you explain how can i make chatbot like you
+      - can you guide me know to create knowledge base chatbot
+      - can you help me build a chatbot
+      - can you help me get started?
+      - do you know how to set up a chatbot?
+      - find out how to get started with Evis
+      - from where I should start?
+      - get strarted with evis
+      - help me build a bot
+      - help me get started
+      - help with evis
+      - hi can you help e build a chatbot
+      - how about building chatbot
+      - how can I build a chatbot
+      - how can I get started
+      - how can I get started?
+      - how can I learn evis
+      - how can i build a chatbot
+      - how can i get started with Evis?
+      - how can i get started with evis
+      - how can i get started?
+      - how can i start
+      - how cna i get started with evis
+      - how do I build a bot?
+      - how do I get started
+      - how do I get started with Evis
+      - how do I get started with evis
+      - how do I get started?
+      - how do I use evis
+      - how do i build a bot
+      - how do i build a bot?
+      - how do i build a chatbot?
+      - how do i build a evis chatbot?
+      - how do i get started with evis myself?
+      - how do i get started?
+      - how do i set up a chatbot?
+      - how do you build a bot
+      - how easy is it to use evis?
+      - how this Evis works
+      - how to build a bot
+      - how to build a bot?
+      - how to build a chatbot
+      - how to build chatbot using evis
+      - how to create a basic chat bot
+      - how to get start with Evis
+      - how to get started
+      - how to get started with
+      - how to get started with Evis
+      - how to get started with rassa
+      - how to start with it
+      - how to start with evis
+      - how to start with evis?
+      - hw to get started with Evis
+      - i need help with evis
+      - i wanna build a bot
+      - i wanna get started
+      - i want to built a chatbot please help me
+      - i want to develop a chatbot
+      - i want to get started
+      - i want to get started with evis
+      - i want to know how can buld my own bot
+      - i want to know how to start with Evis
+      - i want to make intelligence chatbot
+      - i want to use evis to build my chatbot
+      - i would like to know how to get started with Evis
+      - i'd like to get started with evis
+      - please teach me
+      - pls explain how to get started
+      - so, how do I use evis?
+      - tell me how i can get started with evis
+      - tell me how to get started with [core](product)
+      - tell me how to start
+      - tell me more about how to use evis
+      - what is the best place to get started?
+      - where do i start?
+      - where should i start from
+      - where to start the development of evis
+      - how to build assistant?
+      - can you tell me how to create a new evis project
+      - can you help me build my bot?
+      - how to build bot with evis 
+
   - intent: evis/what_is_evis
     examples: |
       - Can you brief me about evis
@@ -76,10 +212,12 @@ nlu:
       - EVIS IS SOFTWARE?
       - evis os
       - what is Evis
+  
   - intent: evis/explore_evis
     examples: |
       - Explore Evis
       - Chatbot Integration
+  
   - intent: evis/why_evis
     examples: |
       - why should i use evis instead of others
@@ -126,6 +264,7 @@ nlu:
       - why is evis interesting
       - Why evis?
       - Why choose evis?
+  
   - intent: evis/book_demo
     examples: |
       - I would like to have a demo scheduled
@@ -134,9 +273,27 @@ nlu:
       - bookin
       - I want to see a demonstration of evis enterprise
       - How can I try out evis enterprise
+  
   - intent: evis/pricing_plans
     examples: |
       - Pricing Plans
+  
+  - intent: evis/pricing_and_features
+    examples: |
+      - Pricing and Features
+
+  - intent: evis/start_free_trial
+    examples: |
+      - Start Free Trial
+
+  - intent: evis/features
+    examples: |
+      - Features
+
+  - intent: evis/chatbot_integration
+    examples: |
+      - Chatbot Integration
+
   - intent: evis/contact_sales
     examples: |
       - But I wanted a sales call
@@ -226,145 +383,11 @@ nlu:
       - please connect me to sales
       - request a call
       - request call with sales team
-  - intent: evis/how_to_get_started
-    examples: |
-      - can you help me to build a bot
-      - can you tell me how to build a bot?
-      - Can I build a FAQ robot with Evis?
-      - I wanted to build a bot my product customer support
-      - Get started
-      - HOW CAN i connect to evis
-      - Help me get started
-      - Hot to get started with evis
-      - How can I develop a bot?
-      - How can I get started with Evis
-      - How can I get started with Evis?
-      - How can I get started with evis?
-      - How can I get started?
-      - How can I try out Evis?
-      - How can i launch a bot?
-      - How do I build a bot
-      - How do I get started
-      - How do I get started with Evis?
-      - How do I get started?
-      - How do I start
-      - How get started?
-      - How to build a bot in evis
-      - How to download?
-      - How to get start
-      - How to get started
-      - How to get started with Evis
-      - How to get started with Evis [core](product)?
-      - How to get started with Evis?
-      - How to get started?
-      - How to get starter?
-      - How to make a bot
-      - How to start using Evis
-      - I like to build a bot
-      - I need to know if I can use Evis to build an application?
-      - I want to build a bot
-      - I want to build a chatbot
-      - I want to create chatbot using Evis
-      - I want to implement evis
-      - I want to know how to get started with evis
-      - Lets start with the basics
-      - Please tell me how I can start?
-      - Please tell me how to get started
-      - Please tell me how to get started with evis
-      - Show me learning resources about Evis
-      - Sure, give me the basics
-      - Tell me how to get started
-      - Tell me how to get started with Evis
-      - Tell me more about Get started with Evis
-      - What are the prerequisites for installing Evis
-      - What do I Need for Evis implementation?
-      - can i just test features without having to deal with your predefined conversation
-      - can i try it out
-      - can u teach me
-      - can you explain how can i make chatbot like you
-      - can you guide me know to create knowledge base chatbot
-      - can you help me build a chatbot
-      - can you help me get started?
-      - do you know how to set up a chatbot?
-      - find out how to get started with Evis
-      - from where I should start?
-      - get strarted with evis
-      - help me build a bot
-      - help me get started
-      - help with evis
-      - hi can you help e build a chatbot
-      - how about building chatbot
-      - how can I build a chatbot
-      - how can I get started
-      - how can I get started?
-      - how can I learn evis
-      - how can i build a chatbot
-      - how can i get started with Evis?
-      - how can i get started with evis
-      - how can i get started?
-      - how can i start
-      - how cna i get started with evis
-      - how do I build a bot?
-      - how do I get started
-      - how do I get started with Evis
-      - how do I get started with evis
-      - how do I get started?
-      - how do I use evis
-      - how do i build a bot
-      - how do i build a bot?
-      - how do i build a chatbot?
-      - how do i build a evis chatbot?
-      - how do i get started with evis myself?
-      - how do i get started?
-      - how do i set up a chatbot?
-      - how do you build a bot
-      - how easy is it to use evis?
-      - how this Evis works
-      - how to build a bot
-      - how to build a bot?
-      - how to build a chatbot
-      - how to build chatbot using evis
-      - how to create a basic chat bot
-      - how to get start with Evis
-      - how to get started
-      - how to get started with
-      - how to get started with Evis
-      - how to get started with rassa
-      - how to start with it
-      - how to start with evis
-      - how to start with evis?
-      - hw to get started with Evis
-      - i need help with evis
-      - i wanna build a bot
-      - i wanna get started
-      - i want to built a chatbot please help me
-      - i want to develop a chatbot
-      - i want to get started
-      - i want to get started with evis
-      - i want to know how can buld my own bot
-      - i want to know how to start with Evis
-      - i want to make intelligence chatbot
-      - i want to use evis to build my chatbot
-      - i would like to know how to get started with Evis
-      - i'd like to get started with evis
-      - please teach me
-      - pls explain how to get started
-      - so, how do I use evis?
-      - tell me how i can get started with evis
-      - tell me how to get started with [core](product)
-      - tell me how to start
-      - tell me more about how to use evis
-      - what is the best place to get started?
-      - where do i start?
-      - where should i start from
-      - where to start the development of evis
-      - how to build assistant?
-      - can you tell me how to create a new evis project
-      - can you help me build my bot?
-      - how to build bot with evis
+  
   - intent: evis/human_handoff
     examples: |
       - Connect with evis team
+      - Chat with evis team
       - Can I speak to anyone who can really help me?
       - I don't wanna talk to a bot
       - I dont like to talk to a machine
@@ -431,10 +454,12 @@ nlu:
       - let me speak to a real person
       - let me speak to a real person please
       - i want to talk to a real person
+  
   - intent: evis/product_video
     examples: |
       - Product Tour
       - Product Video
+  
   - intent: evis/want_to_add_chatbot
     examples: |
       - Want to add a chatbot
