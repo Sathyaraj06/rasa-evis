@@ -101,7 +101,12 @@ responses:
     attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
 
   utter_evis/want_to_add_chatbot:
-  - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget"
+  - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. 
+          \\r\\n You can also try our product free for 30 days. Below are the step by step link to create and integrate chatbot. 
+          \\r\\n 1. [Login](https://dashboardliveagent.netlify.app/auth/login) 
+          \\r\\n 2. [Activate Free Trial or Premium](https://dashboardliveagent.netlify.app/home/pricing)
+          \\r\\n 3. [Create Organization](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true) 
+          \\r\\n 4. [Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
 
   utter_evis/book_demo:
   - custom: 
