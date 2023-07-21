@@ -194,7 +194,8 @@ responses:
       intent : "human_handoff"
 
   utter_mock1: # + actions - each method - each domain resposne
-  - text: "mock1"
+  - text: "Please have a glance at our product"
+    attachment: { "type":"Image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
     
     
       #   buttons:
