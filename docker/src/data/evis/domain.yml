@@ -28,6 +28,7 @@ intents:
     - evis/feature_business_hours
     - evis/feature_enterprise_installation
     - evis/chatbot_integration
+    - evis/contact_info
 
     - mock1
 
@@ -69,6 +70,8 @@ responses:
         payload: Product Video
       - title: Integration
         payload: Chatbot Integration
+      - title: Contact Info
+        payload: Contact Info
 
   utter_evis/pricing_and_features:
   - text: Evis provides varieties of features for rich customer experience and best subscription plans. Please select any of the below.
@@ -160,6 +163,10 @@ responses:
           \\r\\n- [Add Website Url](https://dashboardliveagent.netlify.app/dashboard/organization/settings) 
           \\r\\n- [Copy Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)
           \\r\\n- [Activate Free or Premium Plan](https://dashboardliveagent.netlify.app/home/pricing)"
+
+  utter_evis/contact_info:
+  - text: "Please connect with us on [support@evis.app](mailto:support@evis.app) or [+91 9789267798](tel:+1 480-382-4548)🌐
+          \\r\\n Our Office is located at [The Executive Zone, Thousand Lights, Chennai, Tamil Nadu 600002](https://www.google.com/maps/place/1351+N+Pleasant+Dr,+Chandler,+AZ+85225,+USA/@33.3258484,-111.8588445,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba9e27c527739:0x811f6e4db00282d9!8m2!3d33.3258484!4d-111.8566558)"
 
   utter_evis/product_video:
   - text: "Please have a glance at our product"
