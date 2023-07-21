@@ -7,8 +7,6 @@ stories:
   - action: utter_bot_who_are_you
   - intent: bot_whats_your_hobby
   - action: utter_bot_whats_your_hobby
-  - intent: bot_tell_a_joke
-  - action: utter_bot_tell_a_joke
   - intent: bot_thank_you_so_much
   - action: utter_bot_thank_you_so_much
   - intent: bot_see_you_bye

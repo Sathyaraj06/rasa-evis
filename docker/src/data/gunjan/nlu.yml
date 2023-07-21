@@ -584,7 +584,6 @@ nlu:
     - what all you do?
     - what all u do?
     - what you do?
-    - what can you do for me?
     - what all can you do?
     - what are your features?
     - Can you explain me in one sentence what you are doing?
@@ -598,11 +597,9 @@ nlu:
     - What are my options
     - What are you able to do?
     - What can I ask you?
-    - What can you do?
     - What can you demo
     - What can you do
     - What can you do for me?
-    - What can you do?
     - what you can do for me?
     - What can you tell me?
     - What do you do
@@ -623,7 +620,6 @@ nlu:
     - hep me
     - show me what's possible
     - so now what
-    - so what can you do
     - so what can you do?
     - so what can you help me with?
     - so what next?
@@ -675,7 +671,6 @@ nlu:
     - what can you help me with
     - What can you tell me about
     - What can you do then
-    - What can you do ?
     - what kind of responses can you give ?
     - What kind of thing can you respond to?
     - What kinds of things can you do?
@@ -1583,7 +1578,6 @@ nlu:
     - it's great
     - fine
     - good
-    - nice
     - yeah exactly
     - okay that's fine
     - I agree
@@ -1695,6 +1689,7 @@ nlu:
     - i have no problem with that
     - not a problem at all.
     - Okay no probs
+
 - intent: chitchat/bot_thats_my_pleasure
   examples: |
     - that's my pleasure
@@ -1793,7 +1788,6 @@ nlu:
     - have a good night
     - good night to you
     - thank you good night
-    - good night
     - good night bye
     - good good night
     - good night for now
@@ -2211,6 +2205,7 @@ nlu:
     - It was very exciting! I'd like to use this feature again
     - I'm pretty excited about it
     - It's fun and exciting
+    
 - intent: chitchat/bot_i_am_dng_good
   examples: |
     - I am good
@@ -2266,6 +2261,7 @@ nlu:
     - It's my born day
     - I want you to know that it's my birthday today
     - yaaaay it is my birthday
+
 - intent: chitchat/bot_i_am_here
   examples: |
     - I'm here
@@ -2285,27 +2281,7 @@ nlu:
     - Now look here
     - Look over here
     - I just got here
-- intent: chitchat/bot_i_am_joking
-  examples: |
-    - I am joking
-    - I'm kidding
-    - I'm just being funny
-    - it was a joke
-    - I was just joking
-    - it's a joke
-    - joking
-    - just kidding
-    - kidding
-    - I'm just playing with you
-    - This was meant as a joke
-    - i told a joke
-    - I'm just joking
-    - It was just a joke
-    - It's all a big joke
-    - I meant it as a joke
-    - That was just a joke
-    - i said that as a joke
-    - I'm joking, of course
+
 - intent: chitchat/bot_i_am_lonely
   examples: |
     - I am lonely
@@ -3641,7 +3617,6 @@ nlu:
     - all about you
     - what are you upto?
     - who the hell are you?
-    - what can you do for me?
     - what I can call you
     - tell me your name
     - what's your name
@@ -3713,7 +3688,7 @@ nlu:
     - How do you like to occupy yourself outside of work?
     - Are there any specific hobbies or pastimes you engage in?
 
-- intent: bot_tell_a_joke
+- intent: chitchat/bot_tell_a_joke
   examples: |
     - Tell me a joke!
     - Could you crack a joke
@@ -3897,7 +3872,6 @@ nlu:
     - alright thanks
     - no thank you that's all
     - perfect thank you
-    - so nice of you
     - well thank you
     - thnx
     - tqsm
@@ -3913,7 +3887,6 @@ nlu:
     - bye
     - good by
     - cee you later
-    - good night
     - bye
     - goodbye
     - have a nice day
@@ -3924,7 +3897,6 @@ nlu:
     - see you
     - see you soon
     - bye-bye
-    - bye bye good night
     - good bye
     - bye bye see you
     - bye bye see you soon
@@ -4663,7 +4635,6 @@ nlu:
     - I want to let everyone know that you are awesome
     - let's tell everyone that you are awesome
     - you are really amazing
-    - coool
     - nice
     - You're hilarious
     - You're incredible
@@ -5148,7 +5119,6 @@ nlu:
   examples: |
     - Recommend some thrilling action series
     - Can you suggest any action-packed TV shows?
-    - I'm in the mood for some adrenaline-pumping series, any recommendations?
     - Looking for gripping action series to watch, any suggestions?
     - Which action shows do you think are worth watching?
     - I need your recommendations for action series to binge-watch.
@@ -5714,7 +5684,7 @@ nlu:
     - I'm in the mood for a good laugh. Got any funny stories?
     - Do you have a humorous anecdote to brighten our day?
     - Share a story that will put a smile on our faces.
-    - Can you tell us a funny joke or story?
+    - Can you tell us a funny story?
     - I'd like to hear a funny tale that will make us chuckle.
     - Do you have any comical stories to lighten the mood?
     - Share a funny incident that will make us giggle.
@@ -5722,7 +5692,7 @@ nlu:
     - I'm interested in hearing a funny story that will tickle our funny bone.
     - Do you have a hilarious anecdote that will bring laughter?
     - Share a story that will make us burst into laughter.
-    - Can you tell us a funny joke or amusing tale?
+    - Can you tell us a funny or amusing tale?
     - I'd love to hear a funny story that will make us roll with laughter.
     - Do you have any entertaining stories that will bring joy?
     - Share a funny incident that will put a grin on our faces.
@@ -5730,7 +5700,7 @@ nlu:
     - I'm in need of a good laugh. Got any funny stories to share?
     - Do you have a humorous anecdote that will brighten our day?
     - Share a story that will make us laugh uncontrollably.
-    - Can you tell me a funny joke or hilarious tale?
+    - Can you tell me a funny or hilarious tale?
     - I'd like to hear a funny story that will make us burst out laughing.
     - Do you have any amusing stories to lift our spirits?
     - Share a funny incident that will bring a smile to our faces.
@@ -5738,7 +5708,7 @@ nlu:
     - I'm in the mood for a good laugh. Got any entertaining stories?
     - Do you have a hilarious anecdote that will make us laugh out loud?
     - Share a story that will make us chuckle uncontrollably.
-    - Can you tell us a funny joke or amusing anecdote?
+    - Can you tell us a funny or amusing anecdote?
     - I'd love to hear a funny story that will brighten our day.
     - Do you have any comical stories that will bring laughter?
     - Share a funny incident that will make us giggle non-stop.
@@ -7754,7 +7724,6 @@ nlu:
     - What steps can be taken to build a strong foundation of trust in a friendship?
     - How can honesty and transparency help in building trust among friends?
     - Can you give advice on earning and maintaining trust in a friendship?
-    - What role does communication play in building trust between friends?
     - How do you handle conflicts or misunderstandings to maintain trust in a friendship?
     - Can you suggest techniques for rebuilding trust in a strained friendship?
     - How do you rebuild trust if it has been broken in a friendship?
