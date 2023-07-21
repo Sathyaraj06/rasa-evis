@@ -104,6 +104,34 @@ responses:
       - title: Enterprise Installation
         payload: Enterprise Installation
 
+  utter_evis/about_chitchats:
+  - text: "Chitchat refers to casual, friendly conversations with user, which enhances the user engagement with joyable experiences. 
+          \\r\\n This includes simple greetings, jokes, compliments, friendly questions, general small talk etc.,"
+
+  utter_evis/about_liveagent_assist:
+  - text: "Live agent assist refers to involvement of service agents or represenatives in providing support and responding to customer queries within the chat.
+          \\r\\n Evis own Web Portal, Android and IOS Applications are available for Agents to assist the customer queries for 24/7."
+
+  utter_evis/about_live_dashboard:
+  - text: "Live Dashboard is a real-time monitoring tool for providing valuable insights and analystics for the complete chatbot usage. 
+          \\r\\n This presents the information in effective and graphical way for easy understanding. Its available for admin and agent role."
+
+  utter_evis/about_chat_history:
+  - text: "Chat history refers to the collection of entire user conversation flow including user inputs and chatbot responses. 
+          \\r\\n It helps to improve user experiences and improvements over time."
+
+  utter_evis/about_mobile_application:
+  - text: "Complete dashboard and Agent assistance is available as mobile application for easy access for agents. 
+          Both Android and IOS application is available on platform, with SSO and custom authentication"
+
+  utter_evis/about_authentication:
+  - text: "Highly secured authentication is provided for Dashboard and Chatbot. Customer can choose between Microsoft, Google, Custom authetication or other SSO to secure each users login and identity."
+
+  utter_evis/about_enterprise_installation:
+  - text: "Enterprise installation can be done on organizations infrastructure with their cloud services or server machines. This provides a highly secured way to access for their users.
+          \\r\\n This includes customized features, faunctionalities and themes for the organization.
+          Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
+
   utter_evis/chatbot_integration:
   - text: "Integrating bot to your website requires zero coding knowledge. Once organization name is created, provide your website url in evis settings page.
           \\r\\n Post this, just copy paste two lines of code from evis page to your website. Please choose between any of the link to navigate.
