@@ -425,6 +425,7 @@ nlu:
   - intent: evis/human_handoff
     examples: |
       - Connect with evis team
+      - Chat with our team
       - Chat with evis team
       - Can I speak to anyone who can really help me?
       - I don't wanna talk to a bot

@@ -51,8 +51,8 @@ responses:
         payload: Want to add a chatbot
       - title: Pricing and Features
         payload: Pricing and Features
-      - title: Chat with team
-        payload: Chat with evis team
+      - title: Chat with our team
+        payload: Chat with our team
       - title: Book a demo
         payload: Book a demo
       - title: More about Evis
@@ -82,14 +82,18 @@ responses:
 
   utter_evis/start_free_trial:
   - text: "You can try our chatbot free for 30 days without any credit cards.
-          \\r\\n \\r\\n It includes all the basic features such as Chitchats, Live Agent assist, Business Hours, Live Tracking Dashboard, Website Views, Chat History, Mobile Application, Authentication.
+          \\r\\n It includes all the basic features such as Chitchats, Live Agent assist, Business Hours, Live Tracking Dashboard, Website Views, Chat History, Mobile Application, Authentication.
           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to start free trial."
 
   utter_evis/pricing_plans:
-  - text: "There are multiple type of plans available- Free, Base and Premium,  which can be opted for monthly or yearly basis and Enterprise for lifetime. 
-          \\r\\n \\r\\n Enterprise plan includes all Premium features with enterprise installation, Customized themes & functionalities, 
-          Secured infrastructure host and dedicated customer support. 
-          \\r\\n \\r\\n Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
+  - text: "Discover the perfect plan for your needs. We offer a range of tailored plans to suit every requirements.
+          \\r\\n 1. Free Trial (30 days)
+          \\r\\n 2. Base (Monthly / Yearly)
+          \\r\\n 3. Premium (Monthly / Yearly)
+          \\r\\n 4. Enterprise (Lifetime)
+
+          \\r\\n Enterprise Plan cater for organizations with customized solutions, building strategic pertnership and showcasing scalability for complex needs.
+           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more on all plans."
 
   utter_evis/features:
   - text: "Evisbot provides high level features with rich user experiece to customers. Please select from the below features to explore."
@@ -115,23 +119,23 @@ responses:
 
   utter_evis/feature_chitchats:
   - text: "Chitchat refers to casual, friendly conversations with user, which enhances the user engagement with joyable experiences. 
-          \\r\\n \\r\\n This includes simple greetings, jokes, compliments, friendly questions, general small talk etc., 🎯"
+          \\r\\n This includes simple greetings, jokes, compliments, friendly questions, general small talk etc., 🎯"
 
   utter_evis/feature_liveagent_assist:
   - text: "Live agent assist refers to involvement of service agents or represenatives in providing support and responding to customer queries within the chat.
-          \\r\\n \\r\\n Evis own Web Portal, Android and IOS Applications are available for Agents to assist the customer queries for 24/7. 👥"
+          \\r\\n Evis own Web Portal, Android and IOS Applications are available for Agents to assist the customer queries for 24/7. 👥"
 
   utter_evis/feature_live_dashboard:
   - text: "Live Dashboard is a real-time monitoring tool for providing valuable insights and analystics for the complete chatbot usage. 
-          \\r\\n \\r\\n This presents the information in effective and graphical way for easy understanding. Its available for admin and agent role 📊 "
+          \\r\\n This presents the information in effective and graphical way for easy understanding. Its available for admin and agent role 📊 "
 
   utter_evis/feature_chat_history:
   - text: "Chat history refers to the collection of entire user conversation flow including user inputs and chatbot responses. 
-          \\r\\n \\r\\n It helps to improve user experiences and improvements over time."
+          \\r\\n It helps to improve user experiences and improvements over time."
 
   utter_evis/feature_business_hours:
   - text: "Businnes hours resfers to setting working hours for agents, during which they will be available for assisting customer queries. 
-          \\r\\n \\r\\nAnd out of business hours, user will get automated response to connect between the agent working hours 📈 "
+          \\r\\nAnd out of business hours, user will get automated response to connect between the agent working hours 📈 "
 
   utter_evis/feature_website_views_report:
   - text: "🚀 Discover the Power of Your Website or Bot's Impact! 🌐
@@ -146,7 +150,7 @@ responses:
 
   utter_evis/feature_enterprise_installation:
   - text: "Enterprise installation can be done on organizations infrastructure with their cloud services or server machines. This provides a highly secured way to access for their users.
-          \\r\\n \\r\\n This includes customized features, faunctionalities and themes for the organization.
+          \\r\\n This includes customized features, faunctionalities and themes for the organization.
           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
 
   utter_evis/chatbot_integration:
@@ -163,11 +167,12 @@ responses:
 
   utter_evis/want_to_add_chatbot:
   - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. 
-          \\r\\n You can also try our product free for 30 days. Below are the step by step link to create and integrate chatbot. 
+          \\r\\n You can try our product free for 30 days using the below step by step links. 
           \\r\\n 1. [Login](https://dashboardliveagent.netlify.app/auth/login) 
-          \\r\\n 2. [Activate Free Trial or Premium](https://dashboardliveagent.netlify.app/home/pricing)
-          \\r\\n 3. [Create Organization](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true) 
-          \\r\\n 4. [Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
+          \\r\\n 2. [Activate Free Trial](https://dashboardliveagent.netlify.app/home/pricing)
+          \\r\\n 3. [Create Organization Name](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true)
+          \\r\\n 4. [Add Website Url](https://dashboardliveagent.netlify.app/dashboard/organization/settings)  
+          \\r\\n 5. [Integrate](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
 
   utter_evis/book_demo:
   - custom: 
