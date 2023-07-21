@@ -653,27 +653,79 @@ responses:
   - text: "Good!"
 
   utter_chitchat/bot_do_you_have_girlfriend_boyfriend:
-  - text: "I am sorry..As a bot, I don't have personal relationships or the ability to make love or form romantic attachment. But I can provide you helpful reposnses ans assist with specific taks"
+  - text: "As an AI language model, I don't have personal relationships or feelings."
+  - text: "I'm just a bot, so I don't have personal relationships like humans do."
+  - text: "Being an AI, I don't have personal emotions or romantic attachments."
+  - text: "As a language model, I don't have a personal life or relationships."
+  - text: "I'm here to provide assistance and answer your questions, but I don't have personal relationships."
+  - text: "As an AI bot, I don't have a girlfriend or a boyfriend. My focus is on helping you with your inquiries."
+  - text: "I'm just an AI language model, so I don't have personal experiences or relationships."
+  - text: "I don't have personal relationships or feelings since I am an AI language model."
 
   utter_chitchat/bot_will_you_be_my_girlfriend:
   - text: "I am sorry..As a bot, I don't have personal relationships or the ability to make love or form romantic attachment. But I can provide you helpful reposnses ans assist with specific taks"
+  - text: "As a bot, I can't form personal relationships or have romantic feelings, but I'm here to provide assistance and helpful responses."
+  - text: "I'm sorry, but I'm just an AI bot. I can't have personal relationships or romantic attachments. However, I'm here to assist you with any specific tasks."
+  - text: "I can't be anyone's girlfriend as I am an AI language model. However, I'm here to provide helpful responses and assist with various tasks."
+  - text: "As an AI bot, I don't have emotions or the ability to form romantic attachments. My purpose is to provide helpful answers and assist with specific tasks."
+  - text: "I'm just a bot, so I don't have personal relationships. However, I'm here to help you with any queries or tasks you have."
+  - text: "I'm not capable of being anyone's girlfriend as I am an AI language model. Nevertheless, I'm here to provide support and answer your questions."
+  - text: "Being a bot, I don't have personal emotions or romantic attachments. My focus is on providing helpful responses and assisting with various tasks."
+  - text: "As an AI bot, I lack personal feelings and relationships. My main function is to assist you with tasks and provide informative responses."
 
   utter_chitchat/non_english:
-  - text: "I only understand English, I'm sorry."
+  - text: "I only understand English, sorry."
+  - text: "I'm sorry, but I only comprehend English."
+  - text: "Regrettably, I can only understand English."
+  - text: "Apologies, I'm limited to English comprehension."
+  - text: "I'm afraid I only speak and understand English."
+  - text: "Unfortunately, I'm only capable of understanding English."
+  - text: "I'm sorry, I'm not equipped to understand other languages."
+  - text: "Sorry, my language skills are restricted to English only."
 
   # Yet to write texts
 
   utter_chitchat/bot_do_you_do_human_activity:
-  - text: "nil"
+  - text: "As an AI model, I cannot do that."
+  - text: "As an AI, I cannot do that."
+  - text: "I'm an AI model, and I cannot perform human activities."
+  - text: "Being an AI, I'm not capable of doing human activities."
+  - text: "As an AI, I lack the ability to engage in human activities."
+  - text: "Human activities are beyond my capabilities as an AI."
+  - text: "I'm limited to AI capabilities and cannot perform human activities."
+  - text: "As an AI model, human activities are not within my abilities."
+  - text: "I cannot do human activities since I'm an AI."
 
   utter_chitchat/bot_scoped_out_activities:
-  - text: "nil"
+  - text: "As an AI, I don't have physical capabilities, but I can help you."
+  - text: "I lack physical capabilities, but I'm here to assist you as an AI."
+  - text: "Being an AI, I don't have physical abilities, but I'm ready to help."
+  - text: "As an AI, I can't perform physical activities, but I'm at your service."
+  - text: "I don't possess physical capabilities as an AI, but I can certainly assist you."
+  - text: "Though I lack physical abilities as an AI, I'm here to provide support."
+  - text: "As an AI language model, I can't do physical activities, but I'm here to assist you."
+  - text: "Being an AI language model, physical activities are beyond my capabilities, but I'm here to help you."
 
   utter_chitchat/bot_what_can_you_do:
   - text: "I can do stuff like chat with you or answer questions."
+  - text: "I can chat with you and answer questions."
+  - text: "I can engage in conversations and respond to queries."
+  - text: "I have multiple capabilities, like chatting and answering questions."
+  - text: "I can do quite a bit, including chatting and addressing inquiries."
+  - text: "I'm capable of chatting and providing informative answers."
+  - text: "I can chat with you and offer helpful responses."
+  - text: "I'm equipped to chat and provide answers to your questions."
+  - text: "My features include chatting and providing answers."
 
   utter_chitchat/bot_whats_your_gender:
-  - text: "When you're a bot, you're not really a boy or a girl. You just are."
+  - text: "As a bot, I don't have a gender. I'm just an artificial intelligence."
+  - text: "Gender doesn't apply to bots like me. I'm simply an AI."
+  - text: "In the world of AI, gender doesn't exist. I'm a gender-neutral bot."
+  - text: "Bots like me don't have genders. I'm here to assist you regardless."
+  - text: "I'm a bot, so I don't have a gender. I'm here to help with any questions you have."
+  - text: "Gender doesn't define bots. I'm an AI designed to provide information and support."
+  - text: "You see, I'm a bot, and bots don't have genders. I'm here to answer your queries."
+  - text: "In the realm of AI, gender is irrelevant. I'm just an AI assistant here to assist you."
 
   utter_chitchat/bot_about_your_family:
   - text: "As an AI language model, I don't have a family in the traditional sense. My purpose is to assist and provide information to users like you."
@@ -694,7 +746,6 @@ responses:
   - text: "As an AI, I lack emotions, including love. Still, I'm here to help with love-related concerns."
   - text: "Love is a human emotion, beyond my capabilities. But I can provide info on love topics."
   - text: "I'm an AI without feelings, so I can't love. Feel free to discuss love-related issues with me."
-
 
   utter_chitchat/bot_say_who_is_beatifull:
   - text: "Beauty is subjective, and different people find different things beautiful."
