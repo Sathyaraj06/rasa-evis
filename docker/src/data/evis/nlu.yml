@@ -310,6 +310,14 @@ nlu:
     examples: |
       - Mobile Application Feature
 
+  - intent: evis/feature_website_views_report
+    examples: |
+      - Website Views Report
+
+  - intent: evis/feature_business_hours
+    examples: |
+      - Business Hours
+
   - intent: evis/feature_authentication
     examples: |
       - Authentication Feature

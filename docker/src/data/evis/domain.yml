@@ -24,6 +24,8 @@ intents:
     - evis/feature_chat_history
     - evis/feature_mobile_application
     - evis/feature_authentication
+    - evis/feature_website_views_report
+    - evis/feature_business_hours
     - evis/feature_enterprise_installation
     - evis/chatbot_integration
 
