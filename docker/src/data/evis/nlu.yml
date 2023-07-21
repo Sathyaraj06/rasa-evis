@@ -312,11 +312,11 @@ nlu:
 
   - intent: evis/feature_website_views_report
     examples: |
-      - Website Views Report
+      - Website Views Report Feature
 
   - intent: evis/feature_business_hours
     examples: |
-      - Business Hours
+      - Business Hours Feature
 
   - intent: evis/feature_authentication
     examples: |
