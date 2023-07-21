@@ -290,6 +290,34 @@ nlu:
     examples: |
       - Features
 
+  - intent: evis/feature_chitchats
+    examples: |
+      - Chitchat Feature
+
+  - intent: evis/feature_liveagent_assist
+    examples: |
+      - Liveagent Assist Feature
+
+  - intent: evis/feature_live_dashboard
+    examples: |
+      - Live Dashboard Feature
+
+  - intent: evis/feature_chat_history
+    examples: |
+      - Chat Histoty Feature
+
+  - intent: evis/feature_mobile_application
+    examples: |
+      - Mobile Application Feature
+
+  - intent: evis/feature_authentication
+    examples: |
+      - Authentication Feature
+
+  - intent: evis/feature_enterprise_installation
+    examples: |
+      - Enterprise Installation Feature
+
   - intent: evis/chatbot_integration
     examples: |
       - Chatbot Integration
