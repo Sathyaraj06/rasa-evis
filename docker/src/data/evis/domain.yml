@@ -195,7 +195,7 @@ responses:
 
   utter_mock1: # + actions - each method - each domain resposne
   - text: "Please have a glance at our product"
-    attachment: { "type":"Image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+    attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
     
     
       #   buttons:
