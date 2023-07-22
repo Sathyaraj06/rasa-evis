@@ -215,7 +215,3 @@ responses:
       - text: "Adding Evis"
         attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
     
-    
-      #   buttons:
-      # - title: Start Free Trial
-      #   url: https://dashboardliveagent.netlify.app/dashboard/settings/subscriptions
