@@ -46,7 +46,7 @@ responses:
   - text: "Evis empowers you with the chatbot and necessary tools to craft high-performing, resilient assistants that excel in their performance! 🚀"
 
   utter_evis/how_to_get_started:
-  - text: "Please type your questions or choose from the below options. 💡"
+  - text: "Please enter your query or choose from the below options 💡"
     buttons:
       - title: Want to add a chatbot
         payload: Want to add a chatbot

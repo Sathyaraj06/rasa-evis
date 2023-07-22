@@ -46,7 +46,7 @@ responses:
   - text: "Evis empowers you with the chatbot and necessary tools to craft high-performing, resilient assistants that excel in their performance! 🚀"
 
   utter_evis/how_to_get_started:
-  - text: "Please type your questions or choose from the below options. 💡"
+  - text: "Please enter your query or choose from the below options 💡"
     buttons:
       - title: Want to add a chatbot
         payload: Want to add a chatbot
@@ -165,8 +165,15 @@ responses:
           \\r\\n- [Activate Free or Premium Plan](https://dashboardliveagent.netlify.app/home/pricing)"
 
   utter_evis/contact_info:
-  - text: "Please connect with us on [support@evis.app](mailto:support@evis.app) or [+91-9789267798](tel:+1 480-382-4548)
-          \\r\\n Our Office is located at [The Executive Zone, Thousand Lights, Chennai, Tamil Nadu 600002](https://www.google.com/maps/place/1351+N+Pleasant+Dr,+Chandler,+AZ+85225,+USA/@33.3258484,-111.8588445,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba9e27c527739:0x811f6e4db00282d9!8m2!3d33.3258484!4d-111.8566558)"
+  - custom: 
+      type : "carousel"
+      text: "Please connect with us on [support@evis.app](mailto:support@evis.app) or call us at +91-7904538145.
+            \\r\\n Office Address: The Executive Zone, Thousand Lights, Chennai, India 600002 [Map](https://www.google.com/maps/place/The+Executive+Zone+%7C+Coworking+Space+%7C+Anna+Salai/@13.0615919,80.2573416,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266166d42b5a7:0xd997f32439e5bb34!8m2!3d13.0615919!4d80.2595303!16s%2Fg%2F11c6s53zmf?hl=en&entry=ttu)
+            Few Office Pictures are below."
+      attachments:
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg2.jpg?tr=f-webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg10.jpg?tr=f-webp" } }
 
   utter_evis/product_video:
   - text: "Please have a glance at our product"
@@ -183,19 +190,30 @@ responses:
 
   utter_evis/book_demo:
   - custom: 
-      intent : "book_demo"
+      type : "intent"
+      text : "book_demo"
 
   utter_evis/contact_sales:
-  - custom: 
-      intent : "contact_sales"
+  - custom:
+      type : "intent"
+      text : "contact_sales" 
 
   utter_evis/human_handoff:
   - custom: 
-      intent : "human_handoff"
+      type : "intent"
+      text : "human_handoff"
 
   utter_mock1: # + actions - each method - each domain resposne
-  - text: "Please have a glance at our product"
-    attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+  - custom: 
+      type : "carousel"
+      text : "text"
+      attachments:
+      - text: "Adding Evis"
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+      - text: "Adding Evis"
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+      - text: "Adding Evis"
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
     
     
       #   buttons:
