@@ -183,19 +183,30 @@ responses:
 
   utter_evis/book_demo:
   - custom: 
-      intent : "book_demo"
+      type : "intent"
+      text : "book_demo"
 
   utter_evis/contact_sales:
-  - custom: 
-      intent : "contact_sales"
+  - custom:
+      type : "intent"
+      text : "contact_sales" 
 
   utter_evis/human_handoff:
   - custom: 
-      intent : "human_handoff"
+      type : "intent"
+      text : "human_handoff"
 
   utter_mock1: # + actions - each method - each domain resposne
-  - text: "Please have a glance at our product"
-    attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+  - custom: 
+      type : "carousel"
+      text : "text"
+      attachments:
+      - text: "Adding Evis"
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+      - text: "Adding Evis"
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+      - text: "Adding Evis"
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
     
     
       #   buttons:
