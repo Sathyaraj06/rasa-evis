@@ -18,39 +18,49 @@ intents:
     - evis/pricing_and_features
     - evis/start_free_trial
     - evis/features
+    - evis/feature_chitchats
+    - evis/feature_liveagent_assist
+    - evis/feature_live_dashboard
+    - evis/feature_chat_history
+    - evis/feature_mobile_application
+    - evis/feature_authentication
+    - evis/feature_website_views_report
+    - evis/feature_business_hours
+    - evis/feature_enterprise_installation
     - evis/chatbot_integration
+    - evis/contact_info
 
     - mock1
 
 responses:
   utter_evis/what_is_evis:
-  - text: "Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/)"
-  - text: "Evis resilient assistants that work.!"
+  - text: "Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app) 🎯"
+  - text: "Evis resilient assistants that work.! 🎯"
 
   utter_evis/why_evis:
-  - text: "Evis  provides the chatbot and tools needed to build high-performing, resilient assistants that work.!"
-  - text: "Evis offers the chatbot and necessary tools to create high-performing, resilient assistants that get the job done!"
-  - text: "With Evis, you get access to chatbot technology and essential tools for building high-performing, robust assistants that excel in their tasks!"
-  - text: "Evis equips you with the chatbot platform and essential tools required to develop high-performing, resilient assistants that deliver results!"
-  - text: "Get the chatbot and tools you need from Evis to build assistants that perform exceptionally well and handle challenges with resilience!"
-  - text: "Evis empowers you with the chatbot and necessary tools to craft high-performing, resilient assistants that excel in their performance!"
+  - text: "Evis  provides the chatbot and tools needed to build high-performing, resilient assistants that work.! 🚀"
+  - text: "Evis offers the chatbot and necessary tools to create high-performing, resilient assistants that get the job done! 🎯"
+  - text: "With Evis, you get access to chatbot technology and essential tools for building high-performing, robust assistants that excel in their tasks! 🚀"
+  - text: "Evis equips you with the chatbot platform and essential tools required to develop high-performing, resilient assistants that deliver results! 🎯"
+  - text: "Get the chatbot and tools you need from Evis to build assistants that perform exceptionally well and handle challenges with resilience! 🚀"
+  - text: "Evis empowers you with the chatbot and necessary tools to craft high-performing, resilient assistants that excel in their performance! 🚀"
 
   utter_evis/how_to_get_started:
-  - text: "Please type your questions or choose from the below options."
+  - text: "Please type your questions or choose from the below options. 💡"
     buttons:
       - title: Want to add a chatbot
         payload: Want to add a chatbot
       - title: Pricing and Features
         payload: Pricing and Features
-      - title: Chat with team
-        payload: Chat with evis team
+      - title: Chat with our team
+        payload: Chat with our team
       - title: Book a demo
         payload: Book a demo
       - title: More about Evis
         payload: Explore Evis
 
   utter_evis/explore_evis:
-  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app).
     buttons:
       - title: Pricing Plans
         payload: Pricing Plans
@@ -60,9 +70,11 @@ responses:
         payload: Product Video
       - title: Integration
         payload: Chatbot Integration
+      - title: Contact Info
+        payload: Contact Info
 
   utter_evis/pricing_and_features:
-  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://rasa.com/).
+  - text: Evis provides varieties of features for rich customer experience and best subscription plans. Please select any of the below.
     buttons:
       - title: Pricing Plans
         payload: Pricing Plans
@@ -77,15 +89,71 @@ responses:
           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to start free trial."
 
   utter_evis/pricing_plans:
-  - text: "There are three types of plans available- Base, Premium and Enterprise (Lifetime), which can be opted for monthly or yearly basis. 
-          \\r\\n Enterprise plan includes all the Premium features with enterprise installation along with Customized themes & functionalities, 
-          Secured infrastructure host and dedicated customer support. 
-          Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
+  - text: "Discover the perfect plan for your needs. We offer a range of tailored plans to suit every requirements.
+          \\r\\n 1. Free Trial (30 days)
+          \\r\\n 2. Base (Monthly / Yearly)
+          \\r\\n 3. Premium (Monthly / Yearly)
+          \\r\\n 4. Enterprise (Lifetime)
+
+          \\r\\n Enterprise Plan cater for large organizations with customized solutions, building strategic partnership and showcasing scalability for complex needs.
+           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more on all plans."
 
   utter_evis/features:
-  - text: "There are three types of plans available- Base, Premium and Enterprise (Lifetime), which can be opted for monthly or yearly basis. 
-          \\r\\n Enterprise plan includes all the Premium features with enterprise installation along with Customized themes & functionalities, 
-          Secured infrastructure host and dedicated customer support. 
+  - text: "Evisbot provides high level features with rich user experiece to customers. Please select from the below features to explore."
+    buttons:
+      - title: Chit Chats
+        payload: ChitChat Feature
+      - title: Live Agent assist
+        payload: Liveagent assist Feature
+      - title: Live Tracking Dashboard
+        payload: Live Dashboard Feature
+      - title: Chat History 
+        payload: Chat History Feature
+      - title: Business Hours
+        payload: Business Hours Feature
+      - title: Website Views Report
+        payload: Website Views Report Feature
+      - title: Mobile Application
+        payload: Mobile Application Feature
+      - title: Authentication
+        payload: Authentication Feature
+      - title: Enterprise Installation
+        payload: Enterprise Installation Feature
+
+  utter_evis/feature_chitchats:
+  - text: "Chitchat refers to casual, friendly conversations with user, which enhances the user engagement with joyable experiences. 
+          \\r\\n This includes simple greetings, jokes, compliments, friendly questions, general small talk etc., 🎯"
+
+  utter_evis/feature_liveagent_assist:
+  - text: "Live agent assist refers to involvement of service agents or represenatives in providing support and responding to customer queries within the chat.
+          \\r\\n Evis Web portal, Android and IOS Applications are available for Agents to assist the customer queries for 24/7. 👥"
+
+  utter_evis/feature_live_dashboard:
+  - text: "Live Dashboard is a real-time monitoring tool for providing valuable insights and analystics for the complete chatbot usage. 
+          \\r\\n This presents the information in effective and graphical way for easy understanding. Its available for admin and agent role 📊 "
+
+  utter_evis/feature_chat_history:
+  - text: "Chat history refers to the collection of entire chat conversations including user inputs, media files and chatbot responses.
+          \\r\\n It helps to improve user experiences and improvements over time."
+
+  utter_evis/feature_business_hours:
+  - text: "Business hours refers to helpdesk agent working hours, only during the agent will be available for costomer assistance. 
+          \\r\\n Out of this business hours, when user request to connect, he will get automated response to connect during the working hours 📈 "
+
+  utter_evis/feature_website_views_report:
+  - text: "🚀 Discover the Power of Your Website or Bot's Impact! 🌐
+          \\r\\n Our powerful analytics tools will dive deep into your website's traffic, giving you real-time data on the number of visitors, their locations, device type and so much more!"
+
+  utter_evis/feature_mobile_application:
+  - text: "Complete dashboard and Agent assistance is available as mobile application for easy access for agents. 
+          Both Android and IOS application 📱 is available on platform, with SSO and custom authentication 💻"
+
+  utter_evis/feature_authentication:
+  - text: "Highly secured authentication is provided for Dashboard and Chatbot. Customer can choose between Microsoft, Google, Custom authetication or other SSO to secure each users login and identity. 🔒"
+
+  utter_evis/feature_enterprise_installation:
+  - text: "Enterprise installation can be done on organizations infrastructure with their cloud services or server machines. This provides a highly secured way to access for their users.
+          \\r\\n This includes customized features, faunctionalities and themes for the organization.
           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
 
   utter_evis/chatbot_integration:
@@ -96,17 +164,22 @@ responses:
           \\r\\n- [Copy Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)
           \\r\\n- [Activate Free or Premium Plan](https://dashboardliveagent.netlify.app/home/pricing)"
 
+  utter_evis/contact_info:
+  - text: "Please connect with us on [support@evis.app](mailto:support@evis.app) or [+91-9789267798](tel:+1 480-382-4548)
+          \\r\\n Our Office is located at [The Executive Zone, Thousand Lights, Chennai, Tamil Nadu 600002](https://www.google.com/maps/place/1351+N+Pleasant+Dr,+Chandler,+AZ+85225,+USA/@33.3258484,-111.8588445,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba9e27c527739:0x811f6e4db00282d9!8m2!3d33.3258484!4d-111.8566558)"
+
   utter_evis/product_video:
   - text: "Please have a glance at our product"
     attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
 
   utter_evis/want_to_add_chatbot:
   - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. 
-          \\r\\n You can also try our product free for 30 days. Below are the step by step link to create and integrate chatbot. 
+          \\r\\n You can try our product free for 30 days using the below step by step links. 
           \\r\\n 1. [Login](https://dashboardliveagent.netlify.app/auth/login) 
-          \\r\\n 2. [Activate Free Trial or Premium](https://dashboardliveagent.netlify.app/home/pricing)"
-          \\r\\n 3. [Create Organization](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true) 
-          \\r\\n 4. [Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
+          \\r\\n 2. [Activate Free Trial](https://dashboardliveagent.netlify.app/home/pricing)
+          \\r\\n 3. [Create Organization Name](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true)
+          \\r\\n 4. [Add Website Url](https://dashboardliveagent.netlify.app/dashboard/organization/settings)  
+          \\r\\n 5. [Integrate](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
 
   utter_evis/book_demo:
   - custom: 
@@ -121,7 +194,8 @@ responses:
       intent : "human_handoff"
 
   utter_mock1: # + actions - each method - each domain resposne
-  - text: "mock1"
+  - text: "Please have a glance at our product"
+    attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
     
     
       #   buttons:

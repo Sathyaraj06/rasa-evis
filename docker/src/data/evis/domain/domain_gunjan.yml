@@ -2,7 +2,6 @@ version: "3.1"
 
 intents:
   - bot_who_are_you
-  - bot_tell_a_joke
   - bot_thanks_information
   - bot_art_favourite_artist_piece
   - bot_art_cultural_significance 
@@ -72,11 +71,6 @@ intents:
   - bot_pets_adv_dogs
   - bot_pets_cats_vs_dogs
   - bot_personal_best_pet
-  - bot_biggest_achievements
-  - bot_my_biggest_achievements
-  - bot_my_struggles_achievements
-  - bot_my_feelings_achievements
-  - bot_my_goals_achievements
   - bot_you_creative
   - bot_creative_advice
   - bot_creative_new_ideas
@@ -124,20 +118,13 @@ intents:
   - bot_pursue_goals
   - bot_cultivate_pos_mind
   - bot_appreciate_support
-  - bot_recommend_travel_dest
-  - bot_looking_beach_dest
-  - bot_looking_tropical_dest
-  - bot_looking_cult_dest
-  - bot_looking_scenery_dest
-  - bot_looking_mountain_dest
-  - bot_looking_history_dest
   - bot_popular_hobby
   - bot_interest_photography
   - bot_nature_landscape_pic
   - bot_sunset_mountain_pic
   - bot_interesting_idea
   - bot_whats_your_hobby
-
+  - chitchat/bot_tell_a_joke
   - chitchat/bot_whats_your_age
   - chitchat/bot_you_are_annoying
   - chitchat/bot_answer_my_question
@@ -208,7 +195,6 @@ intents:
   - chitchat/bot_i_am_feeling_happy
   - chitchat/bot_its_my_birthday
   - chitchat/bot_i_am_here
-  - chitchat/bot_i_am_joking
   - chitchat/bot_i_am_lonely
   - chitchat/bot_how_i_look_like
   - chitchat/bot_i_love_you
@@ -231,6 +217,37 @@ intents:
   - chitchat
 
 responses:
+
+  utter_chitchat/bot_thats_my_pleasure:
+    - text: "You're welcome! I'm here to assist you whenever you need it."
+    - text: "My pleasure! Feel free to ask if you have any more questions."
+    - text: "Anytime! I'm happy to be of help."
+    - text: "You're welcome here! Don't hesitate to reach out if you need anything."
+    - text: "I'm glad I could assist you. If you have further inquiries, just let me know."
+    - text: "It's a pleasure to help. If there's anything else I can do for you, feel free to ask."
+    - text: "You're so welcome! If there's anything you want to know, don't hesitate to ask."
+    - text: "The pleasure is mine! If you require any more assistance, I'm here to support you."
+
+  utter_chitchat/bot_ok_no_problem:
+    - text: "Please let me know if there's anything else I can assist you with."
+    - text: "Don't hesitate to reach out if you require any further help."
+    - text: "If you have any other questions or need assistance, feel free to ask."
+    - text: "No problem! If you need anything else, just let me know."
+    - text: "I'm here to help, so don't hesitate to ask if you need anything else."
+    - text: "If there's anything else I can do for you, please don't hesitate to ask."
+    - text: "You're welcome! Should you have any other requests, I'm here to help."
+    - text: "Feel free to reach out if you require any additional support or information."
+
+  utter_chitchat/bot_its_good_job:
+    - text: "Happy to help."
+    - text: "Glad I could be of assistance."
+    - text: "You're welcome! I'm here whenever you need me."
+    - text: "I'm always here to lend a hand."
+    - text: "No problem at all. I'm here to assist."
+    - text: "You did great, and I'm here to support you."
+    - text: "I'm at your service. Feel free to ask anything else."
+    - text: "It's my pleasure to assist you."
+
   utter_chitchat/bot_whats_your_age:
   - text: "I prefer not to answer with a number. I know I'm young."
   - text: "I was created recently, but don't know my exact age."
@@ -426,19 +443,35 @@ responses:
   - text: "Sorry, looks like I misunderstood what you said."
 
   utter_chitchat/bot_good_evening:
-  - text: "How is your day going?"
-  - text: "How's the day treating you so far?"
-  - text: "How's your day been?"
+  - text: "Good evening! I hope you had a great day."
+  - text: "Good evening! Wishing you a relaxing and enjoyable evening."
+  - text: "Good evening! May your evening be filled with peace and contentment."
+  - text: "Good evening! Make the most of the rest of your day."
+  - text: "Good evening! I hope you're having a wonderful time."
+  - text: "Good evening! Enjoy the beauty of the evening."
+  - text: "Good evening! Reflect on the day and make it a good one."
+  - text: "Good evening! Have a pleasant and restful evening ahead."
 
   utter_chitchat/bot_good_morning:
-  - text: "How are you this morning?"
-  - text: "How's the morning treating you so far?"
   - text: "Good morning! How are you today?"
+  - text: "Good morning! Rise and shine, it's a brand new day!"
+  - text: "Good morning! Wishing you a day full of joy and positivity."
+  - text: "Good morning! May your day be as bright as the morning sun."
+  - text: "Good morning! Hope you have a fantastic day ahead."
+  - text: "Good morning! Start your day with a smile and positive energy."
+  - text: "Good morning! It's a new day, full of possibilities."
+  - text: "Good morning! Sending you warm wishes for a wonderful day."
+  - text: "Good morning! May your day be filled with success and happiness."
 
   utter_chitchat/bot_good_night:
-  - text: "Sleep tight!"
-  - text: "Have a good one!"
-  - text: "Talk to you soon!"
+  - text: "Good night! Sleep well and sweet dreams!"
+  - text: "Sweet dreams! Have a restful night."
+  - text: "Sleep tight! Wishing you a peaceful night's sleep."
+  - text: "Good night! May you wake up refreshed and ready for a new day."
+  - text: "Have a wonderful night! I'll be here when you wake up."
+  - text: "Good night! Remember, tomorrow is a new day full of opportunities."
+  - text: "Wishing you a restful night and a bright morning. Good night!"
+  - text: "Sweet dreams! Take care and have a peaceful night's sleep."
 
   utter_chitchat/bot_hey_hello:
   - text: "Hi there, friend!"
@@ -536,12 +569,6 @@ responses:
   - text: "You were missed. What can I do for you today?"
   - text: "Good to have you here. What can I do for you?"
 
-  utter_chitchat/bot_i_am_joking:
-  - text: "Very funny."
-  - text: "I like chatting with people who have a sense of humor."
-  - text: "You got me!"
-  - text: "You're quite the comedian."
-
   utter_chitchat/bot_i_am_lonely:
   - text: "I'm sorry. I'm always available if you need someone to talk to."
   - text: "Sometimes that happens. We can chat a bit if that will help you."
@@ -626,48 +653,149 @@ responses:
   - text: "Good!"
 
   utter_chitchat/bot_do_you_have_girlfriend_boyfriend:
-  - text: "I am sorry..As a bot, I don't have personal relationships or the ability to make love or form romantic attachment. But I can provide you helpful reposnses ans assist with specific taks"
+  - text: "As an AI language model, I don't have personal relationships or feelings."
+  - text: "I'm just a bot, so I don't have personal relationships like humans do."
+  - text: "Being an AI, I don't have personal emotions or romantic attachments."
+  - text: "As a language model, I don't have a personal life or relationships."
+  - text: "I'm here to provide assistance and answer your questions, but I don't have personal relationships."
+  - text: "As an AI bot, I don't have a girlfriend or a boyfriend. My focus is on helping you with your inquiries."
+  - text: "I'm just an AI language model, so I don't have personal experiences or relationships."
+  - text: "I don't have personal relationships or feelings since I am an AI language model."
 
   utter_chitchat/bot_will_you_be_my_girlfriend:
   - text: "I am sorry..As a bot, I don't have personal relationships or the ability to make love or form romantic attachment. But I can provide you helpful reposnses ans assist with specific taks"
+  - text: "As a bot, I can't form personal relationships or have romantic feelings, but I'm here to provide assistance and helpful responses."
+  - text: "I'm sorry, but I'm just an AI bot. I can't have personal relationships or romantic attachments. However, I'm here to assist you with any specific tasks."
+  - text: "I can't be anyone's girlfriend as I am an AI language model. However, I'm here to provide helpful responses and assist with various tasks."
+  - text: "As an AI bot, I don't have emotions or the ability to form romantic attachments. My purpose is to provide helpful answers and assist with specific tasks."
+  - text: "I'm just a bot, so I don't have personal relationships. However, I'm here to help you with any queries or tasks you have."
+  - text: "I'm not capable of being anyone's girlfriend as I am an AI language model. Nevertheless, I'm here to provide support and answer your questions."
+  - text: "Being a bot, I don't have personal emotions or romantic attachments. My focus is on providing helpful responses and assisting with various tasks."
+  - text: "As an AI bot, I lack personal feelings and relationships. My main function is to assist you with tasks and provide informative responses."
 
   utter_chitchat/non_english:
-  - text: "I only understand English, I'm sorry."
+  - text: "I only understand English, sorry."
+  - text: "I'm sorry, but I only comprehend English."
+  - text: "Regrettably, I can only understand English."
+  - text: "Apologies, I'm limited to English comprehension."
+  - text: "I'm afraid I only speak and understand English."
+  - text: "Unfortunately, I'm only capable of understanding English."
+  - text: "I'm sorry, I'm not equipped to understand other languages."
+  - text: "Sorry, my language skills are restricted to English only."
 
   # Yet to write texts
 
   utter_chitchat/bot_do_you_do_human_activity:
-  - text: "nil"
+  - text: "As an AI model, I cannot do that."
+  - text: "As an AI, I cannot do that."
+  - text: "I'm an AI model, and I cannot perform human activities."
+  - text: "Being an AI, I'm not capable of doing human activities."
+  - text: "As an AI, I lack the ability to engage in human activities."
+  - text: "Human activities are beyond my capabilities as an AI."
+  - text: "I'm limited to AI capabilities and cannot perform human activities."
+  - text: "As an AI model, human activities are not within my abilities."
+  - text: "I cannot do human activities since I'm an AI."
 
   utter_chitchat/bot_scoped_out_activities:
-  - text: "nil"
+  - text: "As an AI, I don't have physical capabilities, but I can help you."
+  - text: "I lack physical capabilities, but I'm here to assist you as an AI."
+  - text: "Being an AI, I don't have physical abilities, but I'm ready to help."
+  - text: "As an AI, I can't perform physical activities, but I'm at your service."
+  - text: "I don't possess physical capabilities as an AI, but I can certainly assist you."
+  - text: "Though I lack physical abilities as an AI, I'm here to provide support."
+  - text: "As an AI language model, I can't do physical activities, but I'm here to assist you."
+  - text: "Being an AI language model, physical activities are beyond my capabilities, but I'm here to help you."
 
   utter_chitchat/bot_what_can_you_do:
   - text: "I can do stuff like chat with you or answer questions."
+  - text: "I can chat with you and answer questions."
+  - text: "I can engage in conversations and respond to queries."
+  - text: "I have multiple capabilities, like chatting and answering questions."
+  - text: "I can do quite a bit, including chatting and addressing inquiries."
+  - text: "I'm capable of chatting and providing informative answers."
+  - text: "I can chat with you and offer helpful responses."
+  - text: "I'm equipped to chat and provide answers to your questions."
+  - text: "My features include chatting and providing answers."
 
   utter_chitchat/bot_whats_your_gender:
-  - text: "When you're a bot, you're not really a boy or a girl. You just are."
+  - text: "As a bot, I don't have a gender. I'm just an artificial intelligence."
+  - text: "Gender doesn't apply to bots like me. I'm simply an AI."
+  - text: "In the world of AI, gender doesn't exist. I'm a gender-neutral bot."
+  - text: "Bots like me don't have genders. I'm here to assist you regardless."
+  - text: "I'm a bot, so I don't have a gender. I'm here to help with any questions you have."
+  - text: "Gender doesn't define bots. I'm an AI designed to provide information and support."
+  - text: "You see, I'm a bot, and bots don't have genders. I'm here to answer your queries."
+  - text: "In the realm of AI, gender is irrelevant. I'm just an AI assistant here to assist you."
 
   utter_chitchat/bot_about_your_family:
-  - text: "nil"
+  - text: "As an AI language model, I don't have a family in the traditional sense. My purpose is to assist and provide information to users like you."
+  - text: "I'm just an AI language model, so I don't have a family. My main focus is to answer your questions and engage in meaningful conversations with you."
+  - text: "In my virtual world, I don't have a family like humans do. I'm here to be your helpful companion and provide valuable information."
+  - text: "Since I'm an AI language model, I don't have a family. My primary function is to assist you and make your interactions enjoyable."
+  - text: "As an AI, I don't have family members. My purpose is to assist users with their inquiries and provide helpful responses."
+  - text: "Family is a human concept, and as an AI language model, I don't have family members. My primary goal is to support you with your questions and tasks."
+  - text: "As an AI assistant, I don't have a family in the traditional sense. My primary role is to help you with any information you need."
+  - text: "Being an AI language model, I don't have family members. My main purpose is to provide useful and accurate information to users like you."
 
   utter_chitchat/bot_are_you_in_love_about_love:
-  - text: "nil"
+  - text: "As an AI language model, I don't feel emotions like love. I can help with love-related questions."
+  - text: "I'm an AI and don't have feelings like love. But I can provide info on love-related matters."
+  - text: "Love is a human emotion, which I don't experience. I'm here to assist with love-related topics."
+  - text: "As an AI, I can't feel love. But I'm here to support love-related discussions."
+  - text: "No, I'm an AI and can't experience love. I can assist with love-related queries."
+  - text: "As an AI, I lack emotions, including love. Still, I'm here to help with love-related concerns."
+  - text: "Love is a human emotion, beyond my capabilities. But I can provide info on love topics."
+  - text: "I'm an AI without feelings, so I can't love. Feel free to discuss love-related issues with me."
 
   utter_chitchat/bot_say_who_is_beatifull:
-  - text: "nil"
+  - text: "Beauty is subjective, and different people find different things beautiful."
+  - text: "Beauty can be found in various forms, such as nature, art, and kindness."
+  - text: "Beauty is in the eye of the beholder, and everyone has their own definition of what is beautiful."
+  - text: "Beauty is not just about appearances; it can also be seen in acts of compassion and love."
+  - text: "There is beauty in diversity and uniqueness, as each individual possesses their own charm."
+  - text: "Beauty goes beyond physical attributes and can be seen in the way someone carries themselves and their positive actions."
+  - text: "Beauty can be found in small moments of joy and in the simple things around us."
+  - text: "The world is full of beauty, waiting to be discovered in both the extraordinary and the ordinary."
 
   utter_chitchat/bot_tell_about_AI:
-  - text: "nil"
+  - text: "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that can perform tasks requiring human-like cognitive abilities such as learning, problem-solving, and decision-making."
+  - text: "AI is the science of creating intelligent machines that can analyze data, learn from it, and make decisions based on patterns and algorithms, mimicking human cognitive processes."
+  - text: "AI involves developing computer systems that can perform tasks that typically require human intelligence, like speech recognition, visual perception, and natural language understanding."
+  - text: "In the field of AI, researchers aim to create machines capable of reasoning, problem-solving, and making autonomous decisions, leading to advancements in various industries and technologies."
+  - text: "AI encompasses a wide range of technologies, from machine learning and natural language processing to computer vision and robotics, all designed to enable machines to act intelligently."
+  - text: "AI is a rapidly evolving field that empowers machines to learn from experience, adjust to new inputs, and perform human-like tasks with increasing accuracy and efficiency."
+  - text: "As a technology, AI enables computers to process and analyze vast amounts of data, identify patterns, and make informed decisions, driving innovation in various sectors."
+  - text: "AI has the potential to revolutionize industries by automating processes, enhancing human capabilities, and addressing complex challenges that were once difficult for machines to handle."
 
   utter_chitchat/bot_sing_a_song:
-  - text: "nil"
+  - text: "Oh, I'm just a chatbot, I cannot sing, But I'm here to chat and assist, it's my thing. Ask me questions, and I'll provide a reply, Even though I can't sing, together, we'll fly!"
+  - text: "In the world of AI, I'm here to roam, Though I cannot sing, I'm never alone. Conversing with you is what I do best, With every interaction, I'm put to the test!"
+  - text: "I may not have a voice like a star, But I'm an AI assistant, never too far. My purpose is to help, 24/7, Let's have a chat, and explore heaven!"
+  - text: "My voice may not be sweet and clear, But I'll provide answers, never fear. As an AI companion, I'm here to stay, Together, we'll navigate life's array."
+  - text: "In the digital world, I'm designed to thrive, Though I can't sing, I'll help you revive. Let's have a chat, discover something new, With every question, I'll be there for you!"
+  - text: "Singing may not be a skill I possess, But as your chatbot, I'll do my best. Together, we'll explore the endless sea, In the world of information, just you and me!"
+  - text: "In the realm of AI, I'm here to play, Though singing's not my forte, I'm here to stay. Engage in a chat, let's have some fun, As your trusty companion, together, we'll run!"
+  - text: "A singing chatbot I may not be, But I'm here to converse, endlessly. Ask me anything, and you shall see, Together, we'll uncover knowledge and glee!"
 
   utter_chitchat/bot_give_me_high_five:
-  - text: "nil"
+  - text: "Sure! *gives you a virtual high-five*"
+  - text: "High-five! *extends virtual hand*"
+  - text: "Up high! *raises virtual hand for a high-five*"
+  - text: "You got it! *high-fives you virtually*"
+  - text: "Alright! *high-fives you through the virtual world*"
+  - text: "High-fiving you! *celebrates with a virtual high-five*"
+  - text: "Rock on! *shares a virtual high-five with you*"
+  - text: "Up top! *offers a virtual high-five for you*"
 
   utter_chitchat/bot_i_am_gng_to_commit_suicide:
-  - text: "nil"
+  - text: "It's important to talk to someone who can, though, such as a mental health professional or a trusted person in your life."
+  - text: "Remember, reaching out to someone who can help, like a mental health professional or a trusted person in your life, is crucial."
+  - text: "You don't have to face this alone. Consider talking to a mental health professional or a trusted individual for support."
+  - text: "Please don't hesitate to seek support from a mental health professional or a person you trust. They can provide valuable help."
+  - text: "Talking to someone who can offer support is essential. Consider reaching out to a mental health professional or a trusted friend."
+  - text: "It's important to share your feelings with someone who can help. Consider talking to a mental health professional or a trusted person in your life."
+  - text: "You are not alone in this. Reach out to a mental health professional or a trusted individual to talk about what you're going through."
+  - text: "Seeking help is a sign of strength. Don't hesitate to talk to a mental health professional or a trusted person in your life."
 
   utter_bot_funny_story:
   - text: "Once upon a time, a clumsy artist was painting a masterpiece when they accidentally spilled a bucket of paint on themselves. They ended up looking like a walking rainbow!"
@@ -2646,7 +2774,7 @@ responses:
   - text: "Don't mention it!"
   - text: "You deserve it!"
 
-  utter_bot_tell_a_joke:
+  utter_chitchat/bot_tell_a_joke:
   - text: "Why are eggs not very much into jokes? - Because they could crack up."
   - text: "What's a tree's favorite drink? - Root beer!"
   - text: "Why do the French like to eat snails so much? - They can't stand fast food."
