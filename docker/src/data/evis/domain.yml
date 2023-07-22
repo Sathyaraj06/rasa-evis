@@ -168,7 +168,7 @@ responses:
   - custom: 
       type : "carousel"
       text: "Please connect with us on [support@evis.app](mailto:support@evis.app) or +91-7904538145.
-            \\r\\n Our Office is located at "The Executive Zone, Thousand Lights, Chennai, India 600002" [📍](https://www.google.com/maps/place/1351+N+Pleasant+Dr,+Chandler,+AZ+85225,+USA/@33.3258484,-111.8588445,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba9e27c527739:0x811f6e4db00282d9!8m2!3d33.3258484!4d-111.8566558)"
+            \\r\\n Our Office is located at \"The Executive Zone, Thousand Lights, Chennai, India 600002\" [📍](https://www.google.com/maps/place/1351+N+Pleasant+Dr,+Chandler,+AZ+85225,+USA/@33.3258484,-111.8588445,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba9e27c527739:0x811f6e4db00282d9!8m2!3d33.3258484!4d-111.8566558)"
       attachments:
         - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
         - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
