@@ -336,10 +336,6 @@ nlu:
     examples: |
       - Contact Info
 
-- intent: evis/mail_us
-    examples: |
-      - Mail Us
-
   - intent: evis/contact_sales
     examples: |
       - But I wanted a sales call

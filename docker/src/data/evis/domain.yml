@@ -29,7 +29,6 @@ intents:
     - evis/feature_enterprise_installation
     - evis/chatbot_integration
     - evis/contact_info
-    - evis/mail_us
 
     - mock1
 
@@ -203,11 +202,6 @@ responses:
   - custom: 
       type : "intent"
       text : "human_handoff"
-
-  utter_evis/mail_us:
-  - custom: 
-      type : "intent"
-      text : "mail_notification"
 
   utter_mock1: # + actions - each method - each domain resposne
   - custom: 
