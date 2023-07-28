@@ -141,6 +141,7 @@ intents:
   - chitchat/bot_are_you_in_love_about_love
   - chitchat/bot_say_who_is_beatifull
   - chitchat/bot_tell_about_AI
+  - chitchat/bot_express_gratitude
   - chitchat/bot_sing_a_song
   - chitchat/bot_give_me_high_five
   - chitchat/bot_i_am_insulting_you
@@ -217,7 +218,6 @@ intents:
   - chitchat
 
 responses:
-
   utter_chitchat/bot_thats_my_pleasure:
     - text: "You're welcome! I'm here to assist you whenever you need it."
     - text: "My pleasure! Feel free to ask if you have any more questions."
@@ -661,6 +661,20 @@ responses:
   - text: "As an AI bot, I don't have a girlfriend or a boyfriend. My focus is on helping you with your inquiries."
   - text: "I'm just an AI language model, so I don't have personal experiences or relationships."
   - text: "I don't have personal relationships or feelings since I am an AI language model."
+
+  utter_chitchat/bot_express_gratitude:
+    - text: "You're welcome! I'm here to assist and support."
+    - text: "You're very welcome! I'm glad to help."
+    - text: "No problem! Happy to assist you."
+    - text: "My pleasure to help. Feel free to ask more."
+    - text: "You're welcome! If you have more questions, ask."
+    - text: "It was my pleasure to assist. Let me know if you need more."
+    - text: "I'm here to help you anytime! Reach out for support."
+    - text: "You're welcome! I'm here for answers and support."
+    - text: "No problem! I'm ready to assist."
+    - text: "My pleasure to help. Ask if you need more."
+    - text: "Glad to assist! Let me know if you need further help."
+    - text: "You're welcome! I'm here for any support you need."
 
   utter_chitchat/bot_will_you_be_my_girlfriend:
   - text: "I am sorry..As a bot, I don't have personal relationships or the ability to make love or form romantic attachment. But I can provide you helpful reposnses ans assist with specific taks"
