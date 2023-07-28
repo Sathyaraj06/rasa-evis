@@ -2051,6 +2051,43 @@ nlu:
     - am back
     - I'm back
     - look who is back
+
+- intent: chitchat/bot_express_gratitude
+  examples: |
+    - You helped a lot, thank you.
+    - Appreciate your help.
+    - Cheers!
+    - Thank you.
+    - Thanks.
+    - Thanks a lot.
+    - Terrific, thank you.
+    - Great, thank you.
+    - Thanks so much.
+    - Thank you so much.
+    - Thanks for your help.
+    - Thank you for your help.
+    - Nice, thank you.
+    - I appreciate it.
+    - I thank you.
+    - Thank you, that will be all.
+    - Thanks, buddy.
+    - Thanks, love.
+    - Thank you, my friend.
+    - Well, thanks.
+    - Very good, thank you.
+    - Good, thanks.
+    - Thanks again.
+    - Thank you again.
+    - All, thank you.
+    - Alright, thank you.
+    - Alright, thanks.
+    - No, thank you, that's all.
+    - Perfect, thank you.
+    - Well, thank you.
+    - Thnx.
+    - Tqsm.
+    - Ty.
+
 - intent: chitchat/bot_i_am_bored
   examples: |
     - soo bored
@@ -5815,30 +5852,6 @@ nlu:
     - Clever! Thanks for sharing those funny stories, they made me laugh!
     - Well done! Thanks for brightening my day with those funny anecdotes!
     - Bravo! Thanks for the laughs, those stories were hilarious!
-    - Impressive! Thanks for sharing those amusing tales, they brought joy!
-    - Smart! Thanks for the funny stories, they made me laugh!
-    - You're witty! Thanks for sharing those hilarious anecdotes!
-    - Nicely done! Thanks for the laughs, those stories were funny!
-    - You're clever! Thanks for the amusing tales, they brought joy!
-    - That's witty! Thanks for sharing the funny stories, they made me laugh!
-    - Well played! Thanks for the laughs, those stories were hilarious!
-    - You're smart! Thanks for the amusing tales, they brought joy!
-    - Clever! Thanks for sharing those funny stories, they made me laugh!
-    - Well done! Thanks for brightening my day with those funny anecdotes!
-    - Bravo! Thanks for the laughs, those stories were hilarious!
-    - Impressive! Thanks for sharing those amusing tales, they brought joy!
-    - Smart! Thanks for the funny stories, they made me laugh!
-    - You're witty! Thanks for sharing those hilarious anecdotes!
-    - Nicely done! Thanks for the laughs, those stories were funny!
-    - You're clever! Thanks for the amusing tales, they brought joy!
-    - That's witty! Thanks for sharing the funny stories, they made me laugh!
-    - Well played! Thanks for the laughs, those stories were hilarious!
-    - You're smart! Thanks for the amusing tales, they brought joy!
-    - Clever! Thanks for sharing those funny stories, they made me laugh!
-    - Well done! Thanks for brightening my day with those funny anecdotes!
-    - Bravo! Thanks for the laughs, those stories were hilarious!
-    - Impressive! Thanks for sharing those amusing tales, they brought joy!
-    - Smart! Thanks for the funny stories, they made me laugh!
 
 - intent: bot_nice_day
   examples: |
