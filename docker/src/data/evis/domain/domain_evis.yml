@@ -169,7 +169,7 @@ responses:
       type : "carousel"
       text: "Please connect with us on [support@evis.app](mailto:support@evis.app) or call us at +91-7904538145.
             \\r\\n Office Address: The Executive Zone, Thousand Lights, Chennai, India 600002 [Map](https://www.google.com/maps/place/The+Executive+Zone+%7C+Coworking+Space+%7C+Anna+Salai/@13.0615919,80.2573416,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266166d42b5a7:0xd997f32439e5bb34!8m2!3d13.0615919!4d80.2595303!16s%2Fg%2F11c6s53zmf?hl=en&entry=ttu)
-            Few Office Pictures are below."
+            \\r\\n Few Workplace Pictures are below."
       attachments:
         - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
         - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg2.jpg?tr=f-webp" } }
@@ -215,3 +215,7 @@ responses:
       - text: "Adding Evis"
         attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
     
+    
+      #   buttons:
+      # - title: Start Free Trial
+      #   url: https://dashboardliveagent.netlify.app/dashboard/settings/subscriptions
