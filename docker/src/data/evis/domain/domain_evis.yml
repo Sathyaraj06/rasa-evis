@@ -5,7 +5,7 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
-    - evis/what_is_evis
+    - evis/about_evis
     - evis/why_evis
     - evis/how_to_get_started
     - evis/book_demo
@@ -14,7 +14,6 @@ intents:
     - evis/product_video
     - evis/pricing_plans
     - evis/want_to_add_chatbot
-    - evis/explore_evis
     - evis/pricing_and_features
     - evis/start_free_trial
     - evis/features
@@ -33,9 +32,9 @@ intents:
     - mock1
 
 responses:
-  utter_evis/what_is_evis:
-  - text: "Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app) 🎯"
-  - text: "Evis resilient assistants that work.! 🎯"
+  # utter_evis/about_evis:
+  # - text: "Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app) 🎯"
+  # - text: "Evis resilient assistants that work.! 🎯"
 
   utter_evis/why_evis:
   - text: "Evis  provides the chatbot and tools needed to build high-performing, resilient assistants that work.! 🚀"
@@ -59,7 +58,7 @@ responses:
       - title: More about Evis
         payload: Explore Evis
 
-  utter_evis/explore_evis:
+  utter_evis/about_evis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app).
     buttons:
       - title: Pricing Plans

@@ -137,7 +137,7 @@ nlu:
       - can you help me build my bot?
       - how to build bot with evis 
 
-  - intent: evis/what_is_evis
+  - intent: evis/about_evis
     examples: |
       - Can you brief me about evis
       - Can you tell me more about evis?
@@ -145,16 +145,13 @@ nlu:
       - Could you tell me more about Evis?
       - Give me more information about Evis
       - How does Evis work?
-      - I want to know about rsa
       - I want to know what evis actually does that isn't clear to me yet
       - I want to learn what evis does
       - I want to learn what evis is
       - I would like to know about evis
       - I would like to know more about your product
       - OK can u brief me Abt evis
-      - EVIS?
       - Evis Is?
-      - WHAT IS IT
       - WHAT IS EVIS
       - What Is evis?
       - What can evis do?
@@ -170,6 +167,7 @@ nlu:
       - What is evis?
       - What is the EVIS Stack?
       - What's evis?
+      - whats evis
       - can you explain evis?
       - can you pls explain what evis does
       - could you tell me more about evis
@@ -186,7 +184,6 @@ nlu:
       - i want to know about evis
       - i want to know what evis does
       - i want to learn something about evis
-      - so how does it all work?
       - sorry tell me about evis
       - tell me about evis
       - tell me bout evis
@@ -200,23 +197,10 @@ nlu:
       - what does evis do ?
       - what does evis do?
       - what does evis mean
-      - what is evis
-      - what is evis?
-      - what is in evis
-      - what is it for?
-      - what is evis
       - what is evis actually
-      - what is evis?
-      - whats evis
       - yeah go on explaining what evis is
       - EVIS IS SOFTWARE?
-      - evis os
-      - what is Evis
-  
-  - intent: evis/explore_evis
-    examples: |
       - Explore Evis
-      - Chatbot Integration
   
   - intent: evis/why_evis
     examples: |
