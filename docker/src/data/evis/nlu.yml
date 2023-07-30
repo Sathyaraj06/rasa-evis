@@ -137,6 +137,36 @@ nlu:
       - can you help me build my bot?
       - how to build bot with evis 
 
+  - intent: evis/what_is_chatbot
+    examples : |
+      - What is chatbot?
+      - How chatbot can help me
+      - What's a chatbot and what does it do? 
+      - Define chatbot and its purpose
+      - Explain chatbots and their usage. 
+      - What are chatbots and how are they used? 
+      - What's the role of chatbots in communication? 
+      - Describe chatbots and their popularity. 
+      - How do chatbots work and what are they for? 
+      - Chatbot - what is it and its applications? 
+      - Tell me about chatbots and their functions. 
+      - What do chatbots do and why are they used?
+      - Can you give me a brief on chatbots?
+      - What's the deal with chatbots? 
+      - How do chatbots function? 
+      - Why are chatbots so popular? 
+      - What's the purpose of chatbots? 
+      - Tell me about chatbots in a nutshell. 
+      - How are chatbots utilized? 
+      - Explain chatbots in a few words. 
+      - What are chatbots used for? 
+      - Chatbot - what is it exactly? 
+      - Can you describe chatbots briefly? 
+      - Provide an overview of chatbots. 
+      - How can chatbots assist us? 
+      - What's the buzz about chatbots? 
+      - Simplify chatbots for me, please
+
   - intent: evis/about_evis
     examples: |
       - Can you brief me about evis
@@ -497,3 +527,31 @@ nlu:
   - intent: mock1
     examples: |
       - mock1
+
+      What is chatbot?
+      How chatbot can help me
+      What's a chatbot and what does it do? 
+      Define chatbot and its purpose
+      Explain chatbots and their usage. 
+      What are chatbots and how are they used? 
+      What's the role of chatbots in communication? 
+      Describe chatbots and their popularity. 
+      How do chatbots work and what are they for? 
+      Chatbot - what is it and its applications? 
+      Tell me about chatbots and their functions. 
+      What do chatbots do and why are they used?
+      Can you give me a brief on chatbots?
+      What's the deal with chatbots? 
+      How do chatbots function? 
+      Why are chatbots so popular? 
+      What's the purpose of chatbots? 
+      Tell me about chatbots in a nutshell. 
+      How are chatbots utilized? 
+      Explain chatbots in a few words. 
+      What are chatbots used for? 
+      Chatbot - what is it exactly? 
+      Can you describe chatbots briefly? 
+      Provide an overview of chatbots. 
+      How can chatbots assist us? 
+      What's the buzz about chatbots? 
+      Simplify chatbots for me, please
