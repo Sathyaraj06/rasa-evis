@@ -2072,12 +2072,15 @@ nlu:
     - Thank you, that will be all.
     - Thanks, buddy.
     - Thanks, love.
+    - thanks
+    - thnx.
     - Thank you, my friend.
     - Well, thanks.
     - Very good, thank you.
     - Good, thanks.
     - Thanks again.
     - Thank you again.
+    - thanks!
     - All, thank you.
     - Alright, thank you.
     - Alright, thanks.
@@ -2085,6 +2088,7 @@ nlu:
     - Perfect, thank you.
     - Well, thank you.
     - Thnx.
+    - thanks.
     - Tqsm.
     - Ty.
 
