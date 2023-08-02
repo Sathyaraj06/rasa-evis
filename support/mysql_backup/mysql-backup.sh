@@ -5,7 +5,7 @@ TODAY=`date +"%d%b%Y"`
 
 ################## Update below values  ########################
 
-DB_BACKUP_PATH='/backup/mysql'
+DB_BACKUP_PATH='/mysqlbackup'
 MYSQL_HOST='localhost'
 MYSQL_PORT='3306'
 MYSQL_USER='root'
@@ -15,7 +15,7 @@ BACKUP_RETAIN_DAYS=30   ## Number of days to keep local backup copy
 
 #################################################################
 
-mkdir -p ${DB_BACKUP_PATH}/${TODAY}
+sudo mkdir -p ${DB_BACKUP_PATH}/${TODAY}
 echo "Backup started for database - ${DATABASE_NAME}"
 
 
