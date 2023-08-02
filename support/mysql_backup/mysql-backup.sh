@@ -3,7 +3,7 @@
 export PATH=/bin:/usr/bin:/usr/local/bin
 TODAY=`date +"%d%b%Y"`
 
-################## Update below values  ########################
+################## Update below valuess  ########################
 
 DB_BACKUP_PATH='/mysqlbackup'
 MYSQL_HOST='localhost'
