@@ -19,7 +19,7 @@ sudo mkdir -p ${DB_BACKUP_PATH}/${TODAY}
 echo "Backup started for database - ${DATABASE_NAME}"
 
 
-mysqldump -h ${MYSQL_HOST} \
+sudo mysqldump -h ${MYSQL_HOST} \
 		  -P ${MYSQL_PORT} \
 		  -u ${MYSQL_USER} \
 		  -p${MYSQL_PASSWORD} \
@@ -39,7 +39,7 @@ DBDELDATE=`date +"%d%b%Y" --date="${BACKUP_RETAIN_DAYS} days ago"`
 if [ ! -z ${DB_BACKUP_PATH} ]; then
       cd ${DB_BACKUP_PATH}
       if [ ! -z ${DBDELDATE} ] && [ -d ${DBDELDATE} ]; then
-            rm -rf ${DBDELDATE}
+            sudo rm -rf ${DBDELDATE}
       fi
 fi
 
