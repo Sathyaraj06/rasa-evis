@@ -10,3 +10,6 @@ sudo docker volume create portainer_data
 sudo docker stop portainer
 sudo docker rm portainer
 sudo docker run -d -p 8000:8000 -p 8002:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+# List of ports exposed in linux
+# sudo lsof -i -P -n | grep LISTEN
