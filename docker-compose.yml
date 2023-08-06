@@ -41,39 +41,11 @@ services:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evis.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
-  nginxproxy:
-    image: 'jc21/nginx-proxy-manager:latest'
-    restart: always
-    ports:
-      - '80:80'
-      - '81:81'
-      - '443:443'
-    volumes:
-      - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
 
-  portainer:
-    container_name: portainer
-    image: portainer/portainer-ce:latest
-    ports:
-      - 8000:8000
-      - 8002:9443
-    volumes:
-      - data:/data
-      - /var/run/docker.sock:/var/run/docker.sock
-    restart: always
 
-    # portainer reset password
-    # docker container stop portainer
-    # docker run --rm -v portainer_data:/data portainer/helper-reset-password
 
-  webssh2:
-    container_name: webssh2
-    image: billchurch/webssh2
-    ports:
-      - 8001:2222
 
-  
+
 
 
 
