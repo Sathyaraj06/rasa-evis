@@ -11,5 +11,10 @@ sudo docker stop portainer
 sudo docker rm portainer
 sudo docker run -d -p 8000:8000 -p 8002:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 
+# portainer reset password
+docker container stop portainer
+docker run --rm -v portainer_data:/data portainer/helper-reset-password
+
+
 # List of ports exposed in linux
 # sudo lsof -i -P -n | grep LISTEN

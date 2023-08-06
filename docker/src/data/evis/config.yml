@@ -15,13 +15,13 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 101
+    epochs: 200
   - name: EntitySynonymMapper
   - name: ResponseSelector
-    epochs: 100
+    epochs: 200
     retrieval_intent: evis
   - name: ResponseSelector
-    epochs: 100
+    epochs: 200
     retrieval_intent: chitchat
   - name: FallbackClassifier
     threshold: 0.3

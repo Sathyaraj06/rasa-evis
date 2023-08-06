@@ -22,7 +22,7 @@ sudo mysqldump -h ${MYSQL_HOST} \
 		  -P ${MYSQL_PORT} \
 		  -u ${MYSQL_USER} \
 		  -p${MYSQL_PASSWORD} \
-		  ${DATABASE_NAME} > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}-${TODAY}.sql
+		  ${DATABASE_NAME} > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}.sql
 
       		  # ${DATABASE_NAME} | gzip > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}-${TODAY}.sql.gz
 
