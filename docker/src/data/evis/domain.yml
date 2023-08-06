@@ -18,6 +18,7 @@ intents:
     - evis/pricing_and_features
     - evis/start_free_trial
     - evis/features
+    - evis/industies
     - evis/feature_chitchats
     - evis/feature_liveagent_assist
     - evis/feature_live_dashboard
@@ -56,18 +57,20 @@ responses:
         payload: Chat with our team
       - title: Book a demo
         payload: Book a demo
-      - title: More about Evis
+      - title: More on Evis
         payload: Explore Evis
 
   utter_evis/about_evis:
   - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app).
     buttons:
+      - title: Industries
+        payload: Industries
+      - title: Product Video
+        payload: Product Video
       - title: Pricing Plans
         payload: Pricing Plans
       - title: Features
         payload: Features
-      - title: Product Video
-        payload: Product Video
       - title: Integration
         payload: Chatbot Integration
       - title: Contact Info
@@ -119,6 +122,17 @@ responses:
         payload: Authentication Feature
       - title: Enterprise Installation
         payload: Enterprise Installation Feature
+
+  utter_evis/industies:
+  - text: "Evis serves a wide range of industries. We have tailored AI solutions for the following sectors:. 
+          \\r\\n- Automotive
+          \\r\\n- Real Estate
+          \\r\\n- Education
+          \\r\\n- Healthcare
+          \\r\\n- Hospitality
+          \\r\\n- Retail
+          \\r\\n- Insurance
+          \\r\\n- Loans"
 
   utter_evis/feature_chitchats:
   - text: "Chitchat refers to casual, friendly conversations with user, which enhances the user engagement with joyable experiences. 
