@@ -2,30 +2,6 @@ version: '3.1'
 
 services:
 
-  common:
-    container_name: common
-    build: 
-      context: ./docker
-      dockerfile: Dockerfile
-      args:
-        org: rasa train --data data/chitchat/nlu.yml data/evis/nlu.yml data/chitchat/rules.yml data/evis/rules.yml data/chitchat/stories.yml data/evis/stories.yml -d data/evis/domain --config data/evis/config.yml
-    ports:
-      - "1001:5005"
-    command: rasa run --enable-api --log-file rasa.log --debug --cors "*" 
-
-  kalani:
-    container_name: kalani
-    build: 
-      context: ./docker
-      dockerfile: Dockerfile
-      args:
-        org: rasa train --data data/kalani/nlu.yml data/kalani/rules.yml data/kalani/stories.yml -d data/kalani/domain.yml --config data/kalani/config.yml --out ./models --fixed-model-name kalani
-    ports:
-      - "1000:5005"
-    volumes:
-      - "./shared/models:/app/shared"
-    command: rasa run -m models/kalani.tar.gz --enable-api --log-file rasa.log --debug --cors "*" && ./actions-bg.sh
-
   evisalone:
     container_name: evisalone
     build: 
@@ -67,7 +43,7 @@ services:
 
   nginxproxy:
     image: 'jc21/nginx-proxy-manager:latest'
-    restart: unless-stopped
+    restart: always
     ports:
       - '80:80'
       - '81:81'
@@ -76,9 +52,28 @@ services:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
 
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    ports:
+      - 8000:8000
+      - 8002:9443
+    volumes:
+      - data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: always
 
+    # portainer reset password
+    # docker container stop portainer
+    # docker run --rm -v portainer_data:/data portainer/helper-reset-password
 
+  webssh2:
+    container_name: webssh2
+    image: billchurch/webssh2
+    ports:
+      - 8001:2222
 
+  
 
 
 
