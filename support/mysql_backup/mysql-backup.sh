@@ -23,10 +23,8 @@ sudo mysqldump -h ${MYSQL_HOST} \
 		  -u ${MYSQL_USER} \
 		  -p${MYSQL_PASSWORD} \
       -R -E --triggers --single-transaction \
-		  ${DATABASE_NAME} > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}.sql 
-      
-      # | 
-      # sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}.sql
+		  ${DATABASE_NAME} > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}.sql | 
+      sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}.sql
 
       		  # ${DATABASE_NAME} | gzip > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}-${TODAY}.sql.gz
 
