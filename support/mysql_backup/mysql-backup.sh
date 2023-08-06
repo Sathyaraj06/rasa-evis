@@ -22,6 +22,7 @@ sudo mysqldump -h ${MYSQL_HOST} \
 		  -P ${MYSQL_PORT} \
 		  -u ${MYSQL_USER} \
 		  -p${MYSQL_PASSWORD} \
+      -R -E --triggers --single-transaction \
 		  ${DATABASE_NAME} > ${DB_BACKUP_PATH}/${TODAY}/${DATABASE_NAME}.sql 
       
       # | 
