@@ -124,6 +124,7 @@ intents:
   - bot_sunset_mountain_pic
   - bot_interesting_idea
   - bot_whats_your_hobby
+  - chitchat/bot_feedback
   - chitchat/bot_tell_a_joke
   - chitchat/bot_whats_your_age
   - chitchat/bot_you_are_annoying
@@ -2787,6 +2788,11 @@ responses:
   - text: "You got it!"
   - text: "Don't mention it!"
   - text: "You deserve it!"
+
+  utter_chitchat/bot_feedback:
+  - custom:
+      type : "intent"
+      text : "bot_feedback" 
 
   utter_chitchat/bot_tell_a_joke:
   - text: "Why are eggs not very much into jokes? - Because they could crack up."

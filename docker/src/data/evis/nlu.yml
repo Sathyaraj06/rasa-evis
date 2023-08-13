@@ -308,7 +308,6 @@ nlu:
     examples: |
       - Industries
 
-
   - intent: evis/feature_chitchats
     examples: |
       - Chitchat Feature

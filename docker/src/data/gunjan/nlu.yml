@@ -2,6 +2,13 @@ version: "3.1"
 
 nlu:
 
+- intent: chitchat/bot_feedback
+  examples: |
+    - bot_feedback
+    - want to provide feedback for chatbot
+    - need to provide feedback for bot
+    - can i provide feedback for you
+
 - intent: chitchat/bot_whats_your_age
   examples: |
     - tell me your age
