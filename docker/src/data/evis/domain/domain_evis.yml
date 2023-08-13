@@ -18,7 +18,7 @@ intents:
     - evis/pricing_and_features
     - evis/start_free_trial
     - evis/features
-    - evis/industies
+    - evis/industries
     - evis/feature_chitchats
     - evis/feature_liveagent_assist
     - evis/feature_live_dashboard
@@ -123,7 +123,7 @@ responses:
       - title: Enterprise Installation
         payload: Enterprise Installation Feature
 
-  utter_evis/industies:
+  utter_evis/industries:
   - text: "Evis serves a wide range of industries. We have tailored AI solutions for the following sectors:. 
           \\r\\n- Automotive
           \\r\\n- Real Estate
