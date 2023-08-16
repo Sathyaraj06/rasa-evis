@@ -13,7 +13,7 @@ services:
       - "1006:5005"
     volumes:
       - "./shared/models:/app/shared"
-    command: rasa run -m models/evisalone.tar.gz --enable-api --jwt-secret rasaevistoken --log-file rasa.log --debug --cors "*"
+    command: rasa run -m models/evisalone.tar.gz --enable-api --auth-token rasaevistoken --log-file rasa.log --debug --cors "*"
 
   gunjan:
     container_name: gunjan
