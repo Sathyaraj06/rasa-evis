@@ -3,6 +3,6 @@
 #   wait_time_between_pulls: null
 
 # 127.0.0.1
-action_endpoint:
-  url: "http://localhost:5055/webhook"
-  actions_module: "actions"
+# action_endpoint:
+#   url: "http://localhost:5055/webhook"
+#   actions_module: "actions"
