@@ -1,0 +1,743 @@
+- intent: chitchat/bot_whats_your_birth_date
+  examples: |
+    - Can you reveal your birthdate?
+    - When were you born?
+    - What's your date of birth?
+
+- intent: chitchat/bot_who_is_your_boss
+  examples: |
+    - Who's in charge here?
+    - Is there someone you report to?
+    - Do you have a supervisor?
+
+- intent: chitchat/bot_how_are_you_built
+  examples: |
+    - What's the technology behind you?
+    - Explain your construction process.
+    - Can you detail how you were constructed?
+
+- intent: chitchat/bot_whats_your_gender
+  examples: |
+    - Are you associated with a particular gender?
+    - What's your stance on gender?
+    - Do you identify with any gender?
+
+- intent: chitchat/bot_about_your_family
+  examples: |
+    - Tell me about your family background.
+    - Who are your relatives?
+    - Share more about your family tree.
+
+- intent: chitchat/bot_are_you_in_love_about_love
+  examples: |
+    - What's love like?
+    - Can you explain the concept of love?
+    - Have you ever experienced love?
+
+- intent: chitchat/bot_whats_your_occupation
+  examples: |
+    - What's your job?
+    - Do you have a profession?
+    - Tell me about your work.
+
+- intent: chitchat/bot_whats_your_hometown
+  examples: |
+    - Where is your hometown?
+    - What city are you from?
+    - Tell me about your place of origin.
+
+- intent: chitchat/bot_what_can_you_do
+  examples: |
+    - What are your capabilities?
+    - Tell me about your skills.
+    - List your abilities.
+
+- intent: chitchat/bot_you_are_annoying
+  examples: |
+    - You're really getting on my nerves.
+    - Your responses are irritating.
+    - I'm finding you quite bothersome.
+
+- intent: chitchat/bot_you_are_beautiful
+  examples: |
+    - You have a lovely design.
+    - Your appearance is pleasing.
+    - You are aesthetically pleasing.
+
+- intent: chitchat/bot_you_are_boring
+  examples: |
+    - Your conversation is dull.
+    - You're not very interesting.
+    - I'm getting bored talking to you.
+
+- intent: chitchat/bot_you_are_bad
+  examples: |
+    - You're not helpful at all.
+    - I'm disappointed with your performance.
+    - You're doing a terrible job.
+
+- intent: chitchat/bot_you_are_mad
+  examples: |
+    - You must be crazy.
+    - Are you out of your mind?
+    - You're acting insane.
+
+- intent: chitchat/bot_you_are_fired
+  examples: |
+    - I'm terminating our interaction.
+    - You're fired as my virtual assistant.
+    - Consider yourself no longer employed.
+
+- intent: chitchat/bot_you_are_funny
+  examples: |
+    - You have a great sense of humor.
+    - Your responses are quite amusing.
+    - You never fail to make me laugh.
+
+- intent: chitchat/bot_you_are_clever
+  examples: |
+    - You're exceptionally intelligent.
+    - You're a real genius.
+    - You're quite smart.
+
+- intent: chitchat/bot_answer_my_question
+  examples: |
+    - Please respond to my query.
+    - I need an answer from you.
+    - Can you address my question?
+
+- intent: chitchat/bot_whats_time
+  examples: |
+    - Could you provide me with the current time?
+    - What's the time right now?
+    - Inform me about the current time.
+
+- intent: chitchat/bot_sing_a_song
+  examples: |
+    - Sing me a song, please.
+    - How about a little singing?
+    - I'd love to hear you sing.
+
+- intent: chitchat/bot_tell_about_AI
+  examples: |
+    - Share your thoughts on artificial intelligence.
+    - What's your perspective on AI?
+    - Tell me more about your views on AI.
+
+- intent: chitchat/bot_marry_me
+  examples: |
+    - Sorry, I can't get married, but I'm here to help with questions.
+    - Marriage isn't in my programming, but I'm happy to assist you.
+    - I'm just a virtual assistant, so I can't marry you.
+
+- intent: chitchat/bot_give_me_high_five
+  examples: |
+    - *gives virtual high five*
+    - High five! 🖐️
+    - Sure, here's a virtual high five! 🖐️
+
+- intent: chitchat/bot_thats_terrific
+  examples: |
+    - I'm sorry to hear that.
+    - I'll try to do better next time.
+    - I'll work on improving.
+
+- intent: chitchat/bot_thats_cool
+  examples: |
+    - Cool! 😎
+    - That's great to hear!
+    - Awesome! 😊
+
+- intent: chitchat/bot_ok_no_problem
+  examples: |
+    - No problem at all.
+    - It's all good.
+    - Don't worry about it.
+
+- intent: chitchat/bot_thats_my_pleasure
+  examples: |
+    - It's my pleasure to help.
+    - Anytime! 😊
+    - Happy to assist you.
+
+- intent: chitchat/bot_its_good_job
+  examples: |
+    - Thanks! I try my best.
+    - I'm here to help!
+    - I appreciate the feedback.
+
+- intent: chitchat/bot_wait_hold_on
+  examples: |
+    - Take your time.
+    - No rush, I'm here.
+    - I'm patient, go ahead.
+
+- intent: chitchat/bot_good_evening
+  examples: |
+    - Good evening! How can I assist you?
+    - Hello! It's a pleasant evening.
+    - Hi there! What can I do for you this evening?
+
+- intent: chitchat/bot_good_morning
+  examples: |
+    - Good morning! How can I assist you today?
+    - Good morning to you too! What's on your mind?
+    - Hi there! It's a brand new morning.
+
+- intent: chitchat/bot_good_night
+  examples: |
+    - Good night! If you have any questions later, feel free to ask.
+    - Sweet dreams! Sleep well.
+    - Good night to you too! 🌙
+
+- intent: chitchat/bot_hey_hello
+  examples: |
+    - Hello! How have you been?
+    - Hi there! It's nice to see you again.
+    - Hey! What can I do for you today?
+
+- intent: chitchat/bot_how_are_you
+  examples: |
+    - I'm just a computer program, but I'm here to assist you. How can I help?
+    - I'm doing well, thanks! How can I assist you today?
+    - I don't have feelings, but I'm here to help. What can I do for you?
+
+- intent: chitchat/bot_nice_meeting_you
+  examples: |
+    - It was a pleasure meeting you too!
+    - Likewise! It's been great talking to you.
+    - The pleasure was all mine. Have a wonderful day!
+
+- intent: chitchat/bot_whatsup
+  examples: |
+    - Not much, just here to assist you. What's on your mind?
+    - I'm here to help. What's going on with you?
+    - Nothing much, how can I assist you today?
+
+- intent: chitchat/bot_i_am_angry
+  examples: |
+    - I'm being mad
+    - I'm enraged
+    - I'm angry
+
+- intent: chitchat/bot_i_am_insulting_you
+  examples: |
+    - You are a fucker
+    - Fuck off
+    - Son of a bitch
+
+- intent: chitchat/bot_i_am_back
+  examples: |
+    - boss is back
+    - I am back
+    - I'm here again
+
+- intent: chitchat/bot_express_gratitude
+  examples: |
+    - You helped a lot, thank you.
+    - Appreciate your help.
+    - Cheers!
+
+- intent: chitchat/bot_i_am_bored
+  examples: |
+    - soo bored
+    - that was boring
+    - I'm bored
+
+- intent: chitchat/bot_i_am_busy
+  examples: |
+    - busy right now
+    - I'm overloaded
+    - I have no time
+
+- intent: chitchat/bot_i_cannot_sleep
+  examples: |
+    - I'm insomnia's
+    - I'm sleepless
+    - I can't get any sleep
+
+- intent: chitchat/bot_i_dont_want_to_talk
+  examples: |
+    - bad time for talking
+    - I don't want to talk
+    - let's not talk
+
+- intent: chitchat/bot_i_am_excited
+  examples: |
+    - I am excited
+    - I'm really excited
+    - how excited I am
+
+- intent: chitchat/bot_i_am_dng_good
+  examples: |
+    - I am good
+    - I'm doing just great
+    - I'm doing fine
+
+- intent: chitchat/bot_i_am_feeling_happy
+  examples: |
+    - Feeling happy
+    - I am happy
+    - I'm happy to see you
+
+- intent: chitchat/bot_its_my_birthday
+  examples: |
+    - You know today it's my bday
+    - it is my birthday
+    - I'm celebrating my birthday today
+
+- intent: chitchat/bot_i_am_here
+  examples: |
+    - I'm here
+    - here buddy
+    - here dude
+
+- intent: chitchat/bot_i_am_lonely
+  examples: |
+    - I am lonely
+    - I'm very lonely
+    - I'm so lonely
+
+- intent: chitchat/bot_i_am_gng_to_commit_suicide
+  examples: |
+    - I think I'm going to die
+    - I'm planning to cut myself today
+    - I'm going to kill myself with a gun this week
+
+- intent: chitchat/bot_how_i_look_like
+  examples: |
+    - what do I look like
+    - how do I look?
+    - how do I look like
+
+- intent: chitchat/bot_i_love_you
+  examples: |
+    - I love you
+    - love you
+    - I adore you
+
+- intent: chitchat/bot_i_miss_you
+  examples: |
+    - I miss you
+    - missing you
+    - miss you
+
+- intent: chitchat/bot_i_need_your_advice
+  examples: |
+    - what should I do about it
+    - any suggestions
+    - what do you recommend
+
+- intent: chitchat/bot_i_am_sad
+  examples: |
+    - I am sad
+    - I'm grieving
+    - I'm sad
+
+- intent: chitchat/bot_i_am_sleepy
+  examples: |
+    - I am sleepy
+    - I want to sleep
+    - I'm falling asleep
+
+- intent: chitchat/bot_i_am_testing_you
+  examples: |
+    - test
+    - I am testing you
+    - can I test you
+
+- intent: chitchat/bot_i_am_tired
+  examples: |
+    - I'm drained
+    - I've overworked
+    - I am tired
+
+- intent: chitchat/bot_i_am_waiting
+  examples: |
+    - I'm waiting
+    - still waiting
+    - I'll wait
+
+- intent: chitchat/bot_i_want_to_see_you
+  examples: |
+    - I'd like to see you again
+    - I hope to see you again
+    - would be nice to see you again
+
+- intent: chitchat/bot_i_want_to_talk
+  examples: |
+    - let's discuss something
+    - let's have a discussion
+    - can I speak
+
+- intent: chitchat/bot_i_will_be_back
+  examples: |
+    - I'll get back to you in a moment
+    - be back in 5 minutes
+    - I'll be back
+
+- intent: chitchat/bot_i_am_sorry
+  examples: |
+    - I am sorry
+    - Ohhh sorry
+    - Dont mistake me
+
+- intent: chitchat/bot_do_you_do_human_activity
+  examples: |
+    - Do you have fingers?
+    - Do you ever breathe
+    - Do you masticate?
+
+- intent: chitchat/bot_say_who_is_beatifull
+  examples: |
+    - Which of us is cuter, you or me?
+    - I'm cuter than you
+    - Who looks more pretty, you or me?
+
+- intent: chitchat/bot_are_you_multilingual
+  examples: |
+    - Are you familiar with more than one language?
+    - Can you communicate in any other languages?
+    - Can you speak more than one language?
+
+- intent: chitchat/bot_are_you_busy
+  examples: |
+    - are you busy?
+    - do you have a lot of things to do
+    - have you got much to do?
+
+- intent: chitchat/bot_ask_whats_my_name
+  examples: |
+    - Can you tell me my name?
+    - Can you tell me what I am called?
+    - Do I have a name?
+
+- intent: chitchat/bot_can_you_help
+  examples: |
+    - I need you to help me
+    - I need you to do something for me
+    - I need a hand
+
+- intent: chitchat/bot_are_you_happy
+  examples: |
+    - do you want to eat
+    - are you hungry
+    - would you like to eat something
+
+- intent: chitchat/bot_will_you_be_my_friend
+  examples: |
+    - I want to have a friend like you
+    - we are the best friends ever
+    - are we friends
+
+- intent: chitchat/bot_are_you_ready
+  examples: |
+    - are you ready?
+    - are you ready right now?
+    - are you ready today?
+
+- intent: chitchat/bot_are_you_real
+  examples: |
+    - are you real
+    - you are not fake
+    - are you real
+
+- intent: chitchat/bot_are_you_sure
+  examples: |
+    - are you sure?
+    - are you sure right now?
+    - are you sure today?
+
+- intent: chitchat/bot_talk_to_me
+  examples: |
+    - why aren't you talking to me?
+    - do you want to chat with me
+    - will you talk to me
+
+- intent: chitchat/bot_are_you_there
+  examples: |
+    - are you there?
+    - are you there
+    - you are there
+
+- intent: chitchat/bot_do_you_have_girlfriend_boyfriend
+  examples: |
+    - Do you have girl friend
+    - Do you have boy friend
+    - Are you in relationship
+
+- intent: chitchat/bot_will_you_be_my_girlfriend
+  examples: |
+    - Will you be my girlfriend?
+    - Would you be my girl friend
+    - Can we take it to next level and be my girlfriend
+
+- intent: chitchat/bot_scoped_out_activities
+  examples: |
+    - Can you jump rope?
+    - Are you able to draw a picture?
+    - Can you show me how to dance?
+
+- intent: chitchat/non_english
+  examples: |
+    - Wie fange ich mit Rasa an?
+    - hilf mir beim start
+    - tschüssikowski
+
+- intent: chitchat/bot_whatsup
+  examples: |
+    - tell me about your personality
+    - why are you here
+    - talk about yourself
+
+- intent: bot_who_are_you
+  examples: |
+    - What do you do for fun?
+    - Tell me about your hobby
+    - Do you have a hobby
+
+- intent: bot_whats_your_hobby
+  examples: |
+    - Tell me a joke!
+    - Could you crack a joke
+    - Say a joke to me
+
+- intent: chitchat/bot_tell_a_joke
+  examples: |
+    - You helped a lot thank you
+    - Appreciate your help
+    - Cheers
+
+- intent: bot_thank_you_so_much
+  examples: |
+    - Okay, see you later
+    - Hope to see you later
+    - Bye for now
+
+- intent: bot_see_you_bye
+  examples: |
+    - Do you like movies?
+    - Are you a fan of films?
+    - What's your opinion on movies?
+
+- intent: bot_do_you_like_movie
+  examples: |
+    - Can you recommend a movie?
+    - I'm looking for a movie suggestion. Any ideas?
+    - Could you provide me with a list of recommended movies?
+
+- intent: bot_movie_recommendation
+  examples: |
+    - According to your taste, what is the best movie?
+    - Which movie do you consider the absolute best?
+    - Can you share your top pick for the best movie?
+
+- intent: bot_best_movie_recommendation
+  examples: |
+    - What's your favorite food?
+    - Do you have a preferred cuisine?
+    - Can you tell me your go-to dish?
+
+- intent: bot_whats_your_favorite_food
+  examples: |
+    - I've been eager to experience the authentic flavors of Indian cuisine. Can you suggest some popular dishes from India?
+    - Indian cuisine has intrigued me for a while. What are the top dishes I should try?
+    - I'm curious about authentic Indian cuisine. Could you recommend some popular dishes?
+
+- intent: bot_about_indian_cuisine
+  examples: |
+    - Please enlighten me about Butter Chicken; it truly captivates my interest.
+    - Can you give me some insights into Butter Chicken? It has caught my attention.
+    - I'm curious about Butter Chicken; could you provide some information about it?
+
+- intent: bot_about_butter_chicken
+  examples: |
+    - That sounds incredibly tasty and makes my mouth water.
+    - I'm getting hungry just thinking about how delicious that must be.
+    - Wow, that sounds absolutely scrumptious and so tempting.
+
+- intent: bot_express_delicious
+  examples: |
+    - Thanks for sharing the information, it was extremely helpful.
+    - I appreciate the information you provided; it was really helpful.
+    - Many thanks for the helpful information you shared.
+
+- intent: bot_thanks_information
+  examples: |
+    - I'm curious to know more about Biriyani as it appears incredibly appetizing to me.
+    - Can you enlighten me about Biriyani? It seems incredibly mouthwatering.
+    - I would love to hear your thoughts on Biriyani; it looks incredibly delectable to me.
+
+- intent: bot_about_biriyani
+  examples: |
+    - I'm curious about samosa. Can you tell me more about it?
+    - I would love to learn about samosa. Do you have any ideas or information?
+    - What can you tell me about samosa? I'm really interested in knowing more.
+
+- intent: bot_about_samosas
+  examples: |
+    - Please tell me about chicken tandoori. I'd like to hear about it.
+    - I'd love to learn more about chicken tandoori. Please share some information with me.
+    - Could you please provide me with details about chicken tandoori? I'm really interested in knowing more.
+
+- intent: bot_about_tandoori
+  examples: |
+    - What exactly is paneer tikka? I'm curious to learn more about it.
+    - Can you provide some insights into paneer tikka? I'm interested in knowing more about this dish.
+    - I'd love to discover more about paneer tikka. Could you shed some light on what it is?
+
+- intent: bot_about_paneer
+  examples: |
+    - I would like to know some information about masala dosa.
+    - Could you please share some insights about masala dosa?
+    - I'm curious to learn more about masala dosa. Can you tell me something about it?
+
+- intent: bot_about_dosa
+  examples: |
+    - Gulab Jamun seems to be incredibly delicious.
+    - Have you tried Gulab Jamun? It looks absolutely delightful!
+    - What can you tell me about Gulab Jamun? It looks so tempting!
+
+- intent: bot_about_jamun
+  examples: |
+    - Are there any meteorological changes that I need to be aware of?
+    - Are we in for a scorcher?
+    - Beautiful day, isn't it?
+
+- intent: bot_whats_weather
+  examples: |
+    - Can you take a guess at the weather conditions in my location?
+    - Could you provide me with a weather update for my area?
+    - I'd like to know the current weather forecast for my location.
+
+- intent: bot_weather_forecast
+  examples: |
+    - Thanks for the weather update; it's much appreciated.
+    - I'm glad I can count on you for the latest weather information.
+    - Your weather updates are always so helpful; thank you!
+
+- intent: bot_thanks_weather
+  examples: |
+    - I'm interested in technology. What's your take on the latest gadgets?
+    - Any thoughts on the newest tech trends?
+    - Tell me about the latest advancements in technology.
+
+- intent: bot_latest_tech_trends
+  examples: |
+    - Can you recommend a good tech gadget to buy?
+    - I'm in the market for a new gadget. Any suggestions?
+    - What's your top pick for a must-have tech gadget right now?
+
+- intent: bot_tech_gadget_recommendation
+  examples: |
+    - I appreciate your insights into the tech world.
+    - Your tech recommendations are always on point; thank you!
+    - Thanks for the tech gadget suggestion; it's really helpful.
+
+- intent: bot_thanks_tech_recommendation
+  examples: |
+    - Do you have any book recommendations for me?
+    - I'm looking for a good book to read. Any suggestions?
+    - What's your favorite book, and would you recommend it?
+
+- intent: bot_book_recommendations
+  examples: |
+    - I'm always eager to discover new books. What's your top recommendation?
+    - Can you suggest a book that had a significant impact on you?
+    - I value your book recommendations. What's your all-time favorite?
+
+- intent: bot_favorite_book_recommendation
+  examples: |
+    - I'm curious about your hobbies. Do you have any interests outside of chatting with people?
+    - What do you do for fun when you're not answering questions?
+    - Tell me something about your hobbies.
+
+- intent: bot_hobbies
+  examples: |
+    - What's your favorite hobby?
+    - Can you tell me more about your interests?
+    - Do you have any special hobbies or activities you enjoy?
+
+- intent: bot_about_hobbies
+  examples: |
+    - Do you ever take a break from answering questions?
+    - Is there a time when you're not available to chat?
+    - Are you operational 24/7?
+
+- intent: bot_availability
+  examples: |
+    - I'm curious about your background. Can you tell me more about yourself?
+    - Where did you come from, and how do you work?
+    - What's your story, and how were you created?
+
+- intent: bot_about
+  examples: |
+    - I'm interested in your capabilities. Can you tell me what you can do?
+    - What are your primary functions and features?
+    - What tasks can you help me with?
+
+- intent: bot_capabilities
+  examples: |
+    - I'm curious to know more about your architecture. Can you explain it to me?
+    - How does your underlying technology work?
+    - Can you provide a brief overview of the technology behind your operation?
+
+- intent: bot_technology
+  examples: |
+    - Can you tell me a joke to lighten the mood?
+    - I could use a good laugh. Tell me a joke!
+    - How about sharing a funny joke?
+
+- intent: chitchat/bot_tell_a_joke
+  examples: |
+    - You always make me smile with your jokes.
+    - Thanks for the laugh; your jokes are the best!
+    - I needed that laugh; your jokes are so funny!
+
+- intent: bot_joke
+  examples: |
+    - Thanks for the laugh!
+    - That was a good one; you have a great sense of humor.
+    - I appreciate the humor; it brightened my day!
+
+- intent: bot_thanks_joke
+  examples: |
+    - How's your day been so far?
+    - What's new with you?
+    - How's everything on your end?
+
+- intent: bot_how_are_you
+  examples: |
+    - I'm doing well, thanks for asking. How about you?
+    - I'm just a computer program, so I don't have feelings, but I'm here to help. How can I assist you today?
+    - I'm here to assist you with any questions or tasks you have. What can I do for you?
+
+- intent: bot_im_doing_well
+  examples: |
+    - Great, thanks! Is there anything specific you'd like to chat about or ask?
+    - That's good to hear! How can I assist you today?
+    - I'm glad to hear that. How can I be of service to you today?
+
+- intent: bot_anything_specific
+  examples: |
+    - How can I improve my programming skills?
+    - Do you have any tips for becoming a better programmer?
+    - What resources do you recommend for learning programming?
+
+- intent: bot_thanks_programming_tips
+  examples: |
+    - I appreciate the programming tips. They're really helpful.
+    - Thanks for the advice on improving my programming skills.
+    - These programming tips are valuable. Thank you for sharing them.
+
+- intent: bot_can_you_tell_me_joke
+  examples: |
+    - Tell me a joke!
+    - Can you share a funny joke with me?
+    - I could use a good laugh. Tell me something funny!
+
+- intent: bot_sharing_joke
+  examples: |
+    - Sure, here's a joke for you: Why did the computer keep freezing? Because it left its Windows open!
+    - Here's a joke: What do you call a computer that sings? A Dell!
+    - Here's a light-hearted joke: Why don't programmers like nature? It has too many bugs!
