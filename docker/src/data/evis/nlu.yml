@@ -315,6 +315,7 @@ nlu:
   - intent: evis/feature_liveagent_assist
     examples: |
       - Liveagent Assist Feature
+      - What is liveagent
 
   - intent: evis/feature_live_dashboard
     examples: |
