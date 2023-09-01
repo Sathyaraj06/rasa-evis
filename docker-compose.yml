@@ -11,8 +11,6 @@ services:
         org: rasa train --data data/evis/nlu.yml data/evis/rules.yml data/evis/stories.yml -d data/evis/domain.yml --config data/evis/config.yml --out ./models --fixed-model-name evisalone
     ports:
       - "1006:5005"
-    networks:
-      - host
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evisalone.tar.gz --enable-api --auth-token rasaevistoken --log-file rasa.log --debug --cors "*"
@@ -26,8 +24,6 @@ services:
         org: rasa train --data data/gunjan/nlu.yml data/gunjan/rules.yml data/gunjan/stories.yml -d data/gunjan/domain.yml --config data/gunjan/config.yml --out ./models --fixed-model-name gunjan
     ports:
       - "1008:5005"
-    networks:
-      - host
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/gunjan.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
@@ -41,15 +37,9 @@ services:
         org: rasa train --data data/gunjan/nlu.yml data/evis/nlu.yml data/gunjan/rules.yml data/evis/rules.yml data/gunjan/stories.yml data/evis/stories.yml --config data/evis/config.yml -d data/evis/domain --out ./models --fixed-model-name evis
     ports:
       - "1003:5005"
-    networks:
-      - host
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evis.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
-
-networks:
-  host:
-
 
 
 
