@@ -11,8 +11,6 @@ services:
         org: rasa train --data data/evis/nlu.yml data/evis/rules.yml data/evis/stories.yml -d data/evis/domain.yml --config data/evis/config.yml --out ./models --fixed-model-name evisalone
     ports:
       - "1000:5005"
-    networks:
-      - bridge
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evisalone.tar.gz --enable-api --auth-token rasaevistoken --log-file rasa.log --debug --cors "*"
