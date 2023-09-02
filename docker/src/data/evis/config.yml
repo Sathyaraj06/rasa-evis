@@ -18,13 +18,13 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 3
     batch_strategy: sequence
     constrain_similarities: true
   - name: EntitySynonymMapper
   - name: ResponseSelector
     featurizers: ["convert", "cvf-word"]
-    epochs: 100
+    epochs: 3
     constrain_similarities: true
   - name: ResponseSelector
     epochs: 3

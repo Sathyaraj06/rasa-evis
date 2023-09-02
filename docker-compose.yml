@@ -11,6 +11,7 @@ services:
         org: rasa train --data data/evis/nlu.yml data/evis/rules.yml data/evis/stories.yml -d data/evis/domain.yml --config data/evis/config.yml --out ./models --fixed-model-name evisalone
     ports:
       - "80"
+    network_mode: bridge
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evisalone.tar.gz --enable-api --auth-token rasaevistoken --log-file rasa.log --debug --cors "*"
@@ -24,6 +25,7 @@ services:
         org: rasa train --data data/chat/nlu.yml data/chat/rules.yml data/chat/stories.yml -d data/chat/domain.yml --config data/chat/config.yml --out ./models --fixed-model-name chat
     ports:
       - "1008:5005"
+    network_mode: bridge
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/chat.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
@@ -37,6 +39,7 @@ services:
         org: rasa train --data data/chat/nlu.yml data/evis/nlu.yml data/chat/rules.yml data/evis/rules.yml data/chat/stories.yml data/evis/stories.yml --config data/evis/config.yml -d data/evis/domain --out ./models --fixed-model-name evis
     ports:
       - "1003:5005"
+    network_mode: bridge
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evis.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
