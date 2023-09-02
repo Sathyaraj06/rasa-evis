@@ -61,7 +61,7 @@ responses:
         payload: Explore Evis
 
   utter_evis/about_evis:
-  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://dashboardliveagent.netlify.app).
+  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://www.evisbot.com).
     buttons:
       - title: Industries
         payload: Industries
@@ -89,7 +89,7 @@ responses:
   utter_evis/start_free_trial:
   - text: "You can try our chatbot free for 30 days without any credit cards.
           \\r\\n It includes all the basic features such as Chitchats, Live Agent assist, Business Hours, Live Tracking Dashboard, Website Views, Chat History, Mobile Application, Authentication.
-          Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to start free trial."
+          Please [click here](https://www.evisbot.com/home/pricing) to start free trial."
 
   utter_evis/pricing_plans:
   - text: "Discover the perfect plan for your needs. We offer a range of tailored plans to suit every requirements.
@@ -99,7 +99,7 @@ responses:
           \\r\\n 4. Enterprise (Lifetime)
 
           \\r\\n Enterprise Plan cater for large organizations with customized solutions, building strategic partnership and showcasing scalability for complex needs.
-           Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more on all plans."
+           Please [click here](https://www.evisbot.com/home/pricing) to know more on all plans."
 
   utter_evis/features:
   - text: "Evisbot provides high level features with rich user experiece to customers. Please select from the below features to explore."
@@ -168,15 +168,15 @@ responses:
   utter_evis/feature_enterprise_installation:
   - text: "Enterprise installation can be done on organizations infrastructure with their cloud services or server machines. This provides a highly secured way to access for their users.
           \\r\\n This includes customized features, faunctionalities and themes for the organization.
-          Please [click here](https://dashboardliveagent.netlify.app/home/pricing) to know more."
+          Please [click here](https://www.evisbot.com/home/pricing) to know more."
 
   utter_evis/chatbot_integration:
   - text: "Integrating bot to your website requires zero coding knowledge. Once organization name is created, provide your website url in evis settings page.
           \\r\\n Post this, just copy paste two lines of code from evis page to your website. Please choose between any of the link to navigate.
-          \\r\\n- [Create Organization Name](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true) 
-          \\r\\n- [Add Website Url](https://dashboardliveagent.netlify.app/dashboard/organization/settings) 
-          \\r\\n- [Copy Integration Code](https://dashboardliveagent.netlify.app/dashboard/organization/settings)
-          \\r\\n- [Activate Free or Premium Plan](https://dashboardliveagent.netlify.app/home/pricing)"
+          \\r\\n- [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings?popup=true) 
+          \\r\\n- [Add Website Url](https://www.evisbot.com/dashboard/organization/settings) 
+          \\r\\n- [Copy Integration Code](https://www.evisbot.com/dashboard/organization/settings)
+          \\r\\n- [Activate Free or Premium Plan](https://www.evisbot.com/home/pricing)"
 
   utter_evis/contact_info:
   - custom: 
@@ -196,11 +196,11 @@ responses:
   utter_evis/want_to_add_chatbot:
   - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. 
           \\r\\n You can try our product free for 30 days using the below step by step links. 
-          \\r\\n 1. [Login](https://dashboardliveagent.netlify.app/auth/login) 
-          \\r\\n 2. [Activate Free Trial](https://dashboardliveagent.netlify.app/home/pricing)
-          \\r\\n 3. [Create Organization Name](https://dashboardliveagent.netlify.app/dashboard/organization/settings?popup=true)
-          \\r\\n 4. [Add Website Url](https://dashboardliveagent.netlify.app/dashboard/organization/settings)  
-          \\r\\n 5. [Integrate](https://dashboardliveagent.netlify.app/dashboard/organization/settings)"
+          \\r\\n 1. [Login](https://www.evisbot.com/auth/login) 
+          \\r\\n 2. [Activate Free Trial](https://www.evisbot.com/home/pricing)
+          \\r\\n 3. [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings?popup=true)
+          \\r\\n 4. [Add Website Url](https://www.evisbot.com/dashboard/organization/settings)  
+          \\r\\n 5. [Integrate](https://www.evisbot.com/dashboard/organization/settings)"
 
   utter_evis/book_demo:
   - custom: 
@@ -232,4 +232,4 @@ responses:
     
       #   buttons:
       # - title: Start Free Trial
-      #   url: https://dashboardliveagent.netlify.app/dashboard/settings/subscriptions
+      #   url: https://www.evisbot.com/dashboard/settings/subscriptions
