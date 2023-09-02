@@ -10,7 +10,7 @@ services:
       args:
         org: rasa train --data data/evis/nlu.yml data/evis/rules.yml data/evis/stories.yml -d data/evis/domain.yml --config data/evis/config.yml --out ./models --fixed-model-name evisalone
     ports:
-      - "80"
+      - "5005"
     network_mode: bridge
     volumes:
       - "./shared/models:/app/shared"

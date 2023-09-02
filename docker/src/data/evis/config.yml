@@ -18,19 +18,19 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 3
+    epochs: 1
     batch_strategy: sequence
     constrain_similarities: true
   - name: EntitySynonymMapper
   - name: ResponseSelector
     featurizers: ["convert", "cvf-word"]
-    epochs: 3
+    epochs: 1
     constrain_similarities: true
   - name: ResponseSelector
-    epochs: 3
+    epochs: 1
     retrieval_intent: evis
   - name: ResponseSelector
-    epochs: 3
+    epochs: 1
     retrieval_intent: chitchat
   - name: FallbackClassifier
     threshold: 0.4

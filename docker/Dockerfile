@@ -4,7 +4,7 @@ FROM rasa/rasa:3.4.15-full
 
 COPY ./src/ /app
 
-EXPOSE 80
+EXPOSE 5005
 
 USER root
 
