@@ -288,7 +288,7 @@ nlu:
       - I want to see a demonstration of evis enterprise
       - How can I try out evis enterprise
   
-  - intent: evis/pricing_plans
+  - intent: evis/pricing
     examples: |
       - Pricing Plans
   

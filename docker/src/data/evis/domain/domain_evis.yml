@@ -13,11 +13,11 @@ intents:
     - evis/contact_sales
     - evis/human_handoff
     - evis/product_video
-    - evis/pricing_plans
     - evis/want_to_add_chatbot
     - evis/pricing_and_features
-    - evis/start_free_trial
+    - evis/pricing
     - evis/features
+    - evis/start_free_trial
     - evis/industries
     - evis/feature_chitchats
     - evis/feature_liveagent_assist
@@ -91,7 +91,7 @@ responses:
           \\r\\n It includes all the basic features such as Chitchats, Live Agent assist, Business Hours, Live Tracking Dashboard, Website Views, Chat History, Mobile Application, Authentication.
           Please [click here](https://www.evisbot.com/home/pricing) to start free trial."
 
-  utter_evis/pricing_plans:
+  utter_evis/pricing:
   - text: "Discover the perfect plan for your needs. We offer a range of tailored plans to suit every requirements.
           \\r\\n 1. Free Trial (30 days)
           \\r\\n 2. Base (Monthly / Yearly)
