@@ -231,6 +231,7 @@ nlu:
       - yeah go on explaining what evis is
       - EVIS IS SOFTWARE?
       - Explore Evis
+      - Explore more on Evis bot
   
   - intent: evis/why_evis
     examples: |
@@ -284,13 +285,63 @@ nlu:
       - I would like to have a demo scheduled
       - Is there a live demo of evis somewhere ?
       - Can i have a deno
-      - bookin
+      - book a mock session
       - I want to see a demonstration of evis enterprise
       - How can I try out evis enterprise
   
   - intent: evis/pricing
     examples: |
       - Pricing Plans
+      - What are the subscription plans available
+      - subscription plans
+      - Cost of chatbot
+      - Price
+      - payment plans for subscription
+      - payment plans
+      - what are the different varities of price?
+      - type of pricing plan
+      - What is the cost of your product?
+      - How much does your subscription plan cost?
+      - Can you tell me the pricing details?
+      - What are the different pricing options?
+      - Do you offer any discounts on your plans?
+      - I'd like to know the price for your services.
+      - What's the price tag on your basic plan?
+      - How can I find information about your rates?
+      - Are there any special offers or promotions?
+      - What's the cost of upgrading to a premium plan?
+      - Give me details on the pricing for your products
+      - Tell me about your pricing structure.
+      - Are there any hidden fees in your pricing?
+      - What's the monthly subscription fee?
+      - Can you provide a breakdown of the pricing
+      - What are the monthly subscription rates?
+      - How much does the yearly plan cost?
+      - Tell me about the enterprise pricing options.
+      - Do you have special rates for businesses?
+      - What's the best deal for long-term subscriptions?
+      - Are there any discounts for annual payments?
+      - I'm interested in your annual pricing, can you explain?
+      - How does the enterprise installation pricing work?
+      - Can I save money with a yearly subscription?
+      - What's the monthly fee for your services?
+      - How can I get the best discount?
+      - Tell me about your annual subscription rates.
+      - Are there any incentives for enterprise clients?
+      - What's the cost for an enterprise setup?
+      - Is there a special rate for corporate customers?
+      - Do you offer discounts for long-term commitments?
+      - What's the yearly subscription price?
+      - How much do I save with an annual plan?
+      - Tell me about your enterprise installation costs.
+      - Are there any promotions for yearly subscribers?
+      - Can I get a better deal for an enterprise plan?
+      - What's the cost for a business-level subscription?
+      - What's the cost for a yearly enterprise package?
+      - Can you provide details on the best discount available?
+      - What's the price of your yearly enterprise installation?
+      - What's the difference in cost between monthly and yearly?
+      - How can I get the most cost-effective subscription?
   
   - intent: evis/pricing_and_features
     examples: |
@@ -299,10 +350,66 @@ nlu:
   - intent: evis/start_free_trial
     examples: |
       - Start Free Trial
+      - Can I start a free trial
+      - How do I get a free trial?
+      - Tell me more about your free trial.
+      - Is there a way to try your service for free?
+      - Can I test your product without paying first?
+      - What's the process to begin a free trial?
+      - I'm interested in your service, can I try it out without cost?
+      - How can I access your free trial?
+      - Do you offer a no-cost trial of your product?
+      - Could you explain how I can get a trial version for free?
+      - Where can I sign up for a free trial?
+      - How does your free trial work?
+      - Can I check out your product without paying?
+      - What's the process for a free trial?
+      - Is there a way to try your service with no cost?
+      - Explain how I can access a free trial.
+      - Do you offer a trial without obligations?
+      - Can I test your service before purchasing?
+      - Is there a free trial available?
+      - Walk me through starting a free trial.
+      - Where can I begin a free trial?
+      - Can i test your product
+      - Free trial details?
+      - Test without payment?
+      - How trial works?
+      - Cost-free try?
+      - Trial process?
+      - Obligation-free?
+      - Pre-purchase test?
+      - Free trial available?
+      - Start trial how?
+      - Trial initiation?
 
   - intent: evis/features
     examples: |
       - Features
+      - What does this product offer?
+      - Can you tell me about the bot features?
+      - Explain the capabilities of this product.
+      - List the functions of this product.
+      - Share details about this product's abilities.
+      - What are the features of this product?
+      - List the available options of this product.
+      - Share the product's functionalities.
+      - Describe the product's features in simple terms.
+      - Provide an overview of this product's features.
+      - Explain the available features of this product.
+      - Can you list the things this product can do?.
+      - What are the options available with this product?
+      - How can I benefit from this product?
+      - List the features and options of this product.
+      - Tell me what this product excels at.
+      - Tell me about the features
+      - What features does it have
+      - Explain the product features
+      - List the key features
+      - What are its features
+      - list features
+      - show features
+      - options available
 
   - intent: evis/industries
     examples: |
@@ -310,11 +417,38 @@ nlu:
 
   - intent: evis/feature_chitchats
     examples: |
-      - Chitchat Feature
+      - About ChitChats
+      - Can you tell about chitchats
+      - More on small talks
+      - What is chitchat
+      - chit chats
+      - general conversations
+      - general talks
+      - chatting
+      - informal discussions
+      - personal chats
+      - personal conversation
+      - little talks
+      - chit chatting
+      - social chats
+      - social discussions
+      - gossip talks
+      - natural talks
+      - quick chats
+      - quick talks
+      - informal talk
+      - chit-chatting
+      - what is general talks
+      - what is small talk
+      - say about chitchats 
+      - what is mean by chitchat
+      - what is informal conversation
+      - what is mean by general talks
+      - what is mean by social discussions
 
   - intent: evis/feature_liveagent_assist
     examples: |
-      - Liveagent Assist Feature
+      - what is Liveagent Assist
       - What is liveagent
 
   - intent: evis/feature_live_dashboard
