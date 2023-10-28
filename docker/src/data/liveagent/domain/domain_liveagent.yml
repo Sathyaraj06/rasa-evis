@@ -16,7 +16,7 @@ intents:
     - evis/want_to_add_chatbot
     - evis/pricing_and_features
     - evis/pricing
-    - evis/list_features
+    - evis/features
     - evis/start_free_trial
     - evis/industries
     - evis/feature_chitchats
@@ -101,11 +101,11 @@ responses:
           \\r\\n Enterprise Plan cater for large organizations with customized solutions, building strategic partnership and showcasing scalability for complex needs.
            Please [click here](https://www.evisbot.com/home/pricing) to know more on all plans."
 
-  utter_evis/list_features:
+  utter_evis/features:
   - text: "Evisbot provides high level features with rich user experiece to customers. Please select from the below features to explore."
     buttons:
       - title: Chit Chats
-        payload: About ChitChats
+        payload: ChitChat Feature
       - title: Live Agent assist
         payload: Liveagent assist Feature
       - title: Live Tracking Dashboard

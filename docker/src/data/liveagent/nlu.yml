@@ -1,0 +1,174 @@
+version: "3.1"
+
+nlu:
+ 
+  - intent: liveagent/contact_sales
+    examples: |
+      - But I wanted a sales call
+      - Can I have a call tomorrow at 3pm?
+      - Can I have a call?
+      - HOW CAN I BOOK A SALES CALL ?
+      - How can i contact the team ?
+      - I also want to book a sales call
+      - I wanna have a subscription for your product
+      - I wanna talk to your sales guy
+      - I wanna talk to your sales people.
+      - I want a sales call
+      - I want an offer for your platform
+      - I want to book a call
+      - I want to book a call with your sales team
+      - I want to buy the platform
+      - I want to contact sales
+      - I want to contact the sales team
+      - I want to get in touch with your sales guys
+      - I want to learn more about your pricing
+      - I want to speak with sales
+      - I want to talk to sales
+      - I want to talk to someone about your pricing system
+      - I want to talk to your sales guys
+      - I want to talk to your sales people
+      - I want to talk to your sales team
+      - I want to talk with sales about our project
+      - I would like to book a call
+      - I would like to book a sales call
+      - I would like to contact your sales team please
+      - I would like to have a call with sales team
+      - I would like to talk to someone from your sales team
+      - i want to buy the enterprise edition
+      - i would like your enterprise
+      - purchase product enterprise
+      - buy enterprise
+      - Ok I want to talk to your sales team immediately
+      - Please connect me to someone from sales
+      - Please schedule a sales call
+      - are there different packages customers can book?
+      - book an appointment
+      - can i speak to the sales team
+      - can i talk to a sales representative
+      - can you connect me to sales
+      - connect me to your sales department
+      - give me someone who can explain your business model
+      - have a call with the sales team
+      - hm ok then i want to talk to the sales dude
+      - how does your pricing work?
+      - how to book a sales call
+      - how to book a sales call>
+      - how to book a sales call?
+      - i choose the call
+      - i choose the call with sales
+      - i need a call from sales
+      - i need the call request
+      - i need to know how i can book support
+      - i need to speak to your sales team
+      - i need to talk to sales
+      - i need your data source
+      - i think I want to talk to your sales folks
+      - i want one platform please
+      - i want someone to call me
+      - i want ti booking about booking sales
+      - i want to be connected to your sales team
+      - i want to be in touch with sales
+      - i want to book a appointment
+      - i want to book a sales call
+      - i want to bookk a sales call
+      - i want to buy the product platform
+      - i want to connect to your sales team
+      - i want to connect your sales
+      - i want to contact sales
+      - i want to contact sales now
+      - i want to contact sales support
+      - i want to contact your sales team
+      - i want to have a call with sales
+      - i want to talk to sales
+      - i'd like to talk to a sales person
+      - i'd like to talk to sales
+      - id like a call please
+      - id like to talk to someone who can explain me what i can do with yout product
+      - let me talk to your sales guys
+      - let me talk to your sales people
+      - obviously talk to your awesome sales team
+      - please can you book call for me
+      - please connect me to sales
+      - request a call
+      - request call with sales team
+  
+  - intent: liveagent/human_handoff
+    examples: |
+      - Connect with suppport team
+      - Connect with team
+      - Connect with agent
+      - Connect with person
+      - Connect with live person agent
+      - Connect with support
+      - Chat with our team
+      - Chat with team
+      - Can I speak to anyone who can really help me?
+      - I don't wanna talk to a bot
+      - I dont like to talk to a machine
+      - I want to talk to a human
+      - I want to talk to the founders
+      - are there also humans working for your company?
+      - can I speak to a person?
+      - can i please speak to a human?
+      - can you forward me to your team
+      - can you please connect me to a real rasa employee?
+      - can you put me in touch with a human?
+      - do you have human support ?
+      - give me a human
+      - give me a human now
+      - human handoff
+      - i dont wanna talk to a bot
+      - i want to speak to a real person
+      - i want to speak to customer service
+      - i want to talk to a human
+      - i want to talk to a person
+      - i want to talk to human
+      - i want to talk to someone at rasa
+      - i want to talk to someone else
+      - i want to talk to someone who is smarter than you
+      - i would like to speak to a person
+      - i'd rather speak with a real rasa employee
+      - id like to talk to a real rasa employee
+      - let me speak with a real person please
+      - let me talk to a human
+      - let me talk to a real person
+      - please give me a human
+      - service agent
+      - someone from customer care
+      - speak to a real person
+      - talking to a bot is stupid
+      - that's annoying I'd like to speak to someone real
+      - thats not helping, can i talk to human?
+      - wrong i want to speak to a human
+      - can i speak to human
+      - can i speak to your human
+      - i want to chat with human
+      - How do I talk to a human
+      - talk with a human
+      - Can i talk to a human instead
+      - nevermind.... you're not human ... I need to talk to a live person
+      - Can you get a human to assist me?
+      - Can i talk to a human?
+      - Can I talk to a human
+      - Can I speak to a human?
+      - can i speak to a human
+      - no, i want to talk to human
+      - can you hand a conversation over to a human?
+      - can I talk to human?
+      - can I talk to human
+      - talk to human
+      - i want human :(
+      - can i talk to human
+      - i want to talk to a human
+      - i want to speak to human
+      - can i talk to a real person?
+      - connect me to a real person
+      - I need a real person
+      - can i took with a real person
+      - let me speak to a real person
+      - let me speak to a real person please
+      - i want to talk to a real person
+  
+  - intent: mock1
+    examples: |
+      - mock1

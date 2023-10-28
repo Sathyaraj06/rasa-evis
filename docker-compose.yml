@@ -30,6 +30,20 @@ services:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evis.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
+  liveagent:
+    container_name: liveagent
+    build: 
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        org: rasa train --data data/chat/nlu.yml data/liveagent/nlu.yml data/chat/rules.yml data/liveagent/rules.yml data/chat/stories.yml data/liveagent/stories.yml --config data/liveagent/config.yml -d data/liveagent/domain --out ./models --fixed-model-name liveagent
+    ports:
+      - "1002:5005"
+    network_mode: bridge
+    volumes:
+      - "./shared/models:/app/shared"
+    command: rasa run -m models/liveagent.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
+
   evisalone:
     container_name: evisalone
     build: 
@@ -42,9 +56,6 @@ services:
     volumes:
       - "./shared/models:/app/shared"
     command: rasa run -m models/evisalone.tar.gz --enable-api --auth-token rasaevistoken --log-file rasa.log --debug --cors "*"
-
-
-
 
 
 
