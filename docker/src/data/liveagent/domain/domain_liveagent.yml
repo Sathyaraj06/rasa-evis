@@ -5,214 +5,19 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
-    - evis/about_evis
-    - evis/what_is_chatbot
-    - evis/why_evis
-    - evis/how_to_get_started
-    - evis/book_demo
-    - evis/contact_sales
-    - evis/human_handoff
-    - evis/product_video
-    - evis/want_to_add_chatbot
-    - evis/pricing_and_features
-    - evis/pricing
-    - evis/features
-    - evis/start_free_trial
-    - evis/industries
-    - evis/feature_chitchats
-    - evis/feature_liveagent_assist
-    - evis/feature_live_dashboard
-    - evis/feature_chat_history
-    - evis/feature_mobile_application
-    - evis/feature_authentication
-    - evis/feature_website_views_report
-    - evis/feature_business_hours
-    - evis/feature_enterprise_installation
-    - evis/chatbot_integration
-    - evis/contact_info
+    - liveagent/contact_sales
+    - liveagent/human_handoff
 
     - mock1
 
 responses:
-  utter_evis/what_is_chatbot:
-  - text: "A chatbot is an AI-powered virtual assistant that engages users in real-time, providing instant responses, enhancing customer experience, and boosting sales for business.🎯
-          \\r\\n By offering 24/7 support and capturing valuable data, chatbots play a vital role in nurturing leads and building stronger relationships with customers"
-
-  utter_evis/why_evis:
-  - text: "Evis  provides the chatbot and tools needed to build high-performing, resilient assistants that work.! 🚀"
-  - text: "Evis offers the chatbot and necessary tools to create high-performing, resilient assistants that get the job done! 🎯"
-  - text: "With Evis, you get access to chatbot technology and essential tools for building high-performing, robust assistants that excel in their tasks! 🚀"
-  - text: "Evis equips you with the chatbot platform and essential tools required to develop high-performing, resilient assistants that deliver results! 🎯"
-  - text: "Get the chatbot and tools you need from Evis to build assistants that perform exceptionally well and handle challenges with resilience! 🚀"
-  - text: "Evis empowers you with the chatbot and necessary tools to craft high-performing, resilient assistants that excel in their performance! 🚀"
-
-  utter_evis/how_to_get_started:
-  - text: "Please enter your query or choose from the below options 💡"
-    buttons:
-      - title: Want to add a chatbot
-        payload: Want to add a chatbot
-      - title: Pricing and Features
-        payload: Pricing and Features
-      - title: Chat with our team
-        payload: Chat with our team
-      - title: Book a demo
-        payload: Book a demo
-      - title: More on Evis
-        payload: Explore Evis
-
-  utter_evis/about_evis:
-  - text: Evis is a chatbot for that provides machine learning tools for building contextual assistants. You can read more about it here in the docs or on our [website](https://www.evisbot.com).
-    buttons:
-      - title: Industries
-        payload: Industries
-      - title: Product Video
-        payload: Product Video
-      - title: Pricing Plans
-        payload: Pricing Plans
-      - title: Features
-        payload: Features
-      - title: Integration
-        payload: Chatbot Integration
-      - title: Contact Info
-        payload: Contact Info
-
-  utter_evis/pricing_and_features:
-  - text: Evis provides varieties of features for rich customer experience and best subscription plans. Please select any of the below.
-    buttons:
-      - title: Pricing Plans
-        payload: Pricing Plans
-      - title: Features
-        payload: Features
-      - title: Start Free Trial
-        payload: Start Free Trial
-
-  utter_evis/start_free_trial:
-  - text: "You can try our chatbot free for 30 days without any credit cards.
-          \\r\\n It includes all the basic features such as Chitchats, Live Agent assist, Business Hours, Live Tracking Dashboard, Website Views, Chat History, Mobile Application, Authentication.
-          Please [click here](https://www.evisbot.com/home/pricing) to start free trial."
-
-  utter_evis/pricing:
-  - text: "Discover the perfect plan for your needs. We offer a range of tailored plans to suit every requirements.
-          \\r\\n 1. Free Trial (30 days)
-          \\r\\n 2. Base (Monthly / Yearly)
-          \\r\\n 3. Premium (Monthly / Yearly)
-          \\r\\n 4. Enterprise (Lifetime)
-
-          \\r\\n Enterprise Plan cater for large organizations with customized solutions, building strategic partnership and showcasing scalability for complex needs.
-           Please [click here](https://www.evisbot.com/home/pricing) to know more on all plans."
-
-  utter_evis/features:
-  - text: "Evisbot provides high level features with rich user experiece to customers. Please select from the below features to explore."
-    buttons:
-      - title: Chit Chats
-        payload: ChitChat Feature
-      - title: Live Agent assist
-        payload: Liveagent assist Feature
-      - title: Live Tracking Dashboard
-        payload: Live Dashboard Feature
-      - title: Chat History 
-        payload: Chat History Feature
-      - title: Business Hours
-        payload: Business Hours Feature
-      - title: Website Views Report
-        payload: Website Views Report Feature
-      - title: Mobile Application
-        payload: Mobile Application Feature
-      - title: Authentication
-        payload: Authentication Feature
-      - title: Enterprise Installation
-        payload: Enterprise Installation Feature
-
-  utter_evis/industries:
-  - text: "Evis serves a wide range of industries. We have tailored AI solutions for the following sectors:. 
-          \\r\\n- Automotive
-          \\r\\n- Real Estate
-          \\r\\n- Education
-          \\r\\n- Healthcare
-          \\r\\n- Hospitality
-          \\r\\n- Retail
-          \\r\\n- Insurance
-          \\r\\n- Loans"
-
-  utter_evis/feature_chitchats:
-  - text: "Chitchat refers to casual, friendly conversations with user, which enhances the user engagement with joyable experiences. 
-          \\r\\n This includes simple greetings, jokes, compliments, friendly questions, general small talk etc., 🎯"
-
-  utter_evis/feature_liveagent_assist:
-  - text: "Live agent assist refers to involvement of service agents or represenatives in providing support and responding to customer queries within the chat.
-          \\r\\n Evis Web portal, Android and IOS Applications are available for Agents to assist the customer queries for 24/7. 👥"
-
-  utter_evis/feature_live_dashboard:
-  - text: "Live Dashboard is a real-time monitoring tool for providing valuable insights and analystics for the complete chatbot usage. 
-          \\r\\n This presents the information in effective and graphical way for easy understanding. Its available for admin and agent role 📊 "
-
-  utter_evis/feature_chat_history:
-  - text: "Chat history refers to the collection of entire chat conversations including user inputs, media files and chatbot responses.
-          \\r\\n It helps to improve user experiences and improvements over time."
-
-  utter_evis/feature_business_hours:
-  - text: "Business hours refers to helpdesk agent working hours, only during the agent will be available for costomer assistance. 
-          \\r\\n Out of this business hours, when user request to connect, he will get automated response to connect during the working hours 📈 "
-
-  utter_evis/feature_website_views_report:
-  - text: "🚀 Discover the Power of Your Website or Bot's Impact! 🌐
-          \\r\\n Our powerful analytics tools will dive deep into your website's traffic, giving you real-time data on the number of visitors, their locations, device type and so much more!"
-
-  utter_evis/feature_mobile_application:
-  - text: "Complete dashboard and Agent assistance is available as mobile application for easy access for agents. 
-          Both Android and IOS application 📱 is available on platform, with SSO and custom authentication 💻"
-
-  utter_evis/feature_authentication:
-  - text: "Highly secured authentication is provided for Dashboard and Chatbot. Customer can choose between Microsoft, Google, Custom authetication or other SSO to secure each users login and identity. 🔒"
-
-  utter_evis/feature_enterprise_installation:
-  - text: "Enterprise installation can be done on organizations infrastructure with their cloud services or server machines. This provides a highly secured way to access for their users.
-          \\r\\n This includes customized features, faunctionalities and themes for the organization.
-          Please [click here](https://www.evisbot.com/home/pricing) to know more."
-
-  utter_evis/chatbot_integration:
-  - text: "Integrating bot to your website requires zero coding knowledge. Once organization name is created, provide your website url in evis settings page.
-          \\r\\n Post this, just copy paste two lines of code from evis page to your website. Please choose between any of the link to navigate.
-          \\r\\n- [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings/popup) 
-          \\r\\n- [Add Website Url](https://www.evisbot.com/dashboard/organization/settings) 
-          \\r\\n- [Copy Integration Code](https://www.evisbot.com/dashboard/organization/settings)
-          \\r\\n- [Activate Free or Premium Plan](https://www.evisbot.com/home/pricing)"
-
-  utter_evis/contact_info:
-  - custom: 
-      type : "carousel"
-      text: "Please connect with us on [support@evis.app](mailto:support@evis.app) or call us at +91-7904538145.
-            \\r\\n Office Address: The Executive Zone, Thousand Lights, Chennai, India 600002 [Map](https://www.google.com/maps/place/The+Executive+Zone+%7C+Coworking+Space+%7C+Anna+Salai/@13.0615919,80.2573416,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266166d42b5a7:0xd997f32439e5bb34!8m2!3d13.0615919!4d80.2595303!16s%2Fg%2F11c6s53zmf?hl=en&entry=ttu)
-            \\r\\n Few Workplace Pictures are below."
-      attachments:
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg2.jpg?tr=f-webp" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg10.jpg?tr=f-webp" } }
-
-  utter_evis/product_video:
-  - text: "Please have a glance at our product"
-    attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
-
-  utter_evis/want_to_add_chatbot:
-  - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. 
-          \\r\\n You can try our product free for 30 days using the below step by step links. 
-          \\r\\n 1. [Login](https://www.evisbot.com/auth/login) 
-          \\r\\n 2. [Activate Free Trial](https://www.evisbot.com/home/pricing)
-          \\r\\n 3. [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings/popup)
-          \\r\\n 4. [Add Website Url](https://www.evisbot.com/dashboard/organization/settings)  
-          \\r\\n 5. [Integrate](https://www.evisbot.com/dashboard/organization/settings)"
-
-  utter_evis/book_demo:
-  - custom: 
-      type : "intent"
-      text : "book_demo"
-
-  utter_evis/contact_sales:
+ 
+  utter_liveagent/contact_sales:
   - custom:
       type : "intent"
       text : "contact_sales" 
 
-  utter_evis/human_handoff:
+  utter_liveagent/human_handoff:
   - custom: 
       type : "intent"
       text : "human_handoff"
@@ -222,13 +27,11 @@ responses:
       type : "carousel"
       text : "text"
       attachments:
-      - text: "Adding Evis"
-        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
-      - text: "Adding Evis"
-        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
-      - text: "Adding Evis"
-        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
-    
+      - text: "Adding liveagent"
+        attachment: { "type":"image", "payload":{ "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png" } }
+      - text: "Adding liveagent"
+        attachment: { "type":"image", "payload":{ "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png" } }
+         
     
       #   buttons:
       # - title: Start Free Trial
