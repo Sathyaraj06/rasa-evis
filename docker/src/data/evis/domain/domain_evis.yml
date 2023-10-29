@@ -10,13 +10,11 @@ intents:
     - evis/why_evis
     - evis/how_to_get_started
     - evis/book_demo
-    - evis/contact_sales
-    - evis/human_handoff
     - evis/product_video
     - evis/want_to_add_chatbot
     - evis/pricing_and_features
     - evis/pricing
-    - evis/features
+    - evis/list_features
     - evis/start_free_trial
     - evis/industries
     - evis/feature_chitchats
@@ -101,11 +99,11 @@ responses:
           \\r\\n Enterprise Plan cater for large organizations with customized solutions, building strategic partnership and showcasing scalability for complex needs.
            Please [click here](https://www.evisbot.com/home/pricing) to know more on all plans."
 
-  utter_evis/features:
+  utter_evis/list_features:
   - text: "Evisbot provides high level features with rich user experiece to customers. Please select from the below features to explore."
     buttons:
       - title: Chit Chats
-        payload: ChitChat Feature
+        payload: About ChitChats
       - title: Live Agent assist
         payload: Liveagent assist Feature
       - title: Live Tracking Dashboard
@@ -206,16 +204,6 @@ responses:
   - custom: 
       type : "intent"
       text : "book_demo"
-
-  utter_evis/contact_sales:
-  - custom:
-      type : "intent"
-      text : "contact_sales" 
-
-  utter_evis/human_handoff:
-  - custom: 
-      type : "intent"
-      text : "human_handoff"
 
   utter_mock1: # + actions - each method - each domain resposne
   - custom: 
