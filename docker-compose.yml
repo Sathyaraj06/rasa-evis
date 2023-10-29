@@ -22,7 +22,7 @@ services:
       context: ./docker
       dockerfile: Dockerfile
       args:
-        org: rasa train --data data/chat/nlu.yml data/evis/nlu.yml data/chat/rules.yml data/evis/rules.yml data/chat/stories.yml data/evis/stories.yml --config data/evis/config.yml -d data/evis/domain --out ./models --fixed-model-name evis
+        org: rasa train --data data/chat/nlu.yml data/evis/nlu.yml data/liveagent/nlu.yml data/chat/rules.yml data/evis/rules.yml data/liveagent/rules.yml data/chat/stories.yml data/evis/stories.yml data/liveagent/stories.yml --config data/evis/config.yml -d data/evis/domain --out ./models --fixed-model-name evis
     ports:
       - "1002:5005"
     network_mode: bridge

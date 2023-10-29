@@ -1,0 +1,38 @@
+version: "3.1"
+
+session_config:
+  session_expiration_time: 60 # value in minutes
+  carry_over_slots_to_new_session: true
+
+intents:
+    - liveagent/contact_sales
+    - liveagent/human_handoff
+
+    - mock1
+
+responses:
+ 
+  utter_liveagent/contact_sales:
+  - custom:
+      type : "intent"
+      text : "contact_sales" 
+
+  utter_liveagent/human_handoff:
+  - custom: 
+      type : "intent"
+      text : "human_handoff"
+
+  utter_mock1: # + actions - each method - each domain resposne
+  - custom: 
+      type : "carousel"
+      text : "text"
+      attachments:
+      - text: "Adding liveagent"
+        attachment: { "type":"image", "payload":{ "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png" } }
+      - text: "Adding liveagent"
+        attachment: { "type":"image", "payload":{ "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png" } }
+         
+    
+      #   buttons:
+      # - title: Start Free Trial
+      #   url: https://www.evisbot.com/dashboard/settings/subscriptions
