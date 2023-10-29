@@ -414,6 +414,28 @@ nlu:
   - intent: evis/industries
     examples: |
       - Industries
+      - industrial benefits
+      - which sectors or field you support?
+      - Which industries can gain advantages from your bot?
+      - In what fields can your bot be beneficial?
+      - What types of businesses or sectors can your chat bot assist?
+      - Who are the potential beneficiaries of your bot across industries?
+      - Which industries stand to benefit from your bot?
+      - In which sectors can your bot be advantageous?
+      - What kinds of businesses can your bot be useful for?
+      - Which fields can your bot serve effectively?
+      - Who can make use of your bot across various industries?
+      - Which sectors can your bot cater to?
+      - Feel free to choose any of these variations if you want me to provide more information on this topic.
+      - What kinds of organizations can you assist?
+      - Which types of businesses or institutions can benefit from your support?
+      - In what types of companies can your services be valuable?
+      - Who can your chat bot or services aid in terms of organizations?
+      - What categories of organizations are compatible with your offerings?
+      - Which sectors of organizations can you cater to?
+      - What sorts of institutions are within your scope of support?
+      - Who falls under the umbrella of organizations you can aid?
+      - In which fields can you offer assistance to organizations?
 
   - intent: evis/feature_chitchats
     examples: |
@@ -450,56 +472,247 @@ nlu:
     examples: |
       - what is Liveagent Assist
       - What is liveagent
+      - About Liveagent
+      - Say about Liveagent Assist
+      - Tell about Liveagent Assist
+      - Explain about Liveagent Assist
+      - can you tell about liveagent assist?
+      - can you explain about liveagent feature?
 
   - intent: evis/feature_live_dashboard
     examples: |
-      - Live Dashboard Feature
-
+      - Dashboard and Analytics
+      - What is dashboard
+      - what is Dashboard and Analytics
+      - what is analytics
+      - About Dashboard
+      - Say about Dashboard
+      - Tell about Dashboard
+      - Explain about Dashboard
+      - Say about Analytics report
+      - Tell about Analytics
+      - Explain about Analytics
+      - Analytics report
+     
   - intent: evis/feature_chat_history
     examples: |
-      - Chat History Feature
+      - what is Chat History
+      - Messaging history
+      - chat record
+      - message archive
+      - chat transcript
+      - communication history
+      - text history
+      - chat logs
+      - conversatin logs
+      - conversation record
+      - Message thread
+      - old or past chat messages
+      - past messages
+      - old transcripts
+      - message histories
+      - What is a conversation log?
+      - Explain the idea of chat records.
+      - Can you define the term "message history"?
+      - Tell me about the dialogue history.
+      - Define chat transcripts for me.
+      - Please provide an explanation of chat logs.
+      - Elaborate on the concept of conversation history.
+      - Describe what message archives refer to.
+      - Can you provide information about the history of chat
 
   - intent: evis/feature_mobile_application
     examples: |
-      - Mobile Application Feature
+      - Mobile Application
+      - List the app platforms that are supported
+      - Explain the app supported platforms
+      - Define Mobile Application installation.
+      - Explain Mobile App support.
+      - Can you provide a definition for Mobile Application support?
+      - Describe what Mobile Application support means.
+      - What is the meaning of support for Mobile Applications?
+      - Clarify the concept of Mobile App support.
+      - Elaborate on Mobile Application support.
+      - Provide a description of Mobile App support.
+      - Break down the term Mobile Application support.
+      - is there any mobile or desktop installation available
 
   - intent: evis/feature_website_views_report
     examples: |
-      - Website Views Report Feature
+      - Website Views Report
+      - what does website views report shows
+      - what does website views indicates
+      - tell about website views report
+      - how to find total views of website
+      - find the website vistors count
+      - count the total views of website
 
   - intent: evis/feature_business_hours
     examples: |
-      - Business Hours Feature
+      - Business Hours
+      - How to set working hours for agents
+      - How to setup working hours
+      - setup business hours for office
+      - agent service hours slot
+      - Office hours
+      - what is Working hours
+      - about Operating hours
+      - Opening hours
+      - Hours of operation
+      - Work hours
+      - Service hours
+      - Operational hours
+      - Customer service hours
+      - Company hours
+      - Business operation time
 
   - intent: evis/feature_authentication
     examples: |
-      - Authentication Feature
+      - types of Authentications
+      - Verification and Validation
+      - Authorization
+      - Identity verification
+      - Authentication process
+      - Log-in validation
+      - Identity confirmation
+      - User authentication
+      - Authenticate the proper users.
+      - Validate the authorized users.
+      - Authenticate the authorized users.
+      - users login method
+      - agent authentication
+      - ways to authenticate the agent
+      - authentication options
+      - sso authentication available
+      - Oauth options
+      - Login options
+      - Sign in options
+      - Signin methods
 
   - intent: evis/feature_enterprise_installation
     examples: |
       - Enterprise Installation Feature
+      - Corporate installation
+      - Business setup
+      - Organization deployment
+      - Company-wide installation
+      - Enterprise-level installation
+      - Corporate deployment
+      - Institutional installation
+      - Business installation
+      - Organizational setup
+      - Company-wide deployment
+      - Large-scale installation
+      - Explain how to set up a evis bot for a big organization.
+      - What is the process for deploying a evis bot in an enterprise environment?
+      - Can you provide a step-by-step guide on setting up a evis bot for an enterprise?
+      - How do I go about integrating a evis bot into an enterprise system?
+      - What are the steps involved in implementing a evis bot for use in a corporate setting?
+      - Could you explain to deploy a evis bot within an enterprise infrastructure?
+      - What is the method for creating and using a evis bot in an enterprise context?
+      - What steps should I follow to set up a evis bot for a business or organization?
+      - How can I initiate the implementation of a evis bot for an enterprise?
+      - What's the approach for introducing a evis chatbot into a corporate environment?
 
   - intent: evis/chatbot_integration
     examples: |
       - Chatbot Integration
-      - Integration the bot
-      - Integration the chatbot
-
+      - Integration of bot
+      - Integrating the evis chatbot
+      - Could you guide me on how to integrate the evis bot into our website?
+      - Please explain how to install the evis bot on our website
+      - Incorporate evis bot
+      - quick installation of evis chatbot
+      - deploy the widget to our website
+      - add the steps to integrate the widget
+      - widget installation
+      - quick bot setup to website
+      - instant integration to website
+      
   - intent: evis/contact_info
     examples: |
       - Contact Info
+      - Contact information
+      - Your email info, please?
+      - How can I reach you?
+      - Contact details, please?
+      - Share your info, please.
+      - I need your email info.
+      - Can I have your contact details?
+      - Your contact information, please?
+      - Share your contact, please.
+      - I'd like to email you. How?
+      - Can you share your contact info please?
+      - I'd like to get in touch with you. What are your contact details?
+      - How can I reach you? Please provide your contact information.
+      - What's the best way to reach you? Share your contact details, please.
+      - May I have your contact information, please?
+      - I need to reach out to you. Could you give me your contact and email details?
+      - I'd like to contact you. How can I do that? Please provide your contact info.
+      - Share your office address?
+      - What's your office address?
+      - Can I get your office location?
+      - Please provide your office address.
+      - What's your workplace's address?
+      - What's the office location?
+      - Tell me your office's physical address.
 
   - intent: evis/product_video
     examples: |
       - Product Tour
       - Product Video
+      - Evis video or tour
+      - Can I watch a demonstration?
+      - Show me the chat bot in action.
+      - I'd like to see how it works.
+      - demo on how it works
+      - Share a video about the chat bot.
+      - I'm interested in a visual overview.
+      - Is there a demo available?
+      - Demonstrate the evis chat bot, please.
+      - Provide a video introduction, please.
+      - Give me a tour via video.
+      - Show me the features on video.
+      - Any Virtual assistant Showcase video?
+      - Got a explanation video?
+      - Show me a Bot demo, please.
+      - I'd like to watch a chat bot explanation.
+      - Is there a video demo available?
+      - Share a evis demo, please.
+      - Can I see a explanation video?
+      - I'm looking for a Presentation demo.
+      - Video demo for the evis chat bot?
+      - Any video explaining the bot?
   
   - intent: evis/want_to_add_chatbot
     examples: |
       - Want to add a chatbot
+      - Want to add evis bot
       - I Want to add a chatbot
       - Add a chatbot to my website
       - Wanted to add a chat bot
+      - we need to add your bot to our website
+      - Could you explain how to set up the Evis bot on our website?
+      - What's the procedure for getting the Evis bot to work on our website?
+      - We want to have the Evis bot on our website - what's the setup process?
+      - Please provide details on how to enable the Evis bot on our website.
+      - We're looking to include the Evis bot on our website; can you offer guidance?
+      - Is there a tutorial for adding the Evis bot for us?
+      - What are the steps for embedding the Evis bot within our website?
+      - Can you assist us in installing the Evis bot on our website?
+      - We're considering adding the Evis bot to our website; how can we do it?
+      - Is there a guide on how to include the Evis bot for us?
+      - Can you provide instructions for embedding the Evis bot on our website?
+      - How do we add the Evis bot for our business?
+      - What are the steps for the Evis bot to work on our website?
+      - How can we set up the Evis bot to boost user interaction on our site?
+      - Interested in adding the Evis bot to our site's features; can you help?
+      - We're thinking of making the Evis bot accessible on our website; how to set it up?
+      - We'd like to give our website visitors access to the Evis bot; any guidance?
+      - Is there a way to ensure the Evis bot is available for our site's visitors?
+      - Steps to enable the Evis bot for user engagement on our website?
+      - Can you assist in having the Evis bot interact with visitors for better support?
+      - We're thinking of providing access to the Evis bot for our website visitors; how?
 
   - intent: mock1
     examples: |
