@@ -194,7 +194,7 @@ responses:
           \\r\\n 2. [Activate Free Trial or Premium](https://www.evisbot.com/home/pricing)
           \\r\\n 3. [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings/popup)
           \\r\\n 4. [Provide your Websites Url](https://www.evisbot.com/dashboard/organization/settings)  
-   	      \\r\\n 6. [Copy & Paste Integration Code](https://www.evisbot.com/dashboard/organization/settings)
+   	      \\r\\n 6. [Copy & Paste Integration Code](https://www.evisbot.com/dashboard/organization/settings)"
 
   utter_evis/book_demo:
   - custom: 
