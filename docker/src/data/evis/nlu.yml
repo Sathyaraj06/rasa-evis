@@ -470,14 +470,7 @@ nlu:
 
   - intent: evis/feature_liveagent_assist
     examples: |
-      - what is Liveagent Assist
-      - What is liveagent
-      - About Liveagent
-      - Say about Liveagent Assist
-      - Tell about Liveagent Assist
-      - Explain about Liveagent Assist
-      - can you tell about liveagent assist?
-      - can you explain about liveagent feature?
+      - Liveagent assist Feature
 
   - intent: evis/feature_live_dashboard
     examples: |
@@ -594,6 +587,7 @@ nlu:
       - Enterprise Installation Feature
       - Corporate installation
       - Business setup
+      - Enterprise
       - Organization deployment
       - Company-wide installation
       - Enterprise-level installation
@@ -613,21 +607,6 @@ nlu:
       - What steps should I follow to set up a evis bot for a business or organization?
       - How can I initiate the implementation of a evis bot for an enterprise?
       - What's the approach for introducing a evis chatbot into a corporate environment?
-
-  - intent: evis/chatbot_integration
-    examples: |
-      - Chatbot Integration
-      - Integration of bot
-      - Integrating the evis chatbot
-      - Could you guide me on how to integrate the evis bot into our website?
-      - Please explain how to install the evis bot on our website
-      - Incorporate evis bot
-      - quick installation of evis chatbot
-      - deploy the widget to our website
-      - add the steps to integrate the widget
-      - widget installation
-      - quick bot setup to website
-      - instant integration to website
       
   - intent: evis/contact_info
     examples: |
@@ -688,9 +667,23 @@ nlu:
     examples: |
       - Want to add a chatbot
       - Want to add evis bot
+      - integrate evis bot
+      - install evis chat bot
       - I Want to add a chatbot
       - Add a chatbot to my website
       - Wanted to add a chat bot
+      - Chatbot Integration
+      - Integration of bot
+      - Integrating the evis chatbot
+      - Could you guide me on how to integrate the evis bot into our website?
+      - Please explain how to install the evis bot on our website
+      - Incorporate evis bot
+      - quick installation of evis chatbot
+      - deploy the widget to our website
+      - add the steps to integrate the widget
+      - widget installation
+      - quick bot setup to website
+      - instant integration to website
       - we need to add your bot to our website
       - Could you explain how to set up the Evis bot on our website?
       - What's the procedure for getting the Evis bot to work on our website?

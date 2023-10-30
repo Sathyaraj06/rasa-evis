@@ -26,7 +26,6 @@ intents:
     - evis/feature_website_views_report
     - evis/feature_business_hours
     - evis/feature_enterprise_installation
-    - evis/chatbot_integration
     - evis/contact_info
 
     - mock1
@@ -168,13 +167,13 @@ responses:
           \\r\\n This includes customized features, faunctionalities and themes for the organization.
           Please [click here](https://www.evisbot.com/home/pricing) to know more."
 
-  utter_evis/chatbot_integration:
-  - text: "Integrating bot to your website requires zero coding knowledge. Once organization name is created, provide your website url in evis settings page.
-          \\r\\n Post this, just copy paste two lines of code from evis page to your website. Please choose between any of the link to navigate.
-          \\r\\n- [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings/popup) 
-          \\r\\n- [Add Website Url](https://www.evisbot.com/dashboard/organization/settings) 
-          \\r\\n- [Copy Integration Code](https://www.evisbot.com/dashboard/organization/settings)
-          \\r\\n- [Activate Free or Premium Plan](https://www.evisbot.com/home/pricing)"
+  # utter_evis/chatbot_integration:
+  # - text: "Integrating bot to your website requires zero coding knowledge. Once organization name is created, provide your website url in evis settings page.
+  #         \\r\\n Post this, just copy paste two lines of code from evis page to your website. Please choose between any of the link to navigate.
+  #         \\r\\n- [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings/popup) 
+  #         \\r\\n- [Add Website Url](https://www.evisbot.com/dashboard/organization/settings) 
+  #         \\r\\n- [Copy Integration Code](https://www.evisbot.com/dashboard/organization/settings)
+  #         \\r\\n- [Activate Free or Premium Plan](https://www.evisbot.com/home/pricing)"
 
   utter_evis/contact_info:
   - custom: 
@@ -192,13 +191,13 @@ responses:
     attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
 
   utter_evis/want_to_add_chatbot:
-  - text: "Adding Evis chatbot to your website needs zero coding knowledge. It Just takes 2 mins to create and integrate to your website as a widget. 
-          \\r\\n You can try our product free for 30 days using the below step by step links. 
+  - text: "Adding Evis chatbot to your requires zero coding knowledge. It Just takes 2 mins to create and integrate as a widget.
+          \\r\\n From Evis portal, please follow the below steps to complete the integration. You can try our product free for 30 days. 
           \\r\\n 1. [Login](https://www.evisbot.com/auth/login) 
-          \\r\\n 2. [Activate Free Trial](https://www.evisbot.com/home/pricing)
+          \\r\\n 2. [Activate Free Trial or Premium](https://www.evisbot.com/home/pricing)
           \\r\\n 3. [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings/popup)
-          \\r\\n 4. [Add Website Url](https://www.evisbot.com/dashboard/organization/settings)  
-          \\r\\n 5. [Integrate](https://www.evisbot.com/dashboard/organization/settings)"
+          \\r\\n 4. [Provide your Websites Url](https://www.evisbot.com/dashboard/organization/settings)  
+   	      \\r\\n 6. [Copy & Paste Integration Code](https://www.evisbot.com/dashboard/organization/settings)
 
   utter_evis/book_demo:
   - custom: 
