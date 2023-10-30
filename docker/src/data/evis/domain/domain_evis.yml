@@ -68,8 +68,6 @@ responses:
         payload: Pricing Plans
       - title: Features
         payload: Features
-      - title: Integration
-        payload: Chatbot Integration
       - title: Contact Info
         payload: Contact Info
 
@@ -167,24 +165,23 @@ responses:
           \\r\\n This includes customized features, faunctionalities and themes for the organization.
           Please [click here](https://www.evisbot.com/home/pricing) to know more."
 
-  # utter_evis/chatbot_integration:
-  # - text: "Integrating bot to your website requires zero coding knowledge. Once organization name is created, provide your website url in evis settings page.
-  #         \\r\\n Post this, just copy paste two lines of code from evis page to your website. Please choose between any of the link to navigate.
-  #         \\r\\n- [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings/popup) 
-  #         \\r\\n- [Add Website Url](https://www.evisbot.com/dashboard/organization/settings) 
-  #         \\r\\n- [Copy Integration Code](https://www.evisbot.com/dashboard/organization/settings)
-  #         \\r\\n- [Activate Free or Premium Plan](https://www.evisbot.com/home/pricing)"
-
   utter_evis/contact_info:
   - custom: 
       type : "carousel"
-      text: "Please connect with us on [support@evis.app](mailto:support@evis.app) or call us at +91-7904538145.
-            \\r\\n Office Address: The Executive Zone, Thousand Lights, Chennai, India 600002 [Map](https://www.google.com/maps/place/The+Executive+Zone+%7C+Coworking+Space+%7C+Anna+Salai/@13.0615919,80.2573416,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266166d42b5a7:0xd997f32439e5bb34!8m2!3d13.0615919!4d80.2595303!16s%2Fg%2F11c6s53zmf?hl=en&entry=ttu)
-            \\r\\n Few Workplace Pictures are below."
+      text: "Please connect with us on [support@evisbot.com](mailto:support@evisbot.com) or call us at +91-7904538145.
+            \\r\\n Office Address: Evis Technologies, The Executive Zone, Thousand Lights, Chennai, India 600002 [Map](https://www.google.com/maps/place/The+Executive+Zone+%7C+Coworking+Space+%7C+Anna+Salai/@13.0615919,80.2573416,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266166d42b5a7:0xd997f32439e5bb34!8m2!3d13.0615919!4d80.2595303!16s%2Fg%2F11c6s53zmf?hl=en&entry=ttu)
+            \\r\\n Our Workplace Gallery view."
       attachments:
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg2.jpg?tr=f-webp" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg10.jpg?tr=f-webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg2.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg3.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg4.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg5.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg9.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg10.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg11.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg12.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg14.jpg" } }
 
   utter_evis/product_video:
   - text: "Please have a glance at our product"
@@ -210,11 +207,11 @@ responses:
       text : "text"
       attachments:
       - text: "Adding Evis"
-        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg" } }
       - text: "Adding Evis"
-        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg" } }
       - text: "Adding Evis"
-        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg?tr=f-webp" } }
+        attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg" } }
     
     
       #   buttons:
