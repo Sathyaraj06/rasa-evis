@@ -185,7 +185,7 @@ responses:
 
   utter_evis/product_video:
   - text: "Please have a glance at our product"
-    attachment: { "type":"video/mp4", "payload":{ "src": "https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" } }
+    attachment: { "type":"video/mp4", "payload":{ "src": "https://evisprodstorage.blob.core.windows.net/evis/promo.mp4" } }
 
   utter_evis/want_to_add_chatbot:
   - text: "Adding Evis chatbot to your requires zero coding knowledge. It Just takes 2 mins to create and integrate as a widget.
