@@ -188,7 +188,7 @@ responses:
     attachment: { "type":"video/mp4", "payload":{ "src": "https://evisprodstorage.blob.core.windows.net/evis/promo.mp4" } }
 
   utter_evis/want_to_add_chatbot:
-  - text: "Adding Evis chatbot to your requires zero coding knowledge. It Just takes 2 mins to create and integrate as a widget.
+  - text: "Adding Evis chatbot to your website requires zero coding knowledge. It Just takes 2 mins to create and integrate as a widget.
           \\r\\n From Evis portal, please follow the below steps to complete the integration. You can try our product free for 30 days. 
           \\r\\n 1. [Login](https://www.evisbot.com/auth/login) 
           \\r\\n 2. [Activate Free Trial or Premium](https://www.evisbot.com/home/pricing)
