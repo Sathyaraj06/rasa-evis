@@ -52,8 +52,8 @@ responses:
         payload: Pricing and Features
       - title: Chat with our team
         payload: Chat with our team
-      - title: Book a demo
-        payload: Book a demo
+      - title: Mail our team
+        payload: Mail our team
       - title: More on Evis
         payload: Explore Evis
 

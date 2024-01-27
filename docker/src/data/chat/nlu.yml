@@ -604,7 +604,6 @@ nlu:
     - What are my options
     - What are you able to do?
     - What can I ask you?
-    - What can you demo
     - What can you do
     - What can you do for me?
     - what you can do for me?
@@ -649,7 +648,6 @@ nlu:
     - What are you made for?
     - What are your bot capabilities?
     - What are your functions
-    - What can you demo?
     - Do you do anything?
     - You do what exactly?
     - What do you do again?
