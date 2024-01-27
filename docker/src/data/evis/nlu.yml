@@ -280,14 +280,16 @@ nlu:
       - Why evis?
       - Why choose evis?
   
-  - intent: evis/book_demo
+  - intent: evis/send_mail
     examples: |
-      - I would like to have a demo scheduled
-      - Is there a live demo of evis somewhere ?
-      - Can i have a deno
-      - book a mock session
-      - I want to see a demonstration of evis enterprise
-      - How can I try out evis enterprise
+      - I would like to send a mail to sales
+      - Mailing to evis?
+      - Send mail to support
+      - Mailing service
+      - Share a mail to organization
+      - Compose a mail
+      - Draft a mail to your team
+      - mail?
   
   - intent: evis/pricing
     examples: |
