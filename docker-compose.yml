@@ -38,7 +38,7 @@ services:
       args:
         org: rasa train --data data/chat/nlu.yml data/liveagent/nlu.yml data/chat/rules.yml data/liveagent/rules.yml data/chat/stories.yml data/liveagent/stories.yml --config data/liveagent/config.yml -d data/liveagent/domain --out ./models --fixed-model-name liveagent
     ports:
-      - "1003:5005"
+      - "1002:5005"
     network_mode: bridge
     volumes:
       - "./shared/models:/app/shared"
