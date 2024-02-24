@@ -1,5 +1,5 @@
 
-FROM rasa/rasa:3.4.15-full
+FROM rasa/rasa:3.6.17-full
 # copy all source and the Rasa generated model
 
 COPY ./src/ /app

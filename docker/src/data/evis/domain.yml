@@ -172,16 +172,19 @@ responses:
             \\r\\n Office Address: Evis Technologies, The Executive Zone, Thousand Lights, Chennai, India 600002 [Map](https://www.google.com/maps/place/The+Executive+Zone+%7C+Coworking+Space+%7C+Anna+Salai/@13.0615919,80.2573416,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266166d42b5a7:0xd997f32439e5bb34!8m2!3d13.0615919!4d80.2595303!16s%2Fg%2F11c6s53zmf?hl=en&entry=ttu)
             \\r\\n Our Workplace Gallery view."
       attachments:
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg1.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg2.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg3.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg4.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg5.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg9.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg10.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg11.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg12.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://ik.imagekit.io/coworking/img/galleryimg14.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office1.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office2.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office4.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office5.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office6.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office7.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office8.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office9.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office10.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office12.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office13.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office14.webp" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://cdn.evisbot.com/website/office15.webp" } }
 
   utter_evis/product_video:
   - text: "Please have a glance at our product"
