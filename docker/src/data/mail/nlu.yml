@@ -1,0 +1,39 @@
+version: "3.1"
+
+nlu:
+ 
+  - intent: mail/send_mail
+    examples: |
+      - Send Mail to agents
+      - Send Mail
+      - Send email
+      - Share a mail
+      - Share an email
+      - mail communication
+      - email communication
+      - Dispatch email
+      - Mail delivery
+      - Send notification
+      - mail notification
+      - Notify agent with email
+      - Forward email
+      - Forward mail
+      - Mail us
+      - Mail our team
+      - Can i email your team
+      - Email our agent
+      - I want to mail
+      - I want to email
+      - I would like to send a mail to sales
+      - Mailing to team?
+      - Send mail to support
+      - Mailing service
+      - Share a mail to organization
+      - Compose a mail
+      - Draft a mail to your team
+      - mail?
+      - email?
+  
+  - intent: mock2
+    examples: |
+      - mock2

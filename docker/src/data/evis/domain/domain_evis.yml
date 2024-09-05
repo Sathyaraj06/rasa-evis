@@ -9,7 +9,6 @@ intents:
     - evis/what_is_chatbot
     - evis/why_evis
     - evis/how_to_get_started
-    - evis/send_mail
     - evis/product_video
     - evis/want_to_add_chatbot
     - evis/pricing_and_features
@@ -195,11 +194,6 @@ responses:
           \\r\\n 3. [Create Organization Name](https://www.evisbot.com/dashboard/organization/settings/popup)
           \\r\\n 4. [Provide your Websites Url](https://www.evisbot.com/dashboard/organization/settings)  
    	      \\r\\n 6. [Copy & Paste Integration Code](https://www.evisbot.com/dashboard/organization/settings)"
-
-  utter_evis/send_mail:
-  - custom: 
-      type : "intent"
-      text : "send_mail"
 
   utter_mock1: # + actions - each method - each domain resposne
   - custom: 

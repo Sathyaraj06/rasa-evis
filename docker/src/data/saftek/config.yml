@@ -28,7 +28,7 @@ pipeline:
     constrain_similarities: true
   - name: ResponseSelector
     epochs: 300
-    retrieval_intent: evis
+    retrieval_intent: saftek
   - name: ResponseSelector
     epochs: 300
     retrieval_intent: chitchat

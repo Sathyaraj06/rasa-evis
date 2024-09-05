@@ -280,17 +280,6 @@ nlu:
       - Why evis?
       - Why choose evis?
   
-  - intent: evis/send_mail
-    examples: |
-      - I would like to send a mail to sales
-      - Mailing to evis?
-      - Send mail to support
-      - Mailing service
-      - Share a mail to organization
-      - Compose a mail
-      - Draft a mail to your team
-      - mail?
-  
   - intent: evis/pricing
     examples: |
       - Pricing Plans

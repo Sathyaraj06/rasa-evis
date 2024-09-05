@@ -28,15 +28,6 @@ pipeline:
     constrain_similarities: true
   - name: ResponseSelector
     epochs: 300
-    retrieval_intent: evis
-  - name: ResponseSelector
-    epochs: 300
-    retrieval_intent: chitchat
-  - name: ResponseSelector
-    epochs: 300
-    retrieval_intent: liveagent
-  - name: ResponseSelector
-    epochs: 300
     retrieval_intent: mail
   - name: FallbackClassifier
     threshold: 0.4

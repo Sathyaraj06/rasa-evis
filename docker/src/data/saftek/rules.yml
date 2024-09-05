@@ -1,0 +1,12 @@
+version: "3.1"
+
+rules:
+  - rule: respond to saftek
+    steps:
+      - intent: saftek
+      - action: utter_saftek
+
+  - rule: respond to mock1
+    steps:
+      - intent: mock1
+      - action: utter_mock1

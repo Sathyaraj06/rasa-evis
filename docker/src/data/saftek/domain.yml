@@ -1,0 +1,44 @@
+version: "3.1"
+
+session_config:
+  session_expiration_time: 60 # value in minutes
+  carry_over_slots_to_new_session: true
+
+intents:
+    - saftek/what_is_saftek
+    - saftek/why_saftek
+    - saftek/contact_info
+
+    - mock1
+
+responses:
+  utter_saftek/what_is_saftek:
+  - text: "Saftek provides Software Development, IT Consulting, custom software services and data solutions in Artificial Intelligence & Robotic Process Automation."
+
+  utter_saftek/why_saftek:
+  - text: "Saaftek delivers Innovative digital solutions that answer real business problems 🎯"
+
+
+  utter_saftek/contact_info:
+  - custom: 
+      type : "carousel"
+      text: "Please connect with us on [info@saftekltd.com](mailto:info@saftekltd.com) or call us at +1 480-382-4548 / +1 623-866-5446.
+            \\r\\n Office Address: Saftek Ltd, 3133 W Frye Rd, Suite 101, Chandler, AZ 85226, USA [Map](https://www.google.com/maps/place/3133+W+Frye+Rd+suit+101,+Chandler,+AZ+85226,+USA/@33.2963626,-111.8963052,17z/data=!3m1!4b1!4m6!3m5!1s0x872b00d08dfcafd1:0xbb611437dfb444!8m2!3d33.2963626!4d-111.8963052!16s%2Fg%2F11rg2p16yd?entry=ttu&g_ep=EgoyMDI0MDkwMy4wIKXMDSoASAFQAw%3D%3D)
+            \\r\\n Our Workplace Gallery view."
+      attachments:
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/contact1.jpg" } }
+
+  utter_mock1: # + actions - each method - each domain resposne
+  - custom: 
+      type : "carousel"
+      text : "text"
+      attachments:
+      - text: "Adding saftek"
+        attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/contact1.jpg" } }
+      - text: "Adding saftek"
+        attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/contact1.jpg" } }
+    
+    
+      #   buttons:
+      # - title: Start Free Trial
+      #   url: https://www.saftekbot.com/dashboard/settings/subscriptions

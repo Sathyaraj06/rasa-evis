@@ -1,0 +1,111 @@
+version: "3.1"
+
+nlu:
+
+  - intent: saftek/what_is_saftek
+    examples : |
+      - What is saftek?
+      - How saftek can help me
+      - What's a saftek and what does it do? 
+      - Define saftek and its purpose
+      - Explain saftek and their usage. 
+      - What are saftek and how are they used? 
+      - What's the role of saftek in communication? 
+      - Describe saftek and their popularity. 
+      - How do saftek work and what are they for? 
+      - Tell me about saftek and their functions. 
+      - What do saftek do and why are they used?
+      - Can you give me a brief on saftek ?
+      - What's the deal with saftek ? 
+      - How do saftek function? 
+      - Why are saftek so popular? 
+      - What's the purpose of saftek ? 
+      - Tell me about saftek in a nutshell. 
+      - How are saftek utilized? 
+      - Explain saftek in a few words. 
+      - What are saftek used for? 
+      - saftek - what is it exactly? 
+      - Can you describe saftek briefly? 
+      - Provide an overview of saftek . 
+      - How can saftek assist us? 
+      - What's the buzz about saftek ? 
+      - Simplify saftek for me, please
+
+  - intent: saftek/why_saftek
+    examples: |
+      - why should i use saftek instead of others
+      - why saftek
+      - why should I use saftek?
+      - why should I switch to saftek?
+      - what's so great about using saftek?
+      - how is saftek's better than others
+      - why should i use saftek instead of others ?
+      - Is it better to use saftek or others?
+      - Is saftek better than google?
+      - what sets saftek apart?
+      - give me a reason to use saftek
+      - why should I switch to saftek from others
+      - why should I switch from others
+      - give me a reason to switch to saftek from others
+      - Why switch to saftek?
+      - why switch from others?
+      - why not use others?
+      - why would you opt for saftek
+      - why use saftek
+      - why should I switch
+      - I meant why you over competitors ?
+      - why to use saftek
+      - why is saftek useful
+      - why is saftek better?
+      - why saftek?
+      - why should i choose saftek
+      - why is saftek so good?
+      - why is saftek good
+      - why do I need saftek
+      - why should I use saftek
+      - why only saftek
+      - why to use saftek
+      - why should I migrate to saftek?
+      - why migrate?
+      - why switch?
+      - why not use ibm watson
+      - why people go for saftek chatbot?
+      - why to use saftek over other available platform
+      - why is saftek a good nlp libarary
+      - and why i should not use other platforms?
+      - why would i use your product
+      - why is saftek interesting
+      - Why saftek?
+      - Why choose saftek?
+  
+  - intent: saftek/contact_info
+    examples: |
+      - Contact Info
+      - Contact information
+      - Your email info, please?
+      - How can I reach you?
+      - Contact details, please?
+      - Share your info, please.
+      - I need your email info.
+      - Can I have your contact details?
+      - Your contact information, please?
+      - Share your contact, please.
+      - I'd like to email you. How?
+      - Can you share your contact info please?
+      - I'd like to get in touch with you. What are your contact details?
+      - How can I reach you? Please provide your contact information.
+      - What's the best way to reach you? Share your contact details, please.
+      - May I have your contact information, please?
+      - I need to reach out to you. Could you give me your contact and email details?
+      - I'd like to contact you. How can I do that? Please provide your contact info.
+      - Share your office address?
+      - What's your office address?
+      - Can I get your office location?
+      - Please provide your office address.
+      - What's your workplace's address?
+      - What's the office location?
+      - Tell me your office's physical address.
+
+  - intent: mock1
+    examples: |
+      - mock1
