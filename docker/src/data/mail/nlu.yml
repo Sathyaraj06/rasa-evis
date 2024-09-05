@@ -34,6 +34,6 @@ nlu:
       - mail?
       - email?
   
-  - intent: mock2
+  - intent: mock1
     examples: |
-      - mock2
+      - mock1

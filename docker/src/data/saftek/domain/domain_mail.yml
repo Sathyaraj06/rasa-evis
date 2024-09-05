@@ -7,7 +7,7 @@ session_config:
 intents:
     - mail/send_mail
 
-    - mock2
+    - mock1
 
 responses:
  
@@ -16,7 +16,7 @@ responses:
       type : "intent"
       text : "send_mail" 
 
-  utter_mock2: # + actions - each method - each domain resposne
+  utter_mock1: # + actions - each method - each domain resposne
   - custom: 
       type : "carousel"
       text : "text"
