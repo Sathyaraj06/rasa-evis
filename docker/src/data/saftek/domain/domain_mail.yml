@@ -6,7 +6,6 @@ session_config:
 
 intents:
     - mail/send_mail
-    - mail/mail_us
 
     - mock2
 
@@ -16,11 +15,6 @@ responses:
   - custom:
       type : "intent"
       text : "send_mail" 
-
-  utter_mail/mail_us:
-  - custom:
-      type : "intent"
-      text : "mail_us" 
 
   utter_mock2: # + actions - each method - each domain resposne
   - custom: 
