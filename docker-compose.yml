@@ -77,7 +77,7 @@ services:
       context: ./docker
       dockerfile: Dockerfile
       args:
-        org: rasa train --data/saftek/nlu.yml data/liveagent/nlu.yml data/mail/nlu.yml data/saftek/rules.yml data/liveagent/rules.yml data/mail/rules.yml data/saftek/stories.yml data/liveagent/stories.yml data/mail/stories.yml --config data/saftek/config.yml -d data/saftek/domain --out ./models --fixed-model-name saftekalone
+         org: rasa train --data data/saftek/nlu.yml data/liveagent/nlu.yml data/mail/nlu.yml data/saftek/rules.yml data/liveagent/rules.yml data/mail/rules.yml data/saftek/stories.yml data/liveagent/stories.yml data/mail/stories.yml --config data/saftek/config.yml -d data/saftek/domain --out ./models --fixed-model-name saftekalone
     ports:
       - "2002:5005"
     network_mode: bridge
