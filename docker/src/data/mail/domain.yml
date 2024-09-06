@@ -17,7 +17,7 @@ responses:
       type : "intent"
       text : "send_mail" 
 
- utter_mock1: # + actions - each method - each domain resposne
+  utter_mock1: # + actions - each method - each domain resposne
   - custom: 
       type : "carousel"
       text : "text"
