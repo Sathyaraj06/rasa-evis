@@ -11,8 +11,3 @@ rules:
       - intent: mock1
       - action: utter_mock1
 
-  - rule: respond to mock2
-    steps:
-      - intent: mock2
-      - action: utter_mock2
-
