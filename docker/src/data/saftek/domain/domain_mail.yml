@@ -20,7 +20,7 @@ responses:
   utter_mail/mail_us:
   - custom:
       type : "intent"
-      text : "mail_us" 
+      text : "send_mail" 
 
   utter_mock1: # + actions - each method - each domain resposne
   - custom: 
