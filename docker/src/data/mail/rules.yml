@@ -6,8 +6,8 @@ rules:
       - intent: mail
       - action: utter_mail
 
-  - rule: respond to mock1
+  - rule: respond to mock2
     steps:
-      - intent: mock1
-      - action: utter_mock1
+      - intent: mock2
+      - action: utter_mock2
 
