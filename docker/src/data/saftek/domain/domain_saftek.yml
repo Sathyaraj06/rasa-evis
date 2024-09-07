@@ -114,15 +114,15 @@ responses:
       type : "carousel"
       text: "Our Supported Platforms."
       attachments:
-        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card1.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card2.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card3.jpg" } }
-        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card4.jpg" } }
         - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card5.jpg" } }
         - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card6.jpg" } }
         - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card9.jpg" } }
         - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card8.jpg" } }
         - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card7.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card2.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card1.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card3.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card4.jpg" } }
 
   utter_saftek/contact_info:
   - custom: 
