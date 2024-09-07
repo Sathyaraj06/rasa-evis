@@ -34,6 +34,10 @@ nlu:
       - mail?
       - email?
   
-  - intent: mock1
+  - intent: mail/mail_us
     examples: |
-      - mock1
+      - mail_us
+
+  - intent: mock2
+    examples: |
+      - mock2
