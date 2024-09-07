@@ -44,7 +44,7 @@ responses:
         payload: Contact Info
 
   utter_saftek/industries:
-  - text: "Saftek serves a wide range of industries. We have tailored our solutions for the following sectors 💼 
+  - text: "Saftek serves a wide range of industries. We have tailored our solutions for the following sectors.
           \\r\\n- Health Care
           \\r\\n- Financial Service
           \\r\\n- Insurance
@@ -62,7 +62,7 @@ responses:
           \\r\\n- QA Tester"
 
   utter_saftek/feature_consulting:
-  - text: Saftek offers a wide range of consulting services, tailored to meet the diverse needs of our clients 🤖 
+  - text: Saftek offers a wide range of consulting services, tailored to meet the diverse needs of our clients. 
     buttons:
       - title: IT Consulting
         payload: About IT Consulting
@@ -76,7 +76,7 @@ responses:
   - text: With ongoing internal and external risks, businesses must leverage technology to excel. Effective use of tech is key to achieving outstanding performance. 
 
   utter_saftek/feature_development:
-  - text: Saftek offers a wide range of consulting services, tailored to meet the diverse needs of our clients. 
+  - text: Saftek offers a wide range of development services, tailored to meet the diverse needs of our clients 🤖 
     buttons:
       - title: Artificial Intelligence
         payload: About Artificial Intelligence
