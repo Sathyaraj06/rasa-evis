@@ -243,7 +243,6 @@ nlu:
       - Can you tell about Management Consulting
       - More on Management Consulting
       - Management Consulting
-      - what is Management Consulting
       - say about Management Consulting
 
   - intent: saftek/feature_development
