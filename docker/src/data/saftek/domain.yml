@@ -53,7 +53,7 @@ responses:
           \\r\\n- Telecommunication"
 
   utter_saftek/career_openings:
-  - text: "Please upload your resume in the attachment for saftek career positions, We will connect with you shortly.
+  - text: "Please upload your resume 🗎 in the attachment for saftek career positions, We will connect with you shortly. 🔗
           \\r\\n- Software Developer
           \\r\\n- Scrum Master
           \\r\\n- Program Manager
