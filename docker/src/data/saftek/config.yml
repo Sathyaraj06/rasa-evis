@@ -31,9 +31,6 @@ pipeline:
     retrieval_intent: saftek
   - name: ResponseSelector
     epochs: 300
-    retrieval_intent: chitchat
-  - name: ResponseSelector
-    epochs: 300
     retrieval_intent: liveagent
   - name: ResponseSelector
     epochs: 300

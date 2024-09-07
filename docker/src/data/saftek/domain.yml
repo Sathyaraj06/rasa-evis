@@ -5,26 +5,131 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
-    - saftek/what_is_saftek
     - saftek/why_saftek
+    - saftek/about_saftek
+    - saftek/industries
+    - saftek/career_openings
+    - saftek/feature_consulting
+    - saftek/feature_it_consulting
+    - saftek/feature_management_consulting
+    - saftek/feature_development
+    - saftek/feature_artificial_intelligence
+    - saftek/feature_business_intelligence
+    - saftek/feature_machine_learning
+    - saftek/feature_blockchain
+    - saftek/feature_robotic_process_automation
+    - saftek/feature_data_science_analytics
+    - saftek/platform_support
     - saftek/contact_info
 
     - mock1
 
 responses:
-  utter_saftek/what_is_saftek:
-  - text: "Saftek provides Software Development, IT Consulting, custom software services and data solutions in Artificial Intelligence & Robotic Process Automation."
 
   utter_saftek/why_saftek:
-  - text: "Saaftek delivers Innovative digital solutions that answer real business problems 🎯"
+  - text: "With six strategic technology centers world-wide, our subject matter experts adapt our methodologies to meet your needs and delivers Innovative digital solutions that answer real business problems 🎯"
 
+  utter_saftek/about_saftek:
+  - text: Saftek provides Software Development, IT Consulting, custom software services and data solutions in Artificial Intelligence & Robotic Process Automation. You can read more about it here.
+    buttons:
+      - title: Consulting Service
+        payload: Consulting Service
+      - title: Development Service
+        payload: Development Service
+      - title: Platform Support
+        payload: Platform Support
+      - title: Industries
+        payload: Industries
+      - title: Contact Info
+        payload: Contact Info
+
+  utter_saftek/industries:
+  - text: "Saftek serves a wide range of industries. We have tailored our solutions for the following sectors:. 
+          \\r\\n- Health Care
+          \\r\\n- Financial Service
+          \\r\\n- Insurance
+          \\r\\n- Energy
+          \\r\\n- Banking
+          \\r\\n- Telecommunication"
+
+  utter_saftek/career_openings:
+  - text: "Please upload your resume in the attachment for saftek career positions, We will connect with you shortly.
+          \\r\\n- Software Developer
+          \\r\\n- Scrum Master
+          \\r\\n- Program Manager
+          \\r\\n- Solution Architect
+          \\r\\n- Business Analyst
+          \\r\\n- QA Tester"
+
+  utter_saftek/feature_consulting:
+  - text: Saftek offers a wide range of consulting services, tailored to meet the diverse needs of our clients. 
+    buttons:
+      - title: IT Consulting
+        payload: About IT Consulting
+      - title: Management Consulting
+        payload: About Management Consulting
+
+  utter_saftek/feature_it_consulting:
+  - text: IT consulting services help ensure your IT adapts quickly and cost-effectively to new business needs and supports your growth. 
+
+  utter_saftek/feature_management_consulting:
+  - text: With ongoing internal and external risks, businesses must leverage technology to excel. Effective use of tech is key to achieving outstanding performance. 
+
+  utter_saftek/feature_development:
+  - text: Saftek offers a wide range of consulting services, tailored to meet the diverse needs of our clients. 
+    buttons:
+      - title: Artificial Intelligence
+        payload: About Artificial Intelligence
+      - title: Business Intelligence
+        payload: About Business Intelligence
+      - title: Machine Learning
+        payload: About Machine Learning
+      - title: Blockchain
+        payload: About Blockchain
+      - title: Robotic Process Automation
+        payload: About Robotic Process Automation
+      - title: Data Science & Analytics
+        payload: About Data Science & Analytics
+
+  utter_saftek/feature_artificial_intelligence:
+  - text: Artificial intelligence (AI) makes it possible for machines to learn from experience, adjust to new inputs and perform human-like tasks. 
+
+  utter_saftek/feature_business_intelligence:
+  - text: Business intelligence (BI) uses technology to analyze data and provide actionable insights for informed decision-making by executives and staff. 
+
+  utter_saftek/feature_machine_learning:
+  - text: Machine learning is a data analysis method that automates model building and decision-making, using patterns and minimal human input. 
+
+  utter_saftek/feature_blockchain:
+  - text: Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. 
+
+  utter_saftek/feature_robotic_process_automation:
+  - text: Robotic Process Automation (RPA) is a software technology that allows for easy creation, deployment, and management of robots that mimic human interactions with digital systems. 
+
+  utter_saftek/feature_data_science_analytics:
+  - text: Data Science uses algorithms to extract insights from data, while Analytics interprets these insights to guide decision-making. 
+
+  utter_saftek/platform_support:
+  - custom: 
+      type : "carousel"
+      text: "Our Supported Platforms."
+      attachments:
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card1.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card2.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card3.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card4.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card5.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card6.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card9.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card8.jpg" } }
+        - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/service-card7.jpg" } }
 
   utter_saftek/contact_info:
   - custom: 
       type : "carousel"
       text: "Please connect with us on [info@saftekltd.com](mailto:info@saftekltd.com) or call us at +1 480-382-4548 / +1 623-866-5446.
-            \\r\\n Office Address: Saftek Ltd, 3133 W Frye Rd, Suite 101, Chandler, AZ 85226, USA [Map](https://www.google.com/maps/place/3133+W+Frye+Rd+suit+101,+Chandler,+AZ+85226,+USA/@33.2963626,-111.8963052,17z/data=!3m1!4b1!4m6!3m5!1s0x872b00d08dfcafd1:0xbb611437dfb444!8m2!3d33.2963626!4d-111.8963052!16s%2Fg%2F11rg2p16yd?entry=ttu&g_ep=EgoyMDI0MDkwMy4wIKXMDSoASAFQAw%3D%3D)
-            \\r\\n Our Workplace Gallery view."
+            \\r\\n Corporate Address: Saftek Ltd, 3133 W Frye Rd, Suite 101, Chandler, AZ 85226, USA [Map](https://www.google.com/maps/place/3133+W+Frye+Rd+suit+101,+Chandler,+AZ+85226,+USA/@33.2963626,-111.8963052,17z/data=!3m1!4b1!4m6!3m5!1s0x872b00d08dfcafd1:0xbb611437dfb444!8m2!3d33.2963626!4d-111.8963052!16s%2Fg%2F11rg2p16yd?entry=ttu&g_ep=EgoyMDI0MDkwMy4wIKXMDSoASAFQAw%3D%3D)
+            \\r\\n Our Workplace view."
       attachments:
         - attachment: { "type":"image", "payload":{ "src": "https://www.saftekltd.com/assets/images/contact1.jpg" } }
 

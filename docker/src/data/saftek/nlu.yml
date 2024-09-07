@@ -2,35 +2,6 @@ version: "3.1"
 
 nlu:
 
-  - intent: saftek/what_is_saftek
-    examples : |
-      - What is saftek?
-      - How saftek can help me
-      - What's a saftek and what does it do? 
-      - Define saftek and its purpose
-      - Explain saftek and their usage. 
-      - What are saftek and how are they used? 
-      - What's the role of saftek in communication? 
-      - Describe saftek and their popularity. 
-      - How do saftek work and what are they for? 
-      - Tell me about saftek and their functions. 
-      - What do saftek do and why are they used?
-      - Can you give me a brief on saftek ?
-      - What's the deal with saftek ? 
-      - How do saftek function? 
-      - Why are saftek so popular? 
-      - What's the purpose of saftek ? 
-      - Tell me about saftek in a nutshell. 
-      - How are saftek utilized? 
-      - Explain saftek in a few words. 
-      - What are saftek used for? 
-      - saftek - what is it exactly? 
-      - Can you describe saftek briefly? 
-      - Provide an overview of saftek . 
-      - How can saftek assist us? 
-      - What's the buzz about saftek ? 
-      - Simplify saftek for me, please
-
   - intent: saftek/why_saftek
     examples: |
       - why should i use saftek instead of others
@@ -78,6 +49,301 @@ nlu:
       - Why saftek?
       - Why choose saftek?
   
+  - intent: saftek/about_saftek
+    examples: |
+      - Can you brief me about saftek
+      - Can you tell me more about saftek?
+      - Can you tell me what Saftek does?
+      - Could you tell me more about Saftek?
+      - Give me more information about Saftek
+      - How does Saftek work?
+      - I want to know what saftek actually does that isn't clear to me yet
+      - I want to learn what saftek does
+      - I want to learn what saftek is
+      - I would like to know about saftek
+      - I would like to know more about your product
+      - OK can u brief me Abt saftek
+      - Saftek Is?
+      - WHAT IS Saftek
+      - What Is saftek?
+      - What can saftek do?
+      - What do you do as a company?
+      - What do you do at Saftek?
+      - What does Saftek build?
+      - What does Saftek do?
+      - What does Saftek make?
+      - What does saftek do exactly?
+      - What exactly is Saftek?
+      - What is Saftek?
+      - What is saftek doing exactly?
+      - What is saftek?
+      - What is the Saftek Stack?
+      - What's saftek?
+      - whats saftek
+      - can you explain saftek?
+      - can you pls explain what saftek does
+      - could you tell me more about saftek
+      - explain me what saftek does
+      - explain me what saftek is
+      - how does Saftek work?
+      - how does saftek work
+      - how does saftek work?
+      - how saftek works ?
+      - how works saftek
+      - i dont get what saftek is
+      - i havent understood yet what saftek actually is
+      - i want to about saftek
+      - i want to know about saftek
+      - i want to know what saftek does
+      - i want to learn something about saftek
+      - sorry tell me about saftek
+      - tell me about saftek
+      - tell me bout saftek
+      - tell me more about saftek
+      - tell me more about your company
+      - what are the componensts of Saftek
+      - what can I do with Saftek?
+      - what can i do with saftek
+      - what do you guys do at saftek
+      - what does saftek do
+      - what does saftek do ?
+      - what does saftek do?
+      - what does saftek mean
+      - what is saftek actually
+      - yeah go on explaining what saftek is
+      - Explore Saftek
+      - Explore more on Saftek bot
+      - What is saftek?
+      - How saftek can help me
+      - What's a saftek and what does it do? 
+      - Define saftek and its purpose
+      - Explain saftek and their usage. 
+      - What are saftek and how are they used? 
+      - What's the role of saftek in communication? 
+      - Describe saftek and their popularity. 
+      - How do saftek work and what are they for? 
+      - Tell me about saftek and their functions. 
+      - What do saftek do and why are they used?
+      - Can you give me a brief on saftek ?
+      - What's the deal with saftek ? 
+      - How do saftek function? 
+      - Why are saftek so popular? 
+      - What's the purpose of saftek ? 
+      - Tell me about saftek in a nutshell. 
+      - How are saftek utilized? 
+      - Explain saftek in a few words. 
+      - What are saftek used for? 
+      - saftek - what is it exactly? 
+      - Can you describe saftek briefly? 
+      - Provide an overview of saftek . 
+      - How can saftek assist us? 
+      - What's the buzz about saftek ? 
+      - Simplify saftek for me, please
+  
+  - intent: saftek/industries
+    examples: |
+      - Industries
+      - industrial benefits
+      - which sectors or field you support?
+      - Which industries can gain advantages from your bot?
+      - In what fields can your bot be beneficial?
+      - What types of businesses or sectors can your chat bot assist?
+      - Who are the potential beneficiaries of your bot across industries?
+      - Which industries stand to benefit from your bot?
+      - In which sectors can your bot be advantageous?
+      - What kinds of businesses can your bot be useful for?
+      - Which fields can your bot serve effectively?
+      - Who can make use of your bot across various industries?
+      - Which sectors can your bot cater to?
+      - Feel free to choose any of these variations if you want me to provide more information on this topic.
+      - What kinds of organizations can you assist?
+      - Which types of businesses or institutions can benefit from your support?
+      - In what types of companies can your services be valuable?
+      - Who can your chat bot or services aid in terms of organizations?
+      - What categories of organizations are compatible with your offerings?
+      - Which sectors of organizations can you cater to?
+      - What sorts of institutions are within your scope of support?
+      - Who falls under the umbrella of organizations you can aid?
+      - In which fields can you offer assistance to organizations?
+
+  - intent: saftek/career_openings
+    examples: |
+      - Current Openings
+      - Career Openings
+      - Career Opportunities
+      - Job Vacancies
+      - Employment Opportunities
+      - Available Positions
+      - Job Openings
+      - Career Positions
+      - Work Opportunities
+      - Position Listings
+      - Recruitment Openings
+      - Career Listings
+      - Job Opportunities
+      - Employment Listings
+      - Career Vacancies
+      - Available Jobs and roles
+      - Job Vacancies and Resume Submission Information
+      - Employment Opportunities and How to Apply with Your Resume
+      - Available Positions and Resume Guidelines
+      - Job Openings and Resume Requirements
+      - Career Positions and Resume Tips for Application
+      - Work Opportunities and Resume Submission Instructions
+      - Submit Your Resume for Consideration
+      - Position Listings and Resume Application Process
+      - Recruitment Openings and Resume Submission Details
+      - Career Listings and Resume Preparation Tips
+      - Job Opportunities and Resume Formatting Advice
+      - Employment Listings and Resume Best Practices
+      - Career Vacancies and How to Submit Your Resume
+      - Open Roles and Resume Submission Steps
+      - Available Jobs and Resume Tips for Job Seekers
+
+  - intent: saftek/feature_consulting
+    examples: |
+      - About Consulting service
+      - Can you tell about Consulting services
+      - More on consulting service
+      - What is consulting
+      - consulting service
+      - what is consulting 
+      - say about consulting service
+      - what is mean by consulting
+      - what consulting do you provide
+      - What kinds of consulting services do you offer?
+      - Can you tell me about the consulting service you provide?
+      - What type of consulting work do you do?
+      - What consulting expertise do you offer?
+      - What consulting services can I get from you?
+      - Could you explain the consulting services you provide?
+      - What are your areas of consulting?
+      - What consulting options are available through you?
+      - What does your consulting include?
+      - What sort of consulting do you specialize in?
+      - What consulting do you offer?
+      - What’s your consulting focus?
+      - What’s included in your consulting?
+      - What types of consulting service do you do?
+
+  - intent: saftek/feature_it_consulting
+    examples: |
+      - About IT Consulting
+      - Can you tell about IT Consulting
+      - More on IT Consulting
+      - IT Consulting
+      - Information Technology Consulting
+      - what is IT Consulting
+      - say about IT Consulting
+      - Information Technology services
+
+  - intent: saftek/feature_management_consulting
+    examples: |
+      - About Management Consulting
+      - Can you tell about Management Consulting
+      - More on Management Consulting
+      - Management Consulting
+      - what is Management Consulting
+      - say about Management Consulting
+
+  - intent: saftek/feature_development
+    examples: |
+      - Development Service
+      - About Development Services
+      - Can you tell about Development Services
+      - More on Development Service
+      - Development Solution
+      - say about Development Services 
+      - what Development Services do you provide
+      - What kinds of development services do you offer?
+      - Can you tell me about the development code you provide?
+      - What type of development work do you do?
+      - What development services can I get from you?
+      - Could you explain the development services you provide?
+      - What are your areas of development?
+      - What does your development service include?
+      - What sort of development languages do you specialize in?
+
+  - intent: saftek/feature_artificial_intelligence
+    examples: |
+      - About Artificial Intelligence
+      - Artificial Intelligence
+      - Artificial Intelligence development sevice
+      - About AI
+      - About AI Service
+      - Artificial Intelligence Service
+      - AI Development service
+
+  - intent: saftek/feature_business_intelligence 
+    examples: |
+      - About Business Intelligence
+      - Business Intelligence
+      - Business Intelligence development sevice
+      - About BI
+      - About BI Service
+      - About Business Intelligence Service
+      - Business Intelligence Service
+      - BI Development service
+
+  - intent: saftek/feature_machine_learning
+    examples: |
+      - About Machine Learning
+      - Machine Learning
+      - Machine Learning development sevice
+      - About ML
+      - About ML Service
+      - Machine Learning Tools
+      - ML Development service
+
+  - intent: saftek/feature_blockchain
+    examples: |
+      - About Blockchain
+      - Blockchain
+      - Blockchain development sevice
+      - Blockchain Service
+      - About Blockchain service
+
+  - intent: saftek/feature_robotic_process_automation
+    examples: |
+      - About Robotic Process Automation
+      - Robotic Process Automation
+      - Robotic Process Automation sevice
+      - About Robotic Process
+      - About Robotic Process Automation Service
+      - Robotic Process Service
+      - About RPA
+      - Robotics Automation
+      - Automated Robotics Workflow - RPA
+
+  - intent: saftek/feature_data_science_analytics
+    examples: |
+      - About Data Science & analytics
+      - Data Science and analystics
+      - Data Science and analystics sevice
+      - About Data Science
+      - About Data Analytics
+      - Data Science & analytics
+      - Data Insights
+      - About DSA
+      - DS & Analytics
+      - Data Sci & Analytics
+
+  - intent: saftek/platform_support
+    examples: |
+      - Platform Support
+      - Avialble Platform Support
+      - Different Platform Support
+      - Supported platforms
+      - What’s your platform support?
+      - How do you support platforms?
+      - What platform help do you offer?
+      - Platform support details?
+      - What’s included in platform support?
+      - How can you help with platform support?
+      - What kind of platform support is available?
+      - Can you tell me about your platform support services?
+      - What services are included in your platform support?
+
   - intent: saftek/contact_info
     examples: |
       - Contact Info
