@@ -202,13 +202,13 @@ nlu:
 
   - intent: saftek/feature_consulting
     examples: |
-      - About Consulting service
+      - About Consulting
       - Can you tell about Consulting services
-      - More on consulting service
+      - More on consulting
       - What is consulting
       - consulting service
       - what is consulting 
-      - say about consulting service
+      - say about consulting
       - what is mean by consulting
       - what consulting do you provide
       - What kinds of consulting services do you offer?
@@ -248,10 +248,10 @@ nlu:
 
   - intent: saftek/feature_development
     examples: |
-      - Development Service
+      - Development
       - About Development Services
       - Can you tell about Development Services
-      - More on Development Service
+      - More on Development
       - Development Solution
       - say about Development Services 
       - what Development Services do you provide
@@ -261,7 +261,7 @@ nlu:
       - What development services can I get from you?
       - Could you explain the development services you provide?
       - What are your areas of development?
-      - What does your development service include?
+      - What does your development include?
       - What sort of development languages do you specialize in?
 
   - intent: saftek/feature_artificial_intelligence
