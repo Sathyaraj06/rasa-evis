@@ -18,25 +18,25 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 300
+    epochs: 100
     batch_strategy: sequence
     constrain_similarities: true
   - name: EntitySynonymMapper
   - name: ResponseSelector
     featurizers: ["convert", "cvf-word"]
-    epochs: 300
+    epochs: 100
     constrain_similarities: true
   - name: ResponseSelector
-    epochs: 300
+    epochs: 100
     retrieval_intent: saftek
   - name: ResponseSelector
-    epochs: 300
+    epochs: 100
     retrieval_intent: chitchat
   - name: ResponseSelector
-    epochs: 300
+    epochs: 100
     retrieval_intent: liveagent
   - name: ResponseSelector
-    epochs: 300
+    epochs: 100
     retrieval_intent: mail
   - name: FallbackClassifier
     threshold: 0.4

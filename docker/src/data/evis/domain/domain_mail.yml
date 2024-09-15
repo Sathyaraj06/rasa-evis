@@ -6,12 +6,18 @@ session_config:
 
 intents:
     - mail/send_mail
+    - mail/mail_us
 
     - mock1
 
 responses:
  
   utter_mail/send_mail:
+  - custom:
+      type : "intent"
+      text : "send_mail" 
+
+  utter_mail/mail_us:
   - custom:
       type : "intent"
       text : "send_mail" 
