@@ -1,0 +1,38 @@
+version: "3.1"
+
+session_config:
+  session_expiration_time: 60 # value in minutes
+  carry_over_slots_to_new_session: true
+
+intents:
+    - mail/send_mail
+    - mail/mail_us
+
+    - mock1
+
+responses:
+ 
+  utter_mail/send_mail:
+  - custom:
+      type : "intent"
+      text : "send_mail" 
+
+  utter_mail/mail_us:
+  - custom:
+      type : "intent"
+      text : "send_mail" 
+
+  utter_mock1: # + actions - each method - each domain resposne
+  - custom: 
+      type : "carousel"
+      text : "text"
+      attachments:
+      - text: "Adding liveagent"
+        attachment: { "type":"image", "payload":{ "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png" } }
+      - text: "Adding liveagent"
+        attachment: { "type":"image", "payload":{ "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png" } }
+         
+    
+      #   buttons:
+      # - title: Start Free Trial
+      #   url: https://www.evisbot.com/dashboard/settings/subscriptions
