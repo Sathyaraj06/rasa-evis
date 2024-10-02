@@ -85,7 +85,7 @@ services:
       - "/shared:/app/models"
     command: rasa run -m models/saftekalone.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
-  saftek-image:
+  saftek-model:
     container_name: saftek
     build: 
       context: ./docker
@@ -93,13 +93,13 @@ services:
       args:
         org: echo "models/saftek.tar.gz"
     ports:
-      - "2011:5005"
+      - "2001:5005"
     network_mode: bridge
     volumes:
       - "/shared:/app/models"
     command: rasa run -m models/saftek.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
-  evis-image:
+  evis-model:
     container_name: evis
     build: 
       context: ./docker
@@ -107,7 +107,7 @@ services:
       args:
         org: echo "models/evis.tar.gz"
     ports:
-      - "1011:5005"
+      - "1003:5005"
     network_mode: bridge
     volumes:
       - "/shared:/app/models"
