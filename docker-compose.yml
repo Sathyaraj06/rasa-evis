@@ -113,6 +113,19 @@ services:
       - "/shared:/app/models"
     command: rasa run -m models/evis.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
+  liveagent-model:
+    container_name: liveagent
+    build: 
+      context: ./docker
+      dockerfile: Dockerfile
+      args:
+        org: echo "models/liveagent.tar.gz"
+    ports:
+      - "1002:5005"
+    network_mode: bridge
+    volumes:
+      - "/shared:/app/models"
+    command: rasa run -m models/liveagent.tar.gz --enable-api --log-file rasa.log --debug --cors "*"
 
 
 
