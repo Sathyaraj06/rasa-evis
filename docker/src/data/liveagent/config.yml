@@ -32,6 +32,9 @@ pipeline:
   - name: ResponseSelector
     epochs: 300
     retrieval_intent: chitchat
+  - name: ResponseSelector
+    epochs: 300
+    retrieval_intent: mail
   - name: FallbackClassifier
     threshold: 0.4
     ambiguity_threshold: 0.1
